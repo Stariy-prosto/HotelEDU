@@ -8,5 +8,11 @@ namespace HotelEDU
 {
     internal class DBClass
     {
+        private string ConnectionString { get; set; }
+
+        public DBClass(string ConnectionString) 
+        {
+            this.ConnectionString = ConnectionString;
+        }
     }
 }
