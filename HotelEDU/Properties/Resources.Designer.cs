@@ -59,15 +59,5 @@ namespace HotelEDU.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icongray_icono_7282 {
-            get {
-                object obj = ResourceManager.GetObject("icongray_icono_7282", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
