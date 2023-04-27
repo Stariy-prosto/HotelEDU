@@ -39,7 +39,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(601, 565);
+            pictureBox1.Size = new Size(617, 604);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -49,11 +49,14 @@
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(601, 565);
-            ControlBox = false;
             Controls.Add(pictureBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             MaximumSize = new Size(617, 604);
+            MinimizeBox = false;
             MinimumSize = new Size(617, 604);
             Name = "test";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "test";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
