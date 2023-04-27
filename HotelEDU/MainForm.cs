@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace HotelEDU
 {
@@ -15,6 +16,7 @@ namespace HotelEDU
         public MainForm()
         {
             InitializeComponent();
+            this.Text = "HotelEDU - " + Assembly.GetExecutingAssembly().GetName().Version.ToString();
             MenuControl.ItemSize = new Size(MenuControl.Size.Width / MenuControl.TabPages.Count - 1, MenuControl.ItemSize.Height);
         }
 
@@ -28,6 +30,14 @@ namespace HotelEDU
             var testForm = new test();
             testForm.MdiParent = this;
             testForm.Show();
+        }
+
+
+        private void AboutProgramButton_Click(object sender, EventArgs e)
+        {
+            var aboutForm = new AboutForm();
+            aboutForm.MdiParent = this;
+            aboutForm.Show();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
