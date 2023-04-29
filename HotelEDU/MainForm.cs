@@ -28,7 +28,9 @@ namespace HotelEDU
 
         private void NewReservationButton_Click(object sender, EventArgs e)
         {
-
+            RateQueryForm rateQuery = new RateQueryForm();
+            rateQuery.MdiParent = this;
+            rateQuery.Show();
         }
 
 
