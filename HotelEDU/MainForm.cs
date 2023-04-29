@@ -22,13 +22,13 @@ namespace HotelEDU
 
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
-            if(MenuControl.Size.Width > 0 || MenuControl.ItemSize.Height > 0)
+            if (MenuControl.Size.Width > 0 || MenuControl.ItemSize.Height > 0)
                 MenuControl.ItemSize = new Size(MenuControl.Size.Width / MenuControl.TabPages.Count - 1, MenuControl.ItemSize.Height);
         }
 
         private void NewReservationButton_Click(object sender, EventArgs e)
         {
-            var testForm = new test();
+            var testForm = new TemplateForm();
             testForm.MdiParent = this;
             testForm.Show();
         }

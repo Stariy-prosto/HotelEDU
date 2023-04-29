@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HotelEDU
 {
-    public partial class test : Form
+    public partial class TemplateForm : Form
     {
-        public test()
+        public TemplateForm()
         {
             InitializeComponent();
         }
