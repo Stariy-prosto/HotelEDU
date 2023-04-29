@@ -28,9 +28,7 @@ namespace HotelEDU
 
         private void NewReservationButton_Click(object sender, EventArgs e)
         {
-            var testForm = new TemplateForm();
-            testForm.MdiParent = this;
-            testForm.Show();
+
         }
 
 
