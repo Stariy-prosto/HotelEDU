@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            statusStrip1 = new StatusStrip();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
             tableLayoutPanel3 = new TableLayoutPanel();
             tableLayoutPanel7 = new TableLayoutPanel();
             tableLayoutPanel10 = new TableLayoutPanel();
@@ -84,7 +82,6 @@
             FrontDeskTabPage = new TabPage();
             ExitTabPage = new TabPage();
             tableLayoutPanel1 = new TableLayoutPanel();
-            statusStrip1.SuspendLayout();
             HelpTabPage.SuspendLayout();
             tableLayoutPanel13.SuspendLayout();
             BackOfficeInterfaceTabPage.SuspendLayout();
@@ -104,21 +101,6 @@
             ExitTabPage.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // statusStrip1
-            // 
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
-            statusStrip1.Location = new Point(0, 589);
-            statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1184, 22);
-            statusStrip1.TabIndex = 10;
-            statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(88, 17);
-            toolStripStatusLabel1.Text = "Stariy X Zaguzga";
             // 
             // tableLayoutPanel3
             // 
@@ -905,7 +887,6 @@
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1184, 611);
             Controls.Add(MenuControl);
-            Controls.Add(statusStrip1);
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
@@ -915,8 +896,6 @@
             Text = "HotelEDU";
             WindowState = FormWindowState.Maximized;
             SizeChanged += MainForm_SizeChanged;
-            statusStrip1.ResumeLayout(false);
-            statusStrip1.PerformLayout();
             HelpTabPage.ResumeLayout(false);
             tableLayoutPanel13.ResumeLayout(false);
             BackOfficeInterfaceTabPage.ResumeLayout(false);
@@ -936,13 +915,9 @@
             ExitTabPage.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private StatusStrip statusStrip1;
-        private ToolStripStatusLabel toolStripStatusLabel1;
         private TableLayoutPanel tableLayoutPanel3;
         private TableLayoutPanel tableLayoutPanel7;
         private TableLayoutPanel tableLayoutPanel10;
