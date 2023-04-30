@@ -21,12 +21,5 @@ namespace HotelEDU
         {
             this.Close();
         }
-
-        private void OKButton_Click(object sender, EventArgs e)
-        {
-            ReservationForm reservationForm = new ReservationForm();
-            reservationForm.MdiParent = (MainForm)this.MdiParent;
-            reservationForm.Show();
-        }
     }
 }

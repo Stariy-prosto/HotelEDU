@@ -489,7 +489,6 @@
             OKButton.TabIndex = 1;
             OKButton.Text = "OK";
             OKButton.UseVisualStyleBackColor = true;
-            OKButton.Click += OKButton_Click;
             // 
             // CloseButton
             // 
@@ -600,7 +599,7 @@
             MinimizeBox = false;
             Name = "RateQueryDetailsForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Rate Query Details";
+            Text = "RateQueryDetailsForm";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel4.ResumeLayout(false);
