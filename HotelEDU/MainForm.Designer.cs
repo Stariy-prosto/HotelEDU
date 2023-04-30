@@ -82,6 +82,9 @@
             FrontDeskTabPage = new TabPage();
             ExitTabPage = new TabPage();
             tableLayoutPanel1 = new TableLayoutPanel();
+            statusStrip1 = new StatusStrip();
+            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            SplashScreenBackgroundWorker = new System.ComponentModel.BackgroundWorker();
             HelpTabPage.SuspendLayout();
             tableLayoutPanel13.SuspendLayout();
             BackOfficeInterfaceTabPage.SuspendLayout();
@@ -100,6 +103,7 @@
             FrontDeskTabPage.SuspendLayout();
             ExitTabPage.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel3
@@ -879,6 +883,26 @@
             tableLayoutPanel1.Size = new Size(1170, 58);
             tableLayoutPanel1.TabIndex = 0;
             // 
+            // statusStrip1
+            // 
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
+            statusStrip1.Location = new Point(0, 589);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(1184, 22);
+            statusStrip1.TabIndex = 16;
+            statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(88, 17);
+            toolStripStatusLabel1.Text = "Stariy X Zaguzga";
+            // 
+            // SplashScreenBackgroundWorker
+            // 
+            SplashScreenBackgroundWorker.DoWork += SplashScreenBackgroundWorker_DoWork;
+            SplashScreenBackgroundWorker.RunWorkerCompleted += SplashScreenBackgroundWorker_RunWorkerCompleted;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
@@ -886,6 +910,7 @@
             BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1184, 611);
+            Controls.Add(statusStrip1);
             Controls.Add(MenuControl);
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -895,6 +920,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HotelEDU";
             WindowState = FormWindowState.Maximized;
+            Load += MainForm_Load;
             SizeChanged += MainForm_SizeChanged;
             HelpTabPage.ResumeLayout(false);
             tableLayoutPanel13.ResumeLayout(false);
@@ -914,7 +940,10 @@
             FrontDeskTabPage.ResumeLayout(false);
             ExitTabPage.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -975,6 +1004,9 @@
         private TabPage ExitTabPage;
         private TableLayoutPanel tableLayoutPanel1;
         private Button AboutProgramButton;
+        private StatusStrip statusStrip1;
+        private ToolStripStatusLabel toolStripStatusLabel1;
+        private System.ComponentModel.BackgroundWorker SplashScreenBackgroundWorker;
     }
 }
 

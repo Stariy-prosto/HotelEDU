@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace HotelEDU
 {
-    public partial class LoadForm : Form
+    public partial class SplashScreenForm : Form
     {
-        public LoadForm()
+        public SplashScreenForm()
         {
             InitializeComponent();
         }
+
     }
 }
