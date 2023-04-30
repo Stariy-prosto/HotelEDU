@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HotelEDU
 {
-    public partial class RateQueryDetailsForm : Form
+    public partial class ReservationForm : Form
     {
-        public RateQueryDetailsForm()
+        public ReservationForm()
         {
             InitializeComponent();
         }
@@ -20,13 +20,6 @@ namespace HotelEDU
         private void CloseButton_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void OKButton_Click(object sender, EventArgs e)
-        {
-            ReservationForm reservationForm = new ReservationForm();
-            reservationForm.MdiParent = (MainForm)this.MdiParent;
-            reservationForm.Show();
         }
     }
 }
