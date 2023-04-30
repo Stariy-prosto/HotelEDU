@@ -73,6 +73,8 @@
             SourceButton = new Button();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
+            DepartureDayOfWeekLabel = new Label();
+            ArrivalDayOfWeekLabel = new Label();
             FixedRateCheckBox = new CheckBox();
             ArrivalLabel = new Label();
             ETA = new TextBox();
@@ -148,8 +150,6 @@
             SuteWithTextBox = new TextBox();
             SuteWithLabel = new Label();
             groupBox3 = new GroupBox();
-            ArrivalDayOfWeekLabel = new Label();
-            DepartureDayOfWeekLabel = new Label();
             GuestBalanceLabel = new Label();
             GuestBalanceTextBox = new TextBox();
             SpecaialsTextBox = new TextBox();
@@ -671,6 +671,28 @@
             groupBox2.Size = new Size(440, 337);
             groupBox2.TabIndex = 43;
             groupBox2.TabStop = false;
+            // 
+            // DepartureDayOfWeekLabel
+            // 
+            DepartureDayOfWeekLabel.AutoSize = true;
+            DepartureDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            DepartureDayOfWeekLabel.ForeColor = Color.Red;
+            DepartureDayOfWeekLabel.Location = new Point(220, 68);
+            DepartureDayOfWeekLabel.Name = "DepartureDayOfWeekLabel";
+            DepartureDayOfWeekLabel.Size = new Size(123, 13);
+            DepartureDayOfWeekLabel.TabIndex = 87;
+            DepartureDayOfWeekLabel.Text = "Departure Day Of Week";
+            // 
+            // ArrivalDayOfWeekLabel
+            // 
+            ArrivalDayOfWeekLabel.AutoSize = true;
+            ArrivalDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            ArrivalDayOfWeekLabel.ForeColor = Color.Red;
+            ArrivalDayOfWeekLabel.Location = new Point(220, 14);
+            ArrivalDayOfWeekLabel.Name = "ArrivalDayOfWeekLabel";
+            ArrivalDayOfWeekLabel.Size = new Size(105, 13);
+            ArrivalDayOfWeekLabel.TabIndex = 77;
+            ArrivalDayOfWeekLabel.Text = "Arrival Day Of Week";
             // 
             // FixedRateCheckBox
             // 
@@ -1389,28 +1411,6 @@
             groupBox3.TabIndex = 76;
             groupBox3.TabStop = false;
             // 
-            // ArrivalDayOfWeekLabel
-            // 
-            ArrivalDayOfWeekLabel.AutoSize = true;
-            ArrivalDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ArrivalDayOfWeekLabel.ForeColor = Color.Red;
-            ArrivalDayOfWeekLabel.Location = new Point(220, 14);
-            ArrivalDayOfWeekLabel.Name = "ArrivalDayOfWeekLabel";
-            ArrivalDayOfWeekLabel.Size = new Size(105, 13);
-            ArrivalDayOfWeekLabel.TabIndex = 77;
-            ArrivalDayOfWeekLabel.Text = "Arrival Day Of Week";
-            // 
-            // DepartureDayOfWeekLabel
-            // 
-            DepartureDayOfWeekLabel.AutoSize = true;
-            DepartureDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DepartureDayOfWeekLabel.ForeColor = Color.Red;
-            DepartureDayOfWeekLabel.Location = new Point(220, 68);
-            DepartureDayOfWeekLabel.Name = "DepartureDayOfWeekLabel";
-            DepartureDayOfWeekLabel.Size = new Size(123, 13);
-            DepartureDayOfWeekLabel.TabIndex = 87;
-            DepartureDayOfWeekLabel.Text = "Departure Day Of Week";
-            // 
             // GuestBalanceLabel
             // 
             GuestBalanceLabel.AutoSize = true;
@@ -1743,6 +1743,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "ReservationForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ReservationForm";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
