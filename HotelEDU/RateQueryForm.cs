@@ -16,5 +16,17 @@ namespace HotelEDU
         {
             InitializeComponent();
         }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void OkButton_Click(object sender, EventArgs e)
+        {
+            RateQueryDetailsForm rateQueryDetails = new RateQueryDetailsForm();
+            rateQueryDetails.MdiParent = (MainForm)this.ParentForm;
+            rateQueryDetails.Show();
+        }
     }
 }

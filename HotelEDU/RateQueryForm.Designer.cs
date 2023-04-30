@@ -195,6 +195,7 @@
             OkButton.TabIndex = 1;
             OkButton.Text = "OK";
             OkButton.UseVisualStyleBackColor = true;
+            OkButton.Click += OkButton_Click;
             // 
             // CloseButton
             // 
@@ -206,6 +207,7 @@
             CloseButton.TabIndex = 0;
             CloseButton.Text = "Close";
             CloseButton.UseVisualStyleBackColor = true;
+            CloseButton.Click += CloseButton_Click;
             // 
             // groupBox1
             // 

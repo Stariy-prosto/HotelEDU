@@ -500,6 +500,7 @@
             CloseButton.TabIndex = 0;
             CloseButton.Text = "Close";
             CloseButton.UseVisualStyleBackColor = true;
+            CloseButton.Click += CloseButton_Click;
             // 
             // dataGridView1
             // 
@@ -597,6 +598,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "RateQueryDetailsForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "RateQueryDetailsForm";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
