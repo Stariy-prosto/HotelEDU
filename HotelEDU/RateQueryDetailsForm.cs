@@ -19,11 +19,13 @@ namespace HotelEDU
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
+            //Закрытие RateQueryDetailsForm
             this.Close();
         }
 
         private void OKButton_Click(object sender, EventArgs e)
         {
+            //Открытие формы ReservationForm как дочернее окно
             ReservationForm reservationForm = new ReservationForm();
             reservationForm.MdiParent = (MainForm)this.MdiParent;
             reservationForm.Show();

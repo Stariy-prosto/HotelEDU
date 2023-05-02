@@ -93,13 +93,14 @@
             tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 2);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 53.5F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 6.5F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
-            tableLayoutPanel1.Size = new Size(800, 561);
+            tableLayoutPanel1.Size = new Size(933, 647);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel4
@@ -110,11 +111,12 @@
             tableLayoutPanel4.Controls.Add(groupBox2, 0, 0);
             tableLayoutPanel4.Controls.Add(groupBox3, 1, 0);
             tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(3, 395);
+            tableLayoutPanel4.Location = new Point(4, 455);
+            tableLayoutPanel4.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(794, 163);
+            tableLayoutPanel4.Size = new Size(925, 189);
             tableLayoutPanel4.TabIndex = 2;
             // 
             // groupBox2
@@ -122,9 +124,11 @@
             groupBox2.Controls.Add(tableLayoutPanel5);
             groupBox2.Dock = DockStyle.Fill;
             groupBox2.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox2.Location = new Point(3, 3);
+            groupBox2.Location = new Point(4, 3);
+            groupBox2.Margin = new Padding(4, 3, 4, 3);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(311, 157);
+            groupBox2.Padding = new Padding(4, 3, 4, 3);
+            groupBox2.Size = new Size(362, 183);
             groupBox2.TabIndex = 0;
             groupBox2.TabStop = false;
             // 
@@ -144,7 +148,8 @@
             tableLayoutPanel5.Controls.Add(TotalRatesRadioButton, 1, 0);
             tableLayoutPanel5.Controls.Add(FirstNightRadioButton, 2, 0);
             tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(3, 5);
+            tableLayoutPanel5.Location = new Point(4, 5);
+            tableLayoutPanel5.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 5;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134586F));
@@ -152,7 +157,7 @@
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134529F));
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134529F));
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 17.54618F));
-            tableLayoutPanel5.Size = new Size(305, 149);
+            tableLayoutPanel5.Size = new Size(354, 175);
             tableLayoutPanel5.TabIndex = 0;
             // 
             // ClosedCheckBox
@@ -160,9 +165,10 @@
             ClosedCheckBox.AutoSize = true;
             ClosedCheckBox.Dock = DockStyle.Fill;
             ClosedCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ClosedCheckBox.Location = new Point(3, 33);
+            ClosedCheckBox.Location = new Point(4, 39);
+            ClosedCheckBox.Margin = new Padding(4, 3, 4, 3);
             ClosedCheckBox.Name = "ClosedCheckBox";
-            ClosedCheckBox.Size = new Size(95, 24);
+            ClosedCheckBox.Size = new Size(109, 30);
             ClosedCheckBox.TabIndex = 0;
             ClosedCheckBox.Text = "Closed";
             ClosedCheckBox.UseVisualStyleBackColor = true;
@@ -172,9 +178,10 @@
             NegotiatedCheckBox.AutoSize = true;
             NegotiatedCheckBox.Dock = DockStyle.Fill;
             NegotiatedCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NegotiatedCheckBox.Location = new Point(3, 63);
+            NegotiatedCheckBox.Location = new Point(4, 75);
+            NegotiatedCheckBox.Margin = new Padding(4, 3, 4, 3);
             NegotiatedCheckBox.Name = "NegotiatedCheckBox";
-            NegotiatedCheckBox.Size = new Size(95, 24);
+            NegotiatedCheckBox.Size = new Size(109, 30);
             NegotiatedCheckBox.TabIndex = 1;
             NegotiatedCheckBox.Text = "Negotiated";
             NegotiatedCheckBox.UseVisualStyleBackColor = true;
@@ -184,9 +191,10 @@
             DayUseCheckBox.AutoSize = true;
             DayUseCheckBox.Dock = DockStyle.Fill;
             DayUseCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DayUseCheckBox.Location = new Point(3, 93);
+            DayUseCheckBox.Location = new Point(4, 111);
+            DayUseCheckBox.Margin = new Padding(4, 3, 4, 3);
             DayUseCheckBox.Name = "DayUseCheckBox";
-            DayUseCheckBox.Size = new Size(95, 24);
+            DayUseCheckBox.Size = new Size(109, 30);
             DayUseCheckBox.TabIndex = 2;
             DayUseCheckBox.Text = "Day Use";
             DayUseCheckBox.UseVisualStyleBackColor = true;
@@ -195,9 +203,10 @@
             // 
             RateCodeTextBox.Dock = DockStyle.Fill;
             RateCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeTextBox.Location = new Point(104, 123);
+            RateCodeTextBox.Location = new Point(121, 147);
+            RateCodeTextBox.Margin = new Padding(4, 3, 4, 3);
             RateCodeTextBox.Name = "RateCodeTextBox";
-            RateCodeTextBox.Size = new Size(95, 21);
+            RateCodeTextBox.Size = new Size(110, 21);
             RateCodeTextBox.TabIndex = 3;
             // 
             // RateCodeLabel
@@ -205,9 +214,10 @@
             RateCodeLabel.AutoSize = true;
             RateCodeLabel.Dock = DockStyle.Fill;
             RateCodeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeLabel.Location = new Point(3, 120);
+            RateCodeLabel.Location = new Point(4, 144);
+            RateCodeLabel.Margin = new Padding(4, 0, 4, 0);
             RateCodeLabel.Name = "RateCodeLabel";
-            RateCodeLabel.Size = new Size(95, 29);
+            RateCodeLabel.Size = new Size(109, 31);
             RateCodeLabel.TabIndex = 4;
             RateCodeLabel.Text = "Rate Code";
             RateCodeLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -217,9 +227,10 @@
             BestAvailableCheckBox.AutoSize = true;
             BestAvailableCheckBox.Dock = DockStyle.Fill;
             BestAvailableCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BestAvailableCheckBox.Location = new Point(104, 33);
+            BestAvailableCheckBox.Location = new Point(121, 39);
+            BestAvailableCheckBox.Margin = new Padding(4, 3, 4, 3);
             BestAvailableCheckBox.Name = "BestAvailableCheckBox";
-            BestAvailableCheckBox.Size = new Size(95, 24);
+            BestAvailableCheckBox.Size = new Size(110, 30);
             BestAvailableCheckBox.TabIndex = 5;
             BestAvailableCheckBox.Text = "Best Available";
             BestAvailableCheckBox.UseVisualStyleBackColor = true;
@@ -229,9 +240,10 @@
             AverageRateRadioButton.AutoSize = true;
             AverageRateRadioButton.Dock = DockStyle.Fill;
             AverageRateRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AverageRateRadioButton.Location = new Point(3, 3);
+            AverageRateRadioButton.Location = new Point(4, 3);
+            AverageRateRadioButton.Margin = new Padding(4, 3, 4, 3);
             AverageRateRadioButton.Name = "AverageRateRadioButton";
-            AverageRateRadioButton.Size = new Size(95, 24);
+            AverageRateRadioButton.Size = new Size(109, 30);
             AverageRateRadioButton.TabIndex = 6;
             AverageRateRadioButton.TabStop = true;
             AverageRateRadioButton.Text = "Average Rate";
@@ -242,9 +254,10 @@
             TotalRatesRadioButton.AutoSize = true;
             TotalRatesRadioButton.Dock = DockStyle.Fill;
             TotalRatesRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            TotalRatesRadioButton.Location = new Point(104, 3);
+            TotalRatesRadioButton.Location = new Point(121, 3);
+            TotalRatesRadioButton.Margin = new Padding(4, 3, 4, 3);
             TotalRatesRadioButton.Name = "TotalRatesRadioButton";
-            TotalRatesRadioButton.Size = new Size(95, 24);
+            TotalRatesRadioButton.Size = new Size(110, 30);
             TotalRatesRadioButton.TabIndex = 7;
             TotalRatesRadioButton.TabStop = true;
             TotalRatesRadioButton.Text = "Total Rates";
@@ -255,9 +268,10 @@
             FirstNightRadioButton.AutoSize = true;
             FirstNightRadioButton.Dock = DockStyle.Fill;
             FirstNightRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FirstNightRadioButton.Location = new Point(205, 3);
+            FirstNightRadioButton.Location = new Point(239, 3);
+            FirstNightRadioButton.Margin = new Padding(4, 3, 4, 3);
             FirstNightRadioButton.Name = "FirstNightRadioButton";
-            FirstNightRadioButton.Size = new Size(97, 24);
+            FirstNightRadioButton.Size = new Size(111, 30);
             FirstNightRadioButton.TabIndex = 8;
             FirstNightRadioButton.TabStop = true;
             FirstNightRadioButton.Text = "First Night";
@@ -268,9 +282,11 @@
             groupBox3.Controls.Add(tableLayoutPanel6);
             groupBox3.Dock = DockStyle.Fill;
             groupBox3.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox3.Location = new Point(320, 3);
+            groupBox3.Location = new Point(374, 3);
+            groupBox3.Margin = new Padding(4, 3, 4, 3);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(471, 157);
+            groupBox3.Padding = new Padding(4, 3, 4, 3);
+            groupBox3.Size = new Size(547, 183);
             groupBox3.TabIndex = 1;
             groupBox3.TabStop = false;
             // 
@@ -286,13 +302,14 @@
             tableLayoutPanel6.Controls.Add(SellMsgRichTextBox, 1, 1);
             tableLayoutPanel6.Controls.Add(panel1, 1, 2);
             tableLayoutPanel6.Dock = DockStyle.Fill;
-            tableLayoutPanel6.Location = new Point(3, 5);
+            tableLayoutPanel6.Location = new Point(4, 5);
+            tableLayoutPanel6.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 3;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 41F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 41F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
-            tableLayoutPanel6.Size = new Size(465, 149);
+            tableLayoutPanel6.Size = new Size(539, 175);
             tableLayoutPanel6.TabIndex = 0;
             // 
             // InfoLabel
@@ -300,9 +317,10 @@
             InfoLabel.AutoSize = true;
             InfoLabel.Dock = DockStyle.Fill;
             InfoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            InfoLabel.Location = new Point(3, 0);
+            InfoLabel.Location = new Point(4, 0);
+            InfoLabel.Margin = new Padding(4, 0, 4, 0);
             InfoLabel.Name = "InfoLabel";
-            InfoLabel.Size = new Size(226, 61);
+            InfoLabel.Size = new Size(261, 71);
             InfoLabel.TabIndex = 0;
             InfoLabel.Text = "Info";
             InfoLabel.TextAlign = ContentAlignment.TopRight;
@@ -312,9 +330,10 @@
             SellMsgLabel.AutoSize = true;
             SellMsgLabel.Dock = DockStyle.Fill;
             SellMsgLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SellMsgLabel.Location = new Point(3, 61);
+            SellMsgLabel.Location = new Point(4, 71);
+            SellMsgLabel.Margin = new Padding(4, 0, 4, 0);
             SellMsgLabel.Name = "SellMsgLabel";
-            SellMsgLabel.Size = new Size(226, 61);
+            SellMsgLabel.Size = new Size(261, 71);
             SellMsgLabel.TabIndex = 1;
             SellMsgLabel.Text = "Sell Msg";
             SellMsgLabel.TextAlign = ContentAlignment.TopRight;
@@ -324,9 +343,10 @@
             EventsLabel.AutoSize = true;
             EventsLabel.Dock = DockStyle.Fill;
             EventsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            EventsLabel.Location = new Point(3, 122);
+            EventsLabel.Location = new Point(4, 142);
+            EventsLabel.Margin = new Padding(4, 0, 4, 0);
             EventsLabel.Name = "EventsLabel";
-            EventsLabel.Size = new Size(226, 27);
+            EventsLabel.Size = new Size(261, 33);
             EventsLabel.TabIndex = 2;
             EventsLabel.Text = "Events";
             EventsLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -335,9 +355,10 @@
             // 
             InfoRichTextBox.Dock = DockStyle.Fill;
             InfoRichTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            InfoRichTextBox.Location = new Point(235, 3);
+            InfoRichTextBox.Location = new Point(273, 3);
+            InfoRichTextBox.Margin = new Padding(4, 3, 4, 3);
             InfoRichTextBox.Name = "InfoRichTextBox";
-            InfoRichTextBox.Size = new Size(227, 55);
+            InfoRichTextBox.Size = new Size(262, 65);
             InfoRichTextBox.TabIndex = 3;
             InfoRichTextBox.Text = "";
             // 
@@ -345,9 +366,10 @@
             // 
             SellMsgRichTextBox.Dock = DockStyle.Fill;
             SellMsgRichTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SellMsgRichTextBox.Location = new Point(235, 64);
+            SellMsgRichTextBox.Location = new Point(273, 74);
+            SellMsgRichTextBox.Margin = new Padding(4, 3, 4, 3);
             SellMsgRichTextBox.Name = "SellMsgRichTextBox";
-            SellMsgRichTextBox.Size = new Size(227, 55);
+            SellMsgRichTextBox.Size = new Size(262, 65);
             SellMsgRichTextBox.TabIndex = 4;
             SellMsgRichTextBox.Text = "";
             // 
@@ -356,9 +378,10 @@
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(button11);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(235, 125);
+            panel1.Location = new Point(273, 145);
+            panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(227, 21);
+            panel1.Size = new Size(262, 27);
             panel1.TabIndex = 5;
             // 
             // textBox1
@@ -366,17 +389,19 @@
             textBox1.Dock = DockStyle.Left;
             textBox1.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(0, 0);
+            textBox1.Margin = new Padding(4, 3, 4, 3);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(191, 21);
+            textBox1.Size = new Size(222, 21);
             textBox1.TabIndex = 1;
             // 
             // button11
             // 
             button11.Dock = DockStyle.Right;
             button11.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(197, 0);
+            button11.Location = new Point(227, 0);
+            button11.Margin = new Padding(4, 3, 4, 3);
             button11.Name = "button11";
-            button11.Size = new Size(30, 21);
+            button11.Size = new Size(35, 27);
             button11.TabIndex = 0;
             button11.Text = "...";
             button11.UseVisualStyleBackColor = true;
@@ -386,9 +411,10 @@
             RateQueryLabel.AutoSize = true;
             RateQueryLabel.Dock = DockStyle.Fill;
             RateQueryLabel.ForeColor = Color.Red;
-            RateQueryLabel.Location = new Point(3, 0);
+            RateQueryLabel.Location = new Point(4, 0);
+            RateQueryLabel.Margin = new Padding(4, 0, 4, 0);
             RateQueryLabel.Name = "RateQueryLabel";
-            RateQueryLabel.Size = new Size(794, 56);
+            RateQueryLabel.Size = new Size(925, 64);
             RateQueryLabel.TabIndex = 0;
             RateQueryLabel.Text = "RateQueryLabel";
             // 
@@ -400,11 +426,12 @@
             tableLayoutPanel2.Controls.Add(groupBox1, 1, 0);
             tableLayoutPanel2.Controls.Add(dataGridView1, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 59);
+            tableLayoutPanel2.Location = new Point(4, 67);
+            tableLayoutPanel2.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(794, 294);
+            tableLayoutPanel2.Size = new Size(925, 340);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // groupBox1
@@ -414,9 +441,11 @@
             groupBox1.Controls.Add(CloseButton);
             groupBox1.Dock = DockStyle.Fill;
             groupBox1.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(693, 3);
+            groupBox1.Location = new Point(808, 3);
+            groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(98, 288);
+            groupBox1.Padding = new Padding(4, 3, 4, 3);
+            groupBox1.Size = new Size(113, 334);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
@@ -427,19 +456,20 @@
             panel2.Controls.Add(AnalyzeButton);
             panel2.Controls.Add(LongInfoButton);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(3, 5);
+            panel2.Location = new Point(4, 5);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(92, 235);
+            panel2.Size = new Size(105, 271);
             panel2.TabIndex = 6;
             // 
             // RateInfoButton
             // 
             RateInfoButton.Dock = DockStyle.Bottom;
             RateInfoButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateInfoButton.Location = new Point(0, 143);
+            RateInfoButton.Location = new Point(0, 163);
+            RateInfoButton.Margin = new Padding(4, 3, 4, 3);
             RateInfoButton.Name = "RateInfoButton";
-            RateInfoButton.Size = new Size(92, 23);
+            RateInfoButton.Size = new Size(105, 27);
             RateInfoButton.TabIndex = 5;
             RateInfoButton.Text = "Rate Info";
             RateInfoButton.UseVisualStyleBackColor = true;
@@ -448,10 +478,10 @@
             // 
             ScopeButton.Dock = DockStyle.Bottom;
             ScopeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ScopeButton.Location = new Point(0, 166);
-            ScopeButton.Margin = new Padding(3, 3, 3, 6);
+            ScopeButton.Location = new Point(0, 190);
+            ScopeButton.Margin = new Padding(4, 3, 4, 7);
             ScopeButton.Name = "ScopeButton";
-            ScopeButton.Size = new Size(92, 23);
+            ScopeButton.Size = new Size(105, 27);
             ScopeButton.TabIndex = 2;
             ScopeButton.Text = "Scope";
             ScopeButton.UseVisualStyleBackColor = true;
@@ -460,9 +490,10 @@
             // 
             AnalyzeButton.Dock = DockStyle.Bottom;
             AnalyzeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AnalyzeButton.Location = new Point(0, 189);
+            AnalyzeButton.Location = new Point(0, 217);
+            AnalyzeButton.Margin = new Padding(4, 3, 4, 3);
             AnalyzeButton.Name = "AnalyzeButton";
-            AnalyzeButton.Size = new Size(92, 23);
+            AnalyzeButton.Size = new Size(105, 27);
             AnalyzeButton.TabIndex = 4;
             AnalyzeButton.Text = "Analyze";
             AnalyzeButton.UseVisualStyleBackColor = true;
@@ -471,9 +502,10 @@
             // 
             LongInfoButton.Dock = DockStyle.Bottom;
             LongInfoButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            LongInfoButton.Location = new Point(0, 212);
+            LongInfoButton.Location = new Point(0, 244);
+            LongInfoButton.Margin = new Padding(4, 3, 4, 3);
             LongInfoButton.Name = "LongInfoButton";
-            LongInfoButton.Size = new Size(92, 23);
+            LongInfoButton.Size = new Size(105, 27);
             LongInfoButton.TabIndex = 3;
             LongInfoButton.Text = "Long Info";
             LongInfoButton.UseVisualStyleBackColor = true;
@@ -482,10 +514,10 @@
             // 
             OKButton.Dock = DockStyle.Bottom;
             OKButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            OKButton.Location = new Point(3, 239);
-            OKButton.Margin = new Padding(3, 6, 3, 3);
+            OKButton.Location = new Point(4, 277);
+            OKButton.Margin = new Padding(4, 7, 4, 3);
             OKButton.Name = "OKButton";
-            OKButton.Size = new Size(92, 23);
+            OKButton.Size = new Size(105, 27);
             OKButton.TabIndex = 1;
             OKButton.Text = "OK";
             OKButton.UseVisualStyleBackColor = true;
@@ -495,9 +527,10 @@
             // 
             CloseButton.Dock = DockStyle.Bottom;
             CloseButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CloseButton.Location = new Point(3, 262);
+            CloseButton.Location = new Point(4, 304);
+            CloseButton.Margin = new Padding(4, 3, 4, 3);
             CloseButton.Name = "CloseButton";
-            CloseButton.Size = new Size(92, 23);
+            CloseButton.Size = new Size(105, 27);
             CloseButton.TabIndex = 0;
             CloseButton.Text = "Close";
             CloseButton.UseVisualStyleBackColor = true;
@@ -507,10 +540,11 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(3, 3);
+            dataGridView1.Location = new Point(4, 3);
+            dataGridView1.Margin = new Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 23;
-            dataGridView1.Size = new Size(684, 288);
+            dataGridView1.Size = new Size(796, 334);
             dataGridView1.TabIndex = 1;
             // 
             // tableLayoutPanel3
@@ -529,19 +563,21 @@
             tableLayoutPanel3.Controls.Add(LastElementButton, 5, 0);
             tableLayoutPanel3.Controls.Add(AmountLabel, 0, 0);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(3, 359);
+            tableLayoutPanel3.Location = new Point(4, 413);
+            tableLayoutPanel3.Margin = new Padding(4, 3, 4, 3);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Size = new Size(794, 30);
+            tableLayoutPanel3.Size = new Size(925, 36);
             tableLayoutPanel3.TabIndex = 2;
             // 
             // FirstElementButton
             // 
             FirstElementButton.Dock = DockStyle.Fill;
-            FirstElementButton.Location = new Point(122, 3);
+            FirstElementButton.Location = new Point(142, 3);
+            FirstElementButton.Margin = new Padding(4, 3, 4, 3);
             FirstElementButton.Name = "FirstElementButton";
-            FirstElementButton.Size = new Size(33, 24);
+            FirstElementButton.Size = new Size(38, 30);
             FirstElementButton.TabIndex = 0;
             FirstElementButton.Text = "<<";
             FirstElementButton.UseVisualStyleBackColor = true;
@@ -549,9 +585,10 @@
             // PreviousButton
             // 
             PreviousButton.Dock = DockStyle.Fill;
-            PreviousButton.Location = new Point(161, 3);
+            PreviousButton.Location = new Point(188, 3);
+            PreviousButton.Margin = new Padding(4, 3, 4, 3);
             PreviousButton.Name = "PreviousButton";
-            PreviousButton.Size = new Size(33, 24);
+            PreviousButton.Size = new Size(38, 30);
             PreviousButton.TabIndex = 1;
             PreviousButton.Text = "<";
             PreviousButton.UseVisualStyleBackColor = true;
@@ -559,9 +596,10 @@
             // NextElementButton
             // 
             NextElementButton.Dock = DockStyle.Fill;
-            NextElementButton.Location = new Point(616, 3);
+            NextElementButton.Location = new Point(718, 3);
+            NextElementButton.Margin = new Padding(4, 3, 4, 3);
             NextElementButton.Name = "NextElementButton";
-            NextElementButton.Size = new Size(33, 24);
+            NextElementButton.Size = new Size(38, 30);
             NextElementButton.TabIndex = 2;
             NextElementButton.Text = ">";
             NextElementButton.UseVisualStyleBackColor = true;
@@ -569,9 +607,10 @@
             // LastElementButton
             // 
             LastElementButton.Dock = DockStyle.Fill;
-            LastElementButton.Location = new Point(655, 3);
+            LastElementButton.Location = new Point(764, 3);
+            LastElementButton.Margin = new Padding(4, 3, 4, 3);
             LastElementButton.Name = "LastElementButton";
-            LastElementButton.Size = new Size(33, 24);
+            LastElementButton.Size = new Size(38, 30);
             LastElementButton.TabIndex = 3;
             LastElementButton.Text = ">>";
             LastElementButton.UseVisualStyleBackColor = true;
@@ -581,21 +620,23 @@
             AmountLabel.AutoSize = true;
             AmountLabel.Dock = DockStyle.Fill;
             AmountLabel.ForeColor = Color.Red;
-            AmountLabel.Location = new Point(3, 0);
+            AmountLabel.Location = new Point(4, 0);
+            AmountLabel.Margin = new Padding(4, 0, 4, 0);
             AmountLabel.Name = "AmountLabel";
-            AmountLabel.Size = new Size(113, 30);
+            AmountLabel.Size = new Size(130, 36);
             AmountLabel.TabIndex = 4;
             AmountLabel.Text = "000,000,00";
             AmountLabel.TextAlign = ContentAlignment.MiddleRight;
             // 
             // RateQueryDetailsForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 561);
+            ClientSize = new Size(933, 647);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "RateQueryDetailsForm";

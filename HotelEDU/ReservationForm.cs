@@ -19,6 +19,7 @@ namespace HotelEDU
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
+            //Закрытие формы ReservationForm
             this.Close();
         }
     }

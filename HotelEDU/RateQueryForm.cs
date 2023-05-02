@@ -24,6 +24,7 @@ namespace HotelEDU
 
         private void OkButton_Click(object sender, EventArgs e)
         {
+            //Открытие формы RateQueryDetailsForm как дочернее окно
             RateQueryDetailsForm rateQueryDetails = new RateQueryDetailsForm();
             rateQueryDetails.MdiParent = (MainForm)this.ParentForm;
             rateQueryDetails.Show();

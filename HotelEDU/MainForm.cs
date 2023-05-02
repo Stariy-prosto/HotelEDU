@@ -18,9 +18,11 @@ namespace HotelEDU
         public MainForm()
         {
             InitializeComponent();
+            //Начальная настройка главной формы
             this.WindowState = FormWindowState.Minimized;
             this.ShowInTaskbar = false;
             this.Text = "HotelEDU - " + Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            //Изменение размера вкладок tabPanel при изменении размеров окна
             MenuControl.ItemSize = new Size(MenuControl.Size.Width / MenuControl.TabPages.Count - 1, MenuControl.ItemSize.Height);
             //Загрузочное окно
             SplashScreenBackgroundWorker.WorkerReportsProgress = true;
@@ -52,8 +54,8 @@ namespace HotelEDU
                 }
                 else
                 {
-                    //Обработка команд, выполняющихся перед запуском программы
                     System.Threading.Thread.Sleep(3000);
+                    //Команды, выполняемые перед запуском программы
                 }
             }
         }
@@ -68,12 +70,14 @@ namespace HotelEDU
 
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
+            //Изменение размера вкладок tabPanel при изменении размеров окна
             if (MenuControl.Size.Width > 0 || MenuControl.ItemSize.Height > 0)
                 MenuControl.ItemSize = new Size(MenuControl.Size.Width / MenuControl.TabPages.Count - 1, MenuControl.ItemSize.Height);
         }
 
         private void NewReservationButton_Click(object sender, EventArgs e)
         {
+            //Открытие формы RateQueryForm как дочернее окно
             RateQueryForm rateQuery = new RateQueryForm();
             rateQuery.MdiParent = this;
             rateQuery.Show();
@@ -82,6 +86,7 @@ namespace HotelEDU
 
         private void AboutProgramButton_Click(object sender, EventArgs e)
         {
+            //Открытие формы RateQueryForm как дочернее окно
             AboutForm aboutForm = new AboutForm();
             aboutForm.MdiParent = this;
             aboutForm.Show();
@@ -89,6 +94,7 @@ namespace HotelEDU
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
+            //Завершение работы без сохранения
             Application.Exit();
         }
     }
