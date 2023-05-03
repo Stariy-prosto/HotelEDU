@@ -99,7 +99,6 @@
             PseudoCheckBox = new CheckBox();
             BestAvailableCheckBox = new CheckBox();
             groupBox6 = new GroupBox();
-            groupBox7 = new GroupBox();
             tableLayoutPanel12 = new TableLayoutPanel();
             RateClassTextBox = new TextBox();
             RateCategoryTextBox = new TextBox();
@@ -141,7 +140,6 @@
             groupBox5.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             groupBox6.SuspendLayout();
-            groupBox7.SuspendLayout();
             tableLayoutPanel12.SuspendLayout();
             tableLayoutPanel7.SuspendLayout();
             SuspendLayout();
@@ -375,7 +373,7 @@
             // ArrivalCalendarButton
             // 
             ArrivalCalendarButton.Dock = DockStyle.Fill;
-            ArrivalCalendarButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            ArrivalCalendarButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             ArrivalCalendarButton.Location = new Point(124, 3);
             ArrivalCalendarButton.Margin = new Padding(4, 3, 4, 3);
             ArrivalCalendarButton.Name = "ArrivalCalendarButton";
@@ -414,6 +412,7 @@
             // DepartureCalendarButton
             // 
             DepartureCalendarButton.Dock = DockStyle.Fill;
+            DepartureCalendarButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             DepartureCalendarButton.Location = new Point(124, 3);
             DepartureCalendarButton.Margin = new Padding(4, 3, 4, 3);
             DepartureCalendarButton.Name = "DepartureCalendarButton";
@@ -581,7 +580,7 @@
             // CildrenButton
             // 
             CildrenButton.Dock = DockStyle.Fill;
-            CildrenButton.Font = new Font("Tahoma", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            CildrenButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             CildrenButton.Location = new Point(239, 3);
             CildrenButton.Margin = new Padding(4, 3, 4, 3);
             CildrenButton.Name = "CildrenButton";
@@ -795,7 +794,7 @@
             // NameButton
             // 
             NameButton.Dock = DockStyle.Fill;
-            NameButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            NameButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             NameButton.Location = new Point(333, 3);
             NameButton.Margin = new Padding(4, 3, 4, 3);
             NameButton.Name = "NameButton";
@@ -807,7 +806,7 @@
             // MemberTypeButton
             // 
             MemberTypeButton.Dock = DockStyle.Fill;
-            MemberTypeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            MemberTypeButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             MemberTypeButton.Location = new Point(333, 35);
             MemberTypeButton.Margin = new Padding(4, 3, 4, 3);
             MemberTypeButton.Name = "MemberTypeButton";
@@ -819,7 +818,7 @@
             // CompanyButton
             // 
             CompanyButton.Dock = DockStyle.Fill;
-            CompanyButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            CompanyButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             CompanyButton.Location = new Point(333, 67);
             CompanyButton.Margin = new Padding(4, 3, 4, 3);
             CompanyButton.Name = "CompanyButton";
@@ -831,7 +830,7 @@
             // AgentButton
             // 
             AgentButton.Dock = DockStyle.Fill;
-            AgentButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            AgentButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             AgentButton.Location = new Point(333, 99);
             AgentButton.Margin = new Padding(4, 3, 4, 3);
             AgentButton.Name = "AgentButton";
@@ -843,7 +842,7 @@
             // SourceButton
             // 
             SourceButton.Dock = DockStyle.Fill;
-            SourceButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            SourceButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             SourceButton.Location = new Point(333, 131);
             SourceButton.Margin = new Padding(4, 3, 4, 3);
             SourceButton.Name = "SourceButton";
@@ -855,7 +854,7 @@
             // BlockButton
             // 
             BlockButton.Dock = DockStyle.Fill;
-            BlockButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            BlockButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             BlockButton.Location = new Point(803, 3);
             BlockButton.Margin = new Padding(4, 3, 4, 3);
             BlockButton.Name = "BlockButton";
@@ -1078,7 +1077,7 @@
             // 
             // groupBox6
             // 
-            groupBox6.Controls.Add(groupBox7);
+            groupBox6.Controls.Add(tableLayoutPanel12);
             groupBox6.Dock = DockStyle.Fill;
             groupBox6.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox6.Location = new Point(4, 455);
@@ -1088,19 +1087,6 @@
             groupBox6.Size = new Size(952, 240);
             groupBox6.TabIndex = 3;
             groupBox6.TabStop = false;
-            // 
-            // groupBox7
-            // 
-            groupBox7.Controls.Add(tableLayoutPanel12);
-            groupBox7.Dock = DockStyle.Fill;
-            groupBox7.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox7.Location = new Point(4, 5);
-            groupBox7.Margin = new Padding(4, 3, 4, 3);
-            groupBox7.Name = "groupBox7";
-            groupBox7.Padding = new Padding(4, 3, 4, 3);
-            groupBox7.Size = new Size(944, 232);
-            groupBox7.TabIndex = 2;
-            groupBox7.TabStop = false;
             // 
             // tableLayoutPanel12
             // 
@@ -1145,87 +1131,87 @@
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel12.Size = new Size(936, 224);
+            tableLayoutPanel12.Size = new Size(944, 232);
             tableLayoutPanel12.TabIndex = 0;
             // 
             // RateClassTextBox
             // 
             RateClassTextBox.Dock = DockStyle.Fill;
             RateClassTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateClassTextBox.Location = new Point(144, 3);
+            RateClassTextBox.Location = new Point(145, 3);
             RateClassTextBox.Margin = new Padding(4, 3, 4, 3);
             RateClassTextBox.Name = "RateClassTextBox";
-            RateClassTextBox.Size = new Size(179, 21);
+            RateClassTextBox.Size = new Size(180, 21);
             RateClassTextBox.TabIndex = 0;
             // 
             // RateCategoryTextBox
             // 
             RateCategoryTextBox.Dock = DockStyle.Fill;
             RateCategoryTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCategoryTextBox.Location = new Point(144, 33);
+            RateCategoryTextBox.Location = new Point(145, 33);
             RateCategoryTextBox.Margin = new Padding(4, 3, 4, 3);
             RateCategoryTextBox.Name = "RateCategoryTextBox";
-            RateCategoryTextBox.Size = new Size(179, 21);
+            RateCategoryTextBox.Size = new Size(180, 21);
             RateCategoryTextBox.TabIndex = 1;
             // 
             // RateCodeTextBox
             // 
             RateCodeTextBox.Dock = DockStyle.Fill;
             RateCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeTextBox.Location = new Point(144, 63);
+            RateCodeTextBox.Location = new Point(145, 63);
             RateCodeTextBox.Margin = new Padding(4, 3, 4, 3);
             RateCodeTextBox.Name = "RateCodeTextBox";
-            RateCodeTextBox.Size = new Size(179, 21);
+            RateCodeTextBox.Size = new Size(180, 21);
             RateCodeTextBox.TabIndex = 2;
             // 
             // RoomClassTextBox
             // 
             RoomClassTextBox.Dock = DockStyle.Fill;
             RoomClassTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomClassTextBox.Location = new Point(610, 3);
+            RoomClassTextBox.Location = new Point(615, 3);
             RoomClassTextBox.Margin = new Padding(4, 3, 4, 3);
             RoomClassTextBox.Name = "RoomClassTextBox";
-            RoomClassTextBox.Size = new Size(179, 21);
+            RoomClassTextBox.Size = new Size(180, 21);
             RoomClassTextBox.TabIndex = 5;
             // 
             // FeaturesTextBox
             // 
             FeaturesTextBox.Dock = DockStyle.Fill;
             FeaturesTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FeaturesTextBox.Location = new Point(610, 33);
+            FeaturesTextBox.Location = new Point(615, 33);
             FeaturesTextBox.Margin = new Padding(4, 3, 4, 3);
             FeaturesTextBox.Name = "FeaturesTextBox";
-            FeaturesTextBox.Size = new Size(179, 21);
+            FeaturesTextBox.Size = new Size(180, 21);
             FeaturesTextBox.TabIndex = 6;
             // 
             // PackagesTextBox
             // 
             PackagesTextBox.Dock = DockStyle.Fill;
             PackagesTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesTextBox.Location = new Point(610, 63);
+            PackagesTextBox.Location = new Point(615, 63);
             PackagesTextBox.Margin = new Padding(4, 3, 4, 3);
             PackagesTextBox.Name = "PackagesTextBox";
-            PackagesTextBox.Size = new Size(179, 21);
+            PackagesTextBox.Size = new Size(180, 21);
             PackagesTextBox.TabIndex = 7;
             // 
             // PurposeOfStayTextBox
             // 
             PurposeOfStayTextBox.Dock = DockStyle.Fill;
             PurposeOfStayTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PurposeOfStayTextBox.Location = new Point(610, 145);
+            PurposeOfStayTextBox.Location = new Point(615, 149);
             PurposeOfStayTextBox.Margin = new Padding(4, 3, 4, 3);
             PurposeOfStayTextBox.Name = "PurposeOfStayTextBox";
-            PurposeOfStayTextBox.Size = new Size(179, 21);
+            PurposeOfStayTextBox.Size = new Size(180, 21);
             PurposeOfStayTextBox.TabIndex = 9;
             // 
             // RateClassButton
             // 
             RateClassButton.Dock = DockStyle.Fill;
-            RateClassButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateClassButton.Location = new Point(331, 3);
+            RateClassButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            RateClassButton.Location = new Point(333, 3);
             RateClassButton.Margin = new Padding(4, 3, 4, 3);
             RateClassButton.Name = "RateClassButton";
-            RateClassButton.Size = new Size(38, 24);
+            RateClassButton.Size = new Size(39, 24);
             RateClassButton.TabIndex = 10;
             RateClassButton.Text = " \r\n";
             RateClassButton.UseVisualStyleBackColor = true;
@@ -1233,11 +1219,11 @@
             // RateCategoryButton
             // 
             RateCategoryButton.Dock = DockStyle.Fill;
-            RateCategoryButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCategoryButton.Location = new Point(331, 33);
+            RateCategoryButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            RateCategoryButton.Location = new Point(333, 33);
             RateCategoryButton.Margin = new Padding(4, 3, 4, 3);
             RateCategoryButton.Name = "RateCategoryButton";
-            RateCategoryButton.Size = new Size(38, 24);
+            RateCategoryButton.Size = new Size(39, 24);
             RateCategoryButton.TabIndex = 11;
             RateCategoryButton.Text = " \r\n";
             RateCategoryButton.UseVisualStyleBackColor = true;
@@ -1245,11 +1231,11 @@
             // RateCodeButton
             // 
             RateCodeButton.Dock = DockStyle.Fill;
-            RateCodeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeButton.Location = new Point(331, 63);
+            RateCodeButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            RateCodeButton.Location = new Point(333, 63);
             RateCodeButton.Margin = new Padding(4, 3, 4, 3);
             RateCodeButton.Name = "RateCodeButton";
-            RateCodeButton.Size = new Size(38, 24);
+            RateCodeButton.Size = new Size(39, 24);
             RateCodeButton.TabIndex = 12;
             RateCodeButton.Text = " \r\n";
             RateCodeButton.UseVisualStyleBackColor = true;
@@ -1257,11 +1243,11 @@
             // RoomClassButton
             // 
             RoomClassButton.Dock = DockStyle.Fill;
-            RoomClassButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomClassButton.Location = new Point(797, 3);
+            RoomClassButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            RoomClassButton.Location = new Point(803, 3);
             RoomClassButton.Margin = new Padding(4, 3, 4, 3);
             RoomClassButton.Name = "RoomClassButton";
-            RoomClassButton.Size = new Size(38, 24);
+            RoomClassButton.Size = new Size(39, 24);
             RoomClassButton.TabIndex = 15;
             RoomClassButton.Text = " \r\n";
             RoomClassButton.UseVisualStyleBackColor = true;
@@ -1269,11 +1255,11 @@
             // FeaturesButton
             // 
             FeaturesButton.Dock = DockStyle.Fill;
-            FeaturesButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FeaturesButton.Location = new Point(797, 33);
+            FeaturesButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            FeaturesButton.Location = new Point(803, 33);
             FeaturesButton.Margin = new Padding(4, 3, 4, 3);
             FeaturesButton.Name = "FeaturesButton";
-            FeaturesButton.Size = new Size(38, 24);
+            FeaturesButton.Size = new Size(39, 24);
             FeaturesButton.TabIndex = 16;
             FeaturesButton.Text = " \r\n";
             FeaturesButton.UseVisualStyleBackColor = true;
@@ -1281,11 +1267,11 @@
             // PackagesButton
             // 
             PackagesButton.Dock = DockStyle.Fill;
-            PackagesButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesButton.Location = new Point(797, 63);
+            PackagesButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            PackagesButton.Location = new Point(803, 63);
             PackagesButton.Margin = new Padding(4, 3, 4, 3);
             PackagesButton.Name = "PackagesButton";
-            PackagesButton.Size = new Size(38, 24);
+            PackagesButton.Size = new Size(39, 24);
             PackagesButton.TabIndex = 17;
             PackagesButton.Text = " \r\n";
             PackagesButton.UseVisualStyleBackColor = true;
@@ -1293,11 +1279,11 @@
             // PurposeOfStayButton
             // 
             PurposeOfStayButton.Dock = DockStyle.Fill;
-            PurposeOfStayButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PurposeOfStayButton.Location = new Point(797, 145);
+            PurposeOfStayButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            PurposeOfStayButton.Location = new Point(803, 149);
             PurposeOfStayButton.Margin = new Padding(4, 3, 4, 3);
             PurposeOfStayButton.Name = "PurposeOfStayButton";
-            PurposeOfStayButton.Size = new Size(38, 24);
+            PurposeOfStayButton.Size = new Size(39, 24);
             PurposeOfStayButton.TabIndex = 19;
             PurposeOfStayButton.Text = " \r\n";
             PurposeOfStayButton.UseVisualStyleBackColor = true;
@@ -1310,7 +1296,7 @@
             RateClassLabel.Location = new Point(4, 0);
             RateClassLabel.Margin = new Padding(4, 0, 4, 0);
             RateClassLabel.Name = "RateClassLabel";
-            RateClassLabel.Size = new Size(132, 30);
+            RateClassLabel.Size = new Size(133, 30);
             RateClassLabel.TabIndex = 20;
             RateClassLabel.Text = "Rate Class";
             RateClassLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1320,10 +1306,10 @@
             RoomClassLabel.AutoSize = true;
             RoomClassLabel.Dock = DockStyle.Fill;
             RoomClassLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomClassLabel.Location = new Point(470, 0);
+            RoomClassLabel.Location = new Point(474, 0);
             RoomClassLabel.Margin = new Padding(4, 0, 4, 0);
             RoomClassLabel.Name = "RoomClassLabel";
-            RoomClassLabel.Size = new Size(132, 30);
+            RoomClassLabel.Size = new Size(133, 30);
             RoomClassLabel.TabIndex = 21;
             RoomClassLabel.Text = "Room Class";
             RoomClassLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1336,7 +1322,7 @@
             RateCategoryLabel.Location = new Point(4, 30);
             RateCategoryLabel.Margin = new Padding(4, 0, 4, 0);
             RateCategoryLabel.Name = "RateCategoryLabel";
-            RateCategoryLabel.Size = new Size(132, 30);
+            RateCategoryLabel.Size = new Size(133, 30);
             RateCategoryLabel.TabIndex = 22;
             RateCategoryLabel.Text = "Rate Category";
             RateCategoryLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1349,7 +1335,7 @@
             RateCodeLabel.Location = new Point(4, 60);
             RateCodeLabel.Margin = new Padding(4, 0, 4, 0);
             RateCodeLabel.Name = "RateCodeLabel";
-            RateCodeLabel.Size = new Size(132, 30);
+            RateCodeLabel.Size = new Size(133, 30);
             RateCodeLabel.TabIndex = 23;
             RateCodeLabel.Text = "Rate Code";
             RateCodeLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1359,10 +1345,10 @@
             FeaturesLabel.AutoSize = true;
             FeaturesLabel.Dock = DockStyle.Fill;
             FeaturesLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FeaturesLabel.Location = new Point(470, 30);
+            FeaturesLabel.Location = new Point(474, 30);
             FeaturesLabel.Margin = new Padding(4, 0, 4, 0);
             FeaturesLabel.Name = "FeaturesLabel";
-            FeaturesLabel.Size = new Size(132, 30);
+            FeaturesLabel.Size = new Size(133, 30);
             FeaturesLabel.TabIndex = 26;
             FeaturesLabel.Text = "Features";
             FeaturesLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1372,10 +1358,10 @@
             PackagesLabel.AutoSize = true;
             PackagesLabel.Dock = DockStyle.Fill;
             PackagesLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesLabel.Location = new Point(470, 60);
+            PackagesLabel.Location = new Point(474, 60);
             PackagesLabel.Margin = new Padding(4, 0, 4, 0);
             PackagesLabel.Name = "PackagesLabel";
-            PackagesLabel.Size = new Size(132, 30);
+            PackagesLabel.Size = new Size(133, 30);
             PackagesLabel.TabIndex = 27;
             PackagesLabel.Text = "Packages";
             PackagesLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1385,10 +1371,10 @@
             PurposeOfStayLabel.AutoSize = true;
             PurposeOfStayLabel.Dock = DockStyle.Fill;
             PurposeOfStayLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PurposeOfStayLabel.Location = new Point(470, 142);
+            PurposeOfStayLabel.Location = new Point(474, 146);
             PurposeOfStayLabel.Margin = new Padding(4, 0, 4, 0);
             PurposeOfStayLabel.Name = "PurposeOfStayLabel";
-            PurposeOfStayLabel.Size = new Size(132, 30);
+            PurposeOfStayLabel.Size = new Size(133, 30);
             PurposeOfStayLabel.TabIndex = 29;
             PurposeOfStayLabel.Text = "Purpose Of Stay";
             PurposeOfStayLabel.TextAlign = ContentAlignment.MiddleRight;
@@ -1464,7 +1450,6 @@
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel3.PerformLayout();
             groupBox6.ResumeLayout(false);
-            groupBox7.ResumeLayout(false);
             tableLayoutPanel12.ResumeLayout(false);
             tableLayoutPanel12.PerformLayout();
             tableLayoutPanel7.ResumeLayout(false);
@@ -1546,7 +1531,6 @@
         private Label CORPNoLabel;
         private Label IATANoLabel;
         private Label SourceNoLabel;
-        private GroupBox groupBox7;
         private TableLayoutPanel tableLayoutPanel12;
         private TextBox RateClassTextBox;
         private TextBox RateCategoryTextBox;

@@ -15,6 +15,11 @@ namespace HotelEDU
         public RateQueryForm()
         {
             InitializeComponent();
+            Size resolution = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Size;
+            if (resolution.Width <= 1366 || resolution.Height <= 768)
+                this.Font = new Font("Segoe UI", 6F, FontStyle.Regular, GraphicsUnit.Point);
+            else
+                this.Font = new Font("Segoe UI", 7.5F, FontStyle.Regular, GraphicsUnit.Point);
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
