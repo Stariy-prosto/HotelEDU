@@ -39,10 +39,11 @@
             // progressBar1
             // 
             progressBar1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            progressBar1.Location = new Point(3, 303);
+            progressBar1.Location = new Point(0, 300);
+            progressBar1.Margin = new Padding(0);
             progressBar1.MarqueeAnimationSpeed = 50;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(524, 24);
+            progressBar1.Size = new Size(530, 30);
             progressBar1.Style = ProgressBarStyle.Marquee;
             progressBar1.TabIndex = 0;
             progressBar1.UseWaitCursor = true;
@@ -51,9 +52,10 @@
             // 
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(524, 294);
+            pictureBox1.Size = new Size(530, 300);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -67,6 +69,7 @@
             tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Controls.Add(progressBar1, 0, 1);
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 91F));
@@ -77,12 +80,12 @@
             // 
             // SplashScreenForm
             // 
-            AutoScaleDimensions = new SizeF(96F, 96F);
-            AutoScaleMode = AutoScaleMode.Dpi;
-            AutoSize = true;
+            AutoScaleDimensions = new SizeF(5F, 11F);
+            AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(530, 330);
             ControlBox = false;
             Controls.Add(tableLayoutPanel1);
+            Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             MinimizeBox = false;
