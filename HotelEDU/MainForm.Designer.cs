@@ -142,10 +142,10 @@
             ExitButton.FlatAppearance.BorderSize = 0;
             ExitButton.FlatStyle = FlatStyle.Flat;
             ExitButton.Image = Properties.Resources.indefinite_32x32;
-            ExitButton.Location = new Point(4, 5);
-            ExitButton.Margin = new Padding(4, 5, 4, 5);
+            ExitButton.Location = new Point(3, 4);
+            ExitButton.Margin = new Padding(3, 4, 3, 4);
             ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(773, 85);
+            ExitButton.Size = new Size(618, 68);
             ExitButton.TabIndex = 2;
             ExitButton.Text = "Exit";
             ExitButton.TextAlign = ContentAlignment.BottomCenter;
@@ -156,11 +156,11 @@
             // HelpTabPage
             // 
             HelpTabPage.Controls.Add(tableLayoutPanel13);
-            HelpTabPage.Location = new Point(4, 29);
-            HelpTabPage.Margin = new Padding(4, 5, 4, 5);
+            HelpTabPage.Location = new Point(4, 22);
+            HelpTabPage.Margin = new Padding(3, 4, 3, 4);
             HelpTabPage.Name = "HelpTabPage";
-            HelpTabPage.Padding = new Padding(4, 5, 4, 5);
-            HelpTabPage.Size = new Size(1571, 105);
+            HelpTabPage.Padding = new Padding(3, 4, 3, 4);
+            HelpTabPage.Size = new Size(1255, 84);
             HelpTabPage.TabIndex = 9;
             HelpTabPage.Text = "Help";
             HelpTabPage.UseVisualStyleBackColor = true;
@@ -172,12 +172,12 @@
             tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel13.Controls.Add(AboutProgramButton, 0, 0);
             tableLayoutPanel13.Dock = DockStyle.Fill;
-            tableLayoutPanel13.Location = new Point(4, 5);
-            tableLayoutPanel13.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel13.Location = new Point(3, 4);
+            tableLayoutPanel13.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel13.Name = "tableLayoutPanel13";
             tableLayoutPanel13.RowCount = 1;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel13.Size = new Size(1563, 95);
+            tableLayoutPanel13.Size = new Size(1249, 76);
             tableLayoutPanel13.TabIndex = 18;
             // 
             // AboutProgramButton
@@ -186,10 +186,10 @@
             AboutProgramButton.FlatAppearance.BorderSize = 0;
             AboutProgramButton.FlatStyle = FlatStyle.Flat;
             AboutProgramButton.Image = Properties.Resources.indefinite_32x32;
-            AboutProgramButton.Location = new Point(4, 5);
-            AboutProgramButton.Margin = new Padding(4, 5, 4, 5);
+            AboutProgramButton.Location = new Point(3, 4);
+            AboutProgramButton.Margin = new Padding(3, 4, 3, 4);
             AboutProgramButton.Name = "AboutProgramButton";
-            AboutProgramButton.Size = new Size(773, 85);
+            AboutProgramButton.Size = new Size(618, 68);
             AboutProgramButton.TabIndex = 5;
             AboutProgramButton.Text = "AboutProgram";
             AboutProgramButton.TextAlign = ContentAlignment.BottomCenter;
@@ -200,11 +200,11 @@
             // BackOfficeInterfaceTabPage
             // 
             BackOfficeInterfaceTabPage.Controls.Add(tableLayoutPanel12);
-            BackOfficeInterfaceTabPage.Location = new Point(4, 29);
-            BackOfficeInterfaceTabPage.Margin = new Padding(4, 5, 4, 5);
+            BackOfficeInterfaceTabPage.Location = new Point(4, 22);
+            BackOfficeInterfaceTabPage.Margin = new Padding(3, 4, 3, 4);
             BackOfficeInterfaceTabPage.Name = "BackOfficeInterfaceTabPage";
-            BackOfficeInterfaceTabPage.Padding = new Padding(4, 5, 4, 5);
-            BackOfficeInterfaceTabPage.Size = new Size(1571, 105);
+            BackOfficeInterfaceTabPage.Padding = new Padding(3, 4, 3, 4);
+            BackOfficeInterfaceTabPage.Size = new Size(1255, 84);
             BackOfficeInterfaceTabPage.TabIndex = 8;
             BackOfficeInterfaceTabPage.Text = "Back Office Interface";
             BackOfficeInterfaceTabPage.UseVisualStyleBackColor = true;
@@ -215,22 +215,22 @@
             tableLayoutPanel12.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel12.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel12.Dock = DockStyle.Fill;
-            tableLayoutPanel12.Location = new Point(4, 5);
-            tableLayoutPanel12.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel12.Location = new Point(3, 4);
+            tableLayoutPanel12.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel12.Name = "tableLayoutPanel12";
             tableLayoutPanel12.RowCount = 1;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel12.Size = new Size(1563, 95);
+            tableLayoutPanel12.Size = new Size(1249, 76);
             tableLayoutPanel12.TabIndex = 18;
             // 
             // SetupTabPage
             // 
             SetupTabPage.Controls.Add(tableLayoutPanel11);
-            SetupTabPage.Location = new Point(4, 29);
-            SetupTabPage.Margin = new Padding(4, 5, 4, 5);
+            SetupTabPage.Location = new Point(4, 22);
+            SetupTabPage.Margin = new Padding(3, 4, 3, 4);
             SetupTabPage.Name = "SetupTabPage";
-            SetupTabPage.Padding = new Padding(4, 5, 4, 5);
-            SetupTabPage.Size = new Size(1571, 105);
+            SetupTabPage.Padding = new Padding(3, 4, 3, 4);
+            SetupTabPage.Size = new Size(1255, 84);
             SetupTabPage.TabIndex = 7;
             SetupTabPage.Text = "Setup";
             SetupTabPage.UseVisualStyleBackColor = true;
@@ -241,22 +241,22 @@
             tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel11.Dock = DockStyle.Fill;
-            tableLayoutPanel11.Location = new Point(4, 5);
-            tableLayoutPanel11.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel11.Location = new Point(3, 4);
+            tableLayoutPanel11.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
             tableLayoutPanel11.RowCount = 1;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel11.Size = new Size(1563, 95);
+            tableLayoutPanel11.Size = new Size(1249, 76);
             tableLayoutPanel11.TabIndex = 18;
             // 
             // MiscellaneousTabPage
             // 
             MiscellaneousTabPage.Controls.Add(tableLayoutPanel9);
-            MiscellaneousTabPage.Location = new Point(4, 29);
-            MiscellaneousTabPage.Margin = new Padding(4, 5, 4, 5);
+            MiscellaneousTabPage.Location = new Point(4, 22);
+            MiscellaneousTabPage.Margin = new Padding(3, 4, 3, 4);
             MiscellaneousTabPage.Name = "MiscellaneousTabPage";
-            MiscellaneousTabPage.Padding = new Padding(4, 5, 4, 5);
-            MiscellaneousTabPage.Size = new Size(1571, 105);
+            MiscellaneousTabPage.Padding = new Padding(3, 4, 3, 4);
+            MiscellaneousTabPage.Size = new Size(1255, 84);
             MiscellaneousTabPage.TabIndex = 6;
             MiscellaneousTabPage.Text = "Miscellaneous";
             MiscellaneousTabPage.UseVisualStyleBackColor = true;
@@ -267,22 +267,22 @@
             tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel9.Dock = DockStyle.Fill;
-            tableLayoutPanel9.Location = new Point(4, 5);
-            tableLayoutPanel9.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel9.Location = new Point(3, 4);
+            tableLayoutPanel9.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel9.Name = "tableLayoutPanel9";
             tableLayoutPanel9.RowCount = 1;
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel9.Size = new Size(1563, 95);
+            tableLayoutPanel9.Size = new Size(1249, 76);
             tableLayoutPanel9.TabIndex = 18;
             // 
             // CommissionsTabPage
             // 
             CommissionsTabPage.Controls.Add(tableLayoutPanel8);
-            CommissionsTabPage.Location = new Point(4, 29);
-            CommissionsTabPage.Margin = new Padding(4, 5, 4, 5);
+            CommissionsTabPage.Location = new Point(4, 22);
+            CommissionsTabPage.Margin = new Padding(3, 4, 3, 4);
             CommissionsTabPage.Name = "CommissionsTabPage";
-            CommissionsTabPage.Padding = new Padding(4, 5, 4, 5);
-            CommissionsTabPage.Size = new Size(1571, 105);
+            CommissionsTabPage.Padding = new Padding(3, 4, 3, 4);
+            CommissionsTabPage.Size = new Size(1255, 84);
             CommissionsTabPage.TabIndex = 5;
             CommissionsTabPage.Text = "Commissions";
             CommissionsTabPage.UseVisualStyleBackColor = true;
@@ -293,22 +293,22 @@
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel8.Dock = DockStyle.Fill;
-            tableLayoutPanel8.Location = new Point(4, 5);
-            tableLayoutPanel8.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel8.Location = new Point(3, 4);
+            tableLayoutPanel8.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 1;
             tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel8.Size = new Size(1563, 95);
+            tableLayoutPanel8.Size = new Size(1249, 76);
             tableLayoutPanel8.TabIndex = 18;
             // 
             // ARTabPage
             // 
             ARTabPage.Controls.Add(tableLayoutPanel6);
-            ARTabPage.Location = new Point(4, 29);
-            ARTabPage.Margin = new Padding(4, 5, 4, 5);
+            ARTabPage.Location = new Point(4, 22);
+            ARTabPage.Margin = new Padding(3, 4, 3, 4);
             ARTabPage.Name = "ARTabPage";
-            ARTabPage.Padding = new Padding(4, 5, 4, 5);
-            ARTabPage.Size = new Size(1571, 105);
+            ARTabPage.Padding = new Padding(3, 4, 3, 4);
+            ARTabPage.Size = new Size(1255, 84);
             ARTabPage.TabIndex = 4;
             ARTabPage.Text = "AR";
             ARTabPage.UseVisualStyleBackColor = true;
@@ -319,22 +319,22 @@
             tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel6.Dock = DockStyle.Fill;
-            tableLayoutPanel6.Location = new Point(4, 5);
-            tableLayoutPanel6.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel6.Location = new Point(3, 4);
+            tableLayoutPanel6.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 1;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.Size = new Size(1563, 95);
+            tableLayoutPanel6.Size = new Size(1249, 76);
             tableLayoutPanel6.TabIndex = 18;
             // 
             // RoomsManagmentTabPage
             // 
             RoomsManagmentTabPage.Controls.Add(tableLayoutPanel5);
-            RoomsManagmentTabPage.Location = new Point(4, 29);
-            RoomsManagmentTabPage.Margin = new Padding(4, 5, 4, 5);
+            RoomsManagmentTabPage.Location = new Point(4, 22);
+            RoomsManagmentTabPage.Margin = new Padding(3, 4, 3, 4);
             RoomsManagmentTabPage.Name = "RoomsManagmentTabPage";
-            RoomsManagmentTabPage.Padding = new Padding(4, 5, 4, 5);
-            RoomsManagmentTabPage.Size = new Size(1571, 105);
+            RoomsManagmentTabPage.Padding = new Padding(3, 4, 3, 4);
+            RoomsManagmentTabPage.Size = new Size(1255, 84);
             RoomsManagmentTabPage.TabIndex = 3;
             RoomsManagmentTabPage.Text = "Rooms Managment";
             RoomsManagmentTabPage.UseVisualStyleBackColor = true;
@@ -351,12 +351,12 @@
             tableLayoutPanel5.Controls.Add(HousekeepingButton, 0, 0);
             tableLayoutPanel5.Controls.Add(OutOfOrderServiceButton, 0, 0);
             tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(4, 5);
-            tableLayoutPanel5.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel5.Location = new Point(3, 4);
+            tableLayoutPanel5.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel5.Size = new Size(1563, 95);
+            tableLayoutPanel5.Size = new Size(1249, 76);
             tableLayoutPanel5.TabIndex = 18;
             // 
             // RoomHistoryButton
@@ -365,10 +365,10 @@
             RoomHistoryButton.FlatAppearance.BorderSize = 0;
             RoomHistoryButton.FlatStyle = FlatStyle.Flat;
             RoomHistoryButton.Image = Properties.Resources.indefinite_32x32;
-            RoomHistoryButton.Location = new Point(784, 5);
-            RoomHistoryButton.Margin = new Padding(4, 5, 4, 5);
+            RoomHistoryButton.Location = new Point(627, 4);
+            RoomHistoryButton.Margin = new Padding(3, 4, 3, 4);
             RoomHistoryButton.Name = "RoomHistoryButton";
-            RoomHistoryButton.Size = new Size(382, 85);
+            RoomHistoryButton.Size = new Size(306, 68);
             RoomHistoryButton.TabIndex = 20;
             RoomHistoryButton.Text = "Room History";
             RoomHistoryButton.TextAlign = ContentAlignment.BottomCenter;
@@ -381,10 +381,10 @@
             OccupancyGraphButton.FlatAppearance.BorderSize = 0;
             OccupancyGraphButton.FlatStyle = FlatStyle.Flat;
             OccupancyGraphButton.Image = Properties.Resources.indefinite_32x32;
-            OccupancyGraphButton.Location = new Point(1174, 5);
-            OccupancyGraphButton.Margin = new Padding(4, 5, 4, 5);
+            OccupancyGraphButton.Location = new Point(939, 4);
+            OccupancyGraphButton.Margin = new Padding(3, 4, 3, 4);
             OccupancyGraphButton.Name = "OccupancyGraphButton";
-            OccupancyGraphButton.Size = new Size(385, 85);
+            OccupancyGraphButton.Size = new Size(307, 68);
             OccupancyGraphButton.TabIndex = 19;
             OccupancyGraphButton.Text = "Occupancy Graph";
             OccupancyGraphButton.TextAlign = ContentAlignment.BottomCenter;
@@ -397,10 +397,10 @@
             HousekeepingButton.FlatAppearance.BorderSize = 0;
             HousekeepingButton.FlatStyle = FlatStyle.Flat;
             HousekeepingButton.Image = Properties.Resources.indefinite_32x32;
-            HousekeepingButton.Location = new Point(4, 5);
-            HousekeepingButton.Margin = new Padding(4, 5, 4, 5);
+            HousekeepingButton.Location = new Point(3, 4);
+            HousekeepingButton.Margin = new Padding(3, 4, 3, 4);
             HousekeepingButton.Name = "HousekeepingButton";
-            HousekeepingButton.Size = new Size(382, 85);
+            HousekeepingButton.Size = new Size(306, 68);
             HousekeepingButton.TabIndex = 18;
             HousekeepingButton.Text = "Housekeeping";
             HousekeepingButton.TextAlign = ContentAlignment.BottomCenter;
@@ -413,10 +413,10 @@
             OutOfOrderServiceButton.FlatAppearance.BorderSize = 0;
             OutOfOrderServiceButton.FlatStyle = FlatStyle.Flat;
             OutOfOrderServiceButton.Image = Properties.Resources.indefinite_32x32;
-            OutOfOrderServiceButton.Location = new Point(394, 5);
-            OutOfOrderServiceButton.Margin = new Padding(4, 5, 4, 5);
+            OutOfOrderServiceButton.Location = new Point(315, 4);
+            OutOfOrderServiceButton.Margin = new Padding(3, 4, 3, 4);
             OutOfOrderServiceButton.Name = "OutOfOrderServiceButton";
-            OutOfOrderServiceButton.Size = new Size(382, 85);
+            OutOfOrderServiceButton.Size = new Size(306, 68);
             OutOfOrderServiceButton.TabIndex = 17;
             OutOfOrderServiceButton.Text = "Out Of Order/Service";
             OutOfOrderServiceButton.TextAlign = ContentAlignment.BottomCenter;
@@ -426,11 +426,11 @@
             // CasheiringTabPage
             // 
             CasheiringTabPage.Controls.Add(tableLayoutPanel4);
-            CasheiringTabPage.Location = new Point(4, 29);
-            CasheiringTabPage.Margin = new Padding(4, 5, 4, 5);
+            CasheiringTabPage.Location = new Point(4, 22);
+            CasheiringTabPage.Margin = new Padding(3, 4, 3, 4);
             CasheiringTabPage.Name = "CasheiringTabPage";
-            CasheiringTabPage.Padding = new Padding(4, 5, 4, 5);
-            CasheiringTabPage.Size = new Size(1571, 105);
+            CasheiringTabPage.Padding = new Padding(3, 4, 3, 4);
+            CasheiringTabPage.Size = new Size(1255, 84);
             CasheiringTabPage.TabIndex = 2;
             CasheiringTabPage.Text = "Casheiring";
             CasheiringTabPage.UseVisualStyleBackColor = true;
@@ -451,12 +451,12 @@
             tableLayoutPanel4.Controls.Add(FastPostingButton, 0, 0);
             tableLayoutPanel4.Controls.Add(QuickCheckOutButton, 0, 0);
             tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(4, 5);
-            tableLayoutPanel4.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel4.Location = new Point(3, 4);
+            tableLayoutPanel4.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(1563, 95);
+            tableLayoutPanel4.Size = new Size(1249, 76);
             tableLayoutPanel4.TabIndex = 18;
             // 
             // PasserByButton
@@ -466,10 +466,10 @@
             PasserByButton.FlatAppearance.BorderSize = 0;
             PasserByButton.FlatStyle = FlatStyle.Flat;
             PasserByButton.Image = Properties.Resources.indefinite_32x32;
-            PasserByButton.Location = new Point(784, 5);
-            PasserByButton.Margin = new Padding(4, 5, 4, 5);
+            PasserByButton.Location = new Point(627, 4);
+            PasserByButton.Margin = new Padding(3, 4, 3, 4);
             PasserByButton.Name = "PasserByButton";
-            PasserByButton.Size = new Size(252, 85);
+            PasserByButton.Size = new Size(202, 68);
             PasserByButton.TabIndex = 14;
             PasserByButton.Text = "Passer By";
             PasserByButton.TextAlign = ContentAlignment.BottomCenter;
@@ -483,10 +483,10 @@
             CashierFunctionsButton.FlatAppearance.BorderSize = 0;
             CashierFunctionsButton.FlatStyle = FlatStyle.Flat;
             CashierFunctionsButton.Image = Properties.Resources.indefinite_32x32;
-            CashierFunctionsButton.Location = new Point(1044, 5);
-            CashierFunctionsButton.Margin = new Padding(4, 5, 4, 5);
+            CashierFunctionsButton.Location = new Point(835, 4);
+            CashierFunctionsButton.Margin = new Padding(3, 4, 3, 4);
             CashierFunctionsButton.Name = "CashierFunctionsButton";
-            CashierFunctionsButton.Size = new Size(252, 85);
+            CashierFunctionsButton.Size = new Size(202, 68);
             CashierFunctionsButton.TabIndex = 13;
             CashierFunctionsButton.Text = "Cashier Functions";
             CashierFunctionsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -500,10 +500,10 @@
             CashierShiftFunctionsButton.FlatAppearance.BorderSize = 0;
             CashierShiftFunctionsButton.FlatStyle = FlatStyle.Flat;
             CashierShiftFunctionsButton.Image = Properties.Resources.indefinite_32x32;
-            CashierShiftFunctionsButton.Location = new Point(1304, 5);
-            CashierShiftFunctionsButton.Margin = new Padding(4, 5, 4, 5);
+            CashierShiftFunctionsButton.Location = new Point(1043, 4);
+            CashierShiftFunctionsButton.Margin = new Padding(3, 4, 3, 4);
             CashierShiftFunctionsButton.Name = "CashierShiftFunctionsButton";
-            CashierShiftFunctionsButton.Size = new Size(255, 85);
+            CashierShiftFunctionsButton.Size = new Size(203, 68);
             CashierShiftFunctionsButton.TabIndex = 12;
             CashierShiftFunctionsButton.Text = "Cashier Shift Functions";
             CashierShiftFunctionsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -516,10 +516,10 @@
             BillingButton.FlatAppearance.BorderSize = 0;
             BillingButton.FlatStyle = FlatStyle.Flat;
             BillingButton.Image = Properties.Resources.indefinite_32x32;
-            BillingButton.Location = new Point(4, 5);
-            BillingButton.Margin = new Padding(4, 5, 4, 5);
+            BillingButton.Location = new Point(3, 4);
+            BillingButton.Margin = new Padding(3, 4, 3, 4);
             BillingButton.Name = "BillingButton";
-            BillingButton.Size = new Size(252, 85);
+            BillingButton.Size = new Size(202, 68);
             BillingButton.TabIndex = 11;
             BillingButton.Text = "Billing";
             BillingButton.TextAlign = ContentAlignment.BottomCenter;
@@ -532,10 +532,10 @@
             FastPostingButton.FlatAppearance.BorderSize = 0;
             FastPostingButton.FlatStyle = FlatStyle.Flat;
             FastPostingButton.Image = Properties.Resources.indefinite_32x32;
-            FastPostingButton.Location = new Point(264, 5);
-            FastPostingButton.Margin = new Padding(4, 5, 4, 5);
+            FastPostingButton.Location = new Point(211, 4);
+            FastPostingButton.Margin = new Padding(3, 4, 3, 4);
             FastPostingButton.Name = "FastPostingButton";
-            FastPostingButton.Size = new Size(252, 85);
+            FastPostingButton.Size = new Size(202, 68);
             FastPostingButton.TabIndex = 10;
             FastPostingButton.Text = "Fast Posting";
             FastPostingButton.TextAlign = ContentAlignment.BottomCenter;
@@ -548,10 +548,10 @@
             QuickCheckOutButton.FlatAppearance.BorderSize = 0;
             QuickCheckOutButton.FlatStyle = FlatStyle.Flat;
             QuickCheckOutButton.Image = Properties.Resources.indefinite_32x32;
-            QuickCheckOutButton.Location = new Point(524, 5);
-            QuickCheckOutButton.Margin = new Padding(4, 5, 4, 5);
+            QuickCheckOutButton.Location = new Point(419, 4);
+            QuickCheckOutButton.Margin = new Padding(3, 4, 3, 4);
             QuickCheckOutButton.Name = "QuickCheckOutButton";
-            QuickCheckOutButton.Size = new Size(252, 85);
+            QuickCheckOutButton.Size = new Size(202, 68);
             QuickCheckOutButton.TabIndex = 9;
             QuickCheckOutButton.Text = "Quick Check Out";
             QuickCheckOutButton.TextAlign = ContentAlignment.BottomCenter;
@@ -574,12 +574,12 @@
             tableLayoutPanel2.Controls.Add(InHouseGuestsButton, 0, 0);
             tableLayoutPanel2.Controls.Add(AccountsButton, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(4, 5);
-            tableLayoutPanel2.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel2.Location = new Point(3, 4);
+            tableLayoutPanel2.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1563, 95);
+            tableLayoutPanel2.Size = new Size(1249, 76);
             tableLayoutPanel2.TabIndex = 0;
             // 
             // RoomAssigmentButton
@@ -589,10 +589,10 @@
             RoomAssigmentButton.FlatAppearance.BorderSize = 0;
             RoomAssigmentButton.FlatStyle = FlatStyle.Flat;
             RoomAssigmentButton.Image = Properties.Resources.indefinite_32x32;
-            RoomAssigmentButton.Location = new Point(784, 5);
-            RoomAssigmentButton.Margin = new Padding(4, 5, 4, 5);
+            RoomAssigmentButton.Location = new Point(627, 4);
+            RoomAssigmentButton.Margin = new Padding(3, 4, 3, 4);
             RoomAssigmentButton.Name = "RoomAssigmentButton";
-            RoomAssigmentButton.Size = new Size(252, 85);
+            RoomAssigmentButton.Size = new Size(202, 68);
             RoomAssigmentButton.TabIndex = 10;
             RoomAssigmentButton.Text = "Room Assigment";
             RoomAssigmentButton.TextAlign = ContentAlignment.BottomCenter;
@@ -605,10 +605,10 @@
             MessagesButton.FlatAppearance.BorderSize = 0;
             MessagesButton.FlatStyle = FlatStyle.Flat;
             MessagesButton.Image = Properties.Resources.indefinite_32x32;
-            MessagesButton.Location = new Point(1044, 5);
-            MessagesButton.Margin = new Padding(4, 5, 4, 5);
+            MessagesButton.Location = new Point(835, 4);
+            MessagesButton.Margin = new Padding(3, 4, 3, 4);
             MessagesButton.Name = "MessagesButton";
-            MessagesButton.Size = new Size(252, 85);
+            MessagesButton.Size = new Size(202, 68);
             MessagesButton.TabIndex = 9;
             MessagesButton.Text = "Messages";
             MessagesButton.TextAlign = ContentAlignment.BottomCenter;
@@ -622,10 +622,10 @@
             TracesButton.FlatAppearance.BorderSize = 0;
             TracesButton.FlatStyle = FlatStyle.Flat;
             TracesButton.Image = Properties.Resources.indefinite_32x32;
-            TracesButton.Location = new Point(1304, 5);
-            TracesButton.Margin = new Padding(4, 5, 4, 5);
+            TracesButton.Location = new Point(1043, 4);
+            TracesButton.Margin = new Padding(3, 4, 3, 4);
             TracesButton.Name = "TracesButton";
-            TracesButton.Size = new Size(255, 85);
+            TracesButton.Size = new Size(203, 68);
             TracesButton.TabIndex = 8;
             TracesButton.Text = "Traces";
             TracesButton.TextAlign = ContentAlignment.BottomCenter;
@@ -638,10 +638,10 @@
             ArrivalsButton.FlatAppearance.BorderSize = 0;
             ArrivalsButton.FlatStyle = FlatStyle.Flat;
             ArrivalsButton.Image = Properties.Resources.indefinite_32x32;
-            ArrivalsButton.Location = new Point(4, 5);
-            ArrivalsButton.Margin = new Padding(4, 5, 4, 5);
+            ArrivalsButton.Location = new Point(3, 4);
+            ArrivalsButton.Margin = new Padding(3, 4, 3, 4);
             ArrivalsButton.Name = "ArrivalsButton";
-            ArrivalsButton.Size = new Size(252, 85);
+            ArrivalsButton.Size = new Size(202, 68);
             ArrivalsButton.TabIndex = 7;
             ArrivalsButton.Text = "Arrivals";
             ArrivalsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -654,10 +654,10 @@
             InHouseGuestsButton.FlatAppearance.BorderSize = 0;
             InHouseGuestsButton.FlatStyle = FlatStyle.Flat;
             InHouseGuestsButton.Image = Properties.Resources.indefinite_32x32;
-            InHouseGuestsButton.Location = new Point(264, 5);
-            InHouseGuestsButton.Margin = new Padding(4, 5, 4, 5);
+            InHouseGuestsButton.Location = new Point(211, 4);
+            InHouseGuestsButton.Margin = new Padding(3, 4, 3, 4);
             InHouseGuestsButton.Name = "InHouseGuestsButton";
-            InHouseGuestsButton.Size = new Size(252, 85);
+            InHouseGuestsButton.Size = new Size(202, 68);
             InHouseGuestsButton.TabIndex = 6;
             InHouseGuestsButton.Text = "In House Guests";
             InHouseGuestsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -671,10 +671,10 @@
             AccountsButton.FlatAppearance.BorderSize = 0;
             AccountsButton.FlatStyle = FlatStyle.Flat;
             AccountsButton.Image = Properties.Resources.indefinite_32x32;
-            AccountsButton.Location = new Point(524, 5);
-            AccountsButton.Margin = new Padding(4, 5, 4, 5);
+            AccountsButton.Location = new Point(419, 4);
+            AccountsButton.Margin = new Padding(3, 4, 3, 4);
             AccountsButton.Name = "AccountsButton";
-            AccountsButton.Size = new Size(252, 85);
+            AccountsButton.Size = new Size(202, 68);
             AccountsButton.TabIndex = 5;
             AccountsButton.Text = "Accounts";
             AccountsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -684,11 +684,11 @@
             // ReservationsTabPage
             // 
             ReservationsTabPage.Controls.Add(ReservationsLayoutPanel);
-            ReservationsTabPage.Location = new Point(4, 29);
-            ReservationsTabPage.Margin = new Padding(4, 5, 4, 5);
+            ReservationsTabPage.Location = new Point(4, 22);
+            ReservationsTabPage.Margin = new Padding(3, 4, 3, 4);
             ReservationsTabPage.Name = "ReservationsTabPage";
-            ReservationsTabPage.Padding = new Padding(4, 5, 4, 5);
-            ReservationsTabPage.Size = new Size(1571, 105);
+            ReservationsTabPage.Padding = new Padding(3, 4, 3, 4);
+            ReservationsTabPage.Size = new Size(1255, 84);
             ReservationsTabPage.TabIndex = 11;
             ReservationsTabPage.Text = "Reservations";
             ReservationsTabPage.UseVisualStyleBackColor = true;
@@ -715,12 +715,12 @@
             ReservationsLayoutPanel.Controls.Add(ProfilesButton, 0, 0);
             ReservationsLayoutPanel.Controls.Add(BlocksButton, 0, 0);
             ReservationsLayoutPanel.Dock = DockStyle.Fill;
-            ReservationsLayoutPanel.Location = new Point(4, 5);
-            ReservationsLayoutPanel.Margin = new Padding(4, 5, 4, 5);
+            ReservationsLayoutPanel.Location = new Point(3, 4);
+            ReservationsLayoutPanel.Margin = new Padding(3, 4, 3, 4);
             ReservationsLayoutPanel.Name = "ReservationsLayoutPanel";
             ReservationsLayoutPanel.RowCount = 1;
             ReservationsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            ReservationsLayoutPanel.Size = new Size(1563, 95);
+            ReservationsLayoutPanel.Size = new Size(1249, 76);
             ReservationsLayoutPanel.TabIndex = 18;
             // 
             // ConfirmationButton
@@ -730,10 +730,10 @@
             ConfirmationButton.FlatAppearance.BorderSize = 0;
             ConfirmationButton.FlatStyle = FlatStyle.Flat;
             ConfirmationButton.Image = Properties.Resources.indefinite_32x32;
-            ConfirmationButton.Location = new Point(1049, 5);
-            ConfirmationButton.Margin = new Padding(4, 5, 4, 5);
+            ConfirmationButton.Location = new Point(836, 4);
+            ConfirmationButton.Margin = new Padding(3, 4, 3, 4);
             ConfirmationButton.Name = "ConfirmationButton";
-            ConfirmationButton.Size = new Size(158, 85);
+            ConfirmationButton.Size = new Size(126, 68);
             ConfirmationButton.TabIndex = 10;
             ConfirmationButton.Text = "Confirmation";
             ConfirmationButton.TextAlign = ContentAlignment.BottomCenter;
@@ -747,10 +747,10 @@
             FloorPlanButton.FlatAppearance.BorderSize = 0;
             FloorPlanButton.FlatStyle = FlatStyle.Flat;
             FloorPlanButton.Image = Properties.Resources.indefinite_32x32;
-            FloorPlanButton.Location = new Point(883, 5);
-            FloorPlanButton.Margin = new Padding(4, 5, 4, 5);
+            FloorPlanButton.Location = new Point(704, 4);
+            FloorPlanButton.Margin = new Padding(3, 4, 3, 4);
             FloorPlanButton.Name = "FloorPlanButton";
-            FloorPlanButton.Size = new Size(158, 85);
+            FloorPlanButton.Size = new Size(126, 68);
             FloorPlanButton.TabIndex = 9;
             FloorPlanButton.Text = "Floor Plan";
             FloorPlanButton.TextAlign = ContentAlignment.BottomCenter;
@@ -763,10 +763,10 @@
             CalendarButton.FlatAppearance.BorderSize = 0;
             CalendarButton.FlatStyle = FlatStyle.Flat;
             CalendarButton.Image = Properties.Resources.indefinite_32x32;
-            CalendarButton.Location = new Point(1398, 5);
-            CalendarButton.Margin = new Padding(4, 5, 4, 5);
+            CalendarButton.Location = new Point(1114, 4);
+            CalendarButton.Margin = new Padding(3, 4, 3, 4);
             CalendarButton.Name = "CalendarButton";
-            CalendarButton.Size = new Size(161, 85);
+            CalendarButton.Size = new Size(132, 68);
             CalendarButton.TabIndex = 8;
             CalendarButton.Text = "Calendar";
             CalendarButton.TextAlign = ContentAlignment.BottomCenter;
@@ -780,10 +780,10 @@
             RegistrationCardsButton.FlatAppearance.BorderSize = 0;
             RegistrationCardsButton.FlatStyle = FlatStyle.Flat;
             RegistrationCardsButton.Image = Properties.Resources.indefinite_32x32;
-            RegistrationCardsButton.Location = new Point(1215, 5);
-            RegistrationCardsButton.Margin = new Padding(4, 5, 4, 5);
+            RegistrationCardsButton.Location = new Point(968, 4);
+            RegistrationCardsButton.Margin = new Padding(3, 4, 3, 4);
             RegistrationCardsButton.Name = "RegistrationCardsButton";
-            RegistrationCardsButton.Size = new Size(175, 85);
+            RegistrationCardsButton.Size = new Size(140, 68);
             RegistrationCardsButton.TabIndex = 7;
             RegistrationCardsButton.Text = "Registration Cards";
             RegistrationCardsButton.TextAlign = ContentAlignment.BottomCenter;
@@ -796,10 +796,10 @@
             RoomPlanButton.FlatAppearance.BorderSize = 0;
             RoomPlanButton.FlatStyle = FlatStyle.Flat;
             RoomPlanButton.Image = Properties.Resources.indefinite_32x32;
-            RoomPlanButton.Location = new Point(717, 5);
-            RoomPlanButton.Margin = new Padding(4, 5, 4, 5);
+            RoomPlanButton.Location = new Point(572, 4);
+            RoomPlanButton.Margin = new Padding(3, 4, 3, 4);
             RoomPlanButton.Name = "RoomPlanButton";
-            RoomPlanButton.Size = new Size(158, 85);
+            RoomPlanButton.Size = new Size(126, 68);
             RoomPlanButton.TabIndex = 6;
             RoomPlanButton.Text = "Room Plan";
             RoomPlanButton.TextAlign = ContentAlignment.BottomCenter;
@@ -812,10 +812,10 @@
             UpdateReservationButton.FlatAppearance.BorderSize = 0;
             UpdateReservationButton.FlatStyle = FlatStyle.Flat;
             UpdateReservationButton.Image = Properties.Resources.indefinite_32x32;
-            UpdateReservationButton.Location = new Point(189, 5);
-            UpdateReservationButton.Margin = new Padding(4, 5, 4, 5);
+            UpdateReservationButton.Location = new Point(151, 4);
+            UpdateReservationButton.Margin = new Padding(3, 4, 3, 4);
             UpdateReservationButton.Name = "UpdateReservationButton";
-            UpdateReservationButton.Size = new Size(188, 85);
+            UpdateReservationButton.Size = new Size(151, 68);
             UpdateReservationButton.TabIndex = 5;
             UpdateReservationButton.Text = "Update Reservation";
             UpdateReservationButton.TextAlign = ContentAlignment.BottomCenter;
@@ -828,10 +828,10 @@
             NewReservationButton.FlatAppearance.BorderSize = 0;
             NewReservationButton.FlatStyle = FlatStyle.Flat;
             NewReservationButton.Image = Properties.Resources.indefinite_32x32;
-            NewReservationButton.Location = new Point(4, 5);
-            NewReservationButton.Margin = new Padding(4, 5, 4, 5);
+            NewReservationButton.Location = new Point(3, 4);
+            NewReservationButton.Margin = new Padding(3, 4, 3, 4);
             NewReservationButton.Name = "NewReservationButton";
-            NewReservationButton.Size = new Size(177, 85);
+            NewReservationButton.Size = new Size(142, 68);
             NewReservationButton.TabIndex = 4;
             NewReservationButton.Text = "New Reservation";
             NewReservationButton.TextAlign = ContentAlignment.BottomCenter;
@@ -845,15 +845,16 @@
             ProfilesButton.FlatAppearance.BorderSize = 0;
             ProfilesButton.FlatStyle = FlatStyle.Flat;
             ProfilesButton.Image = Properties.Resources.indefinite_32x32;
-            ProfilesButton.Location = new Point(551, 5);
-            ProfilesButton.Margin = new Padding(4, 5, 4, 5);
+            ProfilesButton.Location = new Point(440, 4);
+            ProfilesButton.Margin = new Padding(3, 4, 3, 4);
             ProfilesButton.Name = "ProfilesButton";
-            ProfilesButton.Size = new Size(158, 85);
+            ProfilesButton.Size = new Size(126, 68);
             ProfilesButton.TabIndex = 3;
             ProfilesButton.Text = "Profiles";
             ProfilesButton.TextAlign = ContentAlignment.BottomCenter;
             ProfilesButton.TextImageRelation = TextImageRelation.ImageAboveText;
             ProfilesButton.UseVisualStyleBackColor = true;
+            ProfilesButton.Click += ProfilesButton_Click;
             // 
             // BlocksButton
             // 
@@ -862,10 +863,10 @@
             BlocksButton.FlatAppearance.BorderSize = 0;
             BlocksButton.FlatStyle = FlatStyle.Flat;
             BlocksButton.Image = Properties.Resources.indefinite_32x32;
-            BlocksButton.Location = new Point(385, 5);
-            BlocksButton.Margin = new Padding(4, 5, 4, 5);
+            BlocksButton.Location = new Point(308, 4);
+            BlocksButton.Margin = new Padding(3, 4, 3, 4);
             BlocksButton.Name = "BlocksButton";
-            BlocksButton.Size = new Size(158, 85);
+            BlocksButton.Size = new Size(126, 68);
             BlocksButton.TabIndex = 2;
             BlocksButton.Text = "Blocks";
             BlocksButton.TextAlign = ContentAlignment.BottomCenter;
@@ -887,21 +888,21 @@
             MenuControl.Controls.Add(ExitTabPage);
             MenuControl.Dock = DockStyle.Top;
             MenuControl.Location = new Point(0, 0);
-            MenuControl.Margin = new Padding(4, 5, 4, 5);
+            MenuControl.Margin = new Padding(3, 4, 3, 4);
             MenuControl.Name = "MenuControl";
             MenuControl.SelectedIndex = 0;
-            MenuControl.Size = new Size(1579, 138);
+            MenuControl.Size = new Size(1263, 110);
             MenuControl.SizeMode = TabSizeMode.Fixed;
             MenuControl.TabIndex = 14;
             // 
             // FrontDeskTabPage
             // 
             FrontDeskTabPage.Controls.Add(tableLayoutPanel2);
-            FrontDeskTabPage.Location = new Point(4, 29);
-            FrontDeskTabPage.Margin = new Padding(4, 5, 4, 5);
+            FrontDeskTabPage.Location = new Point(4, 22);
+            FrontDeskTabPage.Margin = new Padding(3, 4, 3, 4);
             FrontDeskTabPage.Name = "FrontDeskTabPage";
-            FrontDeskTabPage.Padding = new Padding(4, 5, 4, 5);
-            FrontDeskTabPage.Size = new Size(1571, 105);
+            FrontDeskTabPage.Padding = new Padding(3, 4, 3, 4);
+            FrontDeskTabPage.Size = new Size(1255, 84);
             FrontDeskTabPage.TabIndex = 12;
             FrontDeskTabPage.Text = "Front Desk";
             FrontDeskTabPage.UseVisualStyleBackColor = true;
@@ -909,11 +910,11 @@
             // ExitTabPage
             // 
             ExitTabPage.Controls.Add(tableLayoutPanel1);
-            ExitTabPage.Location = new Point(4, 29);
-            ExitTabPage.Margin = new Padding(4, 5, 4, 5);
+            ExitTabPage.Location = new Point(4, 22);
+            ExitTabPage.Margin = new Padding(3, 4, 3, 4);
             ExitTabPage.Name = "ExitTabPage";
-            ExitTabPage.Padding = new Padding(4, 5, 4, 5);
-            ExitTabPage.Size = new Size(1571, 105);
+            ExitTabPage.Padding = new Padding(3, 4, 3, 4);
+            ExitTabPage.Size = new Size(1255, 84);
             ExitTabPage.TabIndex = 13;
             ExitTabPage.Text = "Exit";
             ExitTabPage.UseVisualStyleBackColor = true;
@@ -925,29 +926,29 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(ExitButton, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(4, 5);
-            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel1.Location = new Point(3, 4);
+            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1563, 95);
+            tableLayoutPanel1.Size = new Size(1249, 76);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
             statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
-            statusStrip1.Location = new Point(0, 914);
+            statusStrip1.Location = new Point(0, 730);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Padding = new Padding(1, 0, 19, 0);
-            statusStrip1.Size = new Size(1579, 26);
+            statusStrip1.Padding = new Padding(1, 0, 15, 0);
+            statusStrip1.Size = new Size(1263, 22);
             statusStrip1.TabIndex = 16;
             statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(121, 20);
+            toolStripStatusLabel1.Size = new Size(88, 17);
             toolStripStatusLabel1.Text = "Stariy X Zaguzga";
             // 
             // SplashScreenBackgroundWorker
@@ -957,18 +958,18 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1579, 940);
+            ClientSize = new Size(1263, 752);
             Controls.Add(statusStrip1);
             Controls.Add(MenuControl);
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
-            Margin = new Padding(4, 5, 4, 5);
-            MinimumSize = new Size(1327, 975);
+            Margin = new Padding(3, 4, 3, 4);
+            MinimumSize = new Size(1065, 788);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HotelEDU";

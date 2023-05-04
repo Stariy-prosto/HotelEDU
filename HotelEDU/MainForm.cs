@@ -97,5 +97,12 @@ namespace HotelEDU
             //Завершение работы без сохранения
             Application.Exit();
         }
+
+        private void ProfilesButton_Click(object sender, EventArgs e)
+        {
+            ProfileSearchForm profileSearch = new ProfileSearchForm();
+            profileSearch.MdiParent = this;
+            profileSearch.Show();
+        }
     }
 }
