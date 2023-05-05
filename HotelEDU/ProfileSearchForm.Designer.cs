@@ -32,478 +32,478 @@ namespace HotelEDU
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfileSearchForm));
-            ProfilesDataGridView = new DataGridView();
-            ProfileDetailLabel = new Label();
-            FutureDataGridView = new DataGridView();
-            FutureGroupBox = new GroupBox();
-            panel1 = new Panel();
-            ReservationButton = new Button();
-            OKButton = new Button();
-            NewButton = new Button();
-            EditButton = new Button();
-            CloseButton = new Button();
-            ClearButton = new Button();
-            SearchButton = new Button();
-            NegRatesCheckBox = new CheckBox();
-            ShowInavtiveCheckBox = new CheckBox();
-            NameLabel = new Label();
-            MemTypeLabel = new Label();
-            PassportLabel = new Label();
-            CityLabel = new Label();
-            CommunicationLabel = new Label();
-            MemTypeButton = new Button();
-            PassportTextBox = new TextBox();
-            CityTextBox = new TextBox();
-            CityButton = new Button();
-            MemTypeTextBox = new TextBox();
-            ViewByComboBox = new ComboBox();
-            FirstNameTextBox = new TextBox();
-            FirstNameLabel = new Label();
-            NameTextBox = new TextBox();
-            ViewByLabel = new Label();
-            CommunicationTextBox = new TextBox();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel3 = new TableLayoutPanel();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)ProfilesDataGridView).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)FutureDataGridView).BeginInit();
-            FutureGroupBox.SuspendLayout();
-            panel1.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel3.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            SuspendLayout();
+            this.ProfilesDataGridView = new System.Windows.Forms.DataGridView();
+            this.ProfileDetailLabel = new System.Windows.Forms.Label();
+            this.FutureDataGridView = new System.Windows.Forms.DataGridView();
+            this.FutureGroupBox = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.ReservationButton = new System.Windows.Forms.Button();
+            this.OKButton = new System.Windows.Forms.Button();
+            this.NewButton = new System.Windows.Forms.Button();
+            this.EditButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.ClearButton = new System.Windows.Forms.Button();
+            this.SearchButton = new System.Windows.Forms.Button();
+            this.NegRatesCheckBox = new System.Windows.Forms.CheckBox();
+            this.ShowInavtiveCheckBox = new System.Windows.Forms.CheckBox();
+            this.NameLabel = new System.Windows.Forms.Label();
+            this.MemTypeLabel = new System.Windows.Forms.Label();
+            this.PassportLabel = new System.Windows.Forms.Label();
+            this.CityLabel = new System.Windows.Forms.Label();
+            this.CommunicationLabel = new System.Windows.Forms.Label();
+            this.MemTypeButton = new System.Windows.Forms.Button();
+            this.PassportTextBox = new System.Windows.Forms.TextBox();
+            this.CityTextBox = new System.Windows.Forms.TextBox();
+            this.CityButton = new System.Windows.Forms.Button();
+            this.MemTypeTextBox = new System.Windows.Forms.TextBox();
+            this.ViewByComboBox = new System.Windows.Forms.ComboBox();
+            this.FirstNameTextBox = new System.Windows.Forms.TextBox();
+            this.FirstNameLabel = new System.Windows.Forms.Label();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.ViewByLabel = new System.Windows.Forms.Label();
+            this.CommunicationTextBox = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilesDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FutureDataGridView)).BeginInit();
+            this.FutureGroupBox.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // ProfilesDataGridView
             // 
-            ProfilesDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            ProfilesDataGridView.Dock = DockStyle.Fill;
-            ProfilesDataGridView.Location = new Point(2, 124);
-            ProfilesDataGridView.Margin = new Padding(2);
-            ProfilesDataGridView.Name = "ProfilesDataGridView";
-            ProfilesDataGridView.RowHeadersWidth = 51;
-            ProfilesDataGridView.RowTemplate.Height = 29;
-            ProfilesDataGridView.Size = new Size(600, 118);
-            ProfilesDataGridView.TabIndex = 27;
+            this.ProfilesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ProfilesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProfilesDataGridView.Location = new System.Drawing.Point(2, 124);
+            this.ProfilesDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.ProfilesDataGridView.Name = "ProfilesDataGridView";
+            this.ProfilesDataGridView.RowHeadersWidth = 51;
+            this.ProfilesDataGridView.RowTemplate.Height = 29;
+            this.ProfilesDataGridView.Size = new System.Drawing.Size(600, 118);
+            this.ProfilesDataGridView.TabIndex = 27;
             // 
             // ProfileDetailLabel
             // 
-            ProfileDetailLabel.AutoSize = true;
-            ProfileDetailLabel.Cursor = Cursors.No;
-            ProfileDetailLabel.Dock = DockStyle.Fill;
-            ProfileDetailLabel.Location = new Point(2, 244);
-            ProfileDetailLabel.Margin = new Padding(2, 0, 2, 0);
-            ProfileDetailLabel.Name = "ProfileDetailLabel";
-            ProfileDetailLabel.Size = new Size(600, 41);
-            ProfileDetailLabel.TabIndex = 28;
-            ProfileDetailLabel.Text = "ProfileDetail";
+            this.ProfileDetailLabel.AutoSize = true;
+            this.ProfileDetailLabel.Cursor = System.Windows.Forms.Cursors.No;
+            this.ProfileDetailLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProfileDetailLabel.Location = new System.Drawing.Point(2, 244);
+            this.ProfileDetailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ProfileDetailLabel.Name = "ProfileDetailLabel";
+            this.ProfileDetailLabel.Size = new System.Drawing.Size(600, 41);
+            this.ProfileDetailLabel.TabIndex = 28;
+            this.ProfileDetailLabel.Text = "ProfileDetail";
             // 
             // FutureDataGridView
             // 
-            FutureDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            FutureDataGridView.Dock = DockStyle.Fill;
-            FutureDataGridView.Location = new Point(2, 17);
-            FutureDataGridView.Margin = new Padding(2);
-            FutureDataGridView.Name = "FutureDataGridView";
-            FutureDataGridView.RowHeadersWidth = 51;
-            FutureDataGridView.RowTemplate.Height = 29;
-            FutureDataGridView.Size = new Size(596, 101);
-            FutureDataGridView.TabIndex = 29;
+            this.FutureDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.FutureDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FutureDataGridView.Location = new System.Drawing.Point(2, 15);
+            this.FutureDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.FutureDataGridView.Name = "FutureDataGridView";
+            this.FutureDataGridView.RowHeadersWidth = 51;
+            this.FutureDataGridView.RowTemplate.Height = 29;
+            this.FutureDataGridView.Size = new System.Drawing.Size(596, 103);
+            this.FutureDataGridView.TabIndex = 29;
             // 
             // FutureGroupBox
             // 
-            FutureGroupBox.Controls.Add(FutureDataGridView);
-            FutureGroupBox.Dock = DockStyle.Fill;
-            FutureGroupBox.Location = new Point(2, 287);
-            FutureGroupBox.Margin = new Padding(2);
-            FutureGroupBox.Name = "FutureGroupBox";
-            FutureGroupBox.Padding = new Padding(2);
-            FutureGroupBox.Size = new Size(600, 120);
-            FutureGroupBox.TabIndex = 36;
-            FutureGroupBox.TabStop = false;
-            FutureGroupBox.Text = "Future";
+            this.FutureGroupBox.Controls.Add(this.FutureDataGridView);
+            this.FutureGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FutureGroupBox.Location = new System.Drawing.Point(2, 287);
+            this.FutureGroupBox.Margin = new System.Windows.Forms.Padding(2);
+            this.FutureGroupBox.Name = "FutureGroupBox";
+            this.FutureGroupBox.Padding = new System.Windows.Forms.Padding(2);
+            this.FutureGroupBox.Size = new System.Drawing.Size(600, 120);
+            this.FutureGroupBox.TabIndex = 36;
+            this.FutureGroupBox.TabStop = false;
+            this.FutureGroupBox.Text = "Future";
             // 
             // panel1
             // 
-            panel1.Controls.Add(ReservationButton);
-            panel1.Controls.Add(OKButton);
-            panel1.Controls.Add(NewButton);
-            panel1.Controls.Add(EditButton);
-            panel1.Controls.Add(CloseButton);
-            panel1.Controls.Add(ClearButton);
-            panel1.Controls.Add(SearchButton);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(604, 2);
-            panel1.Margin = new Padding(0, 2, 0, 4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(100, 403);
-            panel1.TabIndex = 39;
+            this.panel1.Controls.Add(this.ReservationButton);
+            this.panel1.Controls.Add(this.OKButton);
+            this.panel1.Controls.Add(this.NewButton);
+            this.panel1.Controls.Add(this.EditButton);
+            this.panel1.Controls.Add(this.CloseButton);
+            this.panel1.Controls.Add(this.ClearButton);
+            this.panel1.Controls.Add(this.SearchButton);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(604, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0, 2, 0, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(100, 403);
+            this.panel1.TabIndex = 39;
             // 
             // ReservationButton
             // 
-            ReservationButton.Dock = DockStyle.Bottom;
-            ReservationButton.Location = new Point(0, 288);
-            ReservationButton.Name = "ReservationButton";
-            ReservationButton.Size = new Size(100, 23);
-            ReservationButton.TabIndex = 6;
-            ReservationButton.Text = "Resv.";
-            ReservationButton.UseVisualStyleBackColor = true;
+            this.ReservationButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ReservationButton.Location = new System.Drawing.Point(0, 288);
+            this.ReservationButton.Name = "ReservationButton";
+            this.ReservationButton.Size = new System.Drawing.Size(100, 23);
+            this.ReservationButton.TabIndex = 6;
+            this.ReservationButton.Text = "Resv.";
+            this.ReservationButton.UseVisualStyleBackColor = true;
             // 
             // OKButton
             // 
-            OKButton.Dock = DockStyle.Bottom;
-            OKButton.Location = new Point(0, 311);
-            OKButton.Name = "OKButton";
-            OKButton.Size = new Size(100, 23);
-            OKButton.TabIndex = 5;
-            OKButton.Text = "OK";
-            OKButton.UseVisualStyleBackColor = true;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OKButton.Location = new System.Drawing.Point(0, 311);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(100, 23);
+            this.OKButton.TabIndex = 5;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // NewButton
             // 
-            NewButton.Dock = DockStyle.Bottom;
-            NewButton.Location = new Point(0, 334);
-            NewButton.Name = "NewButton";
-            NewButton.Size = new Size(100, 23);
-            NewButton.TabIndex = 4;
-            NewButton.Text = "New";
-            NewButton.UseVisualStyleBackColor = true;
+            this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.NewButton.Location = new System.Drawing.Point(0, 334);
+            this.NewButton.Name = "NewButton";
+            this.NewButton.Size = new System.Drawing.Size(100, 23);
+            this.NewButton.TabIndex = 4;
+            this.NewButton.Text = "New";
+            this.NewButton.UseVisualStyleBackColor = true;
             // 
             // EditButton
             // 
-            EditButton.Dock = DockStyle.Bottom;
-            EditButton.Location = new Point(0, 357);
-            EditButton.Name = "EditButton";
-            EditButton.Size = new Size(100, 23);
-            EditButton.TabIndex = 3;
-            EditButton.Text = "Edit";
-            EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.EditButton.Location = new System.Drawing.Point(0, 357);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(100, 23);
+            this.EditButton.TabIndex = 3;
+            this.EditButton.Text = "Edit";
+            this.EditButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
-            CloseButton.Dock = DockStyle.Bottom;
-            CloseButton.Location = new Point(0, 380);
-            CloseButton.Name = "CloseButton";
-            CloseButton.Size = new Size(100, 23);
-            CloseButton.TabIndex = 2;
-            CloseButton.Text = "Close";
-            CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CloseButton.Location = new System.Drawing.Point(0, 380);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(100, 23);
+            this.CloseButton.TabIndex = 2;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // ClearButton
             // 
-            ClearButton.Dock = DockStyle.Top;
-            ClearButton.Location = new Point(0, 23);
-            ClearButton.Name = "ClearButton";
-            ClearButton.Size = new Size(100, 23);
-            ClearButton.TabIndex = 1;
-            ClearButton.Text = "Clear";
-            ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ClearButton.Location = new System.Drawing.Point(0, 23);
+            this.ClearButton.Name = "ClearButton";
+            this.ClearButton.Size = new System.Drawing.Size(100, 23);
+            this.ClearButton.TabIndex = 1;
+            this.ClearButton.Text = "Clear";
+            this.ClearButton.UseVisualStyleBackColor = true;
             // 
             // SearchButton
             // 
-            SearchButton.Dock = DockStyle.Top;
-            SearchButton.Location = new Point(0, 0);
-            SearchButton.Name = "SearchButton";
-            SearchButton.Size = new Size(100, 23);
-            SearchButton.TabIndex = 0;
-            SearchButton.Text = "Search";
-            SearchButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SearchButton.Location = new System.Drawing.Point(0, 0);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(100, 23);
+            this.SearchButton.TabIndex = 0;
+            this.SearchButton.Text = "Search";
+            this.SearchButton.UseVisualStyleBackColor = true;
             // 
             // NegRatesCheckBox
             // 
-            NegRatesCheckBox.AutoSize = true;
-            NegRatesCheckBox.Dock = DockStyle.Fill;
-            NegRatesCheckBox.Location = new Point(143, 94);
-            NegRatesCheckBox.Margin = new Padding(2);
-            NegRatesCheckBox.Name = "NegRatesCheckBox";
-            NegRatesCheckBox.Size = new Size(137, 22);
-            NegRatesCheckBox.TabIndex = 24;
-            NegRatesCheckBox.Text = "Neg. Rates";
-            NegRatesCheckBox.UseVisualStyleBackColor = true;
+            this.NegRatesCheckBox.AutoSize = true;
+            this.NegRatesCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NegRatesCheckBox.Location = new System.Drawing.Point(143, 94);
+            this.NegRatesCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.NegRatesCheckBox.Name = "NegRatesCheckBox";
+            this.NegRatesCheckBox.Size = new System.Drawing.Size(137, 22);
+            this.NegRatesCheckBox.TabIndex = 24;
+            this.NegRatesCheckBox.Text = "Neg. Rates";
+            this.NegRatesCheckBox.UseVisualStyleBackColor = true;
             // 
             // ShowInavtiveCheckBox
             // 
-            ShowInavtiveCheckBox.AutoSize = true;
-            ShowInavtiveCheckBox.Dock = DockStyle.Fill;
-            ShowInavtiveCheckBox.Location = new Point(143, 71);
-            ShowInavtiveCheckBox.Margin = new Padding(2);
-            ShowInavtiveCheckBox.Name = "ShowInavtiveCheckBox";
-            ShowInavtiveCheckBox.Size = new Size(137, 19);
-            ShowInavtiveCheckBox.TabIndex = 25;
-            ShowInavtiveCheckBox.Text = "Show Inavtive";
-            ShowInavtiveCheckBox.UseVisualStyleBackColor = true;
+            this.ShowInavtiveCheckBox.AutoSize = true;
+            this.ShowInavtiveCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ShowInavtiveCheckBox.Location = new System.Drawing.Point(143, 71);
+            this.ShowInavtiveCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ShowInavtiveCheckBox.Name = "ShowInavtiveCheckBox";
+            this.ShowInavtiveCheckBox.Size = new System.Drawing.Size(137, 19);
+            this.ShowInavtiveCheckBox.TabIndex = 25;
+            this.ShowInavtiveCheckBox.Text = "Show Inavtive";
+            this.ShowInavtiveCheckBox.UseVisualStyleBackColor = true;
             // 
             // NameLabel
             // 
-            NameLabel.AutoSize = true;
-            NameLabel.Dock = DockStyle.Fill;
-            NameLabel.Location = new Point(2, 0);
-            NameLabel.Margin = new Padding(2, 0, 2, 0);
-            NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(137, 23);
-            NameLabel.TabIndex = 0;
-            NameLabel.Text = "Name";
-            NameLabel.TextAlign = ContentAlignment.TopRight;
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NameLabel.Location = new System.Drawing.Point(2, 0);
+            this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(137, 23);
+            this.NameLabel.TabIndex = 0;
+            this.NameLabel.Text = "Name";
+            this.NameLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // MemTypeLabel
             // 
-            MemTypeLabel.AutoSize = true;
-            MemTypeLabel.Dock = DockStyle.Fill;
-            MemTypeLabel.Location = new Point(284, 23);
-            MemTypeLabel.Margin = new Padding(2, 0, 2, 0);
-            MemTypeLabel.Name = "MemTypeLabel";
-            MemTypeLabel.Size = new Size(137, 23);
-            MemTypeLabel.TabIndex = 3;
-            MemTypeLabel.Text = "Mem. Type";
-            MemTypeLabel.TextAlign = ContentAlignment.TopRight;
+            this.MemTypeLabel.AutoSize = true;
+            this.MemTypeLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MemTypeLabel.Location = new System.Drawing.Point(284, 23);
+            this.MemTypeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.MemTypeLabel.Name = "MemTypeLabel";
+            this.MemTypeLabel.Size = new System.Drawing.Size(137, 23);
+            this.MemTypeLabel.TabIndex = 3;
+            this.MemTypeLabel.Text = "Mem. Type";
+            this.MemTypeLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // PassportLabel
             // 
-            PassportLabel.AutoSize = true;
-            PassportLabel.Dock = DockStyle.Fill;
-            PassportLabel.Location = new Point(284, 92);
-            PassportLabel.Margin = new Padding(2, 0, 2, 0);
-            PassportLabel.Name = "PassportLabel";
-            PassportLabel.Size = new Size(137, 26);
-            PassportLabel.TabIndex = 7;
-            PassportLabel.Text = "Passport";
-            PassportLabel.TextAlign = ContentAlignment.TopRight;
+            this.PassportLabel.AutoSize = true;
+            this.PassportLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PassportLabel.Location = new System.Drawing.Point(284, 92);
+            this.PassportLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.PassportLabel.Name = "PassportLabel";
+            this.PassportLabel.Size = new System.Drawing.Size(137, 26);
+            this.PassportLabel.TabIndex = 7;
+            this.PassportLabel.Text = "Passport";
+            this.PassportLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // CityLabel
             // 
-            CityLabel.AutoSize = true;
-            CityLabel.Dock = DockStyle.Fill;
-            CityLabel.Location = new Point(284, 0);
-            CityLabel.Margin = new Padding(2, 0, 2, 0);
-            CityLabel.Name = "CityLabel";
-            CityLabel.Size = new Size(137, 23);
-            CityLabel.TabIndex = 5;
-            CityLabel.Text = "City";
-            CityLabel.TextAlign = ContentAlignment.TopRight;
+            this.CityLabel.AutoSize = true;
+            this.CityLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CityLabel.Location = new System.Drawing.Point(284, 0);
+            this.CityLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.CityLabel.Name = "CityLabel";
+            this.CityLabel.Size = new System.Drawing.Size(137, 23);
+            this.CityLabel.TabIndex = 5;
+            this.CityLabel.Text = "City";
+            this.CityLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // CommunicationLabel
             // 
-            CommunicationLabel.AutoSize = true;
-            CommunicationLabel.Dock = DockStyle.Fill;
-            CommunicationLabel.Location = new Point(284, 69);
-            CommunicationLabel.Margin = new Padding(2, 0, 2, 0);
-            CommunicationLabel.Name = "CommunicationLabel";
-            CommunicationLabel.Size = new Size(137, 23);
-            CommunicationLabel.TabIndex = 9;
-            CommunicationLabel.Text = "Communication";
-            CommunicationLabel.TextAlign = ContentAlignment.TopRight;
+            this.CommunicationLabel.AutoSize = true;
+            this.CommunicationLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CommunicationLabel.Location = new System.Drawing.Point(284, 69);
+            this.CommunicationLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.CommunicationLabel.Name = "CommunicationLabel";
+            this.CommunicationLabel.Size = new System.Drawing.Size(137, 23);
+            this.CommunicationLabel.TabIndex = 9;
+            this.CommunicationLabel.Text = "Communication";
+            this.CommunicationLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // MemTypeButton
             // 
-            MemTypeButton.Dock = DockStyle.Top;
-            MemTypeButton.Location = new Point(566, 25);
-            MemTypeButton.Margin = new Padding(2);
-            MemTypeButton.Name = "MemTypeButton";
-            MemTypeButton.Size = new Size(32, 19);
-            MemTypeButton.TabIndex = 21;
-            MemTypeButton.Text = " ";
-            MemTypeButton.UseVisualStyleBackColor = true;
-            MemTypeButton.Click += MemTypeButton_Click;
+            this.MemTypeButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MemTypeButton.Location = new System.Drawing.Point(566, 25);
+            this.MemTypeButton.Margin = new System.Windows.Forms.Padding(2);
+            this.MemTypeButton.Name = "MemTypeButton";
+            this.MemTypeButton.Size = new System.Drawing.Size(32, 19);
+            this.MemTypeButton.TabIndex = 21;
+            this.MemTypeButton.Text = " ";
+            this.MemTypeButton.UseVisualStyleBackColor = true;
             // 
             // PassportTextBox
             // 
-            PassportTextBox.Dock = DockStyle.Top;
-            PassportTextBox.Location = new Point(425, 94);
-            PassportTextBox.Margin = new Padding(2);
-            PassportTextBox.Name = "PassportTextBox";
-            PassportTextBox.Size = new Size(137, 22);
-            PassportTextBox.TabIndex = 18;
+            this.PassportTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PassportTextBox.Location = new System.Drawing.Point(425, 94);
+            this.PassportTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.PassportTextBox.Name = "PassportTextBox";
+            this.PassportTextBox.Size = new System.Drawing.Size(137, 20);
+            this.PassportTextBox.TabIndex = 18;
             // 
             // CityTextBox
             // 
-            CityTextBox.Dock = DockStyle.Top;
-            CityTextBox.Location = new Point(425, 2);
-            CityTextBox.Margin = new Padding(2);
-            CityTextBox.Name = "CityTextBox";
-            CityTextBox.Size = new Size(137, 22);
-            CityTextBox.TabIndex = 15;
+            this.CityTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CityTextBox.Location = new System.Drawing.Point(425, 2);
+            this.CityTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.CityTextBox.Name = "CityTextBox";
+            this.CityTextBox.Size = new System.Drawing.Size(137, 20);
+            this.CityTextBox.TabIndex = 15;
             // 
             // CityButton
             // 
-            CityButton.Dock = DockStyle.Top;
-            CityButton.Location = new Point(566, 2);
-            CityButton.Margin = new Padding(2);
-            CityButton.Name = "CityButton";
-            CityButton.Size = new Size(32, 19);
-            CityButton.TabIndex = 22;
-            CityButton.Text = " ";
-            CityButton.UseVisualStyleBackColor = true;
-            CityButton.Click += CityButton_Click;
+            this.CityButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CityButton.Location = new System.Drawing.Point(566, 2);
+            this.CityButton.Margin = new System.Windows.Forms.Padding(2);
+            this.CityButton.Name = "CityButton";
+            this.CityButton.Size = new System.Drawing.Size(32, 19);
+            this.CityButton.TabIndex = 22;
+            this.CityButton.Text = " ";
+            this.CityButton.UseVisualStyleBackColor = true;
             // 
             // MemTypeTextBox
             // 
-            MemTypeTextBox.Dock = DockStyle.Top;
-            MemTypeTextBox.Location = new Point(425, 25);
-            MemTypeTextBox.Margin = new Padding(2);
-            MemTypeTextBox.Name = "MemTypeTextBox";
-            MemTypeTextBox.Size = new Size(137, 22);
-            MemTypeTextBox.TabIndex = 13;
+            this.MemTypeTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MemTypeTextBox.Location = new System.Drawing.Point(425, 25);
+            this.MemTypeTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.MemTypeTextBox.Name = "MemTypeTextBox";
+            this.MemTypeTextBox.Size = new System.Drawing.Size(137, 20);
+            this.MemTypeTextBox.TabIndex = 13;
             // 
             // ViewByComboBox
             // 
-            ViewByComboBox.Dock = DockStyle.Top;
-            ViewByComboBox.FormattingEnabled = true;
-            ViewByComboBox.Location = new Point(143, 48);
-            ViewByComboBox.Margin = new Padding(2);
-            ViewByComboBox.Name = "ViewByComboBox";
-            ViewByComboBox.Size = new Size(137, 21);
-            ViewByComboBox.TabIndex = 23;
+            this.ViewByComboBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ViewByComboBox.FormattingEnabled = true;
+            this.ViewByComboBox.Location = new System.Drawing.Point(143, 48);
+            this.ViewByComboBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ViewByComboBox.Name = "ViewByComboBox";
+            this.ViewByComboBox.Size = new System.Drawing.Size(137, 21);
+            this.ViewByComboBox.TabIndex = 23;
             // 
             // FirstNameTextBox
             // 
-            FirstNameTextBox.Dock = DockStyle.Top;
-            FirstNameTextBox.Location = new Point(143, 25);
-            FirstNameTextBox.Margin = new Padding(2);
-            FirstNameTextBox.Name = "FirstNameTextBox";
-            FirstNameTextBox.Size = new Size(137, 22);
-            FirstNameTextBox.TabIndex = 11;
+            this.FirstNameTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.FirstNameTextBox.Location = new System.Drawing.Point(143, 25);
+            this.FirstNameTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.FirstNameTextBox.Name = "FirstNameTextBox";
+            this.FirstNameTextBox.Size = new System.Drawing.Size(137, 20);
+            this.FirstNameTextBox.TabIndex = 11;
             // 
             // FirstNameLabel
             // 
-            FirstNameLabel.AutoSize = true;
-            FirstNameLabel.Dock = DockStyle.Fill;
-            FirstNameLabel.Location = new Point(2, 23);
-            FirstNameLabel.Margin = new Padding(2, 0, 2, 0);
-            FirstNameLabel.Name = "FirstNameLabel";
-            FirstNameLabel.Size = new Size(137, 23);
-            FirstNameLabel.TabIndex = 1;
-            FirstNameLabel.Text = "First Name";
-            FirstNameLabel.TextAlign = ContentAlignment.TopRight;
+            this.FirstNameLabel.AutoSize = true;
+            this.FirstNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FirstNameLabel.Location = new System.Drawing.Point(2, 23);
+            this.FirstNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FirstNameLabel.Name = "FirstNameLabel";
+            this.FirstNameLabel.Size = new System.Drawing.Size(137, 23);
+            this.FirstNameLabel.TabIndex = 1;
+            this.FirstNameLabel.Text = "First Name";
+            this.FirstNameLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // NameTextBox
             // 
-            NameTextBox.Dock = DockStyle.Top;
-            NameTextBox.Location = new Point(143, 2);
-            NameTextBox.Margin = new Padding(2);
-            NameTextBox.Name = "NameTextBox";
-            NameTextBox.Size = new Size(137, 22);
-            NameTextBox.TabIndex = 10;
+            this.NameTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.NameTextBox.Location = new System.Drawing.Point(143, 2);
+            this.NameTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(137, 20);
+            this.NameTextBox.TabIndex = 10;
             // 
             // ViewByLabel
             // 
-            ViewByLabel.AutoSize = true;
-            ViewByLabel.Dock = DockStyle.Fill;
-            ViewByLabel.Location = new Point(2, 46);
-            ViewByLabel.Margin = new Padding(2, 0, 2, 0);
-            ViewByLabel.Name = "ViewByLabel";
-            ViewByLabel.Size = new Size(137, 23);
-            ViewByLabel.TabIndex = 2;
-            ViewByLabel.Text = "View By";
-            ViewByLabel.TextAlign = ContentAlignment.TopRight;
+            this.ViewByLabel.AutoSize = true;
+            this.ViewByLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ViewByLabel.Location = new System.Drawing.Point(2, 46);
+            this.ViewByLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ViewByLabel.Name = "ViewByLabel";
+            this.ViewByLabel.Size = new System.Drawing.Size(137, 23);
+            this.ViewByLabel.TabIndex = 2;
+            this.ViewByLabel.Text = "View By";
+            this.ViewByLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // CommunicationTextBox
             // 
-            CommunicationTextBox.Dock = DockStyle.Top;
-            CommunicationTextBox.Location = new Point(425, 71);
-            CommunicationTextBox.Margin = new Padding(2);
-            CommunicationTextBox.Name = "CommunicationTextBox";
-            CommunicationTextBox.Size = new Size(137, 22);
-            CommunicationTextBox.TabIndex = 17;
+            this.CommunicationTextBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CommunicationTextBox.Location = new System.Drawing.Point(425, 71);
+            this.CommunicationTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.CommunicationTextBox.Name = "CommunicationTextBox";
+            this.CommunicationTextBox.Size = new System.Drawing.Size(137, 20);
+            this.CommunicationTextBox.TabIndex = 17;
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 5;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 35F));
-            tableLayoutPanel1.Controls.Add(CommunicationTextBox, 3, 3);
-            tableLayoutPanel1.Controls.Add(ViewByLabel, 0, 2);
-            tableLayoutPanel1.Controls.Add(NameTextBox, 1, 0);
-            tableLayoutPanel1.Controls.Add(FirstNameLabel, 0, 1);
-            tableLayoutPanel1.Controls.Add(FirstNameTextBox, 1, 1);
-            tableLayoutPanel1.Controls.Add(ViewByComboBox, 1, 2);
-            tableLayoutPanel1.Controls.Add(MemTypeTextBox, 3, 1);
-            tableLayoutPanel1.Controls.Add(CityButton, 4, 0);
-            tableLayoutPanel1.Controls.Add(CityTextBox, 3, 0);
-            tableLayoutPanel1.Controls.Add(PassportTextBox, 3, 4);
-            tableLayoutPanel1.Controls.Add(MemTypeButton, 4, 1);
-            tableLayoutPanel1.Controls.Add(CommunicationLabel, 2, 3);
-            tableLayoutPanel1.Controls.Add(CityLabel, 2, 0);
-            tableLayoutPanel1.Controls.Add(PassportLabel, 2, 4);
-            tableLayoutPanel1.Controls.Add(MemTypeLabel, 2, 1);
-            tableLayoutPanel1.Controls.Add(NameLabel, 0, 0);
-            tableLayoutPanel1.Controls.Add(ShowInavtiveCheckBox, 1, 3);
-            tableLayoutPanel1.Controls.Add(NegRatesCheckBox, 1, 4);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(2, 2);
-            tableLayoutPanel1.Margin = new Padding(2);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 5;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.Size = new Size(600, 118);
-            tableLayoutPanel1.TabIndex = 26;
+            this.tableLayoutPanel1.ColumnCount = 5;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel1.Controls.Add(this.CommunicationTextBox, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.ViewByLabel, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.NameTextBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.FirstNameLabel, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.FirstNameTextBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ViewByComboBox, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.MemTypeTextBox, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CityButton, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.CityTextBox, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.PassportTextBox, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.MemTypeButton, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CommunicationLabel, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.CityLabel, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.PassportLabel, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.MemTypeLabel, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.NameLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ShowInavtiveCheckBox, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.NegRatesCheckBox, 1, 4);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(600, 118);
+            this.tableLayoutPanel1.TabIndex = 26;
             // 
             // tableLayoutPanel3
             // 
-            tableLayoutPanel3.ColumnCount = 1;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Controls.Add(tableLayoutPanel1, 0, 0);
-            tableLayoutPanel3.Controls.Add(ProfilesDataGridView, 0, 1);
-            tableLayoutPanel3.Controls.Add(ProfileDetailLabel, 0, 2);
-            tableLayoutPanel3.Controls.Add(FutureGroupBox, 0, 3);
-            tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(0, 0);
-            tableLayoutPanel3.Margin = new Padding(0);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 4;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 29.9850063F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 29.9850063F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 10.0449772F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 29.9850063F));
-            tableLayoutPanel3.Size = new Size(604, 409);
-            tableLayoutPanel3.TabIndex = 38;
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.ProfilesDataGridView, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.ProfileDetailLabel, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.FutureGroupBox, 0, 3);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 4;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.98501F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.98501F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.04498F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.98501F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(604, 409);
+            this.tableLayoutPanel3.TabIndex = 38;
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
-            tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 0, 0);
-            tableLayoutPanel2.Controls.Add(panel1, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(0, 0);
-            tableLayoutPanel2.Margin = new Padding(2);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(704, 409);
-            tableLayoutPanel2.TabIndex = 37;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel1, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(704, 409);
+            this.tableLayoutPanel2.TabIndex = 37;
             // 
             // ProfileSearchForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(704, 409);
-            Controls.Add(tableLayoutPanel2);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 3, 2, 3);
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "ProfileSearchForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = " Profile Search";
-            ((System.ComponentModel.ISupportInitialize)ProfilesDataGridView).EndInit();
-            ((System.ComponentModel.ISupportInitialize)FutureDataGridView).EndInit();
-            FutureGroupBox.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
-            tableLayoutPanel3.ResumeLayout(false);
-            tableLayoutPanel3.PerformLayout();
-            tableLayoutPanel2.ResumeLayout(false);
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(704, 409);
+            this.Controls.Add(this.tableLayoutPanel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "ProfileSearchForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " Profile Search";
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilesDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FutureDataGridView)).EndInit();
+            this.FutureGroupBox.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
