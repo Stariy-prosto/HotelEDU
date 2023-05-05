@@ -1,4 +1,7 @@
-﻿namespace HotelEDU
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace HotelEDU
 {
     partial class MainForm
     {
@@ -29,975 +32,977 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            tableLayoutPanel3 = new TableLayoutPanel();
-            tableLayoutPanel7 = new TableLayoutPanel();
-            tableLayoutPanel10 = new TableLayoutPanel();
-            ExitButton = new Button();
-            HelpTabPage = new TabPage();
-            tableLayoutPanel13 = new TableLayoutPanel();
-            AboutProgramButton = new Button();
-            BackOfficeInterfaceTabPage = new TabPage();
-            tableLayoutPanel12 = new TableLayoutPanel();
-            SetupTabPage = new TabPage();
-            tableLayoutPanel11 = new TableLayoutPanel();
-            MiscellaneousTabPage = new TabPage();
-            tableLayoutPanel9 = new TableLayoutPanel();
-            CommissionsTabPage = new TabPage();
-            tableLayoutPanel8 = new TableLayoutPanel();
-            ARTabPage = new TabPage();
-            tableLayoutPanel6 = new TableLayoutPanel();
-            RoomsManagmentTabPage = new TabPage();
-            tableLayoutPanel5 = new TableLayoutPanel();
-            RoomHistoryButton = new Button();
-            OccupancyGraphButton = new Button();
-            HousekeepingButton = new Button();
-            OutOfOrderServiceButton = new Button();
-            CasheiringTabPage = new TabPage();
-            tableLayoutPanel4 = new TableLayoutPanel();
-            PasserByButton = new Button();
-            CashierFunctionsButton = new Button();
-            CashierShiftFunctionsButton = new Button();
-            BillingButton = new Button();
-            FastPostingButton = new Button();
-            QuickCheckOutButton = new Button();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            RoomAssigmentButton = new Button();
-            MessagesButton = new Button();
-            TracesButton = new Button();
-            ArrivalsButton = new Button();
-            InHouseGuestsButton = new Button();
-            AccountsButton = new Button();
-            ReservationsTabPage = new TabPage();
-            ReservationsLayoutPanel = new TableLayoutPanel();
-            ConfirmationButton = new Button();
-            FloorPlanButton = new Button();
-            CalendarButton = new Button();
-            RegistrationCardsButton = new Button();
-            RoomPlanButton = new Button();
-            UpdateReservationButton = new Button();
-            NewReservationButton = new Button();
-            ProfilesButton = new Button();
-            BlocksButton = new Button();
-            MenuControl = new TabControl();
-            FrontDeskTabPage = new TabPage();
-            ExitTabPage = new TabPage();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            statusStrip1 = new StatusStrip();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
-            SplashScreenBackgroundWorker = new System.ComponentModel.BackgroundWorker();
-            HelpTabPage.SuspendLayout();
-            tableLayoutPanel13.SuspendLayout();
-            BackOfficeInterfaceTabPage.SuspendLayout();
-            SetupTabPage.SuspendLayout();
-            MiscellaneousTabPage.SuspendLayout();
-            CommissionsTabPage.SuspendLayout();
-            ARTabPage.SuspendLayout();
-            RoomsManagmentTabPage.SuspendLayout();
-            tableLayoutPanel5.SuspendLayout();
-            CasheiringTabPage.SuspendLayout();
-            tableLayoutPanel4.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            ReservationsTabPage.SuspendLayout();
-            ReservationsLayoutPanel.SuspendLayout();
-            MenuControl.SuspendLayout();
-            FrontDeskTabPage.SuspendLayout();
-            ExitTabPage.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
-            statusStrip1.SuspendLayout();
-            SuspendLayout();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.HelpTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.AboutProgramButton = new System.Windows.Forms.Button();
+            this.BackOfficeInterfaceTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.SetupTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.MiscellaneousTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.CommissionsTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.ARTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.RoomsManagmentTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.RoomHistoryButton = new System.Windows.Forms.Button();
+            this.OccupancyGraphButton = new System.Windows.Forms.Button();
+            this.HousekeepingButton = new System.Windows.Forms.Button();
+            this.OutOfOrderServiceButton = new System.Windows.Forms.Button();
+            this.CasheiringTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.PasserByButton = new System.Windows.Forms.Button();
+            this.CashierFunctionsButton = new System.Windows.Forms.Button();
+            this.CashierShiftFunctionsButton = new System.Windows.Forms.Button();
+            this.BillingButton = new System.Windows.Forms.Button();
+            this.FastPostingButton = new System.Windows.Forms.Button();
+            this.QuickCheckOutButton = new System.Windows.Forms.Button();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.RoomAssigmentButton = new System.Windows.Forms.Button();
+            this.MessagesButton = new System.Windows.Forms.Button();
+            this.TracesButton = new System.Windows.Forms.Button();
+            this.ArrivalsButton = new System.Windows.Forms.Button();
+            this.InHouseGuestsButton = new System.Windows.Forms.Button();
+            this.AccountsButton = new System.Windows.Forms.Button();
+            this.ReservationsTabPage = new System.Windows.Forms.TabPage();
+            this.ReservationsLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.ConfirmationButton = new System.Windows.Forms.Button();
+            this.FloorPlanButton = new System.Windows.Forms.Button();
+            this.CalendarButton = new System.Windows.Forms.Button();
+            this.RegistrationCardsButton = new System.Windows.Forms.Button();
+            this.RoomPlanButton = new System.Windows.Forms.Button();
+            this.UpdateReservationButton = new System.Windows.Forms.Button();
+            this.NewReservationButton = new System.Windows.Forms.Button();
+            this.ProfilesButton = new System.Windows.Forms.Button();
+            this.BlocksButton = new System.Windows.Forms.Button();
+            this.MenuControl = new System.Windows.Forms.TabControl();
+            this.FrontDeskTabPage = new System.Windows.Forms.TabPage();
+            this.ExitTabPage = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.SplashScreenBackgroundWorker = new System.ComponentModel.BackgroundWorker();
+            this.HelpTabPage.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
+            this.BackOfficeInterfaceTabPage.SuspendLayout();
+            this.SetupTabPage.SuspendLayout();
+            this.MiscellaneousTabPage.SuspendLayout();
+            this.CommissionsTabPage.SuspendLayout();
+            this.ARTabPage.SuspendLayout();
+            this.RoomsManagmentTabPage.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.CasheiringTabPage.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.ReservationsTabPage.SuspendLayout();
+            this.ReservationsLayoutPanel.SuspendLayout();
+            this.MenuControl.SuspendLayout();
+            this.FrontDeskTabPage.SuspendLayout();
+            this.ExitTabPage.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // tableLayoutPanel3
             // 
-            tableLayoutPanel3.ColumnCount = 2;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Location = new Point(0, 0);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 1;
-            tableLayoutPanel3.Size = new Size(200, 100);
-            tableLayoutPanel3.TabIndex = 0;
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel3.TabIndex = 0;
             // 
             // tableLayoutPanel7
             // 
-            tableLayoutPanel7.ColumnCount = 2;
-            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel7.Location = new Point(0, 0);
-            tableLayoutPanel7.Name = "tableLayoutPanel7";
-            tableLayoutPanel7.RowCount = 1;
-            tableLayoutPanel7.Size = new Size(200, 100);
-            tableLayoutPanel7.TabIndex = 0;
+            this.tableLayoutPanel7.ColumnCount = 2;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 1;
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel7.TabIndex = 0;
             // 
             // tableLayoutPanel10
             // 
-            tableLayoutPanel10.ColumnCount = 2;
-            tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel10.Location = new Point(0, 0);
-            tableLayoutPanel10.Name = "tableLayoutPanel10";
-            tableLayoutPanel10.RowCount = 1;
-            tableLayoutPanel10.Size = new Size(200, 100);
-            tableLayoutPanel10.TabIndex = 0;
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel10.TabIndex = 0;
             // 
             // ExitButton
             // 
-            ExitButton.Dock = DockStyle.Fill;
-            ExitButton.FlatAppearance.BorderSize = 0;
-            ExitButton.FlatStyle = FlatStyle.Flat;
-            ExitButton.Image = Properties.Resources.indefinite_32x32;
-            ExitButton.Location = new Point(3, 4);
-            ExitButton.Margin = new Padding(3, 4, 3, 4);
-            ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(618, 68);
-            ExitButton.TabIndex = 2;
-            ExitButton.Text = "Exit";
-            ExitButton.TextAlign = ContentAlignment.BottomCenter;
-            ExitButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            ExitButton.UseVisualStyleBackColor = true;
-            ExitButton.Click += ExitButton_Click;
+            this.ExitButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExitButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ExitButton.Location = new System.Drawing.Point(3, 4);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(618, 68);
+            this.ExitButton.TabIndex = 2;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ExitButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // HelpTabPage
             // 
-            HelpTabPage.Controls.Add(tableLayoutPanel13);
-            HelpTabPage.Location = new Point(4, 22);
-            HelpTabPage.Margin = new Padding(3, 4, 3, 4);
-            HelpTabPage.Name = "HelpTabPage";
-            HelpTabPage.Padding = new Padding(3, 4, 3, 4);
-            HelpTabPage.Size = new Size(1255, 84);
-            HelpTabPage.TabIndex = 9;
-            HelpTabPage.Text = "Help";
-            HelpTabPage.UseVisualStyleBackColor = true;
+            this.HelpTabPage.Controls.Add(this.tableLayoutPanel13);
+            this.HelpTabPage.Location = new System.Drawing.Point(4, 22);
+            this.HelpTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.HelpTabPage.Name = "HelpTabPage";
+            this.HelpTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.HelpTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.HelpTabPage.TabIndex = 9;
+            this.HelpTabPage.Text = "Help";
+            this.HelpTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel13
             // 
-            tableLayoutPanel13.ColumnCount = 2;
-            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel13.Controls.Add(AboutProgramButton, 0, 0);
-            tableLayoutPanel13.Dock = DockStyle.Fill;
-            tableLayoutPanel13.Location = new Point(3, 4);
-            tableLayoutPanel13.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel13.Name = "tableLayoutPanel13";
-            tableLayoutPanel13.RowCount = 1;
-            tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel13.Size = new Size(1249, 76);
-            tableLayoutPanel13.TabIndex = 18;
+            this.tableLayoutPanel13.ColumnCount = 2;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Controls.Add(this.AboutProgramButton, 0, 0);
+            this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 1;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel13.TabIndex = 18;
             // 
             // AboutProgramButton
             // 
-            AboutProgramButton.Dock = DockStyle.Fill;
-            AboutProgramButton.FlatAppearance.BorderSize = 0;
-            AboutProgramButton.FlatStyle = FlatStyle.Flat;
-            AboutProgramButton.Image = Properties.Resources.indefinite_32x32;
-            AboutProgramButton.Location = new Point(3, 4);
-            AboutProgramButton.Margin = new Padding(3, 4, 3, 4);
-            AboutProgramButton.Name = "AboutProgramButton";
-            AboutProgramButton.Size = new Size(618, 68);
-            AboutProgramButton.TabIndex = 5;
-            AboutProgramButton.Text = "AboutProgram";
-            AboutProgramButton.TextAlign = ContentAlignment.BottomCenter;
-            AboutProgramButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            AboutProgramButton.UseVisualStyleBackColor = true;
-            AboutProgramButton.Click += AboutProgramButton_Click;
+            this.AboutProgramButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AboutProgramButton.FlatAppearance.BorderSize = 0;
+            this.AboutProgramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AboutProgramButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.AboutProgramButton.Location = new System.Drawing.Point(3, 4);
+            this.AboutProgramButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AboutProgramButton.Name = "AboutProgramButton";
+            this.AboutProgramButton.Size = new System.Drawing.Size(618, 68);
+            this.AboutProgramButton.TabIndex = 5;
+            this.AboutProgramButton.Text = "AboutProgram";
+            this.AboutProgramButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AboutProgramButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AboutProgramButton.UseVisualStyleBackColor = true;
+            this.AboutProgramButton.Click += new System.EventHandler(this.AboutProgramButton_Click);
             // 
             // BackOfficeInterfaceTabPage
             // 
-            BackOfficeInterfaceTabPage.Controls.Add(tableLayoutPanel12);
-            BackOfficeInterfaceTabPage.Location = new Point(4, 22);
-            BackOfficeInterfaceTabPage.Margin = new Padding(3, 4, 3, 4);
-            BackOfficeInterfaceTabPage.Name = "BackOfficeInterfaceTabPage";
-            BackOfficeInterfaceTabPage.Padding = new Padding(3, 4, 3, 4);
-            BackOfficeInterfaceTabPage.Size = new Size(1255, 84);
-            BackOfficeInterfaceTabPage.TabIndex = 8;
-            BackOfficeInterfaceTabPage.Text = "Back Office Interface";
-            BackOfficeInterfaceTabPage.UseVisualStyleBackColor = true;
+            this.BackOfficeInterfaceTabPage.Controls.Add(this.tableLayoutPanel12);
+            this.BackOfficeInterfaceTabPage.Location = new System.Drawing.Point(4, 22);
+            this.BackOfficeInterfaceTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BackOfficeInterfaceTabPage.Name = "BackOfficeInterfaceTabPage";
+            this.BackOfficeInterfaceTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BackOfficeInterfaceTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.BackOfficeInterfaceTabPage.TabIndex = 8;
+            this.BackOfficeInterfaceTabPage.Text = "Back Office Interface";
+            this.BackOfficeInterfaceTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel12
             // 
-            tableLayoutPanel12.ColumnCount = 2;
-            tableLayoutPanel12.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel12.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel12.Dock = DockStyle.Fill;
-            tableLayoutPanel12.Location = new Point(3, 4);
-            tableLayoutPanel12.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel12.Name = "tableLayoutPanel12";
-            tableLayoutPanel12.RowCount = 1;
-            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel12.Size = new Size(1249, 76);
-            tableLayoutPanel12.TabIndex = 18;
+            this.tableLayoutPanel12.ColumnCount = 2;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel12.TabIndex = 18;
             // 
             // SetupTabPage
             // 
-            SetupTabPage.Controls.Add(tableLayoutPanel11);
-            SetupTabPage.Location = new Point(4, 22);
-            SetupTabPage.Margin = new Padding(3, 4, 3, 4);
-            SetupTabPage.Name = "SetupTabPage";
-            SetupTabPage.Padding = new Padding(3, 4, 3, 4);
-            SetupTabPage.Size = new Size(1255, 84);
-            SetupTabPage.TabIndex = 7;
-            SetupTabPage.Text = "Setup";
-            SetupTabPage.UseVisualStyleBackColor = true;
+            this.SetupTabPage.Controls.Add(this.tableLayoutPanel11);
+            this.SetupTabPage.Location = new System.Drawing.Point(4, 22);
+            this.SetupTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SetupTabPage.Name = "SetupTabPage";
+            this.SetupTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SetupTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.SetupTabPage.TabIndex = 7;
+            this.SetupTabPage.Text = "Setup";
+            this.SetupTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel11
             // 
-            tableLayoutPanel11.ColumnCount = 2;
-            tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel11.Dock = DockStyle.Fill;
-            tableLayoutPanel11.Location = new Point(3, 4);
-            tableLayoutPanel11.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel11.Name = "tableLayoutPanel11";
-            tableLayoutPanel11.RowCount = 1;
-            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel11.Size = new Size(1249, 76);
-            tableLayoutPanel11.TabIndex = 18;
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel11.TabIndex = 18;
             // 
             // MiscellaneousTabPage
             // 
-            MiscellaneousTabPage.Controls.Add(tableLayoutPanel9);
-            MiscellaneousTabPage.Location = new Point(4, 22);
-            MiscellaneousTabPage.Margin = new Padding(3, 4, 3, 4);
-            MiscellaneousTabPage.Name = "MiscellaneousTabPage";
-            MiscellaneousTabPage.Padding = new Padding(3, 4, 3, 4);
-            MiscellaneousTabPage.Size = new Size(1255, 84);
-            MiscellaneousTabPage.TabIndex = 6;
-            MiscellaneousTabPage.Text = "Miscellaneous";
-            MiscellaneousTabPage.UseVisualStyleBackColor = true;
+            this.MiscellaneousTabPage.Controls.Add(this.tableLayoutPanel9);
+            this.MiscellaneousTabPage.Location = new System.Drawing.Point(4, 22);
+            this.MiscellaneousTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MiscellaneousTabPage.Name = "MiscellaneousTabPage";
+            this.MiscellaneousTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MiscellaneousTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.MiscellaneousTabPage.TabIndex = 6;
+            this.MiscellaneousTabPage.Text = "Miscellaneous";
+            this.MiscellaneousTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel9
             // 
-            tableLayoutPanel9.ColumnCount = 2;
-            tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel9.Dock = DockStyle.Fill;
-            tableLayoutPanel9.Location = new Point(3, 4);
-            tableLayoutPanel9.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel9.Name = "tableLayoutPanel9";
-            tableLayoutPanel9.RowCount = 1;
-            tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel9.Size = new Size(1249, 76);
-            tableLayoutPanel9.TabIndex = 18;
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel9.TabIndex = 18;
             // 
             // CommissionsTabPage
             // 
-            CommissionsTabPage.Controls.Add(tableLayoutPanel8);
-            CommissionsTabPage.Location = new Point(4, 22);
-            CommissionsTabPage.Margin = new Padding(3, 4, 3, 4);
-            CommissionsTabPage.Name = "CommissionsTabPage";
-            CommissionsTabPage.Padding = new Padding(3, 4, 3, 4);
-            CommissionsTabPage.Size = new Size(1255, 84);
-            CommissionsTabPage.TabIndex = 5;
-            CommissionsTabPage.Text = "Commissions";
-            CommissionsTabPage.UseVisualStyleBackColor = true;
+            this.CommissionsTabPage.Controls.Add(this.tableLayoutPanel8);
+            this.CommissionsTabPage.Location = new System.Drawing.Point(4, 22);
+            this.CommissionsTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CommissionsTabPage.Name = "CommissionsTabPage";
+            this.CommissionsTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CommissionsTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.CommissionsTabPage.TabIndex = 5;
+            this.CommissionsTabPage.Text = "Commissions";
+            this.CommissionsTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel8
             // 
-            tableLayoutPanel8.ColumnCount = 2;
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel8.Dock = DockStyle.Fill;
-            tableLayoutPanel8.Location = new Point(3, 4);
-            tableLayoutPanel8.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel8.Name = "tableLayoutPanel8";
-            tableLayoutPanel8.RowCount = 1;
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel8.Size = new Size(1249, 76);
-            tableLayoutPanel8.TabIndex = 18;
+            this.tableLayoutPanel8.ColumnCount = 2;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 1;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel8.TabIndex = 18;
             // 
             // ARTabPage
             // 
-            ARTabPage.Controls.Add(tableLayoutPanel6);
-            ARTabPage.Location = new Point(4, 22);
-            ARTabPage.Margin = new Padding(3, 4, 3, 4);
-            ARTabPage.Name = "ARTabPage";
-            ARTabPage.Padding = new Padding(3, 4, 3, 4);
-            ARTabPage.Size = new Size(1255, 84);
-            ARTabPage.TabIndex = 4;
-            ARTabPage.Text = "AR";
-            ARTabPage.UseVisualStyleBackColor = true;
+            this.ARTabPage.Controls.Add(this.tableLayoutPanel6);
+            this.ARTabPage.Location = new System.Drawing.Point(4, 22);
+            this.ARTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ARTabPage.Name = "ARTabPage";
+            this.ARTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ARTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.ARTabPage.TabIndex = 4;
+            this.ARTabPage.Text = "AR";
+            this.ARTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel6
             // 
-            tableLayoutPanel6.ColumnCount = 2;
-            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.Dock = DockStyle.Fill;
-            tableLayoutPanel6.Location = new Point(3, 4);
-            tableLayoutPanel6.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel6.Name = "tableLayoutPanel6";
-            tableLayoutPanel6.RowCount = 1;
-            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.Size = new Size(1249, 76);
-            tableLayoutPanel6.TabIndex = 18;
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 1;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel6.TabIndex = 18;
             // 
             // RoomsManagmentTabPage
             // 
-            RoomsManagmentTabPage.Controls.Add(tableLayoutPanel5);
-            RoomsManagmentTabPage.Location = new Point(4, 22);
-            RoomsManagmentTabPage.Margin = new Padding(3, 4, 3, 4);
-            RoomsManagmentTabPage.Name = "RoomsManagmentTabPage";
-            RoomsManagmentTabPage.Padding = new Padding(3, 4, 3, 4);
-            RoomsManagmentTabPage.Size = new Size(1255, 84);
-            RoomsManagmentTabPage.TabIndex = 3;
-            RoomsManagmentTabPage.Text = "Rooms Managment";
-            RoomsManagmentTabPage.UseVisualStyleBackColor = true;
+            this.RoomsManagmentTabPage.Controls.Add(this.tableLayoutPanel5);
+            this.RoomsManagmentTabPage.Location = new System.Drawing.Point(4, 22);
+            this.RoomsManagmentTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomsManagmentTabPage.Name = "RoomsManagmentTabPage";
+            this.RoomsManagmentTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomsManagmentTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.RoomsManagmentTabPage.TabIndex = 3;
+            this.RoomsManagmentTabPage.Text = "Rooms Managment";
+            this.RoomsManagmentTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel5
             // 
-            tableLayoutPanel5.ColumnCount = 4;
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel5.Controls.Add(RoomHistoryButton, 0, 0);
-            tableLayoutPanel5.Controls.Add(OccupancyGraphButton, 0, 0);
-            tableLayoutPanel5.Controls.Add(HousekeepingButton, 0, 0);
-            tableLayoutPanel5.Controls.Add(OutOfOrderServiceButton, 0, 0);
-            tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(3, 4);
-            tableLayoutPanel5.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel5.Name = "tableLayoutPanel5";
-            tableLayoutPanel5.RowCount = 1;
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel5.Size = new Size(1249, 76);
-            tableLayoutPanel5.TabIndex = 18;
+            this.tableLayoutPanel5.ColumnCount = 4;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel5.Controls.Add(this.RoomHistoryButton, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.OccupancyGraphButton, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.HousekeepingButton, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.OutOfOrderServiceButton, 0, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel5.TabIndex = 18;
             // 
             // RoomHistoryButton
             // 
-            RoomHistoryButton.Dock = DockStyle.Fill;
-            RoomHistoryButton.FlatAppearance.BorderSize = 0;
-            RoomHistoryButton.FlatStyle = FlatStyle.Flat;
-            RoomHistoryButton.Image = Properties.Resources.indefinite_32x32;
-            RoomHistoryButton.Location = new Point(627, 4);
-            RoomHistoryButton.Margin = new Padding(3, 4, 3, 4);
-            RoomHistoryButton.Name = "RoomHistoryButton";
-            RoomHistoryButton.Size = new Size(306, 68);
-            RoomHistoryButton.TabIndex = 20;
-            RoomHistoryButton.Text = "Room History";
-            RoomHistoryButton.TextAlign = ContentAlignment.BottomCenter;
-            RoomHistoryButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            RoomHistoryButton.UseVisualStyleBackColor = true;
+            this.RoomHistoryButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RoomHistoryButton.FlatAppearance.BorderSize = 0;
+            this.RoomHistoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RoomHistoryButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomHistoryButton.Location = new System.Drawing.Point(627, 4);
+            this.RoomHistoryButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomHistoryButton.Name = "RoomHistoryButton";
+            this.RoomHistoryButton.Size = new System.Drawing.Size(306, 68);
+            this.RoomHistoryButton.TabIndex = 20;
+            this.RoomHistoryButton.Text = "Room History";
+            this.RoomHistoryButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RoomHistoryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RoomHistoryButton.UseVisualStyleBackColor = true;
             // 
             // OccupancyGraphButton
             // 
-            OccupancyGraphButton.Dock = DockStyle.Fill;
-            OccupancyGraphButton.FlatAppearance.BorderSize = 0;
-            OccupancyGraphButton.FlatStyle = FlatStyle.Flat;
-            OccupancyGraphButton.Image = Properties.Resources.indefinite_32x32;
-            OccupancyGraphButton.Location = new Point(939, 4);
-            OccupancyGraphButton.Margin = new Padding(3, 4, 3, 4);
-            OccupancyGraphButton.Name = "OccupancyGraphButton";
-            OccupancyGraphButton.Size = new Size(307, 68);
-            OccupancyGraphButton.TabIndex = 19;
-            OccupancyGraphButton.Text = "Occupancy Graph";
-            OccupancyGraphButton.TextAlign = ContentAlignment.BottomCenter;
-            OccupancyGraphButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            OccupancyGraphButton.UseVisualStyleBackColor = true;
+            this.OccupancyGraphButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.OccupancyGraphButton.FlatAppearance.BorderSize = 0;
+            this.OccupancyGraphButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OccupancyGraphButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.OccupancyGraphButton.Location = new System.Drawing.Point(939, 4);
+            this.OccupancyGraphButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.OccupancyGraphButton.Name = "OccupancyGraphButton";
+            this.OccupancyGraphButton.Size = new System.Drawing.Size(307, 68);
+            this.OccupancyGraphButton.TabIndex = 19;
+            this.OccupancyGraphButton.Text = "Occupancy Graph";
+            this.OccupancyGraphButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.OccupancyGraphButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.OccupancyGraphButton.UseVisualStyleBackColor = true;
             // 
             // HousekeepingButton
             // 
-            HousekeepingButton.Dock = DockStyle.Fill;
-            HousekeepingButton.FlatAppearance.BorderSize = 0;
-            HousekeepingButton.FlatStyle = FlatStyle.Flat;
-            HousekeepingButton.Image = Properties.Resources.indefinite_32x32;
-            HousekeepingButton.Location = new Point(3, 4);
-            HousekeepingButton.Margin = new Padding(3, 4, 3, 4);
-            HousekeepingButton.Name = "HousekeepingButton";
-            HousekeepingButton.Size = new Size(306, 68);
-            HousekeepingButton.TabIndex = 18;
-            HousekeepingButton.Text = "Housekeeping";
-            HousekeepingButton.TextAlign = ContentAlignment.BottomCenter;
-            HousekeepingButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            HousekeepingButton.UseVisualStyleBackColor = true;
+            this.HousekeepingButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HousekeepingButton.FlatAppearance.BorderSize = 0;
+            this.HousekeepingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HousekeepingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.HousekeepingButton.Location = new System.Drawing.Point(3, 4);
+            this.HousekeepingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.HousekeepingButton.Name = "HousekeepingButton";
+            this.HousekeepingButton.Size = new System.Drawing.Size(306, 68);
+            this.HousekeepingButton.TabIndex = 18;
+            this.HousekeepingButton.Text = "Housekeeping";
+            this.HousekeepingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.HousekeepingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.HousekeepingButton.UseVisualStyleBackColor = true;
             // 
             // OutOfOrderServiceButton
             // 
-            OutOfOrderServiceButton.Dock = DockStyle.Fill;
-            OutOfOrderServiceButton.FlatAppearance.BorderSize = 0;
-            OutOfOrderServiceButton.FlatStyle = FlatStyle.Flat;
-            OutOfOrderServiceButton.Image = Properties.Resources.indefinite_32x32;
-            OutOfOrderServiceButton.Location = new Point(315, 4);
-            OutOfOrderServiceButton.Margin = new Padding(3, 4, 3, 4);
-            OutOfOrderServiceButton.Name = "OutOfOrderServiceButton";
-            OutOfOrderServiceButton.Size = new Size(306, 68);
-            OutOfOrderServiceButton.TabIndex = 17;
-            OutOfOrderServiceButton.Text = "Out Of Order/Service";
-            OutOfOrderServiceButton.TextAlign = ContentAlignment.BottomCenter;
-            OutOfOrderServiceButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            OutOfOrderServiceButton.UseVisualStyleBackColor = true;
+            this.OutOfOrderServiceButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.OutOfOrderServiceButton.FlatAppearance.BorderSize = 0;
+            this.OutOfOrderServiceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OutOfOrderServiceButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.OutOfOrderServiceButton.Location = new System.Drawing.Point(315, 4);
+            this.OutOfOrderServiceButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.OutOfOrderServiceButton.Name = "OutOfOrderServiceButton";
+            this.OutOfOrderServiceButton.Size = new System.Drawing.Size(306, 68);
+            this.OutOfOrderServiceButton.TabIndex = 17;
+            this.OutOfOrderServiceButton.Text = "Out Of Order/Service";
+            this.OutOfOrderServiceButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.OutOfOrderServiceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.OutOfOrderServiceButton.UseVisualStyleBackColor = true;
             // 
             // CasheiringTabPage
             // 
-            CasheiringTabPage.Controls.Add(tableLayoutPanel4);
-            CasheiringTabPage.Location = new Point(4, 22);
-            CasheiringTabPage.Margin = new Padding(3, 4, 3, 4);
-            CasheiringTabPage.Name = "CasheiringTabPage";
-            CasheiringTabPage.Padding = new Padding(3, 4, 3, 4);
-            CasheiringTabPage.Size = new Size(1255, 84);
-            CasheiringTabPage.TabIndex = 2;
-            CasheiringTabPage.Text = "Casheiring";
-            CasheiringTabPage.UseVisualStyleBackColor = true;
+            this.CasheiringTabPage.Controls.Add(this.tableLayoutPanel4);
+            this.CasheiringTabPage.Location = new System.Drawing.Point(4, 22);
+            this.CasheiringTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CasheiringTabPage.Name = "CasheiringTabPage";
+            this.CasheiringTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CasheiringTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.CasheiringTabPage.TabIndex = 2;
+            this.CasheiringTabPage.Text = "Casheiring";
+            this.CasheiringTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel4
             // 
-            tableLayoutPanel4.ColumnCount = 6;
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel4.Controls.Add(PasserByButton, 0, 0);
-            tableLayoutPanel4.Controls.Add(CashierFunctionsButton, 0, 0);
-            tableLayoutPanel4.Controls.Add(CashierShiftFunctionsButton, 0, 0);
-            tableLayoutPanel4.Controls.Add(BillingButton, 0, 0);
-            tableLayoutPanel4.Controls.Add(FastPostingButton, 0, 0);
-            tableLayoutPanel4.Controls.Add(QuickCheckOutButton, 0, 0);
-            tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(3, 4);
-            tableLayoutPanel4.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel4.Name = "tableLayoutPanel4";
-            tableLayoutPanel4.RowCount = 1;
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(1249, 76);
-            tableLayoutPanel4.TabIndex = 18;
+            this.tableLayoutPanel4.ColumnCount = 6;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.Controls.Add(this.PasserByButton, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.CashierFunctionsButton, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.CashierShiftFunctionsButton, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.BillingButton, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.FastPostingButton, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.QuickCheckOutButton, 0, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel4.TabIndex = 18;
             // 
             // PasserByButton
             // 
-            PasserByButton.Dock = DockStyle.Fill;
-            PasserByButton.Enabled = false;
-            PasserByButton.FlatAppearance.BorderSize = 0;
-            PasserByButton.FlatStyle = FlatStyle.Flat;
-            PasserByButton.Image = Properties.Resources.indefinite_32x32;
-            PasserByButton.Location = new Point(627, 4);
-            PasserByButton.Margin = new Padding(3, 4, 3, 4);
-            PasserByButton.Name = "PasserByButton";
-            PasserByButton.Size = new Size(202, 68);
-            PasserByButton.TabIndex = 14;
-            PasserByButton.Text = "Passer By";
-            PasserByButton.TextAlign = ContentAlignment.BottomCenter;
-            PasserByButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            PasserByButton.UseVisualStyleBackColor = true;
+            this.PasserByButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PasserByButton.Enabled = false;
+            this.PasserByButton.FlatAppearance.BorderSize = 0;
+            this.PasserByButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PasserByButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.PasserByButton.Location = new System.Drawing.Point(627, 4);
+            this.PasserByButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PasserByButton.Name = "PasserByButton";
+            this.PasserByButton.Size = new System.Drawing.Size(202, 68);
+            this.PasserByButton.TabIndex = 14;
+            this.PasserByButton.Text = "Passer By";
+            this.PasserByButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.PasserByButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.PasserByButton.UseVisualStyleBackColor = true;
             // 
             // CashierFunctionsButton
             // 
-            CashierFunctionsButton.Dock = DockStyle.Fill;
-            CashierFunctionsButton.Enabled = false;
-            CashierFunctionsButton.FlatAppearance.BorderSize = 0;
-            CashierFunctionsButton.FlatStyle = FlatStyle.Flat;
-            CashierFunctionsButton.Image = Properties.Resources.indefinite_32x32;
-            CashierFunctionsButton.Location = new Point(835, 4);
-            CashierFunctionsButton.Margin = new Padding(3, 4, 3, 4);
-            CashierFunctionsButton.Name = "CashierFunctionsButton";
-            CashierFunctionsButton.Size = new Size(202, 68);
-            CashierFunctionsButton.TabIndex = 13;
-            CashierFunctionsButton.Text = "Cashier Functions";
-            CashierFunctionsButton.TextAlign = ContentAlignment.BottomCenter;
-            CashierFunctionsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            CashierFunctionsButton.UseVisualStyleBackColor = true;
+            this.CashierFunctionsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CashierFunctionsButton.Enabled = false;
+            this.CashierFunctionsButton.FlatAppearance.BorderSize = 0;
+            this.CashierFunctionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CashierFunctionsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CashierFunctionsButton.Location = new System.Drawing.Point(835, 4);
+            this.CashierFunctionsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CashierFunctionsButton.Name = "CashierFunctionsButton";
+            this.CashierFunctionsButton.Size = new System.Drawing.Size(202, 68);
+            this.CashierFunctionsButton.TabIndex = 13;
+            this.CashierFunctionsButton.Text = "Cashier Functions";
+            this.CashierFunctionsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.CashierFunctionsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CashierFunctionsButton.UseVisualStyleBackColor = true;
             // 
             // CashierShiftFunctionsButton
             // 
-            CashierShiftFunctionsButton.Dock = DockStyle.Fill;
-            CashierShiftFunctionsButton.Enabled = false;
-            CashierShiftFunctionsButton.FlatAppearance.BorderSize = 0;
-            CashierShiftFunctionsButton.FlatStyle = FlatStyle.Flat;
-            CashierShiftFunctionsButton.Image = Properties.Resources.indefinite_32x32;
-            CashierShiftFunctionsButton.Location = new Point(1043, 4);
-            CashierShiftFunctionsButton.Margin = new Padding(3, 4, 3, 4);
-            CashierShiftFunctionsButton.Name = "CashierShiftFunctionsButton";
-            CashierShiftFunctionsButton.Size = new Size(203, 68);
-            CashierShiftFunctionsButton.TabIndex = 12;
-            CashierShiftFunctionsButton.Text = "Cashier Shift Functions";
-            CashierShiftFunctionsButton.TextAlign = ContentAlignment.BottomCenter;
-            CashierShiftFunctionsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            CashierShiftFunctionsButton.UseVisualStyleBackColor = true;
+            this.CashierShiftFunctionsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CashierShiftFunctionsButton.Enabled = false;
+            this.CashierShiftFunctionsButton.FlatAppearance.BorderSize = 0;
+            this.CashierShiftFunctionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CashierShiftFunctionsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CashierShiftFunctionsButton.Location = new System.Drawing.Point(1043, 4);
+            this.CashierShiftFunctionsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CashierShiftFunctionsButton.Name = "CashierShiftFunctionsButton";
+            this.CashierShiftFunctionsButton.Size = new System.Drawing.Size(203, 68);
+            this.CashierShiftFunctionsButton.TabIndex = 12;
+            this.CashierShiftFunctionsButton.Text = "Cashier Shift Functions";
+            this.CashierShiftFunctionsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.CashierShiftFunctionsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CashierShiftFunctionsButton.UseVisualStyleBackColor = true;
             // 
             // BillingButton
             // 
-            BillingButton.Dock = DockStyle.Fill;
-            BillingButton.FlatAppearance.BorderSize = 0;
-            BillingButton.FlatStyle = FlatStyle.Flat;
-            BillingButton.Image = Properties.Resources.indefinite_32x32;
-            BillingButton.Location = new Point(3, 4);
-            BillingButton.Margin = new Padding(3, 4, 3, 4);
-            BillingButton.Name = "BillingButton";
-            BillingButton.Size = new Size(202, 68);
-            BillingButton.TabIndex = 11;
-            BillingButton.Text = "Billing";
-            BillingButton.TextAlign = ContentAlignment.BottomCenter;
-            BillingButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            BillingButton.UseVisualStyleBackColor = true;
+            this.BillingButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BillingButton.FlatAppearance.BorderSize = 0;
+            this.BillingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BillingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.BillingButton.Location = new System.Drawing.Point(3, 4);
+            this.BillingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BillingButton.Name = "BillingButton";
+            this.BillingButton.Size = new System.Drawing.Size(202, 68);
+            this.BillingButton.TabIndex = 11;
+            this.BillingButton.Text = "Billing";
+            this.BillingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BillingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.BillingButton.UseVisualStyleBackColor = true;
             // 
             // FastPostingButton
             // 
-            FastPostingButton.Dock = DockStyle.Fill;
-            FastPostingButton.FlatAppearance.BorderSize = 0;
-            FastPostingButton.FlatStyle = FlatStyle.Flat;
-            FastPostingButton.Image = Properties.Resources.indefinite_32x32;
-            FastPostingButton.Location = new Point(211, 4);
-            FastPostingButton.Margin = new Padding(3, 4, 3, 4);
-            FastPostingButton.Name = "FastPostingButton";
-            FastPostingButton.Size = new Size(202, 68);
-            FastPostingButton.TabIndex = 10;
-            FastPostingButton.Text = "Fast Posting";
-            FastPostingButton.TextAlign = ContentAlignment.BottomCenter;
-            FastPostingButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            FastPostingButton.UseVisualStyleBackColor = true;
+            this.FastPostingButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FastPostingButton.FlatAppearance.BorderSize = 0;
+            this.FastPostingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastPostingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.FastPostingButton.Location = new System.Drawing.Point(211, 4);
+            this.FastPostingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FastPostingButton.Name = "FastPostingButton";
+            this.FastPostingButton.Size = new System.Drawing.Size(202, 68);
+            this.FastPostingButton.TabIndex = 10;
+            this.FastPostingButton.Text = "Fast Posting";
+            this.FastPostingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.FastPostingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.FastPostingButton.UseVisualStyleBackColor = true;
             // 
             // QuickCheckOutButton
             // 
-            QuickCheckOutButton.Dock = DockStyle.Fill;
-            QuickCheckOutButton.FlatAppearance.BorderSize = 0;
-            QuickCheckOutButton.FlatStyle = FlatStyle.Flat;
-            QuickCheckOutButton.Image = Properties.Resources.indefinite_32x32;
-            QuickCheckOutButton.Location = new Point(419, 4);
-            QuickCheckOutButton.Margin = new Padding(3, 4, 3, 4);
-            QuickCheckOutButton.Name = "QuickCheckOutButton";
-            QuickCheckOutButton.Size = new Size(202, 68);
-            QuickCheckOutButton.TabIndex = 9;
-            QuickCheckOutButton.Text = "Quick Check Out";
-            QuickCheckOutButton.TextAlign = ContentAlignment.BottomCenter;
-            QuickCheckOutButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            QuickCheckOutButton.UseVisualStyleBackColor = true;
+            this.QuickCheckOutButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.QuickCheckOutButton.FlatAppearance.BorderSize = 0;
+            this.QuickCheckOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.QuickCheckOutButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.QuickCheckOutButton.Location = new System.Drawing.Point(419, 4);
+            this.QuickCheckOutButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.QuickCheckOutButton.Name = "QuickCheckOutButton";
+            this.QuickCheckOutButton.Size = new System.Drawing.Size(202, 68);
+            this.QuickCheckOutButton.TabIndex = 9;
+            this.QuickCheckOutButton.Text = "Quick Check Out";
+            this.QuickCheckOutButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.QuickCheckOutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.QuickCheckOutButton.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.ColumnCount = 6;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.6666679F));
-            tableLayoutPanel2.Controls.Add(RoomAssigmentButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(MessagesButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(TracesButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(ArrivalsButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(InHouseGuestsButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(AccountsButton, 0, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 4);
-            tableLayoutPanel2.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1249, 76);
-            tableLayoutPanel2.TabIndex = 0;
+            this.tableLayoutPanel2.ColumnCount = 6;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.Controls.Add(this.RoomAssigmentButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.MessagesButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.TracesButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.ArrivalsButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.InHouseGuestsButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.AccountsButton, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel2.TabIndex = 0;
             // 
             // RoomAssigmentButton
             // 
-            RoomAssigmentButton.Dock = DockStyle.Fill;
-            RoomAssigmentButton.Enabled = false;
-            RoomAssigmentButton.FlatAppearance.BorderSize = 0;
-            RoomAssigmentButton.FlatStyle = FlatStyle.Flat;
-            RoomAssigmentButton.Image = Properties.Resources.indefinite_32x32;
-            RoomAssigmentButton.Location = new Point(627, 4);
-            RoomAssigmentButton.Margin = new Padding(3, 4, 3, 4);
-            RoomAssigmentButton.Name = "RoomAssigmentButton";
-            RoomAssigmentButton.Size = new Size(202, 68);
-            RoomAssigmentButton.TabIndex = 10;
-            RoomAssigmentButton.Text = "Room Assigment";
-            RoomAssigmentButton.TextAlign = ContentAlignment.BottomCenter;
-            RoomAssigmentButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            RoomAssigmentButton.UseVisualStyleBackColor = true;
+            this.RoomAssigmentButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RoomAssigmentButton.Enabled = false;
+            this.RoomAssigmentButton.FlatAppearance.BorderSize = 0;
+            this.RoomAssigmentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RoomAssigmentButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomAssigmentButton.Location = new System.Drawing.Point(627, 4);
+            this.RoomAssigmentButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomAssigmentButton.Name = "RoomAssigmentButton";
+            this.RoomAssigmentButton.Size = new System.Drawing.Size(202, 68);
+            this.RoomAssigmentButton.TabIndex = 10;
+            this.RoomAssigmentButton.Text = "Room Assigment";
+            this.RoomAssigmentButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RoomAssigmentButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RoomAssigmentButton.UseVisualStyleBackColor = true;
             // 
             // MessagesButton
             // 
-            MessagesButton.Dock = DockStyle.Fill;
-            MessagesButton.FlatAppearance.BorderSize = 0;
-            MessagesButton.FlatStyle = FlatStyle.Flat;
-            MessagesButton.Image = Properties.Resources.indefinite_32x32;
-            MessagesButton.Location = new Point(835, 4);
-            MessagesButton.Margin = new Padding(3, 4, 3, 4);
-            MessagesButton.Name = "MessagesButton";
-            MessagesButton.Size = new Size(202, 68);
-            MessagesButton.TabIndex = 9;
-            MessagesButton.Text = "Messages";
-            MessagesButton.TextAlign = ContentAlignment.BottomCenter;
-            MessagesButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            MessagesButton.UseVisualStyleBackColor = true;
+            this.MessagesButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MessagesButton.FlatAppearance.BorderSize = 0;
+            this.MessagesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MessagesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.MessagesButton.Location = new System.Drawing.Point(835, 4);
+            this.MessagesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MessagesButton.Name = "MessagesButton";
+            this.MessagesButton.Size = new System.Drawing.Size(202, 68);
+            this.MessagesButton.TabIndex = 9;
+            this.MessagesButton.Text = "Messages";
+            this.MessagesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.MessagesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.MessagesButton.UseVisualStyleBackColor = true;
             // 
             // TracesButton
             // 
-            TracesButton.Dock = DockStyle.Fill;
-            TracesButton.Enabled = false;
-            TracesButton.FlatAppearance.BorderSize = 0;
-            TracesButton.FlatStyle = FlatStyle.Flat;
-            TracesButton.Image = Properties.Resources.indefinite_32x32;
-            TracesButton.Location = new Point(1043, 4);
-            TracesButton.Margin = new Padding(3, 4, 3, 4);
-            TracesButton.Name = "TracesButton";
-            TracesButton.Size = new Size(203, 68);
-            TracesButton.TabIndex = 8;
-            TracesButton.Text = "Traces";
-            TracesButton.TextAlign = ContentAlignment.BottomCenter;
-            TracesButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            TracesButton.UseVisualStyleBackColor = true;
+            this.TracesButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TracesButton.Enabled = false;
+            this.TracesButton.FlatAppearance.BorderSize = 0;
+            this.TracesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TracesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.TracesButton.Location = new System.Drawing.Point(1043, 4);
+            this.TracesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TracesButton.Name = "TracesButton";
+            this.TracesButton.Size = new System.Drawing.Size(203, 68);
+            this.TracesButton.TabIndex = 8;
+            this.TracesButton.Text = "Traces";
+            this.TracesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.TracesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.TracesButton.UseVisualStyleBackColor = true;
             // 
             // ArrivalsButton
             // 
-            ArrivalsButton.Dock = DockStyle.Fill;
-            ArrivalsButton.FlatAppearance.BorderSize = 0;
-            ArrivalsButton.FlatStyle = FlatStyle.Flat;
-            ArrivalsButton.Image = Properties.Resources.indefinite_32x32;
-            ArrivalsButton.Location = new Point(3, 4);
-            ArrivalsButton.Margin = new Padding(3, 4, 3, 4);
-            ArrivalsButton.Name = "ArrivalsButton";
-            ArrivalsButton.Size = new Size(202, 68);
-            ArrivalsButton.TabIndex = 7;
-            ArrivalsButton.Text = "Arrivals";
-            ArrivalsButton.TextAlign = ContentAlignment.BottomCenter;
-            ArrivalsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            ArrivalsButton.UseVisualStyleBackColor = true;
+            this.ArrivalsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ArrivalsButton.FlatAppearance.BorderSize = 0;
+            this.ArrivalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ArrivalsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ArrivalsButton.Location = new System.Drawing.Point(3, 4);
+            this.ArrivalsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ArrivalsButton.Name = "ArrivalsButton";
+            this.ArrivalsButton.Size = new System.Drawing.Size(202, 68);
+            this.ArrivalsButton.TabIndex = 7;
+            this.ArrivalsButton.Text = "Arrivals";
+            this.ArrivalsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ArrivalsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ArrivalsButton.UseVisualStyleBackColor = true;
             // 
             // InHouseGuestsButton
             // 
-            InHouseGuestsButton.Dock = DockStyle.Fill;
-            InHouseGuestsButton.FlatAppearance.BorderSize = 0;
-            InHouseGuestsButton.FlatStyle = FlatStyle.Flat;
-            InHouseGuestsButton.Image = Properties.Resources.indefinite_32x32;
-            InHouseGuestsButton.Location = new Point(211, 4);
-            InHouseGuestsButton.Margin = new Padding(3, 4, 3, 4);
-            InHouseGuestsButton.Name = "InHouseGuestsButton";
-            InHouseGuestsButton.Size = new Size(202, 68);
-            InHouseGuestsButton.TabIndex = 6;
-            InHouseGuestsButton.Text = "In House Guests";
-            InHouseGuestsButton.TextAlign = ContentAlignment.BottomCenter;
-            InHouseGuestsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            InHouseGuestsButton.UseVisualStyleBackColor = true;
+            this.InHouseGuestsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InHouseGuestsButton.FlatAppearance.BorderSize = 0;
+            this.InHouseGuestsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.InHouseGuestsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.InHouseGuestsButton.Location = new System.Drawing.Point(211, 4);
+            this.InHouseGuestsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InHouseGuestsButton.Name = "InHouseGuestsButton";
+            this.InHouseGuestsButton.Size = new System.Drawing.Size(202, 68);
+            this.InHouseGuestsButton.TabIndex = 6;
+            this.InHouseGuestsButton.Text = "In House Guests";
+            this.InHouseGuestsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.InHouseGuestsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.InHouseGuestsButton.UseVisualStyleBackColor = true;
             // 
             // AccountsButton
             // 
-            AccountsButton.Dock = DockStyle.Fill;
-            AccountsButton.Enabled = false;
-            AccountsButton.FlatAppearance.BorderSize = 0;
-            AccountsButton.FlatStyle = FlatStyle.Flat;
-            AccountsButton.Image = Properties.Resources.indefinite_32x32;
-            AccountsButton.Location = new Point(419, 4);
-            AccountsButton.Margin = new Padding(3, 4, 3, 4);
-            AccountsButton.Name = "AccountsButton";
-            AccountsButton.Size = new Size(202, 68);
-            AccountsButton.TabIndex = 5;
-            AccountsButton.Text = "Accounts";
-            AccountsButton.TextAlign = ContentAlignment.BottomCenter;
-            AccountsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            AccountsButton.UseVisualStyleBackColor = true;
+            this.AccountsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AccountsButton.Enabled = false;
+            this.AccountsButton.FlatAppearance.BorderSize = 0;
+            this.AccountsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AccountsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.AccountsButton.Location = new System.Drawing.Point(419, 4);
+            this.AccountsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AccountsButton.Name = "AccountsButton";
+            this.AccountsButton.Size = new System.Drawing.Size(202, 68);
+            this.AccountsButton.TabIndex = 5;
+            this.AccountsButton.Text = "Accounts";
+            this.AccountsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AccountsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AccountsButton.UseVisualStyleBackColor = true;
             // 
             // ReservationsTabPage
             // 
-            ReservationsTabPage.Controls.Add(ReservationsLayoutPanel);
-            ReservationsTabPage.Location = new Point(4, 22);
-            ReservationsTabPage.Margin = new Padding(3, 4, 3, 4);
-            ReservationsTabPage.Name = "ReservationsTabPage";
-            ReservationsTabPage.Padding = new Padding(3, 4, 3, 4);
-            ReservationsTabPage.Size = new Size(1255, 84);
-            ReservationsTabPage.TabIndex = 11;
-            ReservationsTabPage.Text = "Reservations";
-            ReservationsTabPage.UseVisualStyleBackColor = true;
+            this.ReservationsTabPage.Controls.Add(this.ReservationsLayoutPanel);
+            this.ReservationsTabPage.Location = new System.Drawing.Point(4, 22);
+            this.ReservationsTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsTabPage.Name = "ReservationsTabPage";
+            this.ReservationsTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.ReservationsTabPage.TabIndex = 11;
+            this.ReservationsTabPage.Text = "Reservations";
+            this.ReservationsTabPage.UseVisualStyleBackColor = true;
             // 
             // ReservationsLayoutPanel
             // 
-            ReservationsLayoutPanel.ColumnCount = 9;
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 11.8543873F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.57565F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 11.7243729F));
-            ReservationsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.6409321F));
-            ReservationsLayoutPanel.Controls.Add(ConfirmationButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(FloorPlanButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(CalendarButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(RegistrationCardsButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(RoomPlanButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(UpdateReservationButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(NewReservationButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(ProfilesButton, 0, 0);
-            ReservationsLayoutPanel.Controls.Add(BlocksButton, 0, 0);
-            ReservationsLayoutPanel.Dock = DockStyle.Fill;
-            ReservationsLayoutPanel.Location = new Point(3, 4);
-            ReservationsLayoutPanel.Margin = new Padding(3, 4, 3, 4);
-            ReservationsLayoutPanel.Name = "ReservationsLayoutPanel";
-            ReservationsLayoutPanel.RowCount = 1;
-            ReservationsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            ReservationsLayoutPanel.Size = new Size(1249, 76);
-            ReservationsLayoutPanel.TabIndex = 18;
+            this.ReservationsLayoutPanel.ColumnCount = 9;
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.85439F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.57565F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.72437F));
+            this.ReservationsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.64093F));
+            this.ReservationsLayoutPanel.Controls.Add(this.ConfirmationButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.FloorPlanButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.CalendarButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.RegistrationCardsButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.RoomPlanButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.UpdateReservationButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.NewReservationButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.ProfilesButton, 0, 0);
+            this.ReservationsLayoutPanel.Controls.Add(this.BlocksButton, 0, 0);
+            this.ReservationsLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ReservationsLayoutPanel.Location = new System.Drawing.Point(3, 4);
+            this.ReservationsLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsLayoutPanel.Name = "ReservationsLayoutPanel";
+            this.ReservationsLayoutPanel.RowCount = 1;
+            this.ReservationsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.ReservationsLayoutPanel.Size = new System.Drawing.Size(1249, 76);
+            this.ReservationsLayoutPanel.TabIndex = 18;
             // 
             // ConfirmationButton
             // 
-            ConfirmationButton.Dock = DockStyle.Fill;
-            ConfirmationButton.Enabled = false;
-            ConfirmationButton.FlatAppearance.BorderSize = 0;
-            ConfirmationButton.FlatStyle = FlatStyle.Flat;
-            ConfirmationButton.Image = Properties.Resources.indefinite_32x32;
-            ConfirmationButton.Location = new Point(836, 4);
-            ConfirmationButton.Margin = new Padding(3, 4, 3, 4);
-            ConfirmationButton.Name = "ConfirmationButton";
-            ConfirmationButton.Size = new Size(126, 68);
-            ConfirmationButton.TabIndex = 10;
-            ConfirmationButton.Text = "Confirmation";
-            ConfirmationButton.TextAlign = ContentAlignment.BottomCenter;
-            ConfirmationButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            ConfirmationButton.UseVisualStyleBackColor = true;
+            this.ConfirmationButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ConfirmationButton.Enabled = false;
+            this.ConfirmationButton.FlatAppearance.BorderSize = 0;
+            this.ConfirmationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConfirmationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ConfirmationButton.Location = new System.Drawing.Point(836, 4);
+            this.ConfirmationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ConfirmationButton.Name = "ConfirmationButton";
+            this.ConfirmationButton.Size = new System.Drawing.Size(126, 68);
+            this.ConfirmationButton.TabIndex = 10;
+            this.ConfirmationButton.Text = "Confirmation";
+            this.ConfirmationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ConfirmationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ConfirmationButton.UseVisualStyleBackColor = true;
             // 
             // FloorPlanButton
             // 
-            FloorPlanButton.Dock = DockStyle.Fill;
-            FloorPlanButton.Enabled = false;
-            FloorPlanButton.FlatAppearance.BorderSize = 0;
-            FloorPlanButton.FlatStyle = FlatStyle.Flat;
-            FloorPlanButton.Image = Properties.Resources.indefinite_32x32;
-            FloorPlanButton.Location = new Point(704, 4);
-            FloorPlanButton.Margin = new Padding(3, 4, 3, 4);
-            FloorPlanButton.Name = "FloorPlanButton";
-            FloorPlanButton.Size = new Size(126, 68);
-            FloorPlanButton.TabIndex = 9;
-            FloorPlanButton.Text = "Floor Plan";
-            FloorPlanButton.TextAlign = ContentAlignment.BottomCenter;
-            FloorPlanButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            FloorPlanButton.UseVisualStyleBackColor = true;
+            this.FloorPlanButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FloorPlanButton.Enabled = false;
+            this.FloorPlanButton.FlatAppearance.BorderSize = 0;
+            this.FloorPlanButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FloorPlanButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.FloorPlanButton.Location = new System.Drawing.Point(704, 4);
+            this.FloorPlanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FloorPlanButton.Name = "FloorPlanButton";
+            this.FloorPlanButton.Size = new System.Drawing.Size(126, 68);
+            this.FloorPlanButton.TabIndex = 9;
+            this.FloorPlanButton.Text = "Floor Plan";
+            this.FloorPlanButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.FloorPlanButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.FloorPlanButton.UseVisualStyleBackColor = true;
             // 
             // CalendarButton
             // 
-            CalendarButton.Dock = DockStyle.Fill;
-            CalendarButton.FlatAppearance.BorderSize = 0;
-            CalendarButton.FlatStyle = FlatStyle.Flat;
-            CalendarButton.Image = Properties.Resources.indefinite_32x32;
-            CalendarButton.Location = new Point(1114, 4);
-            CalendarButton.Margin = new Padding(3, 4, 3, 4);
-            CalendarButton.Name = "CalendarButton";
-            CalendarButton.Size = new Size(132, 68);
-            CalendarButton.TabIndex = 8;
-            CalendarButton.Text = "Calendar";
-            CalendarButton.TextAlign = ContentAlignment.BottomCenter;
-            CalendarButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            CalendarButton.UseVisualStyleBackColor = true;
+            this.CalendarButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CalendarButton.FlatAppearance.BorderSize = 0;
+            this.CalendarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CalendarButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CalendarButton.Location = new System.Drawing.Point(1114, 4);
+            this.CalendarButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CalendarButton.Name = "CalendarButton";
+            this.CalendarButton.Size = new System.Drawing.Size(132, 68);
+            this.CalendarButton.TabIndex = 8;
+            this.CalendarButton.Text = "Calendar";
+            this.CalendarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.CalendarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CalendarButton.UseVisualStyleBackColor = true;
             // 
             // RegistrationCardsButton
             // 
-            RegistrationCardsButton.Dock = DockStyle.Fill;
-            RegistrationCardsButton.Enabled = false;
-            RegistrationCardsButton.FlatAppearance.BorderSize = 0;
-            RegistrationCardsButton.FlatStyle = FlatStyle.Flat;
-            RegistrationCardsButton.Image = Properties.Resources.indefinite_32x32;
-            RegistrationCardsButton.Location = new Point(968, 4);
-            RegistrationCardsButton.Margin = new Padding(3, 4, 3, 4);
-            RegistrationCardsButton.Name = "RegistrationCardsButton";
-            RegistrationCardsButton.Size = new Size(140, 68);
-            RegistrationCardsButton.TabIndex = 7;
-            RegistrationCardsButton.Text = "Registration Cards";
-            RegistrationCardsButton.TextAlign = ContentAlignment.BottomCenter;
-            RegistrationCardsButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            RegistrationCardsButton.UseVisualStyleBackColor = true;
+            this.RegistrationCardsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RegistrationCardsButton.Enabled = false;
+            this.RegistrationCardsButton.FlatAppearance.BorderSize = 0;
+            this.RegistrationCardsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RegistrationCardsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RegistrationCardsButton.Location = new System.Drawing.Point(968, 4);
+            this.RegistrationCardsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RegistrationCardsButton.Name = "RegistrationCardsButton";
+            this.RegistrationCardsButton.Size = new System.Drawing.Size(140, 68);
+            this.RegistrationCardsButton.TabIndex = 7;
+            this.RegistrationCardsButton.Text = "Registration Cards";
+            this.RegistrationCardsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RegistrationCardsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RegistrationCardsButton.UseVisualStyleBackColor = true;
             // 
             // RoomPlanButton
             // 
-            RoomPlanButton.Dock = DockStyle.Fill;
-            RoomPlanButton.FlatAppearance.BorderSize = 0;
-            RoomPlanButton.FlatStyle = FlatStyle.Flat;
-            RoomPlanButton.Image = Properties.Resources.indefinite_32x32;
-            RoomPlanButton.Location = new Point(572, 4);
-            RoomPlanButton.Margin = new Padding(3, 4, 3, 4);
-            RoomPlanButton.Name = "RoomPlanButton";
-            RoomPlanButton.Size = new Size(126, 68);
-            RoomPlanButton.TabIndex = 6;
-            RoomPlanButton.Text = "Room Plan";
-            RoomPlanButton.TextAlign = ContentAlignment.BottomCenter;
-            RoomPlanButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            RoomPlanButton.UseVisualStyleBackColor = true;
+            this.RoomPlanButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RoomPlanButton.FlatAppearance.BorderSize = 0;
+            this.RoomPlanButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RoomPlanButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomPlanButton.Location = new System.Drawing.Point(572, 4);
+            this.RoomPlanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomPlanButton.Name = "RoomPlanButton";
+            this.RoomPlanButton.Size = new System.Drawing.Size(126, 68);
+            this.RoomPlanButton.TabIndex = 6;
+            this.RoomPlanButton.Text = "Room Plan";
+            this.RoomPlanButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RoomPlanButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RoomPlanButton.UseVisualStyleBackColor = true;
             // 
             // UpdateReservationButton
             // 
-            UpdateReservationButton.Dock = DockStyle.Fill;
-            UpdateReservationButton.FlatAppearance.BorderSize = 0;
-            UpdateReservationButton.FlatStyle = FlatStyle.Flat;
-            UpdateReservationButton.Image = Properties.Resources.indefinite_32x32;
-            UpdateReservationButton.Location = new Point(151, 4);
-            UpdateReservationButton.Margin = new Padding(3, 4, 3, 4);
-            UpdateReservationButton.Name = "UpdateReservationButton";
-            UpdateReservationButton.Size = new Size(151, 68);
-            UpdateReservationButton.TabIndex = 5;
-            UpdateReservationButton.Text = "Update Reservation";
-            UpdateReservationButton.TextAlign = ContentAlignment.BottomCenter;
-            UpdateReservationButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            UpdateReservationButton.UseVisualStyleBackColor = true;
+            this.UpdateReservationButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UpdateReservationButton.FlatAppearance.BorderSize = 0;
+            this.UpdateReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateReservationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.UpdateReservationButton.Location = new System.Drawing.Point(151, 4);
+            this.UpdateReservationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UpdateReservationButton.Name = "UpdateReservationButton";
+            this.UpdateReservationButton.Size = new System.Drawing.Size(151, 68);
+            this.UpdateReservationButton.TabIndex = 5;
+            this.UpdateReservationButton.Text = "Update Reservation";
+            this.UpdateReservationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.UpdateReservationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UpdateReservationButton.UseVisualStyleBackColor = true;
             // 
             // NewReservationButton
             // 
-            NewReservationButton.Dock = DockStyle.Fill;
-            NewReservationButton.FlatAppearance.BorderSize = 0;
-            NewReservationButton.FlatStyle = FlatStyle.Flat;
-            NewReservationButton.Image = Properties.Resources.indefinite_32x32;
-            NewReservationButton.Location = new Point(3, 4);
-            NewReservationButton.Margin = new Padding(3, 4, 3, 4);
-            NewReservationButton.Name = "NewReservationButton";
-            NewReservationButton.Size = new Size(142, 68);
-            NewReservationButton.TabIndex = 4;
-            NewReservationButton.Text = "New Reservation";
-            NewReservationButton.TextAlign = ContentAlignment.BottomCenter;
-            NewReservationButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            NewReservationButton.UseVisualStyleBackColor = true;
-            NewReservationButton.Click += NewReservationButton_Click;
+            this.NewReservationButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewReservationButton.FlatAppearance.BorderSize = 0;
+            this.NewReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NewReservationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.NewReservationButton.Location = new System.Drawing.Point(3, 4);
+            this.NewReservationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.NewReservationButton.Name = "NewReservationButton";
+            this.NewReservationButton.Size = new System.Drawing.Size(142, 68);
+            this.NewReservationButton.TabIndex = 4;
+            this.NewReservationButton.Text = "New Reservation";
+            this.NewReservationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.NewReservationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.NewReservationButton.UseVisualStyleBackColor = true;
+            this.NewReservationButton.Click += new System.EventHandler(this.NewReservationButton_Click);
             // 
             // ProfilesButton
             // 
-            ProfilesButton.Dock = DockStyle.Fill;
-            ProfilesButton.FlatAppearance.BorderSize = 0;
-            ProfilesButton.FlatStyle = FlatStyle.Flat;
-            ProfilesButton.Image = Properties.Resources.indefinite_32x32;
-            ProfilesButton.Location = new Point(440, 4);
-            ProfilesButton.Margin = new Padding(3, 4, 3, 4);
-            ProfilesButton.Name = "ProfilesButton";
-            ProfilesButton.Size = new Size(126, 68);
-            ProfilesButton.TabIndex = 3;
-            ProfilesButton.Text = "Profiles";
-            ProfilesButton.TextAlign = ContentAlignment.BottomCenter;
-            ProfilesButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            ProfilesButton.UseVisualStyleBackColor = true;
-            ProfilesButton.Click += ProfilesButton_Click;
+            this.ProfilesButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProfilesButton.FlatAppearance.BorderSize = 0;
+            this.ProfilesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ProfilesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ProfilesButton.Location = new System.Drawing.Point(440, 4);
+            this.ProfilesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ProfilesButton.Name = "ProfilesButton";
+            this.ProfilesButton.Size = new System.Drawing.Size(126, 68);
+            this.ProfilesButton.TabIndex = 3;
+            this.ProfilesButton.Text = "Profiles";
+            this.ProfilesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ProfilesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ProfilesButton.UseVisualStyleBackColor = true;
+            this.ProfilesButton.Click += new System.EventHandler(this.ProfilesButton_Click);
             // 
             // BlocksButton
             // 
-            BlocksButton.Dock = DockStyle.Fill;
-            BlocksButton.Enabled = false;
-            BlocksButton.FlatAppearance.BorderSize = 0;
-            BlocksButton.FlatStyle = FlatStyle.Flat;
-            BlocksButton.Image = Properties.Resources.indefinite_32x32;
-            BlocksButton.Location = new Point(308, 4);
-            BlocksButton.Margin = new Padding(3, 4, 3, 4);
-            BlocksButton.Name = "BlocksButton";
-            BlocksButton.Size = new Size(126, 68);
-            BlocksButton.TabIndex = 2;
-            BlocksButton.Text = "Blocks";
-            BlocksButton.TextAlign = ContentAlignment.BottomCenter;
-            BlocksButton.TextImageRelation = TextImageRelation.ImageAboveText;
-            BlocksButton.UseVisualStyleBackColor = true;
+            this.BlocksButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BlocksButton.Enabled = false;
+            this.BlocksButton.FlatAppearance.BorderSize = 0;
+            this.BlocksButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BlocksButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.BlocksButton.Location = new System.Drawing.Point(308, 4);
+            this.BlocksButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BlocksButton.Name = "BlocksButton";
+            this.BlocksButton.Size = new System.Drawing.Size(126, 68);
+            this.BlocksButton.TabIndex = 2;
+            this.BlocksButton.Text = "Blocks";
+            this.BlocksButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BlocksButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.BlocksButton.UseVisualStyleBackColor = true;
             // 
             // MenuControl
             // 
-            MenuControl.Controls.Add(ReservationsTabPage);
-            MenuControl.Controls.Add(FrontDeskTabPage);
-            MenuControl.Controls.Add(CasheiringTabPage);
-            MenuControl.Controls.Add(RoomsManagmentTabPage);
-            MenuControl.Controls.Add(ARTabPage);
-            MenuControl.Controls.Add(CommissionsTabPage);
-            MenuControl.Controls.Add(MiscellaneousTabPage);
-            MenuControl.Controls.Add(SetupTabPage);
-            MenuControl.Controls.Add(BackOfficeInterfaceTabPage);
-            MenuControl.Controls.Add(HelpTabPage);
-            MenuControl.Controls.Add(ExitTabPage);
-            MenuControl.Dock = DockStyle.Top;
-            MenuControl.Location = new Point(0, 0);
-            MenuControl.Margin = new Padding(3, 4, 3, 4);
-            MenuControl.Name = "MenuControl";
-            MenuControl.SelectedIndex = 0;
-            MenuControl.Size = new Size(1263, 110);
-            MenuControl.SizeMode = TabSizeMode.Fixed;
-            MenuControl.TabIndex = 14;
+            this.MenuControl.Controls.Add(this.ReservationsTabPage);
+            this.MenuControl.Controls.Add(this.FrontDeskTabPage);
+            this.MenuControl.Controls.Add(this.CasheiringTabPage);
+            this.MenuControl.Controls.Add(this.RoomsManagmentTabPage);
+            this.MenuControl.Controls.Add(this.ARTabPage);
+            this.MenuControl.Controls.Add(this.CommissionsTabPage);
+            this.MenuControl.Controls.Add(this.MiscellaneousTabPage);
+            this.MenuControl.Controls.Add(this.SetupTabPage);
+            this.MenuControl.Controls.Add(this.BackOfficeInterfaceTabPage);
+            this.MenuControl.Controls.Add(this.HelpTabPage);
+            this.MenuControl.Controls.Add(this.ExitTabPage);
+            this.MenuControl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MenuControl.Location = new System.Drawing.Point(0, 0);
+            this.MenuControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MenuControl.Name = "MenuControl";
+            this.MenuControl.SelectedIndex = 0;
+            this.MenuControl.Size = new System.Drawing.Size(1263, 110);
+            this.MenuControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.MenuControl.TabIndex = 14;
             // 
             // FrontDeskTabPage
             // 
-            FrontDeskTabPage.Controls.Add(tableLayoutPanel2);
-            FrontDeskTabPage.Location = new Point(4, 22);
-            FrontDeskTabPage.Margin = new Padding(3, 4, 3, 4);
-            FrontDeskTabPage.Name = "FrontDeskTabPage";
-            FrontDeskTabPage.Padding = new Padding(3, 4, 3, 4);
-            FrontDeskTabPage.Size = new Size(1255, 84);
-            FrontDeskTabPage.TabIndex = 12;
-            FrontDeskTabPage.Text = "Front Desk";
-            FrontDeskTabPage.UseVisualStyleBackColor = true;
+            this.FrontDeskTabPage.Controls.Add(this.tableLayoutPanel2);
+            this.FrontDeskTabPage.Location = new System.Drawing.Point(4, 22);
+            this.FrontDeskTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FrontDeskTabPage.Name = "FrontDeskTabPage";
+            this.FrontDeskTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FrontDeskTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.FrontDeskTabPage.TabIndex = 12;
+            this.FrontDeskTabPage.Text = "Front Desk";
+            this.FrontDeskTabPage.UseVisualStyleBackColor = true;
             // 
             // ExitTabPage
             // 
-            ExitTabPage.Controls.Add(tableLayoutPanel1);
-            ExitTabPage.Location = new Point(4, 22);
-            ExitTabPage.Margin = new Padding(3, 4, 3, 4);
-            ExitTabPage.Name = "ExitTabPage";
-            ExitTabPage.Padding = new Padding(3, 4, 3, 4);
-            ExitTabPage.Size = new Size(1255, 84);
-            ExitTabPage.TabIndex = 13;
-            ExitTabPage.Text = "Exit";
-            ExitTabPage.UseVisualStyleBackColor = true;
+            this.ExitTabPage.Controls.Add(this.tableLayoutPanel1);
+            this.ExitTabPage.Location = new System.Drawing.Point(4, 22);
+            this.ExitTabPage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ExitTabPage.Name = "ExitTabPage";
+            this.ExitTabPage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ExitTabPage.Size = new System.Drawing.Size(1255, 84);
+            this.ExitTabPage.TabIndex = 13;
+            this.ExitTabPage.Text = "Exit";
+            this.ExitTabPage.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(ExitButton, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(3, 4);
-            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 1;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1249, 76);
-            tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.ExitButton, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1249, 76);
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // statusStrip1
             // 
-            statusStrip1.ImageScalingSize = new Size(20, 20);
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
-            statusStrip1.Location = new Point(0, 730);
-            statusStrip1.Name = "statusStrip1";
-            statusStrip1.Padding = new Padding(1, 0, 15, 0);
-            statusStrip1.Size = new Size(1263, 22);
-            statusStrip1.TabIndex = 16;
-            statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 730);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 15, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1263, 22);
+            this.statusStrip1.TabIndex = 16;
+            this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(88, 17);
-            toolStripStatusLabel1.Text = "Stariy X Zaguzga";
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(88, 17);
+            this.toolStripStatusLabel1.Text = "Stariy X Zaguzga";
             // 
             // SplashScreenBackgroundWorker
             // 
-            SplashScreenBackgroundWorker.DoWork += SplashScreenBackgroundWorker_DoWork;
-            SplashScreenBackgroundWorker.RunWorkerCompleted += SplashScreenBackgroundWorker_RunWorkerCompleted;
+            this.SplashScreenBackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.SplashScreenBackgroundWorker_DoWork);
+            this.SplashScreenBackgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.SplashScreenBackgroundWorker_RunWorkerCompleted);
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(96F, 96F);
-            AutoScaleMode = AutoScaleMode.Dpi;
-            BackColor = SystemColors.Control;
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1263, 752);
-            Controls.Add(statusStrip1);
-            Controls.Add(MenuControl);
-            DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            IsMdiContainer = true;
-            Margin = new Padding(3, 4, 3, 4);
-            MinimumSize = new Size(1065, 788);
-            Name = "MainForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "HotelEDU";
-            WindowState = FormWindowState.Maximized;
-            Load += MainForm_Load;
-            SizeChanged += MainForm_SizeChanged;
-            HelpTabPage.ResumeLayout(false);
-            tableLayoutPanel13.ResumeLayout(false);
-            BackOfficeInterfaceTabPage.ResumeLayout(false);
-            SetupTabPage.ResumeLayout(false);
-            MiscellaneousTabPage.ResumeLayout(false);
-            CommissionsTabPage.ResumeLayout(false);
-            ARTabPage.ResumeLayout(false);
-            RoomsManagmentTabPage.ResumeLayout(false);
-            tableLayoutPanel5.ResumeLayout(false);
-            CasheiringTabPage.ResumeLayout(false);
-            tableLayoutPanel4.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            ReservationsTabPage.ResumeLayout(false);
-            ReservationsLayoutPanel.ResumeLayout(false);
-            MenuControl.ResumeLayout(false);
-            FrontDeskTabPage.ResumeLayout(false);
-            ExitTabPage.ResumeLayout(false);
-            tableLayoutPanel1.ResumeLayout(false);
-            statusStrip1.ResumeLayout(false);
-            statusStrip1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(1263, 752);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.MenuControl);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MinimumSize = new System.Drawing.Size(1065, 788);
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "HotelEDU";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
+            this.HelpTabPage.ResumeLayout(false);
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.BackOfficeInterfaceTabPage.ResumeLayout(false);
+            this.SetupTabPage.ResumeLayout(false);
+            this.MiscellaneousTabPage.ResumeLayout(false);
+            this.CommissionsTabPage.ResumeLayout(false);
+            this.ARTabPage.ResumeLayout(false);
+            this.RoomsManagmentTabPage.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.CasheiringTabPage.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.ReservationsTabPage.ResumeLayout(false);
+            this.ReservationsLayoutPanel.ResumeLayout(false);
+            this.MenuControl.ResumeLayout(false);
+            this.FrontDeskTabPage.ResumeLayout(false);
+            this.ExitTabPage.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

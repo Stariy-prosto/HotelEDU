@@ -1,4 +1,7 @@
-﻿namespace HotelEDU
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace HotelEDU
 {
     partial class ReservationForm
     {
@@ -29,1732 +32,1733 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReservationForm));
-            NameLabel = new Label();
-            NameSelectButton = new Button();
-            NameTextBox = new TextBox();
-            PhoneButton = new Button();
-            FirstNameTextBox = new TextBox();
-            FirstNameLabel = new Label();
-            TitleTextBox = new TextBox();
-            TitleLabel = new Label();
-            TitleButton = new Button();
-            Language = new Button();
-            LanguageTextBox = new TextBox();
-            LanguageLabel = new Label();
-            VIPButton = new Button();
-            VIPTextBox = new TextBox();
-            VIPLabel = new Label();
-            CountryButton = new Button();
-            CountryTextBox = new TextBox();
-            CountryLabel = new Label();
-            MemberNoLabel = new Label();
-            MemberNoTextBox = new TextBox();
-            MemberTypeTextBox = new TextBox();
-            MemberTypeLabel = new Label();
-            MemberLvlTextBox = new TextBox();
-            MemberLvlLabel = new Label();
-            PrefRoomNoTextBox = new TextBox();
-            PrefRoomNoLabel = new Label();
-            PhoneTextBox = new TextBox();
-            PhoneLabel = new Label();
-            MemberTypeButton = new Button();
-            NameButton = new Button();
-            AgentTextBox = new TextBox();
-            AgentLabel = new Label();
-            AgentButton = new Button();
-            CompanyTextBox = new TextBox();
-            CompanyLabel = new Label();
-            CompanyButton = new Button();
-            GroupTextBox = new TextBox();
-            GroupLabel = new Label();
-            GroupButton = new Button();
-            SourceTextBox = new TextBox();
-            SourceLabel = new Label();
-            SourceButton = new Button();
-            groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
-            DepartureDayOfWeekLabel = new Label();
-            ArrivalDayOfWeekLabel = new Label();
-            FixedRateCheckBox = new CheckBox();
-            ArrivalLabel = new Label();
-            ETA = new TextBox();
-            ArrivalButton = new Button();
-            ETALabel = new Label();
-            ArrivalTextBox = new TextBox();
-            CurrButton = new Button();
-            NightsLabel = new Label();
-            CurrTextBox = new TextBox();
-            NightsTextBox = new TextBox();
-            CurrLabel = new Label();
-            DepartureButton = new Button();
-            BlockCodeTextBox = new TextBox();
-            DepartureLabel = new Label();
-            BlockCodeLabel = new Label();
-            DepartureTextBox = new TextBox();
-            BlockCodeButton = new Button();
-            ChildButton = new Button();
-            PackagesTextBox = new TextBox();
-            AdultsLabel = new Label();
-            PackagesLabel = new Label();
-            AdultsTextBox = new TextBox();
-            PackagesButton = new Button();
-            ChildLabel = new Label();
-            RateTextBox = new TextBox();
-            ChildTextBox = new TextBox();
-            RateLabel = new Label();
-            NoOfRmsLabel = new Label();
-            RateButton = new Button();
-            NoOfRmsTextBox = new TextBox();
-            RateCodeTextBox = new TextBox();
-            RoomTypeButton = new Button();
-            RateCodeLabel = new Label();
-            RoomTypeLabel = new Label();
-            RateCodeButton = new Button();
-            RoomTypeTextBox = new TextBox();
-            RoomTextBox = new TextBox();
-            RTCButton = new Button();
-            RoomLabel = new Label();
-            RTCLabel = new Label();
-            RoomButton = new Button();
-            RTCTextBox = new TextBox();
-            ResTypeButton = new Button();
-            ResTypeLabel = new Label();
-            ResTypeTextBox = new TextBox();
-            NonGuarantLabel = new Label();
-            MarketTextBox = new TextBox();
-            MarketLabel = new Label();
-            MarketButton = new Button();
-            Source1TextBox = new TextBox();
-            SourceLabel1 = new Label();
-            Source1Button = new Button();
-            OriginTextBox = new TextBox();
-            OriginLabel = new Label();
-            OriginButton = new Button();
-            PaymentTextBox = new TextBox();
-            PaymentLabel = new Label();
-            PaymentButton = new Button();
-            CreditCardNoTextBox = new TextBox();
-            CreditCardNoLabel = new Label();
-            ExpDateTextBox = new TextBox();
-            ExpDateLabel = new Label();
-            ExpDateButton = new Button();
-            ExpDateOtherButton = new Button();
-            NameOnCardTextBox = new TextBox();
-            NameOnCardLabel = new Label();
-            CreditCardSwipedCheckBox = new CheckBox();
-            CreditCardSwipedLabel = new Label();
-            ApprovalCodeTextBox = new TextBox();
-            ApprovalCodeLabel = new Label();
-            ApprovalAmtTextBox = new TextBox();
-            ApprovalAmtLabel = new Label();
-            SuteWithTextBox = new TextBox();
-            SuteWithLabel = new Label();
-            groupBox3 = new GroupBox();
-            GuestBalanceLabel = new Label();
-            GuestBalanceTextBox = new TextBox();
-            SpecaialsTextBox = new TextBox();
-            SpecaialsLabel = new Label();
-            SpecaialsButton = new Button();
-            CommentsButton = new Button();
-            CommentsTextBox = new TextBox();
-            CommentsLabel = new Label();
-            ColourButton = new Button();
-            ColourTextBox = new TextBox();
-            ColourLabel = new Label();
-            CRSNoButton = new Button();
-            CRSNoTextBox = new TextBox();
-            CRSNoLabel = new Label();
-            ConfirmationLlabel = new Label();
-            ConfirmationCheckBox = new CheckBox();
-            CallerTextBox = new TextBox();
-            CallerLabel = new Label();
-            CallerNoTextBox = new TextBox();
-            CallerNoLabel = new Label();
-            groupBox4 = new GroupBox();
-            SaveButton = new Button();
-            OKButton = new Button();
-            OptionsButton = new Button();
-            CloseButton = new Button();
-            CreatedByLabel = new Label();
-            CreatedUserLabel = new Label();
-            UpdatedUserLabel = new Label();
-            UpdatedByLabel = new Label();
-            DateOnLabel = new Label();
-            OnLabel = new Label();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox3.SuspendLayout();
-            groupBox4.SuspendLayout();
-            SuspendLayout();
+            this.NameLabel = new System.Windows.Forms.Label();
+            this.NameSelectButton = new System.Windows.Forms.Button();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.PhoneButton = new System.Windows.Forms.Button();
+            this.FirstNameTextBox = new System.Windows.Forms.TextBox();
+            this.FirstNameLabel = new System.Windows.Forms.Label();
+            this.TitleTextBox = new System.Windows.Forms.TextBox();
+            this.TitleLabel = new System.Windows.Forms.Label();
+            this.TitleButton = new System.Windows.Forms.Button();
+            this.Language = new System.Windows.Forms.Button();
+            this.LanguageTextBox = new System.Windows.Forms.TextBox();
+            this.LanguageLabel = new System.Windows.Forms.Label();
+            this.VIPButton = new System.Windows.Forms.Button();
+            this.VIPTextBox = new System.Windows.Forms.TextBox();
+            this.VIPLabel = new System.Windows.Forms.Label();
+            this.CountryButton = new System.Windows.Forms.Button();
+            this.CountryTextBox = new System.Windows.Forms.TextBox();
+            this.CountryLabel = new System.Windows.Forms.Label();
+            this.MemberNoLabel = new System.Windows.Forms.Label();
+            this.MemberNoTextBox = new System.Windows.Forms.TextBox();
+            this.MemberTypeTextBox = new System.Windows.Forms.TextBox();
+            this.MemberTypeLabel = new System.Windows.Forms.Label();
+            this.MemberLvlTextBox = new System.Windows.Forms.TextBox();
+            this.MemberLvlLabel = new System.Windows.Forms.Label();
+            this.PrefRoomNoTextBox = new System.Windows.Forms.TextBox();
+            this.PrefRoomNoLabel = new System.Windows.Forms.Label();
+            this.PhoneTextBox = new System.Windows.Forms.TextBox();
+            this.PhoneLabel = new System.Windows.Forms.Label();
+            this.MemberTypeButton = new System.Windows.Forms.Button();
+            this.NameButton = new System.Windows.Forms.Button();
+            this.AgentTextBox = new System.Windows.Forms.TextBox();
+            this.AgentLabel = new System.Windows.Forms.Label();
+            this.AgentButton = new System.Windows.Forms.Button();
+            this.CompanyTextBox = new System.Windows.Forms.TextBox();
+            this.CompanyLabel = new System.Windows.Forms.Label();
+            this.CompanyButton = new System.Windows.Forms.Button();
+            this.GroupTextBox = new System.Windows.Forms.TextBox();
+            this.GroupLabel = new System.Windows.Forms.Label();
+            this.GroupButton = new System.Windows.Forms.Button();
+            this.SourceTextBox = new System.Windows.Forms.TextBox();
+            this.SourceLabel = new System.Windows.Forms.Label();
+            this.SourceButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.DepartureDayOfWeekLabel = new System.Windows.Forms.Label();
+            this.ArrivalDayOfWeekLabel = new System.Windows.Forms.Label();
+            this.FixedRateCheckBox = new System.Windows.Forms.CheckBox();
+            this.ArrivalLabel = new System.Windows.Forms.Label();
+            this.ETA = new System.Windows.Forms.TextBox();
+            this.ArrivalButton = new System.Windows.Forms.Button();
+            this.ETALabel = new System.Windows.Forms.Label();
+            this.ArrivalTextBox = new System.Windows.Forms.TextBox();
+            this.CurrButton = new System.Windows.Forms.Button();
+            this.NightsLabel = new System.Windows.Forms.Label();
+            this.CurrTextBox = new System.Windows.Forms.TextBox();
+            this.NightsTextBox = new System.Windows.Forms.TextBox();
+            this.CurrLabel = new System.Windows.Forms.Label();
+            this.DepartureButton = new System.Windows.Forms.Button();
+            this.BlockCodeTextBox = new System.Windows.Forms.TextBox();
+            this.DepartureLabel = new System.Windows.Forms.Label();
+            this.BlockCodeLabel = new System.Windows.Forms.Label();
+            this.DepartureTextBox = new System.Windows.Forms.TextBox();
+            this.BlockCodeButton = new System.Windows.Forms.Button();
+            this.ChildButton = new System.Windows.Forms.Button();
+            this.PackagesTextBox = new System.Windows.Forms.TextBox();
+            this.AdultsLabel = new System.Windows.Forms.Label();
+            this.PackagesLabel = new System.Windows.Forms.Label();
+            this.AdultsTextBox = new System.Windows.Forms.TextBox();
+            this.PackagesButton = new System.Windows.Forms.Button();
+            this.ChildLabel = new System.Windows.Forms.Label();
+            this.RateTextBox = new System.Windows.Forms.TextBox();
+            this.ChildTextBox = new System.Windows.Forms.TextBox();
+            this.RateLabel = new System.Windows.Forms.Label();
+            this.NoOfRmsLabel = new System.Windows.Forms.Label();
+            this.RateButton = new System.Windows.Forms.Button();
+            this.NoOfRmsTextBox = new System.Windows.Forms.TextBox();
+            this.RateCodeTextBox = new System.Windows.Forms.TextBox();
+            this.RoomTypeButton = new System.Windows.Forms.Button();
+            this.RateCodeLabel = new System.Windows.Forms.Label();
+            this.RoomTypeLabel = new System.Windows.Forms.Label();
+            this.RateCodeButton = new System.Windows.Forms.Button();
+            this.RoomTypeTextBox = new System.Windows.Forms.TextBox();
+            this.RoomTextBox = new System.Windows.Forms.TextBox();
+            this.RTCButton = new System.Windows.Forms.Button();
+            this.RoomLabel = new System.Windows.Forms.Label();
+            this.RTCLabel = new System.Windows.Forms.Label();
+            this.RoomButton = new System.Windows.Forms.Button();
+            this.RTCTextBox = new System.Windows.Forms.TextBox();
+            this.ResTypeButton = new System.Windows.Forms.Button();
+            this.ResTypeLabel = new System.Windows.Forms.Label();
+            this.ResTypeTextBox = new System.Windows.Forms.TextBox();
+            this.NonGuarantLabel = new System.Windows.Forms.Label();
+            this.MarketTextBox = new System.Windows.Forms.TextBox();
+            this.MarketLabel = new System.Windows.Forms.Label();
+            this.MarketButton = new System.Windows.Forms.Button();
+            this.Source1TextBox = new System.Windows.Forms.TextBox();
+            this.SourceLabel1 = new System.Windows.Forms.Label();
+            this.Source1Button = new System.Windows.Forms.Button();
+            this.OriginTextBox = new System.Windows.Forms.TextBox();
+            this.OriginLabel = new System.Windows.Forms.Label();
+            this.OriginButton = new System.Windows.Forms.Button();
+            this.PaymentTextBox = new System.Windows.Forms.TextBox();
+            this.PaymentLabel = new System.Windows.Forms.Label();
+            this.PaymentButton = new System.Windows.Forms.Button();
+            this.CreditCardNoTextBox = new System.Windows.Forms.TextBox();
+            this.CreditCardNoLabel = new System.Windows.Forms.Label();
+            this.ExpDateTextBox = new System.Windows.Forms.TextBox();
+            this.ExpDateLabel = new System.Windows.Forms.Label();
+            this.ExpDateButton = new System.Windows.Forms.Button();
+            this.ExpDateOtherButton = new System.Windows.Forms.Button();
+            this.NameOnCardTextBox = new System.Windows.Forms.TextBox();
+            this.NameOnCardLabel = new System.Windows.Forms.Label();
+            this.CreditCardSwipedCheckBox = new System.Windows.Forms.CheckBox();
+            this.CreditCardSwipedLabel = new System.Windows.Forms.Label();
+            this.ApprovalCodeTextBox = new System.Windows.Forms.TextBox();
+            this.ApprovalCodeLabel = new System.Windows.Forms.Label();
+            this.ApprovalAmtTextBox = new System.Windows.Forms.TextBox();
+            this.ApprovalAmtLabel = new System.Windows.Forms.Label();
+            this.SuteWithTextBox = new System.Windows.Forms.TextBox();
+            this.SuteWithLabel = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.GuestBalanceLabel = new System.Windows.Forms.Label();
+            this.GuestBalanceTextBox = new System.Windows.Forms.TextBox();
+            this.SpecaialsTextBox = new System.Windows.Forms.TextBox();
+            this.SpecaialsLabel = new System.Windows.Forms.Label();
+            this.SpecaialsButton = new System.Windows.Forms.Button();
+            this.CommentsButton = new System.Windows.Forms.Button();
+            this.CommentsTextBox = new System.Windows.Forms.TextBox();
+            this.CommentsLabel = new System.Windows.Forms.Label();
+            this.ColourButton = new System.Windows.Forms.Button();
+            this.ColourTextBox = new System.Windows.Forms.TextBox();
+            this.ColourLabel = new System.Windows.Forms.Label();
+            this.CRSNoButton = new System.Windows.Forms.Button();
+            this.CRSNoTextBox = new System.Windows.Forms.TextBox();
+            this.CRSNoLabel = new System.Windows.Forms.Label();
+            this.ConfirmationLlabel = new System.Windows.Forms.Label();
+            this.ConfirmationCheckBox = new System.Windows.Forms.CheckBox();
+            this.CallerTextBox = new System.Windows.Forms.TextBox();
+            this.CallerLabel = new System.Windows.Forms.Label();
+            this.CallerNoTextBox = new System.Windows.Forms.TextBox();
+            this.CallerNoLabel = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.OKButton = new System.Windows.Forms.Button();
+            this.OptionsButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.CreatedByLabel = new System.Windows.Forms.Label();
+            this.CreatedUserLabel = new System.Windows.Forms.Label();
+            this.UpdatedUserLabel = new System.Windows.Forms.Label();
+            this.UpdatedByLabel = new System.Windows.Forms.Label();
+            this.DateOnLabel = new System.Windows.Forms.Label();
+            this.OnLabel = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.SuspendLayout();
             // 
             // NameLabel
             // 
-            NameLabel.AutoSize = true;
-            NameLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameLabel.Location = new Point(30, 13);
-            NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(34, 13);
-            NameLabel.TabIndex = 0;
-            NameLabel.Text = "Name";
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameLabel.Location = new System.Drawing.Point(30, 13);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(34, 13);
+            this.NameLabel.TabIndex = 0;
+            this.NameLabel.Text = "Name";
             // 
             // NameSelectButton
             // 
-            NameSelectButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameSelectButton.Location = new Point(307, 8);
-            NameSelectButton.Name = "NameSelectButton";
-            NameSelectButton.Size = new Size(30, 23);
-            NameSelectButton.TabIndex = 1;
-            NameSelectButton.Text = "...";
-            NameSelectButton.UseVisualStyleBackColor = true;
+            this.NameSelectButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameSelectButton.Location = new System.Drawing.Point(307, 8);
+            this.NameSelectButton.Name = "NameSelectButton";
+            this.NameSelectButton.Size = new System.Drawing.Size(30, 23);
+            this.NameSelectButton.TabIndex = 1;
+            this.NameSelectButton.Text = "...";
+            this.NameSelectButton.UseVisualStyleBackColor = true;
             // 
             // NameTextBox
             // 
-            NameTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameTextBox.Location = new Point(70, 10);
-            NameTextBox.Name = "NameTextBox";
-            NameTextBox.Size = new Size(231, 21);
-            NameTextBox.TabIndex = 2;
+            this.NameTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameTextBox.Location = new System.Drawing.Point(70, 10);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(231, 21);
+            this.NameTextBox.TabIndex = 2;
             // 
             // PhoneButton
             // 
-            PhoneButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PhoneButton.Location = new Point(630, 8);
-            PhoneButton.Name = "PhoneButton";
-            PhoneButton.Size = new Size(30, 23);
-            PhoneButton.TabIndex = 3;
-            PhoneButton.UseVisualStyleBackColor = true;
+            this.PhoneButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PhoneButton.Location = new System.Drawing.Point(630, 8);
+            this.PhoneButton.Name = "PhoneButton";
+            this.PhoneButton.Size = new System.Drawing.Size(30, 23);
+            this.PhoneButton.TabIndex = 3;
+            this.PhoneButton.UseVisualStyleBackColor = true;
             // 
             // FirstNameTextBox
             // 
-            FirstNameTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FirstNameTextBox.Location = new Point(70, 37);
-            FirstNameTextBox.Name = "FirstNameTextBox";
-            FirstNameTextBox.Size = new Size(231, 21);
-            FirstNameTextBox.TabIndex = 5;
+            this.FirstNameTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.FirstNameTextBox.Location = new System.Drawing.Point(70, 37);
+            this.FirstNameTextBox.Name = "FirstNameTextBox";
+            this.FirstNameTextBox.Size = new System.Drawing.Size(231, 21);
+            this.FirstNameTextBox.TabIndex = 5;
             // 
             // FirstNameLabel
             // 
-            FirstNameLabel.AutoSize = true;
-            FirstNameLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FirstNameLabel.Location = new Point(6, 42);
-            FirstNameLabel.Name = "FirstNameLabel";
-            FirstNameLabel.Size = new Size(58, 13);
-            FirstNameLabel.TabIndex = 4;
-            FirstNameLabel.Text = "First Name";
-            FirstNameLabel.TextAlign = ContentAlignment.MiddleRight;
+            this.FirstNameLabel.AutoSize = true;
+            this.FirstNameLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.FirstNameLabel.Location = new System.Drawing.Point(6, 42);
+            this.FirstNameLabel.Name = "FirstNameLabel";
+            this.FirstNameLabel.Size = new System.Drawing.Size(58, 13);
+            this.FirstNameLabel.TabIndex = 4;
+            this.FirstNameLabel.Text = "First Name";
+            this.FirstNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TitleTextBox
             // 
-            TitleTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            TitleTextBox.Location = new Point(70, 64);
-            TitleTextBox.Name = "TitleTextBox";
-            TitleTextBox.Size = new Size(50, 21);
-            TitleTextBox.TabIndex = 7;
+            this.TitleTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.TitleTextBox.Location = new System.Drawing.Point(70, 64);
+            this.TitleTextBox.Name = "TitleTextBox";
+            this.TitleTextBox.Size = new System.Drawing.Size(50, 21);
+            this.TitleTextBox.TabIndex = 7;
             // 
             // TitleLabel
             // 
-            TitleLabel.AutoSize = true;
-            TitleLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            TitleLabel.Location = new Point(37, 67);
-            TitleLabel.Name = "TitleLabel";
-            TitleLabel.Size = new Size(27, 13);
-            TitleLabel.TabIndex = 6;
-            TitleLabel.Text = "Title";
+            this.TitleLabel.AutoSize = true;
+            this.TitleLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.TitleLabel.Location = new System.Drawing.Point(37, 67);
+            this.TitleLabel.Name = "TitleLabel";
+            this.TitleLabel.Size = new System.Drawing.Size(27, 13);
+            this.TitleLabel.TabIndex = 6;
+            this.TitleLabel.Text = "Title";
             // 
             // TitleButton
             // 
-            TitleButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            TitleButton.Location = new Point(126, 62);
-            TitleButton.Name = "TitleButton";
-            TitleButton.Size = new Size(30, 23);
-            TitleButton.TabIndex = 8;
-            TitleButton.UseVisualStyleBackColor = true;
+            this.TitleButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.TitleButton.Location = new System.Drawing.Point(126, 62);
+            this.TitleButton.Name = "TitleButton";
+            this.TitleButton.Size = new System.Drawing.Size(30, 23);
+            this.TitleButton.TabIndex = 8;
+            this.TitleButton.UseVisualStyleBackColor = true;
             // 
             // Language
             // 
-            Language.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Language.Location = new Point(126, 89);
-            Language.Name = "Language";
-            Language.Size = new Size(30, 23);
-            Language.TabIndex = 11;
-            Language.UseVisualStyleBackColor = true;
+            this.Language.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.Language.Location = new System.Drawing.Point(126, 89);
+            this.Language.Name = "Language";
+            this.Language.Size = new System.Drawing.Size(30, 23);
+            this.Language.TabIndex = 11;
+            this.Language.UseVisualStyleBackColor = true;
             // 
             // LanguageTextBox
             // 
-            LanguageTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            LanguageTextBox.Location = new Point(70, 91);
-            LanguageTextBox.Name = "LanguageTextBox";
-            LanguageTextBox.Size = new Size(50, 21);
-            LanguageTextBox.TabIndex = 10;
+            this.LanguageTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.LanguageTextBox.Location = new System.Drawing.Point(70, 91);
+            this.LanguageTextBox.Name = "LanguageTextBox";
+            this.LanguageTextBox.Size = new System.Drawing.Size(50, 21);
+            this.LanguageTextBox.TabIndex = 10;
             // 
             // LanguageLabel
             // 
-            LanguageLabel.AutoSize = true;
-            LanguageLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            LanguageLabel.Location = new Point(10, 94);
-            LanguageLabel.Name = "LanguageLabel";
-            LanguageLabel.Size = new Size(54, 13);
-            LanguageLabel.TabIndex = 9;
-            LanguageLabel.Text = "Language";
+            this.LanguageLabel.AutoSize = true;
+            this.LanguageLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.LanguageLabel.Location = new System.Drawing.Point(10, 94);
+            this.LanguageLabel.Name = "LanguageLabel";
+            this.LanguageLabel.Size = new System.Drawing.Size(54, 13);
+            this.LanguageLabel.TabIndex = 9;
+            this.LanguageLabel.Text = "Language";
             // 
             // VIPButton
             // 
-            VIPButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            VIPButton.Location = new Point(271, 89);
-            VIPButton.Name = "VIPButton";
-            VIPButton.Size = new Size(30, 23);
-            VIPButton.TabIndex = 17;
-            VIPButton.UseVisualStyleBackColor = true;
+            this.VIPButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.VIPButton.Location = new System.Drawing.Point(271, 89);
+            this.VIPButton.Name = "VIPButton";
+            this.VIPButton.Size = new System.Drawing.Size(30, 23);
+            this.VIPButton.TabIndex = 17;
+            this.VIPButton.UseVisualStyleBackColor = true;
             // 
             // VIPTextBox
             // 
-            VIPTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            VIPTextBox.Location = new Point(215, 91);
-            VIPTextBox.Name = "VIPTextBox";
-            VIPTextBox.Size = new Size(50, 21);
-            VIPTextBox.TabIndex = 16;
+            this.VIPTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.VIPTextBox.Location = new System.Drawing.Point(215, 91);
+            this.VIPTextBox.Name = "VIPTextBox";
+            this.VIPTextBox.Size = new System.Drawing.Size(50, 21);
+            this.VIPTextBox.TabIndex = 16;
             // 
             // VIPLabel
             // 
-            VIPLabel.AutoSize = true;
-            VIPLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            VIPLabel.Location = new Point(186, 94);
-            VIPLabel.Name = "VIPLabel";
-            VIPLabel.Size = new Size(23, 13);
-            VIPLabel.TabIndex = 15;
-            VIPLabel.Text = "VIP";
+            this.VIPLabel.AutoSize = true;
+            this.VIPLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.VIPLabel.Location = new System.Drawing.Point(186, 94);
+            this.VIPLabel.Name = "VIPLabel";
+            this.VIPLabel.Size = new System.Drawing.Size(23, 13);
+            this.VIPLabel.TabIndex = 15;
+            this.VIPLabel.Text = "VIP";
             // 
             // CountryButton
             // 
-            CountryButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CountryButton.Location = new Point(271, 62);
-            CountryButton.Name = "CountryButton";
-            CountryButton.Size = new Size(30, 23);
-            CountryButton.TabIndex = 14;
-            CountryButton.UseVisualStyleBackColor = true;
+            this.CountryButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CountryButton.Location = new System.Drawing.Point(271, 62);
+            this.CountryButton.Name = "CountryButton";
+            this.CountryButton.Size = new System.Drawing.Size(30, 23);
+            this.CountryButton.TabIndex = 14;
+            this.CountryButton.UseVisualStyleBackColor = true;
             // 
             // CountryTextBox
             // 
-            CountryTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CountryTextBox.Location = new Point(215, 64);
-            CountryTextBox.Name = "CountryTextBox";
-            CountryTextBox.Size = new Size(50, 21);
-            CountryTextBox.TabIndex = 13;
+            this.CountryTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CountryTextBox.Location = new System.Drawing.Point(215, 64);
+            this.CountryTextBox.Name = "CountryTextBox";
+            this.CountryTextBox.Size = new System.Drawing.Size(50, 21);
+            this.CountryTextBox.TabIndex = 13;
             // 
             // CountryLabel
             // 
-            CountryLabel.AutoSize = true;
-            CountryLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CountryLabel.Location = new Point(163, 67);
-            CountryLabel.Name = "CountryLabel";
-            CountryLabel.Size = new Size(46, 13);
-            CountryLabel.TabIndex = 12;
-            CountryLabel.Text = "Country";
+            this.CountryLabel.AutoSize = true;
+            this.CountryLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CountryLabel.Location = new System.Drawing.Point(163, 67);
+            this.CountryLabel.Name = "CountryLabel";
+            this.CountryLabel.Size = new System.Drawing.Size(46, 13);
+            this.CountryLabel.TabIndex = 12;
+            this.CountryLabel.Text = "Country";
             // 
             // MemberNoLabel
             // 
-            MemberNoLabel.AutoSize = true;
-            MemberNoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberNoLabel.Location = new Point(453, 69);
-            MemberNoLabel.Name = "MemberNoLabel";
-            MemberNoLabel.Size = new Size(65, 13);
-            MemberNoLabel.TabIndex = 18;
-            MemberNoLabel.Text = "Member No.";
+            this.MemberNoLabel.AutoSize = true;
+            this.MemberNoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberNoLabel.Location = new System.Drawing.Point(453, 69);
+            this.MemberNoLabel.Name = "MemberNoLabel";
+            this.MemberNoLabel.Size = new System.Drawing.Size(65, 13);
+            this.MemberNoLabel.TabIndex = 18;
+            this.MemberNoLabel.Text = "Member No.";
             // 
             // MemberNoTextBox
             // 
-            MemberNoTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberNoTextBox.Location = new Point(524, 66);
-            MemberNoTextBox.Name = "MemberNoTextBox";
-            MemberNoTextBox.Size = new Size(100, 21);
-            MemberNoTextBox.TabIndex = 19;
+            this.MemberNoTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberNoTextBox.Location = new System.Drawing.Point(524, 66);
+            this.MemberNoTextBox.Name = "MemberNoTextBox";
+            this.MemberNoTextBox.Size = new System.Drawing.Size(100, 21);
+            this.MemberNoTextBox.TabIndex = 19;
             // 
             // MemberTypeTextBox
             // 
-            MemberTypeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberTypeTextBox.Location = new Point(524, 39);
-            MemberTypeTextBox.Name = "MemberTypeTextBox";
-            MemberTypeTextBox.Size = new Size(64, 21);
-            MemberTypeTextBox.TabIndex = 21;
+            this.MemberTypeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberTypeTextBox.Location = new System.Drawing.Point(524, 39);
+            this.MemberTypeTextBox.Name = "MemberTypeTextBox";
+            this.MemberTypeTextBox.Size = new System.Drawing.Size(64, 21);
+            this.MemberTypeTextBox.TabIndex = 21;
             // 
             // MemberTypeLabel
             // 
-            MemberTypeLabel.AutoSize = true;
-            MemberTypeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberTypeLabel.Location = new Point(446, 42);
-            MemberTypeLabel.Name = "MemberTypeLabel";
-            MemberTypeLabel.Size = new Size(72, 13);
-            MemberTypeLabel.TabIndex = 20;
-            MemberTypeLabel.Text = "Member Type";
+            this.MemberTypeLabel.AutoSize = true;
+            this.MemberTypeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberTypeLabel.Location = new System.Drawing.Point(446, 42);
+            this.MemberTypeLabel.Name = "MemberTypeLabel";
+            this.MemberTypeLabel.Size = new System.Drawing.Size(72, 13);
+            this.MemberTypeLabel.TabIndex = 20;
+            this.MemberTypeLabel.Text = "Member Type";
             // 
             // MemberLvlTextBox
             // 
-            MemberLvlTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberLvlTextBox.Location = new Point(524, 93);
-            MemberLvlTextBox.Name = "MemberLvlTextBox";
-            MemberLvlTextBox.Size = new Size(100, 21);
-            MemberLvlTextBox.TabIndex = 23;
+            this.MemberLvlTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberLvlTextBox.Location = new System.Drawing.Point(524, 93);
+            this.MemberLvlTextBox.Name = "MemberLvlTextBox";
+            this.MemberLvlTextBox.Size = new System.Drawing.Size(100, 21);
+            this.MemberLvlTextBox.TabIndex = 23;
             // 
             // MemberLvlLabel
             // 
-            MemberLvlLabel.AutoSize = true;
-            MemberLvlLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberLvlLabel.Location = new Point(453, 96);
-            MemberLvlLabel.Name = "MemberLvlLabel";
-            MemberLvlLabel.Size = new Size(65, 13);
-            MemberLvlLabel.TabIndex = 22;
-            MemberLvlLabel.Text = "Member Lvl.";
+            this.MemberLvlLabel.AutoSize = true;
+            this.MemberLvlLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberLvlLabel.Location = new System.Drawing.Point(453, 96);
+            this.MemberLvlLabel.Name = "MemberLvlLabel";
+            this.MemberLvlLabel.Size = new System.Drawing.Size(65, 13);
+            this.MemberLvlLabel.TabIndex = 22;
+            this.MemberLvlLabel.Text = "Member Lvl.";
             // 
             // PrefRoomNoTextBox
             // 
-            PrefRoomNoTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PrefRoomNoTextBox.Location = new Point(524, 120);
-            PrefRoomNoTextBox.Name = "PrefRoomNoTextBox";
-            PrefRoomNoTextBox.Size = new Size(100, 21);
-            PrefRoomNoTextBox.TabIndex = 25;
+            this.PrefRoomNoTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PrefRoomNoTextBox.Location = new System.Drawing.Point(524, 120);
+            this.PrefRoomNoTextBox.Name = "PrefRoomNoTextBox";
+            this.PrefRoomNoTextBox.Size = new System.Drawing.Size(100, 21);
+            this.PrefRoomNoTextBox.TabIndex = 25;
             // 
             // PrefRoomNoLabel
             // 
-            PrefRoomNoLabel.AutoSize = true;
-            PrefRoomNoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PrefRoomNoLabel.Location = new Point(437, 123);
-            PrefRoomNoLabel.Name = "PrefRoomNoLabel";
-            PrefRoomNoLabel.Size = new Size(81, 13);
-            PrefRoomNoLabel.TabIndex = 24;
-            PrefRoomNoLabel.Text = "Pref. Room No.";
+            this.PrefRoomNoLabel.AutoSize = true;
+            this.PrefRoomNoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PrefRoomNoLabel.Location = new System.Drawing.Point(437, 123);
+            this.PrefRoomNoLabel.Name = "PrefRoomNoLabel";
+            this.PrefRoomNoLabel.Size = new System.Drawing.Size(81, 13);
+            this.PrefRoomNoLabel.TabIndex = 24;
+            this.PrefRoomNoLabel.Text = "Pref. Room No.";
             // 
             // PhoneTextBox
             // 
-            PhoneTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PhoneTextBox.Location = new Point(524, 10);
-            PhoneTextBox.Name = "PhoneTextBox";
-            PhoneTextBox.Size = new Size(100, 21);
-            PhoneTextBox.TabIndex = 27;
+            this.PhoneTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PhoneTextBox.Location = new System.Drawing.Point(524, 10);
+            this.PhoneTextBox.Name = "PhoneTextBox";
+            this.PhoneTextBox.Size = new System.Drawing.Size(100, 21);
+            this.PhoneTextBox.TabIndex = 27;
             // 
             // PhoneLabel
             // 
-            PhoneLabel.AutoSize = true;
-            PhoneLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PhoneLabel.Location = new Point(481, 13);
-            PhoneLabel.Name = "PhoneLabel";
-            PhoneLabel.Size = new Size(37, 13);
-            PhoneLabel.TabIndex = 26;
-            PhoneLabel.Text = "Phone";
+            this.PhoneLabel.AutoSize = true;
+            this.PhoneLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PhoneLabel.Location = new System.Drawing.Point(481, 13);
+            this.PhoneLabel.Name = "PhoneLabel";
+            this.PhoneLabel.Size = new System.Drawing.Size(37, 13);
+            this.PhoneLabel.TabIndex = 26;
+            this.PhoneLabel.Text = "Phone";
             // 
             // MemberTypeButton
             // 
-            MemberTypeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MemberTypeButton.Location = new Point(594, 37);
-            MemberTypeButton.Name = "MemberTypeButton";
-            MemberTypeButton.Size = new Size(30, 23);
-            MemberTypeButton.TabIndex = 28;
-            MemberTypeButton.UseVisualStyleBackColor = true;
+            this.MemberTypeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MemberTypeButton.Location = new System.Drawing.Point(594, 37);
+            this.MemberTypeButton.Name = "MemberTypeButton";
+            this.MemberTypeButton.Size = new System.Drawing.Size(30, 23);
+            this.MemberTypeButton.TabIndex = 28;
+            this.MemberTypeButton.UseVisualStyleBackColor = true;
             // 
             // NameButton
             // 
-            NameButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameButton.Location = new Point(343, 8);
-            NameButton.Name = "NameButton";
-            NameButton.Size = new Size(30, 23);
-            NameButton.TabIndex = 29;
-            NameButton.UseVisualStyleBackColor = true;
+            this.NameButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameButton.Location = new System.Drawing.Point(343, 8);
+            this.NameButton.Name = "NameButton";
+            this.NameButton.Size = new System.Drawing.Size(30, 23);
+            this.NameButton.TabIndex = 29;
+            this.NameButton.UseVisualStyleBackColor = true;
             // 
             // AgentTextBox
             // 
-            AgentTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AgentTextBox.Location = new Point(772, 10);
-            AgentTextBox.Name = "AgentTextBox";
-            AgentTextBox.Size = new Size(150, 21);
-            AgentTextBox.TabIndex = 32;
+            this.AgentTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AgentTextBox.Location = new System.Drawing.Point(772, 10);
+            this.AgentTextBox.Name = "AgentTextBox";
+            this.AgentTextBox.Size = new System.Drawing.Size(150, 21);
+            this.AgentTextBox.TabIndex = 32;
             // 
             // AgentLabel
             // 
-            AgentLabel.AutoSize = true;
-            AgentLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AgentLabel.Location = new Point(730, 13);
-            AgentLabel.Name = "AgentLabel";
-            AgentLabel.Size = new Size(36, 13);
-            AgentLabel.TabIndex = 31;
-            AgentLabel.Text = "Agent";
-            AgentLabel.TextAlign = ContentAlignment.MiddleRight;
+            this.AgentLabel.AutoSize = true;
+            this.AgentLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AgentLabel.Location = new System.Drawing.Point(730, 13);
+            this.AgentLabel.Name = "AgentLabel";
+            this.AgentLabel.Size = new System.Drawing.Size(36, 13);
+            this.AgentLabel.TabIndex = 31;
+            this.AgentLabel.Text = "Agent";
+            this.AgentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // AgentButton
             // 
-            AgentButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AgentButton.Location = new Point(928, 8);
-            AgentButton.Name = "AgentButton";
-            AgentButton.Size = new Size(30, 23);
-            AgentButton.TabIndex = 30;
-            AgentButton.UseVisualStyleBackColor = true;
+            this.AgentButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AgentButton.Location = new System.Drawing.Point(928, 8);
+            this.AgentButton.Name = "AgentButton";
+            this.AgentButton.Size = new System.Drawing.Size(30, 23);
+            this.AgentButton.TabIndex = 30;
+            this.AgentButton.UseVisualStyleBackColor = true;
             // 
             // CompanyTextBox
             // 
-            CompanyTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CompanyTextBox.Location = new Point(772, 37);
-            CompanyTextBox.Name = "CompanyTextBox";
-            CompanyTextBox.Size = new Size(150, 21);
-            CompanyTextBox.TabIndex = 35;
+            this.CompanyTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CompanyTextBox.Location = new System.Drawing.Point(772, 37);
+            this.CompanyTextBox.Name = "CompanyTextBox";
+            this.CompanyTextBox.Size = new System.Drawing.Size(150, 21);
+            this.CompanyTextBox.TabIndex = 35;
             // 
             // CompanyLabel
             // 
-            CompanyLabel.AutoSize = true;
-            CompanyLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CompanyLabel.Location = new Point(714, 40);
-            CompanyLabel.Name = "CompanyLabel";
-            CompanyLabel.Size = new Size(52, 13);
-            CompanyLabel.TabIndex = 34;
-            CompanyLabel.Text = "Company";
+            this.CompanyLabel.AutoSize = true;
+            this.CompanyLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CompanyLabel.Location = new System.Drawing.Point(714, 40);
+            this.CompanyLabel.Name = "CompanyLabel";
+            this.CompanyLabel.Size = new System.Drawing.Size(52, 13);
+            this.CompanyLabel.TabIndex = 34;
+            this.CompanyLabel.Text = "Company";
             // 
             // CompanyButton
             // 
-            CompanyButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CompanyButton.Location = new Point(928, 35);
-            CompanyButton.Name = "CompanyButton";
-            CompanyButton.Size = new Size(30, 23);
-            CompanyButton.TabIndex = 33;
-            CompanyButton.UseVisualStyleBackColor = true;
+            this.CompanyButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CompanyButton.Location = new System.Drawing.Point(928, 35);
+            this.CompanyButton.Name = "CompanyButton";
+            this.CompanyButton.Size = new System.Drawing.Size(30, 23);
+            this.CompanyButton.TabIndex = 33;
+            this.CompanyButton.UseVisualStyleBackColor = true;
             // 
             // GroupTextBox
             // 
-            GroupTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            GroupTextBox.Location = new Point(772, 64);
-            GroupTextBox.Name = "GroupTextBox";
-            GroupTextBox.Size = new Size(150, 21);
-            GroupTextBox.TabIndex = 38;
+            this.GroupTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.GroupTextBox.Location = new System.Drawing.Point(772, 64);
+            this.GroupTextBox.Name = "GroupTextBox";
+            this.GroupTextBox.Size = new System.Drawing.Size(150, 21);
+            this.GroupTextBox.TabIndex = 38;
             // 
             // GroupLabel
             // 
-            GroupLabel.AutoSize = true;
-            GroupLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            GroupLabel.Location = new Point(730, 67);
-            GroupLabel.Name = "GroupLabel";
-            GroupLabel.Size = new Size(36, 13);
-            GroupLabel.TabIndex = 37;
-            GroupLabel.Text = "Group";
+            this.GroupLabel.AutoSize = true;
+            this.GroupLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.GroupLabel.Location = new System.Drawing.Point(730, 67);
+            this.GroupLabel.Name = "GroupLabel";
+            this.GroupLabel.Size = new System.Drawing.Size(36, 13);
+            this.GroupLabel.TabIndex = 37;
+            this.GroupLabel.Text = "Group";
             // 
             // GroupButton
             // 
-            GroupButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            GroupButton.Location = new Point(928, 62);
-            GroupButton.Name = "GroupButton";
-            GroupButton.Size = new Size(30, 23);
-            GroupButton.TabIndex = 36;
-            GroupButton.UseVisualStyleBackColor = true;
+            this.GroupButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.GroupButton.Location = new System.Drawing.Point(928, 62);
+            this.GroupButton.Name = "GroupButton";
+            this.GroupButton.Size = new System.Drawing.Size(30, 23);
+            this.GroupButton.TabIndex = 36;
+            this.GroupButton.UseVisualStyleBackColor = true;
             // 
             // SourceTextBox
             // 
-            SourceTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SourceTextBox.Location = new Point(772, 91);
-            SourceTextBox.Name = "SourceTextBox";
-            SourceTextBox.Size = new Size(150, 21);
-            SourceTextBox.TabIndex = 41;
+            this.SourceTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SourceTextBox.Location = new System.Drawing.Point(772, 91);
+            this.SourceTextBox.Name = "SourceTextBox";
+            this.SourceTextBox.Size = new System.Drawing.Size(150, 21);
+            this.SourceTextBox.TabIndex = 41;
             // 
             // SourceLabel
             // 
-            SourceLabel.AutoSize = true;
-            SourceLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SourceLabel.Location = new Point(726, 94);
-            SourceLabel.Name = "SourceLabel";
-            SourceLabel.Size = new Size(40, 13);
-            SourceLabel.TabIndex = 40;
-            SourceLabel.Text = "Source";
+            this.SourceLabel.AutoSize = true;
+            this.SourceLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SourceLabel.Location = new System.Drawing.Point(726, 94);
+            this.SourceLabel.Name = "SourceLabel";
+            this.SourceLabel.Size = new System.Drawing.Size(40, 13);
+            this.SourceLabel.TabIndex = 40;
+            this.SourceLabel.Text = "Source";
             // 
             // SourceButton
             // 
-            SourceButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SourceButton.Location = new Point(928, 89);
-            SourceButton.Name = "SourceButton";
-            SourceButton.Size = new Size(30, 23);
-            SourceButton.TabIndex = 39;
-            SourceButton.UseVisualStyleBackColor = true;
+            this.SourceButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SourceButton.Location = new System.Drawing.Point(928, 89);
+            this.SourceButton.Name = "SourceButton";
+            this.SourceButton.Size = new System.Drawing.Size(30, 23);
+            this.SourceButton.TabIndex = 39;
+            this.SourceButton.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(NameTextBox);
-            groupBox1.Controls.Add(SourceTextBox);
-            groupBox1.Controls.Add(CountryTextBox);
-            groupBox1.Controls.Add(SourceLabel);
-            groupBox1.Controls.Add(FirstNameTextBox);
-            groupBox1.Controls.Add(SourceButton);
-            groupBox1.Controls.Add(CountryLabel);
-            groupBox1.Controls.Add(GroupTextBox);
-            groupBox1.Controls.Add(CountryButton);
-            groupBox1.Controls.Add(GroupLabel);
-            groupBox1.Controls.Add(TitleLabel);
-            groupBox1.Controls.Add(GroupButton);
-            groupBox1.Controls.Add(PhoneButton);
-            groupBox1.Controls.Add(CompanyTextBox);
-            groupBox1.Controls.Add(TitleTextBox);
-            groupBox1.Controls.Add(CompanyLabel);
-            groupBox1.Controls.Add(VIPLabel);
-            groupBox1.Controls.Add(CompanyButton);
-            groupBox1.Controls.Add(LanguageTextBox);
-            groupBox1.Controls.Add(AgentTextBox);
-            groupBox1.Controls.Add(NameSelectButton);
-            groupBox1.Controls.Add(AgentLabel);
-            groupBox1.Controls.Add(TitleButton);
-            groupBox1.Controls.Add(AgentButton);
-            groupBox1.Controls.Add(VIPTextBox);
-            groupBox1.Controls.Add(NameButton);
-            groupBox1.Controls.Add(LanguageLabel);
-            groupBox1.Controls.Add(MemberTypeButton);
-            groupBox1.Controls.Add(NameLabel);
-            groupBox1.Controls.Add(PhoneTextBox);
-            groupBox1.Controls.Add(Language);
-            groupBox1.Controls.Add(PhoneLabel);
-            groupBox1.Controls.Add(VIPButton);
-            groupBox1.Controls.Add(PrefRoomNoTextBox);
-            groupBox1.Controls.Add(FirstNameLabel);
-            groupBox1.Controls.Add(PrefRoomNoLabel);
-            groupBox1.Controls.Add(MemberNoLabel);
-            groupBox1.Controls.Add(MemberLvlTextBox);
-            groupBox1.Controls.Add(MemberNoTextBox);
-            groupBox1.Controls.Add(MemberLvlLabel);
-            groupBox1.Controls.Add(MemberTypeLabel);
-            groupBox1.Controls.Add(MemberTypeTextBox);
-            groupBox1.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(12, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(968, 151);
-            groupBox1.TabIndex = 42;
-            groupBox1.TabStop = false;
+            this.groupBox1.Controls.Add(this.NameTextBox);
+            this.groupBox1.Controls.Add(this.SourceTextBox);
+            this.groupBox1.Controls.Add(this.CountryTextBox);
+            this.groupBox1.Controls.Add(this.SourceLabel);
+            this.groupBox1.Controls.Add(this.FirstNameTextBox);
+            this.groupBox1.Controls.Add(this.SourceButton);
+            this.groupBox1.Controls.Add(this.CountryLabel);
+            this.groupBox1.Controls.Add(this.GroupTextBox);
+            this.groupBox1.Controls.Add(this.CountryButton);
+            this.groupBox1.Controls.Add(this.GroupLabel);
+            this.groupBox1.Controls.Add(this.TitleLabel);
+            this.groupBox1.Controls.Add(this.GroupButton);
+            this.groupBox1.Controls.Add(this.PhoneButton);
+            this.groupBox1.Controls.Add(this.CompanyTextBox);
+            this.groupBox1.Controls.Add(this.TitleTextBox);
+            this.groupBox1.Controls.Add(this.CompanyLabel);
+            this.groupBox1.Controls.Add(this.VIPLabel);
+            this.groupBox1.Controls.Add(this.CompanyButton);
+            this.groupBox1.Controls.Add(this.LanguageTextBox);
+            this.groupBox1.Controls.Add(this.AgentTextBox);
+            this.groupBox1.Controls.Add(this.NameSelectButton);
+            this.groupBox1.Controls.Add(this.AgentLabel);
+            this.groupBox1.Controls.Add(this.TitleButton);
+            this.groupBox1.Controls.Add(this.AgentButton);
+            this.groupBox1.Controls.Add(this.VIPTextBox);
+            this.groupBox1.Controls.Add(this.NameButton);
+            this.groupBox1.Controls.Add(this.LanguageLabel);
+            this.groupBox1.Controls.Add(this.MemberTypeButton);
+            this.groupBox1.Controls.Add(this.NameLabel);
+            this.groupBox1.Controls.Add(this.PhoneTextBox);
+            this.groupBox1.Controls.Add(this.Language);
+            this.groupBox1.Controls.Add(this.PhoneLabel);
+            this.groupBox1.Controls.Add(this.VIPButton);
+            this.groupBox1.Controls.Add(this.PrefRoomNoTextBox);
+            this.groupBox1.Controls.Add(this.FirstNameLabel);
+            this.groupBox1.Controls.Add(this.PrefRoomNoLabel);
+            this.groupBox1.Controls.Add(this.MemberNoLabel);
+            this.groupBox1.Controls.Add(this.MemberLvlTextBox);
+            this.groupBox1.Controls.Add(this.MemberNoTextBox);
+            this.groupBox1.Controls.Add(this.MemberLvlLabel);
+            this.groupBox1.Controls.Add(this.MemberTypeLabel);
+            this.groupBox1.Controls.Add(this.MemberTypeTextBox);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(968, 151);
+            this.groupBox1.TabIndex = 42;
+            this.groupBox1.TabStop = false;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(DepartureDayOfWeekLabel);
-            groupBox2.Controls.Add(ArrivalDayOfWeekLabel);
-            groupBox2.Controls.Add(FixedRateCheckBox);
-            groupBox2.Controls.Add(ArrivalLabel);
-            groupBox2.Controls.Add(ETA);
-            groupBox2.Controls.Add(ArrivalButton);
-            groupBox2.Controls.Add(ETALabel);
-            groupBox2.Controls.Add(ArrivalTextBox);
-            groupBox2.Controls.Add(CurrButton);
-            groupBox2.Controls.Add(NightsLabel);
-            groupBox2.Controls.Add(CurrTextBox);
-            groupBox2.Controls.Add(NightsTextBox);
-            groupBox2.Controls.Add(CurrLabel);
-            groupBox2.Controls.Add(DepartureButton);
-            groupBox2.Controls.Add(BlockCodeTextBox);
-            groupBox2.Controls.Add(DepartureLabel);
-            groupBox2.Controls.Add(BlockCodeLabel);
-            groupBox2.Controls.Add(DepartureTextBox);
-            groupBox2.Controls.Add(BlockCodeButton);
-            groupBox2.Controls.Add(ChildButton);
-            groupBox2.Controls.Add(PackagesTextBox);
-            groupBox2.Controls.Add(AdultsLabel);
-            groupBox2.Controls.Add(PackagesLabel);
-            groupBox2.Controls.Add(AdultsTextBox);
-            groupBox2.Controls.Add(PackagesButton);
-            groupBox2.Controls.Add(ChildLabel);
-            groupBox2.Controls.Add(RateTextBox);
-            groupBox2.Controls.Add(ChildTextBox);
-            groupBox2.Controls.Add(RateLabel);
-            groupBox2.Controls.Add(NoOfRmsLabel);
-            groupBox2.Controls.Add(RateButton);
-            groupBox2.Controls.Add(NoOfRmsTextBox);
-            groupBox2.Controls.Add(RateCodeTextBox);
-            groupBox2.Controls.Add(RoomTypeButton);
-            groupBox2.Controls.Add(RateCodeLabel);
-            groupBox2.Controls.Add(RoomTypeLabel);
-            groupBox2.Controls.Add(RateCodeButton);
-            groupBox2.Controls.Add(RoomTypeTextBox);
-            groupBox2.Controls.Add(RoomTextBox);
-            groupBox2.Controls.Add(RTCButton);
-            groupBox2.Controls.Add(RoomLabel);
-            groupBox2.Controls.Add(RTCLabel);
-            groupBox2.Controls.Add(RoomButton);
-            groupBox2.Controls.Add(RTCTextBox);
-            groupBox2.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox2.Location = new Point(12, 169);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(440, 337);
-            groupBox2.TabIndex = 43;
-            groupBox2.TabStop = false;
+            this.groupBox2.Controls.Add(this.DepartureDayOfWeekLabel);
+            this.groupBox2.Controls.Add(this.ArrivalDayOfWeekLabel);
+            this.groupBox2.Controls.Add(this.FixedRateCheckBox);
+            this.groupBox2.Controls.Add(this.ArrivalLabel);
+            this.groupBox2.Controls.Add(this.ETA);
+            this.groupBox2.Controls.Add(this.ArrivalButton);
+            this.groupBox2.Controls.Add(this.ETALabel);
+            this.groupBox2.Controls.Add(this.ArrivalTextBox);
+            this.groupBox2.Controls.Add(this.CurrButton);
+            this.groupBox2.Controls.Add(this.NightsLabel);
+            this.groupBox2.Controls.Add(this.CurrTextBox);
+            this.groupBox2.Controls.Add(this.NightsTextBox);
+            this.groupBox2.Controls.Add(this.CurrLabel);
+            this.groupBox2.Controls.Add(this.DepartureButton);
+            this.groupBox2.Controls.Add(this.BlockCodeTextBox);
+            this.groupBox2.Controls.Add(this.DepartureLabel);
+            this.groupBox2.Controls.Add(this.BlockCodeLabel);
+            this.groupBox2.Controls.Add(this.DepartureTextBox);
+            this.groupBox2.Controls.Add(this.BlockCodeButton);
+            this.groupBox2.Controls.Add(this.ChildButton);
+            this.groupBox2.Controls.Add(this.PackagesTextBox);
+            this.groupBox2.Controls.Add(this.AdultsLabel);
+            this.groupBox2.Controls.Add(this.PackagesLabel);
+            this.groupBox2.Controls.Add(this.AdultsTextBox);
+            this.groupBox2.Controls.Add(this.PackagesButton);
+            this.groupBox2.Controls.Add(this.ChildLabel);
+            this.groupBox2.Controls.Add(this.RateTextBox);
+            this.groupBox2.Controls.Add(this.ChildTextBox);
+            this.groupBox2.Controls.Add(this.RateLabel);
+            this.groupBox2.Controls.Add(this.NoOfRmsLabel);
+            this.groupBox2.Controls.Add(this.RateButton);
+            this.groupBox2.Controls.Add(this.NoOfRmsTextBox);
+            this.groupBox2.Controls.Add(this.RateCodeTextBox);
+            this.groupBox2.Controls.Add(this.RoomTypeButton);
+            this.groupBox2.Controls.Add(this.RateCodeLabel);
+            this.groupBox2.Controls.Add(this.RoomTypeLabel);
+            this.groupBox2.Controls.Add(this.RateCodeButton);
+            this.groupBox2.Controls.Add(this.RoomTypeTextBox);
+            this.groupBox2.Controls.Add(this.RoomTextBox);
+            this.groupBox2.Controls.Add(this.RTCButton);
+            this.groupBox2.Controls.Add(this.RoomLabel);
+            this.groupBox2.Controls.Add(this.RTCLabel);
+            this.groupBox2.Controls.Add(this.RoomButton);
+            this.groupBox2.Controls.Add(this.RTCTextBox);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox2.Location = new System.Drawing.Point(12, 169);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(440, 337);
+            this.groupBox2.TabIndex = 43;
+            this.groupBox2.TabStop = false;
             // 
             // DepartureDayOfWeekLabel
             // 
-            DepartureDayOfWeekLabel.AutoSize = true;
-            DepartureDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DepartureDayOfWeekLabel.ForeColor = Color.Red;
-            DepartureDayOfWeekLabel.Location = new Point(220, 68);
-            DepartureDayOfWeekLabel.Name = "DepartureDayOfWeekLabel";
-            DepartureDayOfWeekLabel.Size = new Size(123, 13);
-            DepartureDayOfWeekLabel.TabIndex = 87;
-            DepartureDayOfWeekLabel.Text = "Departure Day Of Week";
+            this.DepartureDayOfWeekLabel.AutoSize = true;
+            this.DepartureDayOfWeekLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.DepartureDayOfWeekLabel.ForeColor = System.Drawing.Color.Red;
+            this.DepartureDayOfWeekLabel.Location = new System.Drawing.Point(220, 68);
+            this.DepartureDayOfWeekLabel.Name = "DepartureDayOfWeekLabel";
+            this.DepartureDayOfWeekLabel.Size = new System.Drawing.Size(123, 13);
+            this.DepartureDayOfWeekLabel.TabIndex = 87;
+            this.DepartureDayOfWeekLabel.Text = "Departure Day Of Week";
             // 
             // ArrivalDayOfWeekLabel
             // 
-            ArrivalDayOfWeekLabel.AutoSize = true;
-            ArrivalDayOfWeekLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ArrivalDayOfWeekLabel.ForeColor = Color.Red;
-            ArrivalDayOfWeekLabel.Location = new Point(220, 14);
-            ArrivalDayOfWeekLabel.Name = "ArrivalDayOfWeekLabel";
-            ArrivalDayOfWeekLabel.Size = new Size(105, 13);
-            ArrivalDayOfWeekLabel.TabIndex = 77;
-            ArrivalDayOfWeekLabel.Text = "Arrival Day Of Week";
+            this.ArrivalDayOfWeekLabel.AutoSize = true;
+            this.ArrivalDayOfWeekLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ArrivalDayOfWeekLabel.ForeColor = System.Drawing.Color.Red;
+            this.ArrivalDayOfWeekLabel.Location = new System.Drawing.Point(220, 14);
+            this.ArrivalDayOfWeekLabel.Name = "ArrivalDayOfWeekLabel";
+            this.ArrivalDayOfWeekLabel.Size = new System.Drawing.Size(105, 13);
+            this.ArrivalDayOfWeekLabel.TabIndex = 77;
+            this.ArrivalDayOfWeekLabel.Text = "Arrival Day Of Week";
             // 
             // FixedRateCheckBox
             // 
-            FixedRateCheckBox.AutoSize = true;
-            FixedRateCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FixedRateCheckBox.Location = new Point(220, 200);
-            FixedRateCheckBox.Name = "FixedRateCheckBox";
-            FixedRateCheckBox.Size = new Size(75, 17);
-            FixedRateCheckBox.TabIndex = 86;
-            FixedRateCheckBox.Text = "FixedRate";
-            FixedRateCheckBox.UseVisualStyleBackColor = true;
+            this.FixedRateCheckBox.AutoSize = true;
+            this.FixedRateCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.FixedRateCheckBox.Location = new System.Drawing.Point(220, 200);
+            this.FixedRateCheckBox.Name = "FixedRateCheckBox";
+            this.FixedRateCheckBox.Size = new System.Drawing.Size(75, 17);
+            this.FixedRateCheckBox.TabIndex = 86;
+            this.FixedRateCheckBox.Text = "FixedRate";
+            this.FixedRateCheckBox.UseVisualStyleBackColor = true;
             // 
             // ArrivalLabel
             // 
-            ArrivalLabel.AutoSize = true;
-            ArrivalLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ArrivalLabel.Location = new Point(34, 14);
-            ArrivalLabel.Name = "ArrivalLabel";
-            ArrivalLabel.Size = new Size(38, 13);
-            ArrivalLabel.TabIndex = 45;
-            ArrivalLabel.Text = "Arrival";
+            this.ArrivalLabel.AutoSize = true;
+            this.ArrivalLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ArrivalLabel.Location = new System.Drawing.Point(34, 14);
+            this.ArrivalLabel.Name = "ArrivalLabel";
+            this.ArrivalLabel.Size = new System.Drawing.Size(38, 13);
+            this.ArrivalLabel.TabIndex = 45;
+            this.ArrivalLabel.Text = "Arrival";
             // 
             // ETA
             // 
-            ETA.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ETA.Location = new Point(294, 279);
-            ETA.Name = "ETA";
-            ETA.Size = new Size(50, 21);
-            ETA.TabIndex = 85;
+            this.ETA.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ETA.Location = new System.Drawing.Point(294, 279);
+            this.ETA.Name = "ETA";
+            this.ETA.Size = new System.Drawing.Size(50, 21);
+            this.ETA.TabIndex = 85;
             // 
             // ArrivalButton
             // 
-            ArrivalButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ArrivalButton.Location = new Point(184, 9);
-            ArrivalButton.Name = "ArrivalButton";
-            ArrivalButton.Size = new Size(30, 23);
-            ArrivalButton.TabIndex = 44;
-            ArrivalButton.UseVisualStyleBackColor = true;
+            this.ArrivalButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ArrivalButton.Location = new System.Drawing.Point(184, 9);
+            this.ArrivalButton.Name = "ArrivalButton";
+            this.ArrivalButton.Size = new System.Drawing.Size(30, 23);
+            this.ArrivalButton.TabIndex = 44;
+            this.ArrivalButton.UseVisualStyleBackColor = true;
             // 
             // ETALabel
             // 
-            ETALabel.AutoSize = true;
-            ETALabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ETALabel.Location = new Point(262, 282);
-            ETALabel.Name = "ETALabel";
-            ETALabel.Size = new Size(26, 13);
-            ETALabel.TabIndex = 84;
-            ETALabel.Text = "ETA";
+            this.ETALabel.AutoSize = true;
+            this.ETALabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ETALabel.Location = new System.Drawing.Point(262, 282);
+            this.ETALabel.Name = "ETALabel";
+            this.ETALabel.Size = new System.Drawing.Size(26, 13);
+            this.ETALabel.TabIndex = 84;
+            this.ETALabel.Text = "ETA";
             // 
             // ArrivalTextBox
             // 
-            ArrivalTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ArrivalTextBox.Location = new Point(78, 11);
-            ArrivalTextBox.Name = "ArrivalTextBox";
-            ArrivalTextBox.Size = new Size(100, 21);
-            ArrivalTextBox.TabIndex = 46;
+            this.ArrivalTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ArrivalTextBox.Location = new System.Drawing.Point(78, 11);
+            this.ArrivalTextBox.Name = "ArrivalTextBox";
+            this.ArrivalTextBox.Size = new System.Drawing.Size(100, 21);
+            this.ArrivalTextBox.TabIndex = 46;
             // 
             // CurrButton
             // 
-            CurrButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CurrButton.Location = new Point(350, 223);
-            CurrButton.Name = "CurrButton";
-            CurrButton.Size = new Size(30, 23);
-            CurrButton.TabIndex = 83;
-            CurrButton.UseVisualStyleBackColor = true;
+            this.CurrButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CurrButton.Location = new System.Drawing.Point(350, 223);
+            this.CurrButton.Name = "CurrButton";
+            this.CurrButton.Size = new System.Drawing.Size(30, 23);
+            this.CurrButton.TabIndex = 83;
+            this.CurrButton.UseVisualStyleBackColor = true;
             // 
             // NightsLabel
             // 
-            NightsLabel.AutoSize = true;
-            NightsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NightsLabel.Location = new Point(35, 41);
-            NightsLabel.Name = "NightsLabel";
-            NightsLabel.Size = new Size(37, 13);
-            NightsLabel.TabIndex = 48;
-            NightsLabel.Text = "Nights";
+            this.NightsLabel.AutoSize = true;
+            this.NightsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NightsLabel.Location = new System.Drawing.Point(35, 41);
+            this.NightsLabel.Name = "NightsLabel";
+            this.NightsLabel.Size = new System.Drawing.Size(37, 13);
+            this.NightsLabel.TabIndex = 48;
+            this.NightsLabel.Text = "Nights";
             // 
             // CurrTextBox
             // 
-            CurrTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CurrTextBox.Location = new Point(294, 225);
-            CurrTextBox.Name = "CurrTextBox";
-            CurrTextBox.Size = new Size(50, 21);
-            CurrTextBox.TabIndex = 82;
+            this.CurrTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CurrTextBox.Location = new System.Drawing.Point(294, 225);
+            this.CurrTextBox.Name = "CurrTextBox";
+            this.CurrTextBox.Size = new System.Drawing.Size(50, 21);
+            this.CurrTextBox.TabIndex = 82;
             // 
             // NightsTextBox
             // 
-            NightsTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NightsTextBox.Location = new Point(78, 38);
-            NightsTextBox.Name = "NightsTextBox";
-            NightsTextBox.Size = new Size(50, 21);
-            NightsTextBox.TabIndex = 49;
+            this.NightsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NightsTextBox.Location = new System.Drawing.Point(78, 38);
+            this.NightsTextBox.Name = "NightsTextBox";
+            this.NightsTextBox.Size = new System.Drawing.Size(50, 21);
+            this.NightsTextBox.TabIndex = 49;
             // 
             // CurrLabel
             // 
-            CurrLabel.AutoSize = true;
-            CurrLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CurrLabel.Location = new Point(256, 228);
-            CurrLabel.Name = "CurrLabel";
-            CurrLabel.Size = new Size(32, 13);
-            CurrLabel.TabIndex = 81;
-            CurrLabel.Text = "Curr.";
+            this.CurrLabel.AutoSize = true;
+            this.CurrLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CurrLabel.Location = new System.Drawing.Point(256, 228);
+            this.CurrLabel.Name = "CurrLabel";
+            this.CurrLabel.Size = new System.Drawing.Size(32, 13);
+            this.CurrLabel.TabIndex = 81;
+            this.CurrLabel.Text = "Curr.";
             // 
             // DepartureButton
             // 
-            DepartureButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DepartureButton.Location = new Point(184, 63);
-            DepartureButton.Name = "DepartureButton";
-            DepartureButton.Size = new Size(30, 23);
-            DepartureButton.TabIndex = 50;
-            DepartureButton.UseVisualStyleBackColor = true;
+            this.DepartureButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.DepartureButton.Location = new System.Drawing.Point(184, 63);
+            this.DepartureButton.Name = "DepartureButton";
+            this.DepartureButton.Size = new System.Drawing.Size(30, 23);
+            this.DepartureButton.TabIndex = 50;
+            this.DepartureButton.UseVisualStyleBackColor = true;
             // 
             // BlockCodeTextBox
             // 
-            BlockCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BlockCodeTextBox.Location = new Point(78, 279);
-            BlockCodeTextBox.Name = "BlockCodeTextBox";
-            BlockCodeTextBox.Size = new Size(100, 21);
-            BlockCodeTextBox.TabIndex = 80;
+            this.BlockCodeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.BlockCodeTextBox.Location = new System.Drawing.Point(78, 279);
+            this.BlockCodeTextBox.Name = "BlockCodeTextBox";
+            this.BlockCodeTextBox.Size = new System.Drawing.Size(100, 21);
+            this.BlockCodeTextBox.TabIndex = 80;
             // 
             // DepartureLabel
             // 
-            DepartureLabel.AutoSize = true;
-            DepartureLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DepartureLabel.Location = new Point(16, 68);
-            DepartureLabel.Name = "DepartureLabel";
-            DepartureLabel.Size = new Size(56, 13);
-            DepartureLabel.TabIndex = 51;
-            DepartureLabel.Text = "Departure";
+            this.DepartureLabel.AutoSize = true;
+            this.DepartureLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.DepartureLabel.Location = new System.Drawing.Point(16, 68);
+            this.DepartureLabel.Name = "DepartureLabel";
+            this.DepartureLabel.Size = new System.Drawing.Size(56, 13);
+            this.DepartureLabel.TabIndex = 51;
+            this.DepartureLabel.Text = "Departure";
             // 
             // BlockCodeLabel
             // 
-            BlockCodeLabel.AutoSize = true;
-            BlockCodeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BlockCodeLabel.Location = new Point(13, 282);
-            BlockCodeLabel.Name = "BlockCodeLabel";
-            BlockCodeLabel.Size = new Size(59, 13);
-            BlockCodeLabel.TabIndex = 79;
-            BlockCodeLabel.Text = "Block Code";
+            this.BlockCodeLabel.AutoSize = true;
+            this.BlockCodeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.BlockCodeLabel.Location = new System.Drawing.Point(13, 282);
+            this.BlockCodeLabel.Name = "BlockCodeLabel";
+            this.BlockCodeLabel.Size = new System.Drawing.Size(59, 13);
+            this.BlockCodeLabel.TabIndex = 79;
+            this.BlockCodeLabel.Text = "Block Code";
             // 
             // DepartureTextBox
             // 
-            DepartureTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DepartureTextBox.Location = new Point(78, 65);
-            DepartureTextBox.Name = "DepartureTextBox";
-            DepartureTextBox.Size = new Size(100, 21);
-            DepartureTextBox.TabIndex = 52;
+            this.DepartureTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.DepartureTextBox.Location = new System.Drawing.Point(78, 65);
+            this.DepartureTextBox.Name = "DepartureTextBox";
+            this.DepartureTextBox.Size = new System.Drawing.Size(100, 21);
+            this.DepartureTextBox.TabIndex = 52;
             // 
             // BlockCodeButton
             // 
-            BlockCodeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BlockCodeButton.Location = new Point(184, 277);
-            BlockCodeButton.Name = "BlockCodeButton";
-            BlockCodeButton.Size = new Size(30, 23);
-            BlockCodeButton.TabIndex = 78;
-            BlockCodeButton.UseVisualStyleBackColor = true;
+            this.BlockCodeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.BlockCodeButton.Location = new System.Drawing.Point(184, 277);
+            this.BlockCodeButton.Name = "BlockCodeButton";
+            this.BlockCodeButton.Size = new System.Drawing.Size(30, 23);
+            this.BlockCodeButton.TabIndex = 78;
+            this.BlockCodeButton.UseVisualStyleBackColor = true;
             // 
             // ChildButton
             // 
-            ChildButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ChildButton.Location = new Point(220, 90);
-            ChildButton.Name = "ChildButton";
-            ChildButton.Size = new Size(30, 23);
-            ChildButton.TabIndex = 53;
-            ChildButton.UseVisualStyleBackColor = true;
+            this.ChildButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ChildButton.Location = new System.Drawing.Point(220, 90);
+            this.ChildButton.Name = "ChildButton";
+            this.ChildButton.Size = new System.Drawing.Size(30, 23);
+            this.ChildButton.TabIndex = 53;
+            this.ChildButton.UseVisualStyleBackColor = true;
             // 
             // PackagesTextBox
             // 
-            PackagesTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesTextBox.Location = new Point(78, 252);
-            PackagesTextBox.Name = "PackagesTextBox";
-            PackagesTextBox.Size = new Size(100, 21);
-            PackagesTextBox.TabIndex = 77;
+            this.PackagesTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PackagesTextBox.Location = new System.Drawing.Point(78, 252);
+            this.PackagesTextBox.Name = "PackagesTextBox";
+            this.PackagesTextBox.Size = new System.Drawing.Size(100, 21);
+            this.PackagesTextBox.TabIndex = 77;
             // 
             // AdultsLabel
             // 
-            AdultsLabel.AutoSize = true;
-            AdultsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AdultsLabel.Location = new Point(35, 95);
-            AdultsLabel.Name = "AdultsLabel";
-            AdultsLabel.Size = new Size(37, 13);
-            AdultsLabel.TabIndex = 54;
-            AdultsLabel.Text = "Adults";
+            this.AdultsLabel.AutoSize = true;
+            this.AdultsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AdultsLabel.Location = new System.Drawing.Point(35, 95);
+            this.AdultsLabel.Name = "AdultsLabel";
+            this.AdultsLabel.Size = new System.Drawing.Size(37, 13);
+            this.AdultsLabel.TabIndex = 54;
+            this.AdultsLabel.Text = "Adults";
             // 
             // PackagesLabel
             // 
-            PackagesLabel.AutoSize = true;
-            PackagesLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesLabel.Location = new Point(20, 255);
-            PackagesLabel.Name = "PackagesLabel";
-            PackagesLabel.Size = new Size(52, 13);
-            PackagesLabel.TabIndex = 76;
-            PackagesLabel.Text = "Packages";
+            this.PackagesLabel.AutoSize = true;
+            this.PackagesLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PackagesLabel.Location = new System.Drawing.Point(20, 255);
+            this.PackagesLabel.Name = "PackagesLabel";
+            this.PackagesLabel.Size = new System.Drawing.Size(52, 13);
+            this.PackagesLabel.TabIndex = 76;
+            this.PackagesLabel.Text = "Packages";
             // 
             // AdultsTextBox
             // 
-            AdultsTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AdultsTextBox.Location = new Point(78, 90);
-            AdultsTextBox.Name = "AdultsTextBox";
-            AdultsTextBox.Size = new Size(30, 21);
-            AdultsTextBox.TabIndex = 55;
+            this.AdultsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AdultsTextBox.Location = new System.Drawing.Point(78, 90);
+            this.AdultsTextBox.Name = "AdultsTextBox";
+            this.AdultsTextBox.Size = new System.Drawing.Size(30, 21);
+            this.AdultsTextBox.TabIndex = 55;
             // 
             // PackagesButton
             // 
-            PackagesButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PackagesButton.Location = new Point(184, 250);
-            PackagesButton.Name = "PackagesButton";
-            PackagesButton.Size = new Size(30, 23);
-            PackagesButton.TabIndex = 75;
-            PackagesButton.UseVisualStyleBackColor = true;
+            this.PackagesButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PackagesButton.Location = new System.Drawing.Point(184, 250);
+            this.PackagesButton.Name = "PackagesButton";
+            this.PackagesButton.Size = new System.Drawing.Size(30, 23);
+            this.PackagesButton.TabIndex = 75;
+            this.PackagesButton.UseVisualStyleBackColor = true;
             // 
             // ChildLabel
             // 
-            ChildLabel.AutoSize = true;
-            ChildLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ChildLabel.Location = new Point(148, 95);
-            ChildLabel.Name = "ChildLabel";
-            ChildLabel.Size = new Size(30, 13);
-            ChildLabel.TabIndex = 56;
-            ChildLabel.Text = "Child";
+            this.ChildLabel.AutoSize = true;
+            this.ChildLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ChildLabel.Location = new System.Drawing.Point(148, 95);
+            this.ChildLabel.Name = "ChildLabel";
+            this.ChildLabel.Size = new System.Drawing.Size(30, 13);
+            this.ChildLabel.TabIndex = 56;
+            this.ChildLabel.Text = "Child";
             // 
             // RateTextBox
             // 
-            RateTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateTextBox.Location = new Point(78, 225);
-            RateTextBox.Name = "RateTextBox";
-            RateTextBox.Size = new Size(136, 21);
-            RateTextBox.TabIndex = 74;
-            RateTextBox.Text = "00,00";
-            RateTextBox.TextAlign = HorizontalAlignment.Right;
+            this.RateTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateTextBox.Location = new System.Drawing.Point(78, 225);
+            this.RateTextBox.Name = "RateTextBox";
+            this.RateTextBox.Size = new System.Drawing.Size(136, 21);
+            this.RateTextBox.TabIndex = 74;
+            this.RateTextBox.Text = "00,00";
+            this.RateTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ChildTextBox
             // 
-            ChildTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ChildTextBox.Location = new Point(184, 92);
-            ChildTextBox.Name = "ChildTextBox";
-            ChildTextBox.Size = new Size(30, 21);
-            ChildTextBox.TabIndex = 57;
+            this.ChildTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ChildTextBox.Location = new System.Drawing.Point(184, 92);
+            this.ChildTextBox.Name = "ChildTextBox";
+            this.ChildTextBox.Size = new System.Drawing.Size(30, 21);
+            this.ChildTextBox.TabIndex = 57;
             // 
             // RateLabel
             // 
-            RateLabel.AutoSize = true;
-            RateLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateLabel.Location = new Point(42, 228);
-            RateLabel.Name = "RateLabel";
-            RateLabel.Size = new Size(30, 13);
-            RateLabel.TabIndex = 73;
-            RateLabel.Text = "Rate";
+            this.RateLabel.AutoSize = true;
+            this.RateLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateLabel.Location = new System.Drawing.Point(42, 228);
+            this.RateLabel.Name = "RateLabel";
+            this.RateLabel.Size = new System.Drawing.Size(30, 13);
+            this.RateLabel.TabIndex = 73;
+            this.RateLabel.Text = "Rate";
             // 
             // NoOfRmsLabel
             // 
-            NoOfRmsLabel.AutoSize = true;
-            NoOfRmsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NoOfRmsLabel.Location = new Point(6, 120);
-            NoOfRmsLabel.Name = "NoOfRmsLabel";
-            NoOfRmsLabel.Size = new Size(66, 13);
-            NoOfRmsLabel.TabIndex = 58;
-            NoOfRmsLabel.Text = "No. Of Rms.";
+            this.NoOfRmsLabel.AutoSize = true;
+            this.NoOfRmsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NoOfRmsLabel.Location = new System.Drawing.Point(6, 120);
+            this.NoOfRmsLabel.Name = "NoOfRmsLabel";
+            this.NoOfRmsLabel.Size = new System.Drawing.Size(66, 13);
+            this.NoOfRmsLabel.TabIndex = 58;
+            this.NoOfRmsLabel.Text = "No. Of Rms.";
             // 
             // RateButton
             // 
-            RateButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateButton.Location = new Point(220, 223);
-            RateButton.Name = "RateButton";
-            RateButton.Size = new Size(30, 23);
-            RateButton.TabIndex = 72;
-            RateButton.UseVisualStyleBackColor = true;
+            this.RateButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateButton.Location = new System.Drawing.Point(220, 223);
+            this.RateButton.Name = "RateButton";
+            this.RateButton.Size = new System.Drawing.Size(30, 23);
+            this.RateButton.TabIndex = 72;
+            this.RateButton.UseVisualStyleBackColor = true;
             // 
             // NoOfRmsTextBox
             // 
-            NoOfRmsTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NoOfRmsTextBox.Location = new Point(78, 117);
-            NoOfRmsTextBox.Name = "NoOfRmsTextBox";
-            NoOfRmsTextBox.Size = new Size(50, 21);
-            NoOfRmsTextBox.TabIndex = 59;
+            this.NoOfRmsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NoOfRmsTextBox.Location = new System.Drawing.Point(78, 117);
+            this.NoOfRmsTextBox.Name = "NoOfRmsTextBox";
+            this.NoOfRmsTextBox.Size = new System.Drawing.Size(50, 21);
+            this.NoOfRmsTextBox.TabIndex = 59;
             // 
             // RateCodeTextBox
             // 
-            RateCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeTextBox.Location = new Point(78, 198);
-            RateCodeTextBox.Name = "RateCodeTextBox";
-            RateCodeTextBox.Size = new Size(100, 21);
-            RateCodeTextBox.TabIndex = 71;
+            this.RateCodeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateCodeTextBox.Location = new System.Drawing.Point(78, 198);
+            this.RateCodeTextBox.Name = "RateCodeTextBox";
+            this.RateCodeTextBox.Size = new System.Drawing.Size(100, 21);
+            this.RateCodeTextBox.TabIndex = 71;
             // 
             // RoomTypeButton
             // 
-            RoomTypeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomTypeButton.Location = new Point(184, 142);
-            RoomTypeButton.Name = "RoomTypeButton";
-            RoomTypeButton.Size = new Size(30, 23);
-            RoomTypeButton.TabIndex = 60;
-            RoomTypeButton.UseVisualStyleBackColor = true;
+            this.RoomTypeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomTypeButton.Location = new System.Drawing.Point(184, 142);
+            this.RoomTypeButton.Name = "RoomTypeButton";
+            this.RoomTypeButton.Size = new System.Drawing.Size(30, 23);
+            this.RoomTypeButton.TabIndex = 60;
+            this.RoomTypeButton.UseVisualStyleBackColor = true;
             // 
             // RateCodeLabel
             // 
-            RateCodeLabel.AutoSize = true;
-            RateCodeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeLabel.Location = new Point(16, 201);
-            RateCodeLabel.Name = "RateCodeLabel";
-            RateCodeLabel.Size = new Size(58, 13);
-            RateCodeLabel.TabIndex = 70;
-            RateCodeLabel.Text = "Rate Code";
+            this.RateCodeLabel.AutoSize = true;
+            this.RateCodeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateCodeLabel.Location = new System.Drawing.Point(16, 201);
+            this.RateCodeLabel.Name = "RateCodeLabel";
+            this.RateCodeLabel.Size = new System.Drawing.Size(58, 13);
+            this.RateCodeLabel.TabIndex = 70;
+            this.RateCodeLabel.Text = "Rate Code";
             // 
             // RoomTypeLabel
             // 
-            RoomTypeLabel.AutoSize = true;
-            RoomTypeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomTypeLabel.Location = new Point(11, 147);
-            RoomTypeLabel.Name = "RoomTypeLabel";
-            RoomTypeLabel.Size = new Size(61, 13);
-            RoomTypeLabel.TabIndex = 61;
-            RoomTypeLabel.Text = "Room Type";
+            this.RoomTypeLabel.AutoSize = true;
+            this.RoomTypeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomTypeLabel.Location = new System.Drawing.Point(11, 147);
+            this.RoomTypeLabel.Name = "RoomTypeLabel";
+            this.RoomTypeLabel.Size = new System.Drawing.Size(61, 13);
+            this.RoomTypeLabel.TabIndex = 61;
+            this.RoomTypeLabel.Text = "Room Type";
             // 
             // RateCodeButton
             // 
-            RateCodeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeButton.Location = new Point(184, 196);
-            RateCodeButton.Name = "RateCodeButton";
-            RateCodeButton.Size = new Size(30, 23);
-            RateCodeButton.TabIndex = 69;
-            RateCodeButton.UseVisualStyleBackColor = true;
+            this.RateCodeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateCodeButton.Location = new System.Drawing.Point(184, 196);
+            this.RateCodeButton.Name = "RateCodeButton";
+            this.RateCodeButton.Size = new System.Drawing.Size(30, 23);
+            this.RateCodeButton.TabIndex = 69;
+            this.RateCodeButton.UseVisualStyleBackColor = true;
             // 
             // RoomTypeTextBox
             // 
-            RoomTypeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomTypeTextBox.Location = new Point(78, 144);
-            RoomTypeTextBox.Name = "RoomTypeTextBox";
-            RoomTypeTextBox.Size = new Size(100, 21);
-            RoomTypeTextBox.TabIndex = 62;
+            this.RoomTypeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomTypeTextBox.Location = new System.Drawing.Point(78, 144);
+            this.RoomTypeTextBox.Name = "RoomTypeTextBox";
+            this.RoomTypeTextBox.Size = new System.Drawing.Size(100, 21);
+            this.RoomTypeTextBox.TabIndex = 62;
             // 
             // RoomTextBox
             // 
-            RoomTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomTextBox.Location = new Point(78, 171);
-            RoomTextBox.Name = "RoomTextBox";
-            RoomTextBox.Size = new Size(100, 21);
-            RoomTextBox.TabIndex = 68;
+            this.RoomTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomTextBox.Location = new System.Drawing.Point(78, 171);
+            this.RoomTextBox.Name = "RoomTextBox";
+            this.RoomTextBox.Size = new System.Drawing.Size(100, 21);
+            this.RoomTextBox.TabIndex = 68;
             // 
             // RTCButton
             // 
-            RTCButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RTCButton.Location = new Point(400, 142);
-            RTCButton.Name = "RTCButton";
-            RTCButton.Size = new Size(30, 23);
-            RTCButton.TabIndex = 63;
-            RTCButton.UseVisualStyleBackColor = true;
+            this.RTCButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RTCButton.Location = new System.Drawing.Point(400, 142);
+            this.RTCButton.Name = "RTCButton";
+            this.RTCButton.Size = new System.Drawing.Size(30, 23);
+            this.RTCButton.TabIndex = 63;
+            this.RTCButton.UseVisualStyleBackColor = true;
             // 
             // RoomLabel
             // 
-            RoomLabel.AutoSize = true;
-            RoomLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomLabel.Location = new Point(38, 174);
-            RoomLabel.Name = "RoomLabel";
-            RoomLabel.Size = new Size(34, 13);
-            RoomLabel.TabIndex = 67;
-            RoomLabel.Text = "Room";
+            this.RoomLabel.AutoSize = true;
+            this.RoomLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomLabel.Location = new System.Drawing.Point(38, 174);
+            this.RoomLabel.Name = "RoomLabel";
+            this.RoomLabel.Size = new System.Drawing.Size(34, 13);
+            this.RoomLabel.TabIndex = 67;
+            this.RoomLabel.Text = "Room";
             // 
             // RTCLabel
             // 
-            RTCLabel.AutoSize = true;
-            RTCLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RTCLabel.Location = new Point(257, 147);
-            RTCLabel.Name = "RTCLabel";
-            RTCLabel.Size = new Size(31, 13);
-            RTCLabel.TabIndex = 64;
-            RTCLabel.Text = "RTC.";
+            this.RTCLabel.AutoSize = true;
+            this.RTCLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RTCLabel.Location = new System.Drawing.Point(257, 147);
+            this.RTCLabel.Name = "RTCLabel";
+            this.RTCLabel.Size = new System.Drawing.Size(31, 13);
+            this.RTCLabel.TabIndex = 64;
+            this.RTCLabel.Text = "RTC.";
             // 
             // RoomButton
             // 
-            RoomButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RoomButton.Location = new Point(184, 169);
-            RoomButton.Name = "RoomButton";
-            RoomButton.Size = new Size(30, 23);
-            RoomButton.TabIndex = 66;
-            RoomButton.UseVisualStyleBackColor = true;
+            this.RoomButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RoomButton.Location = new System.Drawing.Point(184, 169);
+            this.RoomButton.Name = "RoomButton";
+            this.RoomButton.Size = new System.Drawing.Size(30, 23);
+            this.RoomButton.TabIndex = 66;
+            this.RoomButton.UseVisualStyleBackColor = true;
             // 
             // RTCTextBox
             // 
-            RTCTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RTCTextBox.Location = new Point(294, 144);
-            RTCTextBox.Name = "RTCTextBox";
-            RTCTextBox.Size = new Size(100, 21);
-            RTCTextBox.TabIndex = 65;
+            this.RTCTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RTCTextBox.Location = new System.Drawing.Point(294, 144);
+            this.RTCTextBox.Name = "RTCTextBox";
+            this.RTCTextBox.Size = new System.Drawing.Size(100, 21);
+            this.RTCTextBox.TabIndex = 65;
             // 
             // ResTypeButton
             // 
-            ResTypeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ResTypeButton.Location = new Point(148, 9);
-            ResTypeButton.Name = "ResTypeButton";
-            ResTypeButton.Size = new Size(30, 23);
-            ResTypeButton.TabIndex = 44;
-            ResTypeButton.UseVisualStyleBackColor = true;
+            this.ResTypeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ResTypeButton.Location = new System.Drawing.Point(148, 9);
+            this.ResTypeButton.Name = "ResTypeButton";
+            this.ResTypeButton.Size = new System.Drawing.Size(30, 23);
+            this.ResTypeButton.TabIndex = 44;
+            this.ResTypeButton.UseVisualStyleBackColor = true;
             // 
             // ResTypeLabel
             // 
-            ResTypeLabel.AutoSize = true;
-            ResTypeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ResTypeLabel.Location = new Point(30, 14);
-            ResTypeLabel.Name = "ResTypeLabel";
-            ResTypeLabel.Size = new Size(56, 13);
-            ResTypeLabel.TabIndex = 45;
-            ResTypeLabel.Text = "Res. Type";
+            this.ResTypeLabel.AutoSize = true;
+            this.ResTypeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ResTypeLabel.Location = new System.Drawing.Point(30, 14);
+            this.ResTypeLabel.Name = "ResTypeLabel";
+            this.ResTypeLabel.Size = new System.Drawing.Size(56, 13);
+            this.ResTypeLabel.TabIndex = 45;
+            this.ResTypeLabel.Text = "Res. Type";
             // 
             // ResTypeTextBox
             // 
-            ResTypeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ResTypeTextBox.Location = new Point(92, 11);
-            ResTypeTextBox.Name = "ResTypeTextBox";
-            ResTypeTextBox.Size = new Size(50, 21);
-            ResTypeTextBox.TabIndex = 46;
+            this.ResTypeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ResTypeTextBox.Location = new System.Drawing.Point(92, 11);
+            this.ResTypeTextBox.Name = "ResTypeTextBox";
+            this.ResTypeTextBox.Size = new System.Drawing.Size(50, 21);
+            this.ResTypeTextBox.TabIndex = 46;
             // 
             // NonGuarantLabel
             // 
-            NonGuarantLabel.AutoSize = true;
-            NonGuarantLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NonGuarantLabel.ForeColor = Color.Red;
-            NonGuarantLabel.Location = new Point(184, 14);
-            NonGuarantLabel.Name = "NonGuarantLabel";
-            NonGuarantLabel.Size = new Size(68, 13);
-            NonGuarantLabel.TabIndex = 47;
-            NonGuarantLabel.Text = "Non Guarant";
+            this.NonGuarantLabel.AutoSize = true;
+            this.NonGuarantLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NonGuarantLabel.ForeColor = System.Drawing.Color.Red;
+            this.NonGuarantLabel.Location = new System.Drawing.Point(184, 14);
+            this.NonGuarantLabel.Name = "NonGuarantLabel";
+            this.NonGuarantLabel.Size = new System.Drawing.Size(68, 13);
+            this.NonGuarantLabel.TabIndex = 47;
+            this.NonGuarantLabel.Text = "Non Guarant";
             // 
             // MarketTextBox
             // 
-            MarketTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MarketTextBox.Location = new Point(92, 38);
-            MarketTextBox.Name = "MarketTextBox";
-            MarketTextBox.Size = new Size(50, 21);
-            MarketTextBox.TabIndex = 50;
+            this.MarketTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MarketTextBox.Location = new System.Drawing.Point(92, 38);
+            this.MarketTextBox.Name = "MarketTextBox";
+            this.MarketTextBox.Size = new System.Drawing.Size(50, 21);
+            this.MarketTextBox.TabIndex = 50;
             // 
             // MarketLabel
             // 
-            MarketLabel.AutoSize = true;
-            MarketLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MarketLabel.Location = new Point(45, 41);
-            MarketLabel.Name = "MarketLabel";
-            MarketLabel.Size = new Size(40, 13);
-            MarketLabel.TabIndex = 49;
-            MarketLabel.Text = "Market";
+            this.MarketLabel.AutoSize = true;
+            this.MarketLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MarketLabel.Location = new System.Drawing.Point(45, 41);
+            this.MarketLabel.Name = "MarketLabel";
+            this.MarketLabel.Size = new System.Drawing.Size(40, 13);
+            this.MarketLabel.TabIndex = 49;
+            this.MarketLabel.Text = "Market";
             // 
             // MarketButton
             // 
-            MarketButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            MarketButton.Location = new Point(148, 36);
-            MarketButton.Name = "MarketButton";
-            MarketButton.Size = new Size(30, 23);
-            MarketButton.TabIndex = 48;
-            MarketButton.UseVisualStyleBackColor = true;
+            this.MarketButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.MarketButton.Location = new System.Drawing.Point(148, 36);
+            this.MarketButton.Name = "MarketButton";
+            this.MarketButton.Size = new System.Drawing.Size(30, 23);
+            this.MarketButton.TabIndex = 48;
+            this.MarketButton.UseVisualStyleBackColor = true;
             // 
             // Source1TextBox
             // 
-            Source1TextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Source1TextBox.Location = new Point(92, 65);
-            Source1TextBox.Name = "Source1TextBox";
-            Source1TextBox.Size = new Size(50, 21);
-            Source1TextBox.TabIndex = 53;
+            this.Source1TextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.Source1TextBox.Location = new System.Drawing.Point(92, 65);
+            this.Source1TextBox.Name = "Source1TextBox";
+            this.Source1TextBox.Size = new System.Drawing.Size(50, 21);
+            this.Source1TextBox.TabIndex = 53;
             // 
             // SourceLabel1
             // 
-            SourceLabel1.AutoSize = true;
-            SourceLabel1.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SourceLabel1.Location = new Point(51, 68);
-            SourceLabel1.Name = "SourceLabel1";
-            SourceLabel1.Size = new Size(40, 13);
-            SourceLabel1.TabIndex = 52;
-            SourceLabel1.Text = "Source";
+            this.SourceLabel1.AutoSize = true;
+            this.SourceLabel1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SourceLabel1.Location = new System.Drawing.Point(51, 68);
+            this.SourceLabel1.Name = "SourceLabel1";
+            this.SourceLabel1.Size = new System.Drawing.Size(40, 13);
+            this.SourceLabel1.TabIndex = 52;
+            this.SourceLabel1.Text = "Source";
             // 
             // Source1Button
             // 
-            Source1Button.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Source1Button.Location = new Point(148, 63);
-            Source1Button.Name = "Source1Button";
-            Source1Button.Size = new Size(30, 23);
-            Source1Button.TabIndex = 51;
-            Source1Button.UseVisualStyleBackColor = true;
+            this.Source1Button.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.Source1Button.Location = new System.Drawing.Point(148, 63);
+            this.Source1Button.Name = "Source1Button";
+            this.Source1Button.Size = new System.Drawing.Size(30, 23);
+            this.Source1Button.TabIndex = 51;
+            this.Source1Button.UseVisualStyleBackColor = true;
             // 
             // OriginTextBox
             // 
-            OriginTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            OriginTextBox.Location = new Point(92, 92);
-            OriginTextBox.Name = "OriginTextBox";
-            OriginTextBox.Size = new Size(50, 21);
-            OriginTextBox.TabIndex = 56;
+            this.OriginTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.OriginTextBox.Location = new System.Drawing.Point(92, 92);
+            this.OriginTextBox.Name = "OriginTextBox";
+            this.OriginTextBox.Size = new System.Drawing.Size(50, 21);
+            this.OriginTextBox.TabIndex = 56;
             // 
             // OriginLabel
             // 
-            OriginLabel.AutoSize = true;
-            OriginLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            OriginLabel.Location = new Point(51, 95);
-            OriginLabel.Name = "OriginLabel";
-            OriginLabel.Size = new Size(35, 13);
-            OriginLabel.TabIndex = 55;
-            OriginLabel.Text = "Origin";
+            this.OriginLabel.AutoSize = true;
+            this.OriginLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.OriginLabel.Location = new System.Drawing.Point(51, 95);
+            this.OriginLabel.Name = "OriginLabel";
+            this.OriginLabel.Size = new System.Drawing.Size(35, 13);
+            this.OriginLabel.TabIndex = 55;
+            this.OriginLabel.Text = "Origin";
             // 
             // OriginButton
             // 
-            OriginButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            OriginButton.Location = new Point(148, 90);
-            OriginButton.Name = "OriginButton";
-            OriginButton.Size = new Size(30, 23);
-            OriginButton.TabIndex = 54;
-            OriginButton.UseVisualStyleBackColor = true;
+            this.OriginButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.OriginButton.Location = new System.Drawing.Point(148, 90);
+            this.OriginButton.Name = "OriginButton";
+            this.OriginButton.Size = new System.Drawing.Size(30, 23);
+            this.OriginButton.TabIndex = 54;
+            this.OriginButton.UseVisualStyleBackColor = true;
             // 
             // PaymentTextBox
             // 
-            PaymentTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PaymentTextBox.Location = new Point(92, 119);
-            PaymentTextBox.Name = "PaymentTextBox";
-            PaymentTextBox.Size = new Size(50, 21);
-            PaymentTextBox.TabIndex = 59;
+            this.PaymentTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PaymentTextBox.Location = new System.Drawing.Point(92, 119);
+            this.PaymentTextBox.Name = "PaymentTextBox";
+            this.PaymentTextBox.Size = new System.Drawing.Size(50, 21);
+            this.PaymentTextBox.TabIndex = 59;
             // 
             // PaymentLabel
             // 
-            PaymentLabel.AutoSize = true;
-            PaymentLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PaymentLabel.Location = new Point(37, 122);
-            PaymentLabel.Name = "PaymentLabel";
-            PaymentLabel.Size = new Size(49, 13);
-            PaymentLabel.TabIndex = 58;
-            PaymentLabel.Text = "Payment";
+            this.PaymentLabel.AutoSize = true;
+            this.PaymentLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PaymentLabel.Location = new System.Drawing.Point(37, 122);
+            this.PaymentLabel.Name = "PaymentLabel";
+            this.PaymentLabel.Size = new System.Drawing.Size(49, 13);
+            this.PaymentLabel.TabIndex = 58;
+            this.PaymentLabel.Text = "Payment";
             // 
             // PaymentButton
             // 
-            PaymentButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            PaymentButton.Location = new Point(148, 117);
-            PaymentButton.Name = "PaymentButton";
-            PaymentButton.Size = new Size(30, 23);
-            PaymentButton.TabIndex = 57;
-            PaymentButton.UseVisualStyleBackColor = true;
+            this.PaymentButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.PaymentButton.Location = new System.Drawing.Point(148, 117);
+            this.PaymentButton.Name = "PaymentButton";
+            this.PaymentButton.Size = new System.Drawing.Size(30, 23);
+            this.PaymentButton.TabIndex = 57;
+            this.PaymentButton.UseVisualStyleBackColor = true;
             // 
             // CreditCardNoTextBox
             // 
-            CreditCardNoTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CreditCardNoTextBox.Location = new Point(92, 146);
-            CreditCardNoTextBox.Name = "CreditCardNoTextBox";
-            CreditCardNoTextBox.Size = new Size(160, 21);
-            CreditCardNoTextBox.TabIndex = 61;
+            this.CreditCardNoTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CreditCardNoTextBox.Location = new System.Drawing.Point(92, 146);
+            this.CreditCardNoTextBox.Name = "CreditCardNoTextBox";
+            this.CreditCardNoTextBox.Size = new System.Drawing.Size(160, 21);
+            this.CreditCardNoTextBox.TabIndex = 61;
             // 
             // CreditCardNoLabel
             // 
-            CreditCardNoLabel.AutoSize = true;
-            CreditCardNoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CreditCardNoLabel.Location = new Point(4, 149);
-            CreditCardNoLabel.Name = "CreditCardNoLabel";
-            CreditCardNoLabel.Size = new Size(82, 13);
-            CreditCardNoLabel.TabIndex = 60;
-            CreditCardNoLabel.Text = "Credit Card No.";
+            this.CreditCardNoLabel.AutoSize = true;
+            this.CreditCardNoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CreditCardNoLabel.Location = new System.Drawing.Point(4, 149);
+            this.CreditCardNoLabel.Name = "CreditCardNoLabel";
+            this.CreditCardNoLabel.Size = new System.Drawing.Size(82, 13);
+            this.CreditCardNoLabel.TabIndex = 60;
+            this.CreditCardNoLabel.Text = "Credit Card No.";
             // 
             // ExpDateTextBox
             // 
-            ExpDateTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ExpDateTextBox.Location = new Point(92, 173);
-            ExpDateTextBox.Name = "ExpDateTextBox";
-            ExpDateTextBox.Size = new Size(50, 21);
-            ExpDateTextBox.TabIndex = 64;
+            this.ExpDateTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ExpDateTextBox.Location = new System.Drawing.Point(92, 173);
+            this.ExpDateTextBox.Name = "ExpDateTextBox";
+            this.ExpDateTextBox.Size = new System.Drawing.Size(50, 21);
+            this.ExpDateTextBox.TabIndex = 64;
             // 
             // ExpDateLabel
             // 
-            ExpDateLabel.AutoSize = true;
-            ExpDateLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ExpDateLabel.Location = new Point(31, 176);
-            ExpDateLabel.Name = "ExpDateLabel";
-            ExpDateLabel.Size = new Size(55, 13);
-            ExpDateLabel.TabIndex = 63;
-            ExpDateLabel.Text = "Exp. Date";
+            this.ExpDateLabel.AutoSize = true;
+            this.ExpDateLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ExpDateLabel.Location = new System.Drawing.Point(31, 176);
+            this.ExpDateLabel.Name = "ExpDateLabel";
+            this.ExpDateLabel.Size = new System.Drawing.Size(55, 13);
+            this.ExpDateLabel.TabIndex = 63;
+            this.ExpDateLabel.Text = "Exp. Date";
             // 
             // ExpDateButton
             // 
-            ExpDateButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ExpDateButton.Location = new Point(148, 171);
-            ExpDateButton.Name = "ExpDateButton";
-            ExpDateButton.Size = new Size(30, 23);
-            ExpDateButton.TabIndex = 62;
-            ExpDateButton.UseVisualStyleBackColor = true;
+            this.ExpDateButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ExpDateButton.Location = new System.Drawing.Point(148, 171);
+            this.ExpDateButton.Name = "ExpDateButton";
+            this.ExpDateButton.Size = new System.Drawing.Size(30, 23);
+            this.ExpDateButton.TabIndex = 62;
+            this.ExpDateButton.UseVisualStyleBackColor = true;
             // 
             // ExpDateOtherButton
             // 
-            ExpDateOtherButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ExpDateOtherButton.Location = new Point(184, 117);
-            ExpDateOtherButton.Name = "ExpDateOtherButton";
-            ExpDateOtherButton.Size = new Size(30, 23);
-            ExpDateOtherButton.TabIndex = 65;
-            ExpDateOtherButton.Text = "...";
-            ExpDateOtherButton.UseVisualStyleBackColor = true;
+            this.ExpDateOtherButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ExpDateOtherButton.Location = new System.Drawing.Point(184, 117);
+            this.ExpDateOtherButton.Name = "ExpDateOtherButton";
+            this.ExpDateOtherButton.Size = new System.Drawing.Size(30, 23);
+            this.ExpDateOtherButton.TabIndex = 65;
+            this.ExpDateOtherButton.Text = "...";
+            this.ExpDateOtherButton.UseVisualStyleBackColor = true;
             // 
             // NameOnCardTextBox
             // 
-            NameOnCardTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameOnCardTextBox.Location = new Point(92, 200);
-            NameOnCardTextBox.Name = "NameOnCardTextBox";
-            NameOnCardTextBox.Size = new Size(160, 21);
-            NameOnCardTextBox.TabIndex = 67;
+            this.NameOnCardTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameOnCardTextBox.Location = new System.Drawing.Point(92, 200);
+            this.NameOnCardTextBox.Name = "NameOnCardTextBox";
+            this.NameOnCardTextBox.Size = new System.Drawing.Size(160, 21);
+            this.NameOnCardTextBox.TabIndex = 67;
             // 
             // NameOnCardLabel
             // 
-            NameOnCardLabel.AutoSize = true;
-            NameOnCardLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NameOnCardLabel.Location = new Point(11, 203);
-            NameOnCardLabel.Name = "NameOnCardLabel";
-            NameOnCardLabel.Size = new Size(75, 13);
-            NameOnCardLabel.TabIndex = 66;
-            NameOnCardLabel.Text = "Name on Card";
+            this.NameOnCardLabel.AutoSize = true;
+            this.NameOnCardLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NameOnCardLabel.Location = new System.Drawing.Point(11, 203);
+            this.NameOnCardLabel.Name = "NameOnCardLabel";
+            this.NameOnCardLabel.Size = new System.Drawing.Size(75, 13);
+            this.NameOnCardLabel.TabIndex = 66;
+            this.NameOnCardLabel.Text = "Name on Card";
             // 
             // CreditCardSwipedCheckBox
             // 
-            CreditCardSwipedCheckBox.AutoSize = true;
-            CreditCardSwipedCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CreditCardSwipedCheckBox.Location = new Point(109, 230);
-            CreditCardSwipedCheckBox.Name = "CreditCardSwipedCheckBox";
-            CreditCardSwipedCheckBox.Size = new Size(15, 14);
-            CreditCardSwipedCheckBox.TabIndex = 68;
-            CreditCardSwipedCheckBox.TextAlign = ContentAlignment.MiddleCenter;
-            CreditCardSwipedCheckBox.UseVisualStyleBackColor = true;
+            this.CreditCardSwipedCheckBox.AutoSize = true;
+            this.CreditCardSwipedCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CreditCardSwipedCheckBox.Location = new System.Drawing.Point(109, 230);
+            this.CreditCardSwipedCheckBox.Name = "CreditCardSwipedCheckBox";
+            this.CreditCardSwipedCheckBox.Size = new System.Drawing.Size(15, 14);
+            this.CreditCardSwipedCheckBox.TabIndex = 68;
+            this.CreditCardSwipedCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CreditCardSwipedCheckBox.UseVisualStyleBackColor = true;
             // 
             // CreditCardSwipedLabel
             // 
-            CreditCardSwipedLabel.AutoSize = true;
-            CreditCardSwipedLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CreditCardSwipedLabel.Location = new Point(4, 230);
-            CreditCardSwipedLabel.Name = "CreditCardSwipedLabel";
-            CreditCardSwipedLabel.Size = new Size(99, 13);
-            CreditCardSwipedLabel.TabIndex = 69;
-            CreditCardSwipedLabel.Text = "Credit Card Swiped";
+            this.CreditCardSwipedLabel.AutoSize = true;
+            this.CreditCardSwipedLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CreditCardSwipedLabel.Location = new System.Drawing.Point(4, 230);
+            this.CreditCardSwipedLabel.Name = "CreditCardSwipedLabel";
+            this.CreditCardSwipedLabel.Size = new System.Drawing.Size(99, 13);
+            this.CreditCardSwipedLabel.TabIndex = 69;
+            this.CreditCardSwipedLabel.Text = "Credit Card Swiped";
             // 
             // ApprovalCodeTextBox
             // 
-            ApprovalCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ApprovalCodeTextBox.Location = new Point(92, 254);
-            ApprovalCodeTextBox.Name = "ApprovalCodeTextBox";
-            ApprovalCodeTextBox.Size = new Size(160, 21);
-            ApprovalCodeTextBox.TabIndex = 71;
+            this.ApprovalCodeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ApprovalCodeTextBox.Location = new System.Drawing.Point(92, 254);
+            this.ApprovalCodeTextBox.Name = "ApprovalCodeTextBox";
+            this.ApprovalCodeTextBox.Size = new System.Drawing.Size(160, 21);
+            this.ApprovalCodeTextBox.TabIndex = 71;
             // 
             // ApprovalCodeLabel
             // 
-            ApprovalCodeLabel.AutoSize = true;
-            ApprovalCodeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ApprovalCodeLabel.Location = new Point(8, 257);
-            ApprovalCodeLabel.Name = "ApprovalCodeLabel";
-            ApprovalCodeLabel.Size = new Size(78, 13);
-            ApprovalCodeLabel.TabIndex = 70;
-            ApprovalCodeLabel.Text = "Approval Code";
+            this.ApprovalCodeLabel.AutoSize = true;
+            this.ApprovalCodeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ApprovalCodeLabel.Location = new System.Drawing.Point(8, 257);
+            this.ApprovalCodeLabel.Name = "ApprovalCodeLabel";
+            this.ApprovalCodeLabel.Size = new System.Drawing.Size(78, 13);
+            this.ApprovalCodeLabel.TabIndex = 70;
+            this.ApprovalCodeLabel.Text = "Approval Code";
             // 
             // ApprovalAmtTextBox
             // 
-            ApprovalAmtTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ApprovalAmtTextBox.Location = new Point(92, 281);
-            ApprovalAmtTextBox.Name = "ApprovalAmtTextBox";
-            ApprovalAmtTextBox.Size = new Size(160, 21);
-            ApprovalAmtTextBox.TabIndex = 73;
+            this.ApprovalAmtTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ApprovalAmtTextBox.Location = new System.Drawing.Point(92, 281);
+            this.ApprovalAmtTextBox.Name = "ApprovalAmtTextBox";
+            this.ApprovalAmtTextBox.Size = new System.Drawing.Size(160, 21);
+            this.ApprovalAmtTextBox.TabIndex = 73;
             // 
             // ApprovalAmtLabel
             // 
-            ApprovalAmtLabel.AutoSize = true;
-            ApprovalAmtLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ApprovalAmtLabel.Location = new Point(10, 284);
-            ApprovalAmtLabel.Name = "ApprovalAmtLabel";
-            ApprovalAmtLabel.Size = new Size(76, 13);
-            ApprovalAmtLabel.TabIndex = 72;
-            ApprovalAmtLabel.Text = "Approval Amt.";
+            this.ApprovalAmtLabel.AutoSize = true;
+            this.ApprovalAmtLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ApprovalAmtLabel.Location = new System.Drawing.Point(10, 284);
+            this.ApprovalAmtLabel.Name = "ApprovalAmtLabel";
+            this.ApprovalAmtLabel.Size = new System.Drawing.Size(76, 13);
+            this.ApprovalAmtLabel.TabIndex = 72;
+            this.ApprovalAmtLabel.Text = "Approval Amt.";
             // 
             // SuteWithTextBox
             // 
-            SuteWithTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SuteWithTextBox.Location = new Point(92, 308);
-            SuteWithTextBox.Name = "SuteWithTextBox";
-            SuteWithTextBox.Size = new Size(160, 21);
-            SuteWithTextBox.TabIndex = 75;
+            this.SuteWithTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SuteWithTextBox.Location = new System.Drawing.Point(92, 308);
+            this.SuteWithTextBox.Name = "SuteWithTextBox";
+            this.SuteWithTextBox.Size = new System.Drawing.Size(160, 21);
+            this.SuteWithTextBox.TabIndex = 75;
             // 
             // SuteWithLabel
             // 
-            SuteWithLabel.AutoSize = true;
-            SuteWithLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SuteWithLabel.Location = new Point(32, 311);
-            SuteWithLabel.Name = "SuteWithLabel";
-            SuteWithLabel.Size = new Size(54, 13);
-            SuteWithLabel.TabIndex = 74;
-            SuteWithLabel.Text = "Sute With";
+            this.SuteWithLabel.AutoSize = true;
+            this.SuteWithLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SuteWithLabel.Location = new System.Drawing.Point(32, 311);
+            this.SuteWithLabel.Name = "SuteWithLabel";
+            this.SuteWithLabel.Size = new System.Drawing.Size(54, 13);
+            this.SuteWithLabel.TabIndex = 74;
+            this.SuteWithLabel.Text = "Sute With";
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(SuteWithTextBox);
-            groupBox3.Controls.Add(ResTypeButton);
-            groupBox3.Controls.Add(SuteWithLabel);
-            groupBox3.Controls.Add(ResTypeLabel);
-            groupBox3.Controls.Add(ApprovalAmtTextBox);
-            groupBox3.Controls.Add(ResTypeTextBox);
-            groupBox3.Controls.Add(ApprovalAmtLabel);
-            groupBox3.Controls.Add(NonGuarantLabel);
-            groupBox3.Controls.Add(ApprovalCodeTextBox);
-            groupBox3.Controls.Add(MarketButton);
-            groupBox3.Controls.Add(ApprovalCodeLabel);
-            groupBox3.Controls.Add(MarketLabel);
-            groupBox3.Controls.Add(CreditCardSwipedLabel);
-            groupBox3.Controls.Add(MarketTextBox);
-            groupBox3.Controls.Add(CreditCardSwipedCheckBox);
-            groupBox3.Controls.Add(Source1Button);
-            groupBox3.Controls.Add(NameOnCardTextBox);
-            groupBox3.Controls.Add(SourceLabel1);
-            groupBox3.Controls.Add(NameOnCardLabel);
-            groupBox3.Controls.Add(Source1TextBox);
-            groupBox3.Controls.Add(ExpDateOtherButton);
-            groupBox3.Controls.Add(OriginButton);
-            groupBox3.Controls.Add(ExpDateTextBox);
-            groupBox3.Controls.Add(OriginLabel);
-            groupBox3.Controls.Add(ExpDateLabel);
-            groupBox3.Controls.Add(OriginTextBox);
-            groupBox3.Controls.Add(ExpDateButton);
-            groupBox3.Controls.Add(PaymentButton);
-            groupBox3.Controls.Add(CreditCardNoTextBox);
-            groupBox3.Controls.Add(PaymentLabel);
-            groupBox3.Controls.Add(CreditCardNoLabel);
-            groupBox3.Controls.Add(PaymentTextBox);
-            groupBox3.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox3.Location = new Point(458, 169);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(263, 337);
-            groupBox3.TabIndex = 76;
-            groupBox3.TabStop = false;
+            this.groupBox3.Controls.Add(this.SuteWithTextBox);
+            this.groupBox3.Controls.Add(this.ResTypeButton);
+            this.groupBox3.Controls.Add(this.SuteWithLabel);
+            this.groupBox3.Controls.Add(this.ResTypeLabel);
+            this.groupBox3.Controls.Add(this.ApprovalAmtTextBox);
+            this.groupBox3.Controls.Add(this.ResTypeTextBox);
+            this.groupBox3.Controls.Add(this.ApprovalAmtLabel);
+            this.groupBox3.Controls.Add(this.NonGuarantLabel);
+            this.groupBox3.Controls.Add(this.ApprovalCodeTextBox);
+            this.groupBox3.Controls.Add(this.MarketButton);
+            this.groupBox3.Controls.Add(this.ApprovalCodeLabel);
+            this.groupBox3.Controls.Add(this.MarketLabel);
+            this.groupBox3.Controls.Add(this.CreditCardSwipedLabel);
+            this.groupBox3.Controls.Add(this.MarketTextBox);
+            this.groupBox3.Controls.Add(this.CreditCardSwipedCheckBox);
+            this.groupBox3.Controls.Add(this.Source1Button);
+            this.groupBox3.Controls.Add(this.NameOnCardTextBox);
+            this.groupBox3.Controls.Add(this.SourceLabel1);
+            this.groupBox3.Controls.Add(this.NameOnCardLabel);
+            this.groupBox3.Controls.Add(this.Source1TextBox);
+            this.groupBox3.Controls.Add(this.ExpDateOtherButton);
+            this.groupBox3.Controls.Add(this.OriginButton);
+            this.groupBox3.Controls.Add(this.ExpDateTextBox);
+            this.groupBox3.Controls.Add(this.OriginLabel);
+            this.groupBox3.Controls.Add(this.ExpDateLabel);
+            this.groupBox3.Controls.Add(this.OriginTextBox);
+            this.groupBox3.Controls.Add(this.ExpDateButton);
+            this.groupBox3.Controls.Add(this.PaymentButton);
+            this.groupBox3.Controls.Add(this.CreditCardNoTextBox);
+            this.groupBox3.Controls.Add(this.PaymentLabel);
+            this.groupBox3.Controls.Add(this.CreditCardNoLabel);
+            this.groupBox3.Controls.Add(this.PaymentTextBox);
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox3.Location = new System.Drawing.Point(458, 169);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(263, 337);
+            this.groupBox3.TabIndex = 76;
+            this.groupBox3.TabStop = false;
             // 
             // GuestBalanceLabel
             // 
-            GuestBalanceLabel.AutoSize = true;
-            GuestBalanceLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            GuestBalanceLabel.Location = new Point(26, 14);
-            GuestBalanceLabel.Name = "GuestBalanceLabel";
-            GuestBalanceLabel.Size = new Size(75, 13);
-            GuestBalanceLabel.TabIndex = 77;
-            GuestBalanceLabel.Text = "Guest Balance";
+            this.GuestBalanceLabel.AutoSize = true;
+            this.GuestBalanceLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.GuestBalanceLabel.Location = new System.Drawing.Point(26, 14);
+            this.GuestBalanceLabel.Name = "GuestBalanceLabel";
+            this.GuestBalanceLabel.Size = new System.Drawing.Size(75, 13);
+            this.GuestBalanceLabel.TabIndex = 77;
+            this.GuestBalanceLabel.Text = "Guest Balance";
             // 
             // GuestBalanceTextBox
             // 
-            GuestBalanceTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            GuestBalanceTextBox.Location = new Point(107, 11);
-            GuestBalanceTextBox.Name = "GuestBalanceTextBox";
-            GuestBalanceTextBox.Size = new Size(136, 21);
-            GuestBalanceTextBox.TabIndex = 78;
-            GuestBalanceTextBox.Text = "00,00";
-            GuestBalanceTextBox.TextAlign = HorizontalAlignment.Right;
+            this.GuestBalanceTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.GuestBalanceTextBox.Location = new System.Drawing.Point(107, 11);
+            this.GuestBalanceTextBox.Name = "GuestBalanceTextBox";
+            this.GuestBalanceTextBox.Size = new System.Drawing.Size(136, 21);
+            this.GuestBalanceTextBox.TabIndex = 78;
+            this.GuestBalanceTextBox.Text = "00,00";
+            this.GuestBalanceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // SpecaialsTextBox
             // 
-            SpecaialsTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SpecaialsTextBox.Location = new Point(71, 117);
-            SpecaialsTextBox.Name = "SpecaialsTextBox";
-            SpecaialsTextBox.Size = new Size(136, 21);
-            SpecaialsTextBox.TabIndex = 80;
+            this.SpecaialsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SpecaialsTextBox.Location = new System.Drawing.Point(71, 117);
+            this.SpecaialsTextBox.Name = "SpecaialsTextBox";
+            this.SpecaialsTextBox.Size = new System.Drawing.Size(136, 21);
+            this.SpecaialsTextBox.TabIndex = 80;
             // 
             // SpecaialsLabel
             // 
-            SpecaialsLabel.AutoSize = true;
-            SpecaialsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SpecaialsLabel.Location = new Point(14, 120);
-            SpecaialsLabel.Name = "SpecaialsLabel";
-            SpecaialsLabel.Size = new Size(51, 13);
-            SpecaialsLabel.TabIndex = 79;
-            SpecaialsLabel.Text = "Specaials";
+            this.SpecaialsLabel.AutoSize = true;
+            this.SpecaialsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SpecaialsLabel.Location = new System.Drawing.Point(14, 120);
+            this.SpecaialsLabel.Name = "SpecaialsLabel";
+            this.SpecaialsLabel.Size = new System.Drawing.Size(51, 13);
+            this.SpecaialsLabel.TabIndex = 79;
+            this.SpecaialsLabel.Text = "Specaials";
             // 
             // SpecaialsButton
             // 
-            SpecaialsButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SpecaialsButton.Location = new Point(213, 115);
-            SpecaialsButton.Name = "SpecaialsButton";
-            SpecaialsButton.Size = new Size(30, 23);
-            SpecaialsButton.TabIndex = 81;
-            SpecaialsButton.UseVisualStyleBackColor = true;
+            this.SpecaialsButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SpecaialsButton.Location = new System.Drawing.Point(213, 115);
+            this.SpecaialsButton.Name = "SpecaialsButton";
+            this.SpecaialsButton.Size = new System.Drawing.Size(30, 23);
+            this.SpecaialsButton.TabIndex = 81;
+            this.SpecaialsButton.UseVisualStyleBackColor = true;
             // 
             // CommentsButton
             // 
-            CommentsButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CommentsButton.Location = new Point(213, 142);
-            CommentsButton.Name = "CommentsButton";
-            CommentsButton.Size = new Size(30, 23);
-            CommentsButton.TabIndex = 84;
-            CommentsButton.UseVisualStyleBackColor = true;
+            this.CommentsButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CommentsButton.Location = new System.Drawing.Point(213, 142);
+            this.CommentsButton.Name = "CommentsButton";
+            this.CommentsButton.Size = new System.Drawing.Size(30, 23);
+            this.CommentsButton.TabIndex = 84;
+            this.CommentsButton.UseVisualStyleBackColor = true;
             // 
             // CommentsTextBox
             // 
-            CommentsTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CommentsTextBox.Location = new Point(71, 144);
-            CommentsTextBox.Name = "CommentsTextBox";
-            CommentsTextBox.Size = new Size(136, 21);
-            CommentsTextBox.TabIndex = 83;
+            this.CommentsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CommentsTextBox.Location = new System.Drawing.Point(71, 144);
+            this.CommentsTextBox.Name = "CommentsTextBox";
+            this.CommentsTextBox.Size = new System.Drawing.Size(136, 21);
+            this.CommentsTextBox.TabIndex = 83;
             // 
             // CommentsLabel
             // 
-            CommentsLabel.AutoSize = true;
-            CommentsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CommentsLabel.Location = new Point(8, 147);
-            CommentsLabel.Name = "CommentsLabel";
-            CommentsLabel.Size = new Size(57, 13);
-            CommentsLabel.TabIndex = 82;
-            CommentsLabel.Text = "Comments";
+            this.CommentsLabel.AutoSize = true;
+            this.CommentsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CommentsLabel.Location = new System.Drawing.Point(8, 147);
+            this.CommentsLabel.Name = "CommentsLabel";
+            this.CommentsLabel.Size = new System.Drawing.Size(57, 13);
+            this.CommentsLabel.TabIndex = 82;
+            this.CommentsLabel.Text = "Comments";
             // 
             // ColourButton
             // 
-            ColourButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ColourButton.Location = new Point(213, 198);
-            ColourButton.Name = "ColourButton";
-            ColourButton.Size = new Size(30, 23);
-            ColourButton.TabIndex = 87;
-            ColourButton.UseVisualStyleBackColor = true;
+            this.ColourButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ColourButton.Location = new System.Drawing.Point(213, 198);
+            this.ColourButton.Name = "ColourButton";
+            this.ColourButton.Size = new System.Drawing.Size(30, 23);
+            this.ColourButton.TabIndex = 87;
+            this.ColourButton.UseVisualStyleBackColor = true;
             // 
             // ColourTextBox
             // 
-            ColourTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ColourTextBox.Location = new Point(71, 200);
-            ColourTextBox.Name = "ColourTextBox";
-            ColourTextBox.Size = new Size(136, 21);
-            ColourTextBox.TabIndex = 86;
+            this.ColourTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ColourTextBox.Location = new System.Drawing.Point(71, 200);
+            this.ColourTextBox.Name = "ColourTextBox";
+            this.ColourTextBox.Size = new System.Drawing.Size(136, 21);
+            this.ColourTextBox.TabIndex = 86;
             // 
             // ColourLabel
             // 
-            ColourLabel.AutoSize = true;
-            ColourLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ColourLabel.Location = new Point(27, 203);
-            ColourLabel.Name = "ColourLabel";
-            ColourLabel.Size = new Size(38, 13);
-            ColourLabel.TabIndex = 85;
-            ColourLabel.Text = "Colour";
+            this.ColourLabel.AutoSize = true;
+            this.ColourLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ColourLabel.Location = new System.Drawing.Point(27, 203);
+            this.ColourLabel.Name = "ColourLabel";
+            this.ColourLabel.Size = new System.Drawing.Size(38, 13);
+            this.ColourLabel.TabIndex = 85;
+            this.ColourLabel.Text = "Colour";
             // 
             // CRSNoButton
             // 
-            CRSNoButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CRSNoButton.Location = new Point(213, 225);
-            CRSNoButton.Name = "CRSNoButton";
-            CRSNoButton.Size = new Size(30, 23);
-            CRSNoButton.TabIndex = 90;
-            CRSNoButton.UseVisualStyleBackColor = true;
+            this.CRSNoButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CRSNoButton.Location = new System.Drawing.Point(213, 225);
+            this.CRSNoButton.Name = "CRSNoButton";
+            this.CRSNoButton.Size = new System.Drawing.Size(30, 23);
+            this.CRSNoButton.TabIndex = 90;
+            this.CRSNoButton.UseVisualStyleBackColor = true;
             // 
             // CRSNoTextBox
             // 
-            CRSNoTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CRSNoTextBox.Location = new Point(71, 227);
-            CRSNoTextBox.Name = "CRSNoTextBox";
-            CRSNoTextBox.Size = new Size(136, 21);
-            CRSNoTextBox.TabIndex = 89;
+            this.CRSNoTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CRSNoTextBox.Location = new System.Drawing.Point(71, 227);
+            this.CRSNoTextBox.Name = "CRSNoTextBox";
+            this.CRSNoTextBox.Size = new System.Drawing.Size(136, 21);
+            this.CRSNoTextBox.TabIndex = 89;
             // 
             // CRSNoLabel
             // 
-            CRSNoLabel.AutoSize = true;
-            CRSNoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CRSNoLabel.Location = new Point(18, 230);
-            CRSNoLabel.Name = "CRSNoLabel";
-            CRSNoLabel.Size = new Size(47, 13);
-            CRSNoLabel.TabIndex = 88;
-            CRSNoLabel.Text = "CRS No.";
+            this.CRSNoLabel.AutoSize = true;
+            this.CRSNoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CRSNoLabel.Location = new System.Drawing.Point(18, 230);
+            this.CRSNoLabel.Name = "CRSNoLabel";
+            this.CRSNoLabel.Size = new System.Drawing.Size(47, 13);
+            this.CRSNoLabel.TabIndex = 88;
+            this.CRSNoLabel.Text = "CRS No.";
             // 
             // ConfirmationLlabel
             // 
-            ConfirmationLlabel.AutoSize = true;
-            ConfirmationLlabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ConfirmationLlabel.Location = new Point(18, 257);
-            ConfirmationLlabel.Name = "ConfirmationLlabel";
-            ConfirmationLlabel.Size = new Size(68, 13);
-            ConfirmationLlabel.TabIndex = 92;
-            ConfirmationLlabel.Text = "Confirmation";
+            this.ConfirmationLlabel.AutoSize = true;
+            this.ConfirmationLlabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ConfirmationLlabel.Location = new System.Drawing.Point(18, 257);
+            this.ConfirmationLlabel.Name = "ConfirmationLlabel";
+            this.ConfirmationLlabel.Size = new System.Drawing.Size(68, 13);
+            this.ConfirmationLlabel.TabIndex = 92;
+            this.ConfirmationLlabel.Text = "Confirmation";
             // 
             // ConfirmationCheckBox
             // 
-            ConfirmationCheckBox.AutoSize = true;
-            ConfirmationCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ConfirmationCheckBox.Location = new Point(92, 256);
-            ConfirmationCheckBox.Name = "ConfirmationCheckBox";
-            ConfirmationCheckBox.Size = new Size(15, 14);
-            ConfirmationCheckBox.TabIndex = 91;
-            ConfirmationCheckBox.TextAlign = ContentAlignment.MiddleCenter;
-            ConfirmationCheckBox.UseVisualStyleBackColor = true;
+            this.ConfirmationCheckBox.AutoSize = true;
+            this.ConfirmationCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ConfirmationCheckBox.Location = new System.Drawing.Point(92, 256);
+            this.ConfirmationCheckBox.Name = "ConfirmationCheckBox";
+            this.ConfirmationCheckBox.Size = new System.Drawing.Size(15, 14);
+            this.ConfirmationCheckBox.TabIndex = 91;
+            this.ConfirmationCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ConfirmationCheckBox.UseVisualStyleBackColor = true;
             // 
             // CallerTextBox
             // 
-            CallerTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CallerTextBox.Location = new Point(71, 279);
-            CallerTextBox.Name = "CallerTextBox";
-            CallerTextBox.Size = new Size(172, 21);
-            CallerTextBox.TabIndex = 94;
+            this.CallerTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CallerTextBox.Location = new System.Drawing.Point(71, 279);
+            this.CallerTextBox.Name = "CallerTextBox";
+            this.CallerTextBox.Size = new System.Drawing.Size(172, 21);
+            this.CallerTextBox.TabIndex = 94;
             // 
             // CallerLabel
             // 
-            CallerLabel.AutoSize = true;
-            CallerLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CallerLabel.Location = new Point(34, 282);
-            CallerLabel.Name = "CallerLabel";
-            CallerLabel.Size = new Size(34, 13);
-            CallerLabel.TabIndex = 93;
-            CallerLabel.Text = "Caller";
+            this.CallerLabel.AutoSize = true;
+            this.CallerLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CallerLabel.Location = new System.Drawing.Point(34, 282);
+            this.CallerLabel.Name = "CallerLabel";
+            this.CallerLabel.Size = new System.Drawing.Size(34, 13);
+            this.CallerLabel.TabIndex = 93;
+            this.CallerLabel.Text = "Caller";
             // 
             // CallerNoTextBox
             // 
-            CallerNoTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CallerNoTextBox.Location = new Point(71, 308);
-            CallerNoTextBox.Name = "CallerNoTextBox";
-            CallerNoTextBox.Size = new Size(172, 21);
-            CallerNoTextBox.TabIndex = 96;
+            this.CallerNoTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CallerNoTextBox.Location = new System.Drawing.Point(71, 308);
+            this.CallerNoTextBox.Name = "CallerNoTextBox";
+            this.CallerNoTextBox.Size = new System.Drawing.Size(172, 21);
+            this.CallerNoTextBox.TabIndex = 96;
             // 
             // CallerNoLabel
             // 
-            CallerNoLabel.AutoSize = true;
-            CallerNoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CallerNoLabel.Location = new Point(11, 311);
-            CallerNoLabel.Name = "CallerNoLabel";
-            CallerNoLabel.Size = new Size(54, 13);
-            CallerNoLabel.TabIndex = 95;
-            CallerNoLabel.Text = "Caller No.";
+            this.CallerNoLabel.AutoSize = true;
+            this.CallerNoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CallerNoLabel.Location = new System.Drawing.Point(11, 311);
+            this.CallerNoLabel.Name = "CallerNoLabel";
+            this.CallerNoLabel.Size = new System.Drawing.Size(54, 13);
+            this.CallerNoLabel.TabIndex = 95;
+            this.CallerNoLabel.Text = "Caller No.";
             // 
             // groupBox4
             // 
-            groupBox4.Controls.Add(GuestBalanceTextBox);
-            groupBox4.Controls.Add(CallerNoTextBox);
-            groupBox4.Controls.Add(GuestBalanceLabel);
-            groupBox4.Controls.Add(CallerNoLabel);
-            groupBox4.Controls.Add(SpecaialsLabel);
-            groupBox4.Controls.Add(CallerTextBox);
-            groupBox4.Controls.Add(SpecaialsTextBox);
-            groupBox4.Controls.Add(CallerLabel);
-            groupBox4.Controls.Add(SpecaialsButton);
-            groupBox4.Controls.Add(ConfirmationLlabel);
-            groupBox4.Controls.Add(CommentsLabel);
-            groupBox4.Controls.Add(ConfirmationCheckBox);
-            groupBox4.Controls.Add(CommentsTextBox);
-            groupBox4.Controls.Add(CRSNoButton);
-            groupBox4.Controls.Add(CommentsButton);
-            groupBox4.Controls.Add(CRSNoTextBox);
-            groupBox4.Controls.Add(ColourLabel);
-            groupBox4.Controls.Add(CRSNoLabel);
-            groupBox4.Controls.Add(ColourTextBox);
-            groupBox4.Controls.Add(ColourButton);
-            groupBox4.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox4.Location = new Point(727, 169);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(253, 337);
-            groupBox4.TabIndex = 97;
-            groupBox4.TabStop = false;
+            this.groupBox4.Controls.Add(this.GuestBalanceTextBox);
+            this.groupBox4.Controls.Add(this.CallerNoTextBox);
+            this.groupBox4.Controls.Add(this.GuestBalanceLabel);
+            this.groupBox4.Controls.Add(this.CallerNoLabel);
+            this.groupBox4.Controls.Add(this.SpecaialsLabel);
+            this.groupBox4.Controls.Add(this.CallerTextBox);
+            this.groupBox4.Controls.Add(this.SpecaialsTextBox);
+            this.groupBox4.Controls.Add(this.CallerLabel);
+            this.groupBox4.Controls.Add(this.SpecaialsButton);
+            this.groupBox4.Controls.Add(this.ConfirmationLlabel);
+            this.groupBox4.Controls.Add(this.CommentsLabel);
+            this.groupBox4.Controls.Add(this.ConfirmationCheckBox);
+            this.groupBox4.Controls.Add(this.CommentsTextBox);
+            this.groupBox4.Controls.Add(this.CRSNoButton);
+            this.groupBox4.Controls.Add(this.CommentsButton);
+            this.groupBox4.Controls.Add(this.CRSNoTextBox);
+            this.groupBox4.Controls.Add(this.ColourLabel);
+            this.groupBox4.Controls.Add(this.CRSNoLabel);
+            this.groupBox4.Controls.Add(this.ColourTextBox);
+            this.groupBox4.Controls.Add(this.ColourButton);
+            this.groupBox4.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox4.Location = new System.Drawing.Point(727, 169);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(253, 337);
+            this.groupBox4.TabIndex = 97;
+            this.groupBox4.TabStop = false;
             // 
             // SaveButton
             // 
-            SaveButton.Location = new Point(824, 541);
-            SaveButton.Name = "SaveButton";
-            SaveButton.Size = new Size(75, 23);
-            SaveButton.TabIndex = 98;
-            SaveButton.Text = "Save";
-            SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Location = new System.Drawing.Point(824, 541);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(75, 23);
+            this.SaveButton.TabIndex = 98;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
             // 
             // OKButton
             // 
-            OKButton.Location = new Point(905, 541);
-            OKButton.Name = "OKButton";
-            OKButton.Size = new Size(75, 23);
-            OKButton.TabIndex = 99;
-            OKButton.Text = "OK";
-            OKButton.UseVisualStyleBackColor = true;
+            this.OKButton.Location = new System.Drawing.Point(905, 541);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(75, 23);
+            this.OKButton.TabIndex = 99;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // OptionsButton
             // 
-            OptionsButton.Location = new Point(824, 570);
-            OptionsButton.Name = "OptionsButton";
-            OptionsButton.Size = new Size(75, 23);
-            OptionsButton.TabIndex = 100;
-            OptionsButton.Text = "Options";
-            OptionsButton.UseVisualStyleBackColor = true;
+            this.OptionsButton.Location = new System.Drawing.Point(824, 570);
+            this.OptionsButton.Name = "OptionsButton";
+            this.OptionsButton.Size = new System.Drawing.Size(75, 23);
+            this.OptionsButton.TabIndex = 100;
+            this.OptionsButton.Text = "Options";
+            this.OptionsButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
-            CloseButton.Location = new Point(905, 570);
-            CloseButton.Name = "CloseButton";
-            CloseButton.Size = new Size(75, 23);
-            CloseButton.TabIndex = 101;
-            CloseButton.Text = "Close";
-            CloseButton.UseVisualStyleBackColor = true;
-            CloseButton.Click += CloseButton_Click;
+            this.CloseButton.Location = new System.Drawing.Point(905, 570);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(75, 23);
+            this.CloseButton.TabIndex = 101;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // CreatedByLabel
             // 
-            CreatedByLabel.AutoSize = true;
-            CreatedByLabel.Location = new Point(12, 575);
-            CreatedByLabel.Name = "CreatedByLabel";
-            CreatedByLabel.Size = new Size(61, 13);
-            CreatedByLabel.TabIndex = 102;
-            CreatedByLabel.Text = "Created By";
+            this.CreatedByLabel.AutoSize = true;
+            this.CreatedByLabel.Location = new System.Drawing.Point(12, 575);
+            this.CreatedByLabel.Name = "CreatedByLabel";
+            this.CreatedByLabel.Size = new System.Drawing.Size(59, 13);
+            this.CreatedByLabel.TabIndex = 102;
+            this.CreatedByLabel.Text = "Created By";
             // 
             // CreatedUserLabel
             // 
-            CreatedUserLabel.AutoSize = true;
-            CreatedUserLabel.ForeColor = SystemColors.HotTrack;
-            CreatedUserLabel.Location = new Point(79, 575);
-            CreatedUserLabel.Name = "CreatedUserLabel";
-            CreatedUserLabel.Size = new Size(71, 13);
-            CreatedUserLabel.TabIndex = 103;
-            CreatedUserLabel.Text = "Created User";
+            this.CreatedUserLabel.AutoSize = true;
+            this.CreatedUserLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.CreatedUserLabel.Location = new System.Drawing.Point(79, 575);
+            this.CreatedUserLabel.Name = "CreatedUserLabel";
+            this.CreatedUserLabel.Size = new System.Drawing.Size(69, 13);
+            this.CreatedUserLabel.TabIndex = 103;
+            this.CreatedUserLabel.Text = "Created User";
             // 
             // UpdatedUserLabel
             // 
-            UpdatedUserLabel.AutoSize = true;
-            UpdatedUserLabel.ForeColor = SystemColors.HotTrack;
-            UpdatedUserLabel.Location = new Point(379, 575);
-            UpdatedUserLabel.Name = "UpdatedUserLabel";
-            UpdatedUserLabel.Size = new Size(73, 13);
-            UpdatedUserLabel.TabIndex = 105;
-            UpdatedUserLabel.Text = "Updated User";
+            this.UpdatedUserLabel.AutoSize = true;
+            this.UpdatedUserLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.UpdatedUserLabel.Location = new System.Drawing.Point(379, 575);
+            this.UpdatedUserLabel.Name = "UpdatedUserLabel";
+            this.UpdatedUserLabel.Size = new System.Drawing.Size(73, 13);
+            this.UpdatedUserLabel.TabIndex = 105;
+            this.UpdatedUserLabel.Text = "Updated User";
             // 
             // UpdatedByLabel
             // 
-            UpdatedByLabel.AutoSize = true;
-            UpdatedByLabel.Location = new Point(310, 575);
-            UpdatedByLabel.Name = "UpdatedByLabel";
-            UpdatedByLabel.Size = new Size(63, 13);
-            UpdatedByLabel.TabIndex = 104;
-            UpdatedByLabel.Text = "Updated By";
+            this.UpdatedByLabel.AutoSize = true;
+            this.UpdatedByLabel.Location = new System.Drawing.Point(310, 575);
+            this.UpdatedByLabel.Name = "UpdatedByLabel";
+            this.UpdatedByLabel.Size = new System.Drawing.Size(63, 13);
+            this.UpdatedByLabel.TabIndex = 104;
+            this.UpdatedByLabel.Text = "Updated By";
             // 
             // DateOnLabel
             // 
-            DateOnLabel.AutoSize = true;
-            DateOnLabel.ForeColor = SystemColors.HotTrack;
-            DateOnLabel.Location = new Point(674, 575);
-            DateOnLabel.Name = "DateOnLabel";
-            DateOnLabel.Size = new Size(47, 13);
-            DateOnLabel.TabIndex = 107;
-            DateOnLabel.Text = "Date On";
+            this.DateOnLabel.AutoSize = true;
+            this.DateOnLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.DateOnLabel.Location = new System.Drawing.Point(674, 575);
+            this.DateOnLabel.Name = "DateOnLabel";
+            this.DateOnLabel.Size = new System.Drawing.Size(47, 13);
+            this.DateOnLabel.TabIndex = 107;
+            this.DateOnLabel.Text = "Date On";
             // 
             // OnLabel
             // 
-            OnLabel.AutoSize = true;
-            OnLabel.Location = new Point(647, 575);
-            OnLabel.Name = "OnLabel";
-            OnLabel.Size = new Size(21, 13);
-            OnLabel.TabIndex = 106;
-            OnLabel.Text = "On";
+            this.OnLabel.AutoSize = true;
+            this.OnLabel.Location = new System.Drawing.Point(647, 575);
+            this.OnLabel.Name = "OnLabel";
+            this.OnLabel.Size = new System.Drawing.Size(21, 13);
+            this.OnLabel.TabIndex = 106;
+            this.OnLabel.Text = "On";
             // 
             // ReservationForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(991, 601);
-            Controls.Add(DateOnLabel);
-            Controls.Add(OnLabel);
-            Controls.Add(UpdatedUserLabel);
-            Controls.Add(UpdatedByLabel);
-            Controls.Add(CreatedUserLabel);
-            Controls.Add(CreatedByLabel);
-            Controls.Add(CloseButton);
-            Controls.Add(OptionsButton);
-            Controls.Add(OKButton);
-            Controls.Add(SaveButton);
-            Controls.Add(groupBox4);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "ReservationForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "ReservationForm";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(991, 601);
+            this.Controls.Add(this.DateOnLabel);
+            this.Controls.Add(this.OnLabel);
+            this.Controls.Add(this.UpdatedUserLabel);
+            this.Controls.Add(this.UpdatedByLabel);
+            this.Controls.Add(this.CreatedUserLabel);
+            this.Controls.Add(this.CreatedByLabel);
+            this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.OptionsButton);
+            this.Controls.Add(this.OKButton);
+            this.Controls.Add(this.SaveButton);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "ReservationForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ReservationForm";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

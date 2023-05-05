@@ -1,4 +1,7 @@
-﻿namespace HotelEDU
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace HotelEDU
 {
     partial class RateQueryDetailsForm
     {
