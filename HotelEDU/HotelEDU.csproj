@@ -130,6 +130,12 @@
     <Compile Include="MessagesForm.Designer.cs">
       <DependentUpon>MessagesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMessageForm.Designer.cs">
+      <DependentUpon>NewMessageForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewPackagesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MessagesForm.resx">
       <DependentUpon>MessagesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMessageForm.resx">
+      <DependentUpon>NewMessageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewPackagesForm.resx">
       <DependentUpon>NewPackagesForm.cs</DependentUpon>
