@@ -124,6 +124,12 @@
     <Compile Include="MarketCodesForm.Designer.cs">
       <DependentUpon>MarketCodesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessagesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagesForm.Designer.cs">
+      <DependentUpon>MessagesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewPackagesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MarketCodesForm.resx">
       <DependentUpon>MarketCodesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagesForm.resx">
+      <DependentUpon>MessagesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewPackagesForm.resx">
       <DependentUpon>NewPackagesForm.cs</DependentUpon>
