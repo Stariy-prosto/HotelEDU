@@ -76,6 +76,12 @@
     <Compile Include="AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArrivalsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrivalsForm.Designer.cs">
+      <DependentUpon>ArrivalsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AvailableRoomsSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </Compile>
     <EmbeddedResource Include="AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrivalsForm.resx">
+      <DependentUpon>ArrivalsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AvailableRoomsSearchForm.resx">
       <DependentUpon>AvailableRoomsSearchForm.cs</DependentUpon>
