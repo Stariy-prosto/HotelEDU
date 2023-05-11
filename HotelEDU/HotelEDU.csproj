@@ -114,6 +114,12 @@
     <Compile Include="RateQueryForm.Designer.cs">
       <DependentUpon>RateQueryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferencesForm.Designer.cs">
+      <DependentUpon>ReferencesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReservationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RateQueryForm.resx">
       <DependentUpon>RateQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferencesForm.resx">
+      <DependentUpon>ReferencesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReservationForm.resx">
       <DependentUpon>ReservationForm.cs</DependentUpon>
