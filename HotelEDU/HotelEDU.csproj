@@ -130,6 +130,12 @@
     <Compile Include="NewPackagesForm.Designer.cs">
       <DependentUpon>NewPackagesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OtherProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherProfileForm.Designer.cs">
+      <DependentUpon>OtherProfileForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PackagesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewPackagesForm.resx">
       <DependentUpon>NewPackagesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherProfileForm.resx">
+      <DependentUpon>OtherProfileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PackagesForm.resx">
       <DependentUpon>PackagesForm.cs</DependentUpon>
