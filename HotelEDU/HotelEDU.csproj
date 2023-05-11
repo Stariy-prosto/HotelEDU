@@ -112,6 +112,12 @@
     <Compile Include="PackagesForm.Designer.cs">
       <DependentUpon>PackagesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PaymentMethodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentMethodForm.Designer.cs">
+      <DependentUpon>PaymentMethodForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProfileSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PackagesForm.resx">
       <DependentUpon>PackagesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentMethodForm.resx">
+      <DependentUpon>PaymentMethodForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfileSearchForm.resx">
       <DependentUpon>ProfileSearchForm.cs</DependentUpon>
