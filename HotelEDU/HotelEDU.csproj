@@ -198,6 +198,12 @@
     <Compile Include="RoomForm.Designer.cs">
       <DependentUpon>RoomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SelectedGuestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedGuestsForm.Designer.cs">
+      <DependentUpon>SelectedGuestsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RoomForm.resx">
       <DependentUpon>RoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectedGuestsForm.resx">
+      <DependentUpon>SelectedGuestsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
