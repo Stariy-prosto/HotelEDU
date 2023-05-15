@@ -112,6 +112,7 @@
     <Compile Include="InHouseGuestsForm.Designer.cs">
       <DependentUpon>InHouseGuestsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="InitializeUserSettings.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
