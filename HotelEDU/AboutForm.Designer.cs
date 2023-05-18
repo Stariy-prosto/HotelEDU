@@ -151,7 +151,6 @@ namespace HotelEDU
             this.Name = "AboutForm";
             this.Padding = new System.Windows.Forms.Padding(9);
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About Form";

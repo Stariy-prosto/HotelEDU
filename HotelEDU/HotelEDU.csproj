@@ -56,6 +56,7 @@
   <PropertyGroup>
     <StartupObject>HotelEDU.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -326,24 +327,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\indefinite_32x32.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indefinite_64x64.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indefinite_128x128.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indefinite_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indefinite_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indefinite_128x128.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 и x64%29</ProductName>
@@ -407,8 +390,10 @@
     <None Include="Resources\View-Btn-20.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
     <None Include="Resources\Indefinite-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

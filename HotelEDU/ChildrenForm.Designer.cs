@@ -258,7 +258,7 @@
             this.MinimizeBox = false;
             this.Name = "ChildrenForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ChildrenForm";
+            this.Text = "Children";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
