@@ -63,9 +63,9 @@ namespace HotelEDU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap indefinite_128x128 {
+        internal static System.Drawing.Bitmap Arrivals_32 {
             get {
-                object obj = ResourceManager.GetObject("indefinite_128x128", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrivals_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace HotelEDU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap indefinite_32x32 {
+        internal static System.Drawing.Bitmap Billing_32 {
             get {
-                object obj = ResourceManager.GetObject("indefinite_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("Billing_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,159 @@ namespace HotelEDU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap indefinite_64x64 {
+        internal static System.Drawing.Bitmap Calendar_Btn_20 {
             get {
-                object obj = ResourceManager.GetObject("indefinite_64x64", resourceCulture);
+                object obj = ResourceManager.GetObject("Calendar_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Download_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("Download_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Exit_32 {
+            get {
+                object obj = ResourceManager.GetObject("Exit_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap First_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("First_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Help_32 {
+            get {
+                object obj = ResourceManager.GetObject("Help_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap In_House_Guests_32 {
+            get {
+                object obj = ResourceManager.GetObject("In_House_Guests_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Indefinite_32 {
+            get {
+                object obj = ResourceManager.GetObject("Indefinite_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Last_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("Last_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Messages_32 {
+            get {
+                object obj = ResourceManager.GetObject("Messages_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap New_Reservation_32 {
+            get {
+                object obj = ResourceManager.GetObject("New_Reservation_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Next_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("Next_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Previous_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("Previous_Btn_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profile_Search_32 {
+            get {
+                object obj = ResourceManager.GetObject("Profile_Search_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Settings_32 {
+            get {
+                object obj = ResourceManager.GetObject("Settings_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Update_Reservation_32 {
+            get {
+                object obj = ResourceManager.GetObject("Update_Reservation_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap View_Btn_20 {
+            get {
+                object obj = ResourceManager.GetObject("View_Btn_20", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

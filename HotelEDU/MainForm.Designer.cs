@@ -85,8 +85,6 @@ namespace HotelEDU
             this.FrontDeskTabPage = new System.Windows.Forms.TabPage();
             this.ExitTabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.SplashScreenBackgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.HelpTabPage.SuspendLayout();
             this.tableLayoutPanel13.SuspendLayout();
@@ -106,7 +104,6 @@ namespace HotelEDU
             this.FrontDeskTabPage.SuspendLayout();
             this.ExitTabPage.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel3
@@ -144,15 +141,16 @@ namespace HotelEDU
             this.ExitButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ExitButton.FlatAppearance.BorderSize = 0;
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExitButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ExitButton.Image = global::HotelEDU.Properties.Resources.Exit_32;
+            this.ExitButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ExitButton.Location = new System.Drawing.Point(3, 4);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.ExitButton.Size = new System.Drawing.Size(618, 68);
             this.ExitButton.TabIndex = 2;
             this.ExitButton.Text = "Exit";
             this.ExitButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ExitButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
@@ -188,15 +186,16 @@ namespace HotelEDU
             this.AboutProgramButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AboutProgramButton.FlatAppearance.BorderSize = 0;
             this.AboutProgramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AboutProgramButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.AboutProgramButton.Image = global::HotelEDU.Properties.Resources.Help_32;
+            this.AboutProgramButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.AboutProgramButton.Location = new System.Drawing.Point(3, 4);
             this.AboutProgramButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AboutProgramButton.Name = "AboutProgramButton";
+            this.AboutProgramButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.AboutProgramButton.Size = new System.Drawing.Size(618, 68);
             this.AboutProgramButton.TabIndex = 5;
-            this.AboutProgramButton.Text = "AboutProgram";
+            this.AboutProgramButton.Text = "About Program";
             this.AboutProgramButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.AboutProgramButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.AboutProgramButton.UseVisualStyleBackColor = true;
             this.AboutProgramButton.Click += new System.EventHandler(this.AboutProgramButton_Click);
             // 
@@ -367,15 +366,16 @@ namespace HotelEDU
             this.RoomHistoryButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RoomHistoryButton.FlatAppearance.BorderSize = 0;
             this.RoomHistoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RoomHistoryButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomHistoryButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.RoomHistoryButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RoomHistoryButton.Location = new System.Drawing.Point(627, 4);
             this.RoomHistoryButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomHistoryButton.Name = "RoomHistoryButton";
+            this.RoomHistoryButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.RoomHistoryButton.Size = new System.Drawing.Size(306, 68);
             this.RoomHistoryButton.TabIndex = 20;
             this.RoomHistoryButton.Text = "Room History";
             this.RoomHistoryButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.RoomHistoryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RoomHistoryButton.UseVisualStyleBackColor = true;
             // 
             // OccupancyGraphButton
@@ -383,15 +383,16 @@ namespace HotelEDU
             this.OccupancyGraphButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OccupancyGraphButton.FlatAppearance.BorderSize = 0;
             this.OccupancyGraphButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OccupancyGraphButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.OccupancyGraphButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.OccupancyGraphButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.OccupancyGraphButton.Location = new System.Drawing.Point(939, 4);
             this.OccupancyGraphButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.OccupancyGraphButton.Name = "OccupancyGraphButton";
+            this.OccupancyGraphButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.OccupancyGraphButton.Size = new System.Drawing.Size(307, 68);
             this.OccupancyGraphButton.TabIndex = 19;
             this.OccupancyGraphButton.Text = "Occupancy Graph";
             this.OccupancyGraphButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.OccupancyGraphButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.OccupancyGraphButton.UseVisualStyleBackColor = true;
             // 
             // HousekeepingButton
@@ -399,15 +400,16 @@ namespace HotelEDU
             this.HousekeepingButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HousekeepingButton.FlatAppearance.BorderSize = 0;
             this.HousekeepingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HousekeepingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.HousekeepingButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.HousekeepingButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.HousekeepingButton.Location = new System.Drawing.Point(3, 4);
             this.HousekeepingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.HousekeepingButton.Name = "HousekeepingButton";
+            this.HousekeepingButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.HousekeepingButton.Size = new System.Drawing.Size(306, 68);
             this.HousekeepingButton.TabIndex = 18;
             this.HousekeepingButton.Text = "Housekeeping";
             this.HousekeepingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.HousekeepingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HousekeepingButton.UseVisualStyleBackColor = true;
             // 
             // OutOfOrderServiceButton
@@ -415,15 +417,16 @@ namespace HotelEDU
             this.OutOfOrderServiceButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OutOfOrderServiceButton.FlatAppearance.BorderSize = 0;
             this.OutOfOrderServiceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OutOfOrderServiceButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.OutOfOrderServiceButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.OutOfOrderServiceButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.OutOfOrderServiceButton.Location = new System.Drawing.Point(315, 4);
             this.OutOfOrderServiceButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.OutOfOrderServiceButton.Name = "OutOfOrderServiceButton";
+            this.OutOfOrderServiceButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.OutOfOrderServiceButton.Size = new System.Drawing.Size(306, 68);
             this.OutOfOrderServiceButton.TabIndex = 17;
             this.OutOfOrderServiceButton.Text = "Out Of Order/Service";
             this.OutOfOrderServiceButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.OutOfOrderServiceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.OutOfOrderServiceButton.UseVisualStyleBackColor = true;
             // 
             // CasheiringTabPage
@@ -468,15 +471,16 @@ namespace HotelEDU
             this.PasserByButton.Enabled = false;
             this.PasserByButton.FlatAppearance.BorderSize = 0;
             this.PasserByButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PasserByButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.PasserByButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.PasserByButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.PasserByButton.Location = new System.Drawing.Point(627, 4);
             this.PasserByButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PasserByButton.Name = "PasserByButton";
+            this.PasserByButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.PasserByButton.Size = new System.Drawing.Size(202, 68);
             this.PasserByButton.TabIndex = 14;
             this.PasserByButton.Text = "Passer By";
             this.PasserByButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.PasserByButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.PasserByButton.UseVisualStyleBackColor = true;
             // 
             // CashierFunctionsButton
@@ -485,15 +489,16 @@ namespace HotelEDU
             this.CashierFunctionsButton.Enabled = false;
             this.CashierFunctionsButton.FlatAppearance.BorderSize = 0;
             this.CashierFunctionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CashierFunctionsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CashierFunctionsButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.CashierFunctionsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.CashierFunctionsButton.Location = new System.Drawing.Point(835, 4);
             this.CashierFunctionsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CashierFunctionsButton.Name = "CashierFunctionsButton";
+            this.CashierFunctionsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.CashierFunctionsButton.Size = new System.Drawing.Size(202, 68);
             this.CashierFunctionsButton.TabIndex = 13;
             this.CashierFunctionsButton.Text = "Cashier Functions";
             this.CashierFunctionsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CashierFunctionsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CashierFunctionsButton.UseVisualStyleBackColor = true;
             // 
             // CashierShiftFunctionsButton
@@ -502,15 +507,16 @@ namespace HotelEDU
             this.CashierShiftFunctionsButton.Enabled = false;
             this.CashierShiftFunctionsButton.FlatAppearance.BorderSize = 0;
             this.CashierShiftFunctionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CashierShiftFunctionsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CashierShiftFunctionsButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.CashierShiftFunctionsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.CashierShiftFunctionsButton.Location = new System.Drawing.Point(1043, 4);
             this.CashierShiftFunctionsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CashierShiftFunctionsButton.Name = "CashierShiftFunctionsButton";
+            this.CashierShiftFunctionsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.CashierShiftFunctionsButton.Size = new System.Drawing.Size(203, 68);
             this.CashierShiftFunctionsButton.TabIndex = 12;
             this.CashierShiftFunctionsButton.Text = "Cashier Shift Functions";
             this.CashierShiftFunctionsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CashierShiftFunctionsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CashierShiftFunctionsButton.UseVisualStyleBackColor = true;
             // 
             // BillingButton
@@ -518,15 +524,16 @@ namespace HotelEDU
             this.BillingButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BillingButton.FlatAppearance.BorderSize = 0;
             this.BillingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BillingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.BillingButton.Image = global::HotelEDU.Properties.Resources.Billing_32;
+            this.BillingButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BillingButton.Location = new System.Drawing.Point(3, 4);
             this.BillingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BillingButton.Name = "BillingButton";
+            this.BillingButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.BillingButton.Size = new System.Drawing.Size(202, 68);
             this.BillingButton.TabIndex = 11;
             this.BillingButton.Text = "Billing";
             this.BillingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BillingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BillingButton.UseVisualStyleBackColor = true;
             // 
             // FastPostingButton
@@ -534,15 +541,16 @@ namespace HotelEDU
             this.FastPostingButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FastPostingButton.FlatAppearance.BorderSize = 0;
             this.FastPostingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastPostingButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.FastPostingButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.FastPostingButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.FastPostingButton.Location = new System.Drawing.Point(211, 4);
             this.FastPostingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FastPostingButton.Name = "FastPostingButton";
+            this.FastPostingButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.FastPostingButton.Size = new System.Drawing.Size(202, 68);
             this.FastPostingButton.TabIndex = 10;
             this.FastPostingButton.Text = "Fast Posting";
             this.FastPostingButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.FastPostingButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FastPostingButton.UseVisualStyleBackColor = true;
             // 
             // QuickCheckOutButton
@@ -550,15 +558,16 @@ namespace HotelEDU
             this.QuickCheckOutButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.QuickCheckOutButton.FlatAppearance.BorderSize = 0;
             this.QuickCheckOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.QuickCheckOutButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.QuickCheckOutButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.QuickCheckOutButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.QuickCheckOutButton.Location = new System.Drawing.Point(419, 4);
             this.QuickCheckOutButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.QuickCheckOutButton.Name = "QuickCheckOutButton";
+            this.QuickCheckOutButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.QuickCheckOutButton.Size = new System.Drawing.Size(202, 68);
             this.QuickCheckOutButton.TabIndex = 9;
             this.QuickCheckOutButton.Text = "Quick Check Out";
             this.QuickCheckOutButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.QuickCheckOutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.QuickCheckOutButton.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
@@ -591,15 +600,16 @@ namespace HotelEDU
             this.RoomAssigmentButton.Enabled = false;
             this.RoomAssigmentButton.FlatAppearance.BorderSize = 0;
             this.RoomAssigmentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RoomAssigmentButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomAssigmentButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.RoomAssigmentButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RoomAssigmentButton.Location = new System.Drawing.Point(627, 4);
             this.RoomAssigmentButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomAssigmentButton.Name = "RoomAssigmentButton";
+            this.RoomAssigmentButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.RoomAssigmentButton.Size = new System.Drawing.Size(202, 68);
             this.RoomAssigmentButton.TabIndex = 10;
             this.RoomAssigmentButton.Text = "Room Assigment";
             this.RoomAssigmentButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.RoomAssigmentButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RoomAssigmentButton.UseVisualStyleBackColor = true;
             // 
             // MessagesButton
@@ -607,15 +617,16 @@ namespace HotelEDU
             this.MessagesButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MessagesButton.FlatAppearance.BorderSize = 0;
             this.MessagesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MessagesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.MessagesButton.Image = global::HotelEDU.Properties.Resources.Messages_32;
+            this.MessagesButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.MessagesButton.Location = new System.Drawing.Point(835, 4);
             this.MessagesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MessagesButton.Name = "MessagesButton";
+            this.MessagesButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.MessagesButton.Size = new System.Drawing.Size(202, 68);
             this.MessagesButton.TabIndex = 9;
             this.MessagesButton.Text = "Messages";
             this.MessagesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.MessagesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MessagesButton.UseVisualStyleBackColor = true;
             // 
             // TracesButton
@@ -624,15 +635,16 @@ namespace HotelEDU
             this.TracesButton.Enabled = false;
             this.TracesButton.FlatAppearance.BorderSize = 0;
             this.TracesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TracesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.TracesButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.TracesButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.TracesButton.Location = new System.Drawing.Point(1043, 4);
             this.TracesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TracesButton.Name = "TracesButton";
+            this.TracesButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.TracesButton.Size = new System.Drawing.Size(203, 68);
             this.TracesButton.TabIndex = 8;
             this.TracesButton.Text = "Traces";
             this.TracesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.TracesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TracesButton.UseVisualStyleBackColor = true;
             // 
             // ArrivalsButton
@@ -640,15 +652,16 @@ namespace HotelEDU
             this.ArrivalsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ArrivalsButton.FlatAppearance.BorderSize = 0;
             this.ArrivalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ArrivalsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ArrivalsButton.Image = global::HotelEDU.Properties.Resources.Arrivals_32;
+            this.ArrivalsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ArrivalsButton.Location = new System.Drawing.Point(3, 4);
             this.ArrivalsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ArrivalsButton.Name = "ArrivalsButton";
+            this.ArrivalsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.ArrivalsButton.Size = new System.Drawing.Size(202, 68);
             this.ArrivalsButton.TabIndex = 7;
             this.ArrivalsButton.Text = "Arrivals";
             this.ArrivalsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ArrivalsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ArrivalsButton.UseVisualStyleBackColor = true;
             // 
             // InHouseGuestsButton
@@ -656,15 +669,16 @@ namespace HotelEDU
             this.InHouseGuestsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.InHouseGuestsButton.FlatAppearance.BorderSize = 0;
             this.InHouseGuestsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InHouseGuestsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.InHouseGuestsButton.Image = global::HotelEDU.Properties.Resources.In_House_Guests_32;
+            this.InHouseGuestsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.InHouseGuestsButton.Location = new System.Drawing.Point(211, 4);
             this.InHouseGuestsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InHouseGuestsButton.Name = "InHouseGuestsButton";
+            this.InHouseGuestsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.InHouseGuestsButton.Size = new System.Drawing.Size(202, 68);
             this.InHouseGuestsButton.TabIndex = 6;
             this.InHouseGuestsButton.Text = "In House Guests";
             this.InHouseGuestsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.InHouseGuestsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.InHouseGuestsButton.UseVisualStyleBackColor = true;
             // 
             // AccountsButton
@@ -673,15 +687,16 @@ namespace HotelEDU
             this.AccountsButton.Enabled = false;
             this.AccountsButton.FlatAppearance.BorderSize = 0;
             this.AccountsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AccountsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.AccountsButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.AccountsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.AccountsButton.Location = new System.Drawing.Point(419, 4);
             this.AccountsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AccountsButton.Name = "AccountsButton";
+            this.AccountsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.AccountsButton.Size = new System.Drawing.Size(202, 68);
             this.AccountsButton.TabIndex = 5;
             this.AccountsButton.Text = "Accounts";
             this.AccountsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.AccountsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.AccountsButton.UseVisualStyleBackColor = true;
             // 
             // ReservationsTabPage
@@ -732,15 +747,16 @@ namespace HotelEDU
             this.ConfirmationButton.Enabled = false;
             this.ConfirmationButton.FlatAppearance.BorderSize = 0;
             this.ConfirmationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ConfirmationButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.ConfirmationButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ConfirmationButton.Location = new System.Drawing.Point(836, 4);
             this.ConfirmationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ConfirmationButton.Name = "ConfirmationButton";
+            this.ConfirmationButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.ConfirmationButton.Size = new System.Drawing.Size(126, 68);
             this.ConfirmationButton.TabIndex = 10;
             this.ConfirmationButton.Text = "Confirmation";
             this.ConfirmationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ConfirmationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ConfirmationButton.UseVisualStyleBackColor = true;
             // 
             // FloorPlanButton
@@ -749,15 +765,16 @@ namespace HotelEDU
             this.FloorPlanButton.Enabled = false;
             this.FloorPlanButton.FlatAppearance.BorderSize = 0;
             this.FloorPlanButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FloorPlanButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.FloorPlanButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.FloorPlanButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.FloorPlanButton.Location = new System.Drawing.Point(704, 4);
             this.FloorPlanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FloorPlanButton.Name = "FloorPlanButton";
+            this.FloorPlanButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.FloorPlanButton.Size = new System.Drawing.Size(126, 68);
             this.FloorPlanButton.TabIndex = 9;
             this.FloorPlanButton.Text = "Floor Plan";
             this.FloorPlanButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.FloorPlanButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FloorPlanButton.UseVisualStyleBackColor = true;
             // 
             // CalendarButton
@@ -765,15 +782,16 @@ namespace HotelEDU
             this.CalendarButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CalendarButton.FlatAppearance.BorderSize = 0;
             this.CalendarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CalendarButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.CalendarButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.CalendarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.CalendarButton.Location = new System.Drawing.Point(1114, 4);
             this.CalendarButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CalendarButton.Name = "CalendarButton";
+            this.CalendarButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.CalendarButton.Size = new System.Drawing.Size(132, 68);
             this.CalendarButton.TabIndex = 8;
             this.CalendarButton.Text = "Calendar";
             this.CalendarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CalendarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CalendarButton.UseVisualStyleBackColor = true;
             // 
             // RegistrationCardsButton
@@ -782,15 +800,16 @@ namespace HotelEDU
             this.RegistrationCardsButton.Enabled = false;
             this.RegistrationCardsButton.FlatAppearance.BorderSize = 0;
             this.RegistrationCardsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RegistrationCardsButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RegistrationCardsButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.RegistrationCardsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RegistrationCardsButton.Location = new System.Drawing.Point(968, 4);
             this.RegistrationCardsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RegistrationCardsButton.Name = "RegistrationCardsButton";
+            this.RegistrationCardsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.RegistrationCardsButton.Size = new System.Drawing.Size(140, 68);
             this.RegistrationCardsButton.TabIndex = 7;
             this.RegistrationCardsButton.Text = "Registration Cards";
             this.RegistrationCardsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.RegistrationCardsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RegistrationCardsButton.UseVisualStyleBackColor = true;
             // 
             // RoomPlanButton
@@ -798,15 +817,16 @@ namespace HotelEDU
             this.RoomPlanButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RoomPlanButton.FlatAppearance.BorderSize = 0;
             this.RoomPlanButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RoomPlanButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.RoomPlanButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.RoomPlanButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RoomPlanButton.Location = new System.Drawing.Point(572, 4);
             this.RoomPlanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomPlanButton.Name = "RoomPlanButton";
+            this.RoomPlanButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.RoomPlanButton.Size = new System.Drawing.Size(126, 68);
             this.RoomPlanButton.TabIndex = 6;
             this.RoomPlanButton.Text = "Room Plan";
             this.RoomPlanButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.RoomPlanButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RoomPlanButton.UseVisualStyleBackColor = true;
             // 
             // UpdateReservationButton
@@ -814,15 +834,16 @@ namespace HotelEDU
             this.UpdateReservationButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UpdateReservationButton.FlatAppearance.BorderSize = 0;
             this.UpdateReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.UpdateReservationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.UpdateReservationButton.Image = global::HotelEDU.Properties.Resources.Update_Reservation_32;
+            this.UpdateReservationButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.UpdateReservationButton.Location = new System.Drawing.Point(151, 4);
             this.UpdateReservationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UpdateReservationButton.Name = "UpdateReservationButton";
+            this.UpdateReservationButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.UpdateReservationButton.Size = new System.Drawing.Size(151, 68);
             this.UpdateReservationButton.TabIndex = 5;
             this.UpdateReservationButton.Text = "Update Reservation";
             this.UpdateReservationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.UpdateReservationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UpdateReservationButton.UseVisualStyleBackColor = true;
             // 
             // NewReservationButton
@@ -830,15 +851,16 @@ namespace HotelEDU
             this.NewReservationButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NewReservationButton.FlatAppearance.BorderSize = 0;
             this.NewReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NewReservationButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.NewReservationButton.Image = global::HotelEDU.Properties.Resources.New_Reservation_32;
+            this.NewReservationButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.NewReservationButton.Location = new System.Drawing.Point(3, 4);
             this.NewReservationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NewReservationButton.Name = "NewReservationButton";
+            this.NewReservationButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.NewReservationButton.Size = new System.Drawing.Size(142, 68);
             this.NewReservationButton.TabIndex = 4;
             this.NewReservationButton.Text = "New Reservation";
             this.NewReservationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.NewReservationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.NewReservationButton.UseVisualStyleBackColor = true;
             this.NewReservationButton.Click += new System.EventHandler(this.NewReservationButton_Click);
             // 
@@ -847,15 +869,16 @@ namespace HotelEDU
             this.ProfilesButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProfilesButton.FlatAppearance.BorderSize = 0;
             this.ProfilesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ProfilesButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.ProfilesButton.Image = global::HotelEDU.Properties.Resources.Profile_Search_32;
+            this.ProfilesButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ProfilesButton.Location = new System.Drawing.Point(440, 4);
             this.ProfilesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ProfilesButton.Name = "ProfilesButton";
+            this.ProfilesButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.ProfilesButton.Size = new System.Drawing.Size(126, 68);
             this.ProfilesButton.TabIndex = 3;
             this.ProfilesButton.Text = "Profiles";
             this.ProfilesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ProfilesButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ProfilesButton.UseVisualStyleBackColor = true;
             this.ProfilesButton.Click += new System.EventHandler(this.ProfilesButton_Click);
             // 
@@ -865,15 +888,16 @@ namespace HotelEDU
             this.BlocksButton.Enabled = false;
             this.BlocksButton.FlatAppearance.BorderSize = 0;
             this.BlocksButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BlocksButton.Image = global::HotelEDU.Properties.Resources.indefinite_32x32;
+            this.BlocksButton.Image = global::HotelEDU.Properties.Resources.Indefinite_32;
+            this.BlocksButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BlocksButton.Location = new System.Drawing.Point(308, 4);
             this.BlocksButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BlocksButton.Name = "BlocksButton";
+            this.BlocksButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.BlocksButton.Size = new System.Drawing.Size(126, 68);
             this.BlocksButton.TabIndex = 2;
             this.BlocksButton.Text = "Blocks";
             this.BlocksButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BlocksButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BlocksButton.UseVisualStyleBackColor = true;
             // 
             // MenuControl
@@ -937,24 +961,6 @@ namespace HotelEDU
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1249, 76);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // statusStrip1
-            // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 730);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 15, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1263, 22);
-            this.statusStrip1.TabIndex = 16;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(88, 17);
-            this.toolStripStatusLabel1.Text = "Stariy X Zaguzga";
-            // 
             // SplashScreenBackgroundWorker
             // 
             this.SplashScreenBackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.SplashScreenBackgroundWorker_DoWork);
@@ -967,7 +973,6 @@ namespace HotelEDU
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1263, 752);
-            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.MenuControl);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -998,10 +1003,7 @@ namespace HotelEDU
             this.FrontDeskTabPage.ResumeLayout(false);
             this.ExitTabPage.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1063,8 +1065,6 @@ namespace HotelEDU
         private TabPage ExitTabPage;
         private TableLayoutPanel tableLayoutPanel1;
         private Button AboutProgramButton;
-        private StatusStrip statusStrip1;
-        private ToolStripStatusLabel toolStripStatusLabel1;
         private System.ComponentModel.BackgroundWorker SplashScreenBackgroundWorker;
     }
 }

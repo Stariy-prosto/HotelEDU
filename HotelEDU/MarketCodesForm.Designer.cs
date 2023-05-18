@@ -36,9 +36,9 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.SearchButton = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.OKButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.SearchButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -102,15 +102,15 @@
             this.panel1.Size = new System.Drawing.Size(85, 264);
             this.panel1.TabIndex = 6;
             // 
-            // SearchButton
+            // OKButton
             // 
-            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SearchButton.Location = new System.Drawing.Point(0, 0);
-            this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(85, 23);
-            this.SearchButton.TabIndex = 0;
-            this.SearchButton.Text = "Search";
-            this.SearchButton.UseVisualStyleBackColor = true;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OKButton.Location = new System.Drawing.Point(0, 218);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(85, 23);
+            this.OKButton.TabIndex = 2;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
@@ -122,15 +122,15 @@
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
             // 
-            // OKButton
+            // SearchButton
             // 
-            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.OKButton.Location = new System.Drawing.Point(0, 218);
-            this.OKButton.Name = "OKButton";
-            this.OKButton.Size = new System.Drawing.Size(85, 23);
-            this.OKButton.TabIndex = 2;
-            this.OKButton.Text = "OK";
-            this.OKButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SearchButton.Location = new System.Drawing.Point(0, 0);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(85, 23);
+            this.SearchButton.TabIndex = 0;
+            this.SearchButton.Text = "Search";
+            this.SearchButton.UseVisualStyleBackColor = true;
             // 
             // MarketCodesForm
             // 

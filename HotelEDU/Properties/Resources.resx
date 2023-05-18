@@ -118,22 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="indefinite_128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_128x128.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Arrivals_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrivals-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="indefinite_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_32x32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Billing_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Billing-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="indefinite_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_64x64.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Calendar_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="indefinite_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Download_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Download-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="indefinite_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exit_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="indefinite_128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indefinite_128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="First_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\First-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Indefinite_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Indefinite-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="In_House_Guests_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\In-House-Guests-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Last_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Last-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Messages_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Messages-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Reservation_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New-Reservation-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Next_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Previous_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Previous-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile_Search_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile-Search-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Update_Reservation_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update-Reservation-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="View_Btn_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\View-Btn-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

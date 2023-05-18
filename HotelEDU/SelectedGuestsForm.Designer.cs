@@ -46,19 +46,19 @@
             this.SourceLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.CheckedOutCheckBox = new System.Windows.Forms.CheckBox();
-            this.InHouseCheckBox = new System.Windows.Forms.CheckBox();
-            this.ReservationsCheckBox = new System.Windows.Forms.CheckBox();
-            this.DueInCheckBox = new System.Windows.Forms.CheckBox();
             this.DueOutCheckBox = new System.Windows.Forms.CheckBox();
+            this.DueInCheckBox = new System.Windows.Forms.CheckBox();
+            this.InHouseCheckBox = new System.Windows.Forms.CheckBox();
+            this.CheckedOutCheckBox = new System.Windows.Forms.CheckBox();
+            this.ReservationsCheckBox = new System.Windows.Forms.CheckBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.SearchButton = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.AllButton = new System.Windows.Forms.Button();
-            this.NoneButton = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.OKButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.NoneButton = new System.Windows.Forms.Button();
+            this.AllButton = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.SearchButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -215,38 +215,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(214, 96);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // CheckedOutCheckBox
+            // DueOutCheckBox
             // 
-            this.CheckedOutCheckBox.AutoSize = true;
-            this.CheckedOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CheckedOutCheckBox.Location = new System.Drawing.Point(3, 35);
-            this.CheckedOutCheckBox.Name = "CheckedOutCheckBox";
-            this.CheckedOutCheckBox.Size = new System.Drawing.Size(101, 26);
-            this.CheckedOutCheckBox.TabIndex = 17;
-            this.CheckedOutCheckBox.Text = "Checked Out";
-            this.CheckedOutCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // InHouseCheckBox
-            // 
-            this.InHouseCheckBox.AutoSize = true;
-            this.InHouseCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.InHouseCheckBox.Location = new System.Drawing.Point(3, 3);
-            this.InHouseCheckBox.Name = "InHouseCheckBox";
-            this.InHouseCheckBox.Size = new System.Drawing.Size(101, 26);
-            this.InHouseCheckBox.TabIndex = 18;
-            this.InHouseCheckBox.Text = "In House";
-            this.InHouseCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ReservationsCheckBox
-            // 
-            this.ReservationsCheckBox.AutoSize = true;
-            this.ReservationsCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ReservationsCheckBox.Location = new System.Drawing.Point(3, 67);
-            this.ReservationsCheckBox.Name = "ReservationsCheckBox";
-            this.ReservationsCheckBox.Size = new System.Drawing.Size(101, 26);
-            this.ReservationsCheckBox.TabIndex = 19;
-            this.ReservationsCheckBox.Text = "Reservations";
-            this.ReservationsCheckBox.UseVisualStyleBackColor = true;
+            this.DueOutCheckBox.AutoSize = true;
+            this.DueOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DueOutCheckBox.Location = new System.Drawing.Point(110, 35);
+            this.DueOutCheckBox.Name = "DueOutCheckBox";
+            this.DueOutCheckBox.Size = new System.Drawing.Size(101, 26);
+            this.DueOutCheckBox.TabIndex = 21;
+            this.DueOutCheckBox.Text = "Due Out";
+            this.DueOutCheckBox.UseVisualStyleBackColor = true;
             // 
             // DueInCheckBox
             // 
@@ -259,16 +237,38 @@
             this.DueInCheckBox.Text = "Due In";
             this.DueInCheckBox.UseVisualStyleBackColor = true;
             // 
-            // DueOutCheckBox
+            // InHouseCheckBox
             // 
-            this.DueOutCheckBox.AutoSize = true;
-            this.DueOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DueOutCheckBox.Location = new System.Drawing.Point(110, 35);
-            this.DueOutCheckBox.Name = "DueOutCheckBox";
-            this.DueOutCheckBox.Size = new System.Drawing.Size(101, 26);
-            this.DueOutCheckBox.TabIndex = 21;
-            this.DueOutCheckBox.Text = "Due Out";
-            this.DueOutCheckBox.UseVisualStyleBackColor = true;
+            this.InHouseCheckBox.AutoSize = true;
+            this.InHouseCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InHouseCheckBox.Location = new System.Drawing.Point(3, 3);
+            this.InHouseCheckBox.Name = "InHouseCheckBox";
+            this.InHouseCheckBox.Size = new System.Drawing.Size(101, 26);
+            this.InHouseCheckBox.TabIndex = 18;
+            this.InHouseCheckBox.Text = "In House";
+            this.InHouseCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // CheckedOutCheckBox
+            // 
+            this.CheckedOutCheckBox.AutoSize = true;
+            this.CheckedOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CheckedOutCheckBox.Location = new System.Drawing.Point(3, 35);
+            this.CheckedOutCheckBox.Name = "CheckedOutCheckBox";
+            this.CheckedOutCheckBox.Size = new System.Drawing.Size(101, 26);
+            this.CheckedOutCheckBox.TabIndex = 17;
+            this.CheckedOutCheckBox.Text = "Checked Out";
+            this.CheckedOutCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ReservationsCheckBox
+            // 
+            this.ReservationsCheckBox.AutoSize = true;
+            this.ReservationsCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ReservationsCheckBox.Location = new System.Drawing.Point(3, 67);
+            this.ReservationsCheckBox.Name = "ReservationsCheckBox";
+            this.ReservationsCheckBox.Size = new System.Drawing.Size(101, 26);
+            this.ReservationsCheckBox.TabIndex = 19;
+            this.ReservationsCheckBox.Text = "Reservations";
+            this.ReservationsCheckBox.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -291,43 +291,15 @@
             this.panel2.Size = new System.Drawing.Size(85, 304);
             this.panel2.TabIndex = 17;
             // 
-            // SearchButton
+            // OKButton
             // 
-            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SearchButton.Location = new System.Drawing.Point(0, 0);
-            this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(85, 23);
-            this.SearchButton.TabIndex = 0;
-            this.SearchButton.Text = "Search";
-            this.SearchButton.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 23);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(85, 37);
-            this.panel3.TabIndex = 1;
-            // 
-            // AllButton
-            // 
-            this.AllButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.AllButton.Location = new System.Drawing.Point(0, 60);
-            this.AllButton.Name = "AllButton";
-            this.AllButton.Size = new System.Drawing.Size(85, 23);
-            this.AllButton.TabIndex = 2;
-            this.AllButton.Text = "All";
-            this.AllButton.UseVisualStyleBackColor = true;
-            // 
-            // NoneButton
-            // 
-            this.NoneButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.NoneButton.Location = new System.Drawing.Point(0, 83);
-            this.NoneButton.Name = "NoneButton";
-            this.NoneButton.Size = new System.Drawing.Size(85, 23);
-            this.NoneButton.TabIndex = 3;
-            this.NoneButton.Text = "None";
-            this.NoneButton.UseVisualStyleBackColor = true;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OKButton.Location = new System.Drawing.Point(0, 258);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(85, 23);
+            this.OKButton.TabIndex = 5;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
@@ -339,15 +311,43 @@
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
             // 
-            // OKButton
+            // NoneButton
             // 
-            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.OKButton.Location = new System.Drawing.Point(0, 258);
-            this.OKButton.Name = "OKButton";
-            this.OKButton.Size = new System.Drawing.Size(85, 23);
-            this.OKButton.TabIndex = 5;
-            this.OKButton.Text = "OK";
-            this.OKButton.UseVisualStyleBackColor = true;
+            this.NoneButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.NoneButton.Location = new System.Drawing.Point(0, 83);
+            this.NoneButton.Name = "NoneButton";
+            this.NoneButton.Size = new System.Drawing.Size(85, 23);
+            this.NoneButton.TabIndex = 3;
+            this.NoneButton.Text = "None";
+            this.NoneButton.UseVisualStyleBackColor = true;
+            // 
+            // AllButton
+            // 
+            this.AllButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AllButton.Location = new System.Drawing.Point(0, 60);
+            this.AllButton.Name = "AllButton";
+            this.AllButton.Size = new System.Drawing.Size(85, 23);
+            this.AllButton.TabIndex = 2;
+            this.AllButton.Text = "All";
+            this.AllButton.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 23);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(85, 37);
+            this.panel3.TabIndex = 1;
+            // 
+            // SearchButton
+            // 
+            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SearchButton.Location = new System.Drawing.Point(0, 0);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(85, 23);
+            this.SearchButton.TabIndex = 0;
+            this.SearchButton.Text = "Search";
+            this.SearchButton.UseVisualStyleBackColor = true;
             // 
             // SelectedGuestsForm
             // 

@@ -54,24 +54,24 @@
             this.OutOfOrderCheckBox = new System.Windows.Forms.CheckBox();
             this.OutOfServiceCheckBox = new System.Windows.Forms.CheckBox();
             this.PreferencesGroupBox = new System.Windows.Forms.GroupBox();
-            this.FeaturesLabel = new System.Windows.Forms.Label();
-            this.FeaturesTextBox = new System.Windows.Forms.TextBox();
-            this.FeaturesButton = new System.Windows.Forms.Button();
-            this.FloorButton = new System.Windows.Forms.Button();
-            this.FloorTextBox = new System.Windows.Forms.TextBox();
-            this.FloorLabel = new System.Windows.Forms.Label();
-            this.SmokingBbutton = new System.Windows.Forms.Button();
-            this.SpecialsTextBox = new System.Windows.Forms.TextBox();
-            this.SpecialsLabel = new System.Windows.Forms.Label();
-            this.SmokingTextBox = new System.Windows.Forms.TextBox();
-            this.SmokingLabel = new System.Windows.Forms.Label();
-            this.ReservationRadioButton = new System.Windows.Forms.RadioButton();
             this.ProfileRadioButton = new System.Windows.Forms.RadioButton();
+            this.ReservationRadioButton = new System.Windows.Forms.RadioButton();
+            this.FeaturesLabel = new System.Windows.Forms.Label();
+            this.SmokingTextBox = new System.Windows.Forms.TextBox();
+            this.FeaturesTextBox = new System.Windows.Forms.TextBox();
+            this.SmokingLabel = new System.Windows.Forms.Label();
+            this.FeaturesButton = new System.Windows.Forms.Button();
+            this.SmokingBbutton = new System.Windows.Forms.Button();
+            this.FloorLabel = new System.Windows.Forms.Label();
+            this.SpecialsTextBox = new System.Windows.Forms.TextBox();
+            this.FloorTextBox = new System.Windows.Forms.TextBox();
+            this.SpecialsLabel = new System.Windows.Forms.Label();
+            this.FloorButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.SearchButton = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.OKButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.SearchButton = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.FOStatusGroupBox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.RoomStatusGroupBox.SuspendLayout();
@@ -220,7 +220,7 @@
             this.DueOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DueOutCheckBox.Location = new System.Drawing.Point(3, 3);
             this.DueOutCheckBox.Name = "DueOutCheckBox";
-            this.DueOutCheckBox.Size = new System.Drawing.Size(92, 19);
+            this.DueOutCheckBox.Size = new System.Drawing.Size(92, 18);
             this.DueOutCheckBox.TabIndex = 0;
             this.DueOutCheckBox.Text = "Due Out";
             this.DueOutCheckBox.UseVisualStyleBackColor = true;
@@ -229,9 +229,9 @@
             // 
             this.CheckedOutCheckBox.AutoSize = true;
             this.CheckedOutCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CheckedOutCheckBox.Location = new System.Drawing.Point(3, 28);
+            this.CheckedOutCheckBox.Location = new System.Drawing.Point(3, 27);
             this.CheckedOutCheckBox.Name = "CheckedOutCheckBox";
-            this.CheckedOutCheckBox.Size = new System.Drawing.Size(92, 19);
+            this.CheckedOutCheckBox.Size = new System.Drawing.Size(92, 18);
             this.CheckedOutCheckBox.TabIndex = 1;
             this.CheckedOutCheckBox.Text = "Checked Out";
             this.CheckedOutCheckBox.UseVisualStyleBackColor = true;
@@ -240,9 +240,9 @@
             // 
             this.VacantCheckBox.AutoSize = true;
             this.VacantCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.VacantCheckBox.Location = new System.Drawing.Point(3, 53);
+            this.VacantCheckBox.Location = new System.Drawing.Point(3, 51);
             this.VacantCheckBox.Name = "VacantCheckBox";
-            this.VacantCheckBox.Size = new System.Drawing.Size(92, 19);
+            this.VacantCheckBox.Size = new System.Drawing.Size(92, 21);
             this.VacantCheckBox.TabIndex = 2;
             this.VacantCheckBox.Text = "Vacant";
             this.VacantCheckBox.UseVisualStyleBackColor = true;
@@ -283,7 +283,7 @@
             this.CleanCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CleanCheckBox.Location = new System.Drawing.Point(3, 3);
             this.CleanCheckBox.Name = "CleanCheckBox";
-            this.CleanCheckBox.Size = new System.Drawing.Size(119, 19);
+            this.CleanCheckBox.Size = new System.Drawing.Size(119, 18);
             this.CleanCheckBox.TabIndex = 0;
             this.CleanCheckBox.Text = "Clean";
             this.CleanCheckBox.UseVisualStyleBackColor = true;
@@ -292,9 +292,9 @@
             // 
             this.DirtyCheckBox.AutoSize = true;
             this.DirtyCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DirtyCheckBox.Location = new System.Drawing.Point(3, 28);
+            this.DirtyCheckBox.Location = new System.Drawing.Point(3, 27);
             this.DirtyCheckBox.Name = "DirtyCheckBox";
-            this.DirtyCheckBox.Size = new System.Drawing.Size(119, 19);
+            this.DirtyCheckBox.Size = new System.Drawing.Size(119, 18);
             this.DirtyCheckBox.TabIndex = 1;
             this.DirtyCheckBox.Text = "Dirty";
             this.DirtyCheckBox.UseVisualStyleBackColor = true;
@@ -303,9 +303,9 @@
             // 
             this.OutOfOrderCheckBox.AutoSize = true;
             this.OutOfOrderCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OutOfOrderCheckBox.Location = new System.Drawing.Point(3, 53);
+            this.OutOfOrderCheckBox.Location = new System.Drawing.Point(3, 51);
             this.OutOfOrderCheckBox.Name = "OutOfOrderCheckBox";
-            this.OutOfOrderCheckBox.Size = new System.Drawing.Size(119, 19);
+            this.OutOfOrderCheckBox.Size = new System.Drawing.Size(119, 21);
             this.OutOfOrderCheckBox.TabIndex = 2;
             this.OutOfOrderCheckBox.Text = "Out Of Order";
             this.OutOfOrderCheckBox.UseVisualStyleBackColor = true;
@@ -314,9 +314,9 @@
             // 
             this.OutOfServiceCheckBox.AutoSize = true;
             this.OutOfServiceCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OutOfServiceCheckBox.Location = new System.Drawing.Point(128, 53);
+            this.OutOfServiceCheckBox.Location = new System.Drawing.Point(128, 51);
             this.OutOfServiceCheckBox.Name = "OutOfServiceCheckBox";
-            this.OutOfServiceCheckBox.Size = new System.Drawing.Size(119, 19);
+            this.OutOfServiceCheckBox.Size = new System.Drawing.Size(119, 21);
             this.OutOfServiceCheckBox.TabIndex = 3;
             this.OutOfServiceCheckBox.Text = "Out Of Service";
             this.OutOfServiceCheckBox.UseVisualStyleBackColor = true;
@@ -343,96 +343,16 @@
             this.PreferencesGroupBox.TabStop = false;
             this.PreferencesGroupBox.Text = "Preferences";
             // 
-            // FeaturesLabel
+            // ProfileRadioButton
             // 
-            this.FeaturesLabel.AutoSize = true;
-            this.FeaturesLabel.Location = new System.Drawing.Point(6, 45);
-            this.FeaturesLabel.Name = "FeaturesLabel";
-            this.FeaturesLabel.Size = new System.Drawing.Size(48, 13);
-            this.FeaturesLabel.TabIndex = 16;
-            this.FeaturesLabel.Text = "Features";
-            // 
-            // FeaturesTextBox
-            // 
-            this.FeaturesTextBox.Location = new System.Drawing.Point(60, 42);
-            this.FeaturesTextBox.Name = "FeaturesTextBox";
-            this.FeaturesTextBox.Size = new System.Drawing.Size(100, 20);
-            this.FeaturesTextBox.TabIndex = 17;
-            // 
-            // FeaturesButton
-            // 
-            this.FeaturesButton.Location = new System.Drawing.Point(166, 40);
-            this.FeaturesButton.Name = "FeaturesButton";
-            this.FeaturesButton.Size = new System.Drawing.Size(35, 23);
-            this.FeaturesButton.TabIndex = 18;
-            this.FeaturesButton.Text = "button1";
-            this.FeaturesButton.UseVisualStyleBackColor = true;
-            // 
-            // FloorButton
-            // 
-            this.FloorButton.Location = new System.Drawing.Point(166, 66);
-            this.FloorButton.Name = "FloorButton";
-            this.FloorButton.Size = new System.Drawing.Size(35, 23);
-            this.FloorButton.TabIndex = 21;
-            this.FloorButton.Text = "button1";
-            this.FloorButton.UseVisualStyleBackColor = true;
-            // 
-            // FloorTextBox
-            // 
-            this.FloorTextBox.Location = new System.Drawing.Point(60, 68);
-            this.FloorTextBox.Name = "FloorTextBox";
-            this.FloorTextBox.Size = new System.Drawing.Size(100, 20);
-            this.FloorTextBox.TabIndex = 20;
-            // 
-            // FloorLabel
-            // 
-            this.FloorLabel.AutoSize = true;
-            this.FloorLabel.Location = new System.Drawing.Point(24, 71);
-            this.FloorLabel.Name = "FloorLabel";
-            this.FloorLabel.Size = new System.Drawing.Size(30, 13);
-            this.FloorLabel.TabIndex = 19;
-            this.FloorLabel.Text = "Floor";
-            // 
-            // SmokingBbutton
-            // 
-            this.SmokingBbutton.Location = new System.Drawing.Point(392, 64);
-            this.SmokingBbutton.Name = "SmokingBbutton";
-            this.SmokingBbutton.Size = new System.Drawing.Size(35, 23);
-            this.SmokingBbutton.TabIndex = 24;
-            this.SmokingBbutton.Text = "button1";
-            this.SmokingBbutton.UseVisualStyleBackColor = true;
-            // 
-            // SpecialsTextBox
-            // 
-            this.SpecialsTextBox.Location = new System.Drawing.Point(286, 42);
-            this.SpecialsTextBox.Name = "SpecialsTextBox";
-            this.SpecialsTextBox.Size = new System.Drawing.Size(141, 20);
-            this.SpecialsTextBox.TabIndex = 23;
-            // 
-            // SpecialsLabel
-            // 
-            this.SpecialsLabel.AutoSize = true;
-            this.SpecialsLabel.Location = new System.Drawing.Point(233, 45);
-            this.SpecialsLabel.Name = "SpecialsLabel";
-            this.SpecialsLabel.Size = new System.Drawing.Size(47, 13);
-            this.SpecialsLabel.TabIndex = 22;
-            this.SpecialsLabel.Text = "Specials";
-            // 
-            // SmokingTextBox
-            // 
-            this.SmokingTextBox.Location = new System.Drawing.Point(286, 66);
-            this.SmokingTextBox.Name = "SmokingTextBox";
-            this.SmokingTextBox.Size = new System.Drawing.Size(100, 20);
-            this.SmokingTextBox.TabIndex = 26;
-            // 
-            // SmokingLabel
-            // 
-            this.SmokingLabel.AutoSize = true;
-            this.SmokingLabel.Location = new System.Drawing.Point(232, 69);
-            this.SmokingLabel.Name = "SmokingLabel";
-            this.SmokingLabel.Size = new System.Drawing.Size(48, 13);
-            this.SmokingLabel.TabIndex = 25;
-            this.SmokingLabel.Text = "Smoking";
+            this.ProfileRadioButton.AutoSize = true;
+            this.ProfileRadioButton.Location = new System.Drawing.Point(286, 19);
+            this.ProfileRadioButton.Name = "ProfileRadioButton";
+            this.ProfileRadioButton.Size = new System.Drawing.Size(54, 17);
+            this.ProfileRadioButton.TabIndex = 28;
+            this.ProfileRadioButton.TabStop = true;
+            this.ProfileRadioButton.Text = "Profile";
+            this.ProfileRadioButton.UseVisualStyleBackColor = true;
             // 
             // ReservationRadioButton
             // 
@@ -445,16 +365,96 @@
             this.ReservationRadioButton.Text = "Reservation";
             this.ReservationRadioButton.UseVisualStyleBackColor = true;
             // 
-            // ProfileRadioButton
+            // FeaturesLabel
             // 
-            this.ProfileRadioButton.AutoSize = true;
-            this.ProfileRadioButton.Location = new System.Drawing.Point(286, 19);
-            this.ProfileRadioButton.Name = "ProfileRadioButton";
-            this.ProfileRadioButton.Size = new System.Drawing.Size(54, 17);
-            this.ProfileRadioButton.TabIndex = 28;
-            this.ProfileRadioButton.TabStop = true;
-            this.ProfileRadioButton.Text = "Profile";
-            this.ProfileRadioButton.UseVisualStyleBackColor = true;
+            this.FeaturesLabel.AutoSize = true;
+            this.FeaturesLabel.Location = new System.Drawing.Point(6, 45);
+            this.FeaturesLabel.Name = "FeaturesLabel";
+            this.FeaturesLabel.Size = new System.Drawing.Size(48, 13);
+            this.FeaturesLabel.TabIndex = 16;
+            this.FeaturesLabel.Text = "Features";
+            // 
+            // SmokingTextBox
+            // 
+            this.SmokingTextBox.Location = new System.Drawing.Point(286, 66);
+            this.SmokingTextBox.Name = "SmokingTextBox";
+            this.SmokingTextBox.Size = new System.Drawing.Size(100, 20);
+            this.SmokingTextBox.TabIndex = 26;
+            // 
+            // FeaturesTextBox
+            // 
+            this.FeaturesTextBox.Location = new System.Drawing.Point(60, 42);
+            this.FeaturesTextBox.Name = "FeaturesTextBox";
+            this.FeaturesTextBox.Size = new System.Drawing.Size(100, 20);
+            this.FeaturesTextBox.TabIndex = 17;
+            // 
+            // SmokingLabel
+            // 
+            this.SmokingLabel.AutoSize = true;
+            this.SmokingLabel.Location = new System.Drawing.Point(232, 69);
+            this.SmokingLabel.Name = "SmokingLabel";
+            this.SmokingLabel.Size = new System.Drawing.Size(48, 13);
+            this.SmokingLabel.TabIndex = 25;
+            this.SmokingLabel.Text = "Smoking";
+            // 
+            // FeaturesButton
+            // 
+            this.FeaturesButton.Location = new System.Drawing.Point(166, 40);
+            this.FeaturesButton.Name = "FeaturesButton";
+            this.FeaturesButton.Size = new System.Drawing.Size(35, 23);
+            this.FeaturesButton.TabIndex = 18;
+            this.FeaturesButton.Text = "button1";
+            this.FeaturesButton.UseVisualStyleBackColor = true;
+            // 
+            // SmokingBbutton
+            // 
+            this.SmokingBbutton.Location = new System.Drawing.Point(392, 64);
+            this.SmokingBbutton.Name = "SmokingBbutton";
+            this.SmokingBbutton.Size = new System.Drawing.Size(35, 23);
+            this.SmokingBbutton.TabIndex = 24;
+            this.SmokingBbutton.Text = "button1";
+            this.SmokingBbutton.UseVisualStyleBackColor = true;
+            // 
+            // FloorLabel
+            // 
+            this.FloorLabel.AutoSize = true;
+            this.FloorLabel.Location = new System.Drawing.Point(24, 71);
+            this.FloorLabel.Name = "FloorLabel";
+            this.FloorLabel.Size = new System.Drawing.Size(30, 13);
+            this.FloorLabel.TabIndex = 19;
+            this.FloorLabel.Text = "Floor";
+            // 
+            // SpecialsTextBox
+            // 
+            this.SpecialsTextBox.Location = new System.Drawing.Point(286, 42);
+            this.SpecialsTextBox.Name = "SpecialsTextBox";
+            this.SpecialsTextBox.Size = new System.Drawing.Size(141, 20);
+            this.SpecialsTextBox.TabIndex = 23;
+            // 
+            // FloorTextBox
+            // 
+            this.FloorTextBox.Location = new System.Drawing.Point(60, 68);
+            this.FloorTextBox.Name = "FloorTextBox";
+            this.FloorTextBox.Size = new System.Drawing.Size(100, 20);
+            this.FloorTextBox.TabIndex = 20;
+            // 
+            // SpecialsLabel
+            // 
+            this.SpecialsLabel.AutoSize = true;
+            this.SpecialsLabel.Location = new System.Drawing.Point(233, 45);
+            this.SpecialsLabel.Name = "SpecialsLabel";
+            this.SpecialsLabel.Size = new System.Drawing.Size(47, 13);
+            this.SpecialsLabel.TabIndex = 22;
+            this.SpecialsLabel.Text = "Specials";
+            // 
+            // FloorButton
+            // 
+            this.FloorButton.Location = new System.Drawing.Point(166, 66);
+            this.FloorButton.Name = "FloorButton";
+            this.FloorButton.Size = new System.Drawing.Size(35, 23);
+            this.FloorButton.TabIndex = 21;
+            this.FloorButton.Text = "button1";
+            this.FloorButton.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -466,23 +466,15 @@
             this.panel1.Size = new System.Drawing.Size(85, 491);
             this.panel1.TabIndex = 16;
             // 
-            // dataGridView1
+            // OKButton
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 222);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(737, 282);
-            this.dataGridView1.TabIndex = 17;
-            // 
-            // SearchButton
-            // 
-            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SearchButton.Location = new System.Drawing.Point(0, 0);
-            this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(85, 23);
-            this.SearchButton.TabIndex = 0;
-            this.SearchButton.Text = "Search";
-            this.SearchButton.UseVisualStyleBackColor = true;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OKButton.Location = new System.Drawing.Point(0, 445);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(85, 23);
+            this.OKButton.TabIndex = 2;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
@@ -494,15 +486,23 @@
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
             // 
-            // OKButton
+            // SearchButton
             // 
-            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.OKButton.Location = new System.Drawing.Point(0, 445);
-            this.OKButton.Name = "OKButton";
-            this.OKButton.Size = new System.Drawing.Size(85, 23);
-            this.OKButton.TabIndex = 2;
-            this.OKButton.Text = "OK";
-            this.OKButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SearchButton.Location = new System.Drawing.Point(0, 0);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(85, 23);
+            this.SearchButton.TabIndex = 0;
+            this.SearchButton.Text = "Search";
+            this.SearchButton.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(15, 222);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(737, 282);
+            this.dataGridView1.TabIndex = 17;
             // 
             // AvailableRoomsSearchForm
             // 

@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\indefinite_64x64.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -354,6 +354,61 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrivals-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Billing-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\In-House-Guests-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Last-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Messages-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New-Reservation-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile-Search-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update-Reservation-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View-Btn-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\Indefinite-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

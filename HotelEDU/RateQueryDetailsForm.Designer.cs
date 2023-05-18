@@ -32,644 +32,643 @@ namespace HotelEDU
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RateQueryDetailsForm));
-            tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel4 = new TableLayoutPanel();
-            groupBox2 = new GroupBox();
-            tableLayoutPanel5 = new TableLayoutPanel();
-            ClosedCheckBox = new CheckBox();
-            NegotiatedCheckBox = new CheckBox();
-            DayUseCheckBox = new CheckBox();
-            RateCodeTextBox = new TextBox();
-            RateCodeLabel = new Label();
-            BestAvailableCheckBox = new CheckBox();
-            AverageRateRadioButton = new RadioButton();
-            TotalRatesRadioButton = new RadioButton();
-            FirstNightRadioButton = new RadioButton();
-            groupBox3 = new GroupBox();
-            tableLayoutPanel6 = new TableLayoutPanel();
-            InfoLabel = new Label();
-            SellMsgLabel = new Label();
-            EventsLabel = new Label();
-            InfoRichTextBox = new RichTextBox();
-            SellMsgRichTextBox = new RichTextBox();
-            panel1 = new Panel();
-            textBox1 = new TextBox();
-            button11 = new Button();
-            RateQueryLabel = new Label();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            groupBox1 = new GroupBox();
-            panel2 = new Panel();
-            RateInfoButton = new Button();
-            ScopeButton = new Button();
-            AnalyzeButton = new Button();
-            LongInfoButton = new Button();
-            OKButton = new Button();
-            CloseButton = new Button();
-            dataGridView1 = new DataGridView();
-            tableLayoutPanel3 = new TableLayoutPanel();
-            FirstElementButton = new Button();
-            PreviousButton = new Button();
-            NextElementButton = new Button();
-            LastElementButton = new Button();
-            AmountLabel = new Label();
-            tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel4.SuspendLayout();
-            groupBox2.SuspendLayout();
-            tableLayoutPanel5.SuspendLayout();
-            groupBox3.SuspendLayout();
-            tableLayoutPanel6.SuspendLayout();
-            panel1.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            groupBox1.SuspendLayout();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            tableLayoutPanel3.SuspendLayout();
-            SuspendLayout();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.ClosedCheckBox = new System.Windows.Forms.CheckBox();
+            this.NegotiatedCheckBox = new System.Windows.Forms.CheckBox();
+            this.DayUseCheckBox = new System.Windows.Forms.CheckBox();
+            this.RateCodeTextBox = new System.Windows.Forms.TextBox();
+            this.RateCodeLabel = new System.Windows.Forms.Label();
+            this.BestAvailableCheckBox = new System.Windows.Forms.CheckBox();
+            this.AverageRateRadioButton = new System.Windows.Forms.RadioButton();
+            this.TotalRatesRadioButton = new System.Windows.Forms.RadioButton();
+            this.FirstNightRadioButton = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.InfoLabel = new System.Windows.Forms.Label();
+            this.SellMsgLabel = new System.Windows.Forms.Label();
+            this.EventsLabel = new System.Windows.Forms.Label();
+            this.InfoRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.SellMsgRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.RateQueryLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.RateInfoButton = new System.Windows.Forms.Button();
+            this.ScopeButton = new System.Windows.Forms.Button();
+            this.AnalyzeButton = new System.Windows.Forms.Button();
+            this.LongInfoButton = new System.Windows.Forms.Button();
+            this.OKButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.FirstElementButton = new System.Windows.Forms.Button();
+            this.PreviousButton = new System.Windows.Forms.Button();
+            this.NextElementButton = new System.Windows.Forms.Button();
+            this.LastElementButton = new System.Windows.Forms.Button();
+            this.AmountLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel4, 0, 3);
-            tableLayoutPanel1.Controls.Add(RateQueryLabel, 0, 0);
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 2);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 4;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 53.5F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 6.5F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
-            tableLayoutPanel1.Size = new Size(1066, 863);
-            tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.RateQueryLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 2);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 561);
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel4
             // 
-            tableLayoutPanel4.ColumnCount = 2;
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
-            tableLayoutPanel4.Controls.Add(groupBox2, 0, 0);
-            tableLayoutPanel4.Controls.Add(groupBox3, 1, 0);
-            tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(5, 607);
-            tableLayoutPanel4.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel4.Name = "tableLayoutPanel4";
-            tableLayoutPanel4.RowCount = 1;
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(1056, 252);
-            tableLayoutPanel4.TabIndex = 2;
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel4.Controls.Add(this.groupBox2, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.groupBox3, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(4, 395);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(792, 163);
+            this.tableLayoutPanel4.TabIndex = 2;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(tableLayoutPanel5);
-            groupBox2.Dock = DockStyle.Fill;
-            groupBox2.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox2.Location = new Point(5, 4);
-            groupBox2.Margin = new Padding(5, 4, 5, 4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(5, 4, 5, 4);
-            groupBox2.Size = new Size(412, 244);
-            groupBox2.TabIndex = 0;
-            groupBox2.TabStop = false;
+            this.groupBox2.Controls.Add(this.tableLayoutPanel5);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox2.Location = new System.Drawing.Point(4, 3);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Size = new System.Drawing.Size(308, 157);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
             // 
             // tableLayoutPanel5
             // 
-            tableLayoutPanel5.ColumnCount = 3;
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel5.Controls.Add(ClosedCheckBox, 0, 1);
-            tableLayoutPanel5.Controls.Add(NegotiatedCheckBox, 0, 2);
-            tableLayoutPanel5.Controls.Add(DayUseCheckBox, 0, 3);
-            tableLayoutPanel5.Controls.Add(RateCodeTextBox, 1, 4);
-            tableLayoutPanel5.Controls.Add(RateCodeLabel, 0, 4);
-            tableLayoutPanel5.Controls.Add(BestAvailableCheckBox, 1, 1);
-            tableLayoutPanel5.Controls.Add(AverageRateRadioButton, 0, 0);
-            tableLayoutPanel5.Controls.Add(TotalRatesRadioButton, 1, 0);
-            tableLayoutPanel5.Controls.Add(FirstNightRadioButton, 2, 0);
-            tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(5, 7);
-            tableLayoutPanel5.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel5.Name = "tableLayoutPanel5";
-            tableLayoutPanel5.RowCount = 5;
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134586F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134529F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134529F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6134529F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 17.54618F));
-            tableLayoutPanel5.Size = new Size(402, 233);
-            tableLayoutPanel5.TabIndex = 0;
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel5.Controls.Add(this.ClosedCheckBox, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.NegotiatedCheckBox, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.DayUseCheckBox, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.RateCodeTextBox, 1, 4);
+            this.tableLayoutPanel5.Controls.Add(this.RateCodeLabel, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.BestAvailableCheckBox, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.AverageRateRadioButton, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.TotalRatesRadioButton, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.FirstNightRadioButton, 2, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 5;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.61346F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.61345F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.61345F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.61345F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.54618F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(300, 149);
+            this.tableLayoutPanel5.TabIndex = 0;
             // 
             // ClosedCheckBox
             // 
-            ClosedCheckBox.AutoSize = true;
-            ClosedCheckBox.Dock = DockStyle.Fill;
-            ClosedCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ClosedCheckBox.Location = new Point(5, 52);
-            ClosedCheckBox.Margin = new Padding(5, 4, 5, 4);
-            ClosedCheckBox.Name = "ClosedCheckBox";
-            ClosedCheckBox.Size = new Size(123, 40);
-            ClosedCheckBox.TabIndex = 0;
-            ClosedCheckBox.Text = "Closed";
-            ClosedCheckBox.UseVisualStyleBackColor = true;
+            this.ClosedCheckBox.AutoSize = true;
+            this.ClosedCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ClosedCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ClosedCheckBox.Location = new System.Drawing.Point(4, 33);
+            this.ClosedCheckBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.ClosedCheckBox.Name = "ClosedCheckBox";
+            this.ClosedCheckBox.Size = new System.Drawing.Size(91, 24);
+            this.ClosedCheckBox.TabIndex = 0;
+            this.ClosedCheckBox.Text = "Closed";
+            this.ClosedCheckBox.UseVisualStyleBackColor = true;
             // 
             // NegotiatedCheckBox
             // 
-            NegotiatedCheckBox.AutoSize = true;
-            NegotiatedCheckBox.Dock = DockStyle.Fill;
-            NegotiatedCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            NegotiatedCheckBox.Location = new Point(5, 100);
-            NegotiatedCheckBox.Margin = new Padding(5, 4, 5, 4);
-            NegotiatedCheckBox.Name = "NegotiatedCheckBox";
-            NegotiatedCheckBox.Size = new Size(123, 40);
-            NegotiatedCheckBox.TabIndex = 1;
-            NegotiatedCheckBox.Text = "Negotiated";
-            NegotiatedCheckBox.UseVisualStyleBackColor = true;
+            this.NegotiatedCheckBox.AutoSize = true;
+            this.NegotiatedCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NegotiatedCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.NegotiatedCheckBox.Location = new System.Drawing.Point(4, 63);
+            this.NegotiatedCheckBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.NegotiatedCheckBox.Name = "NegotiatedCheckBox";
+            this.NegotiatedCheckBox.Size = new System.Drawing.Size(91, 24);
+            this.NegotiatedCheckBox.TabIndex = 1;
+            this.NegotiatedCheckBox.Text = "Negotiated";
+            this.NegotiatedCheckBox.UseVisualStyleBackColor = true;
             // 
             // DayUseCheckBox
             // 
-            DayUseCheckBox.AutoSize = true;
-            DayUseCheckBox.Dock = DockStyle.Fill;
-            DayUseCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            DayUseCheckBox.Location = new Point(5, 148);
-            DayUseCheckBox.Margin = new Padding(5, 4, 5, 4);
-            DayUseCheckBox.Name = "DayUseCheckBox";
-            DayUseCheckBox.Size = new Size(123, 40);
-            DayUseCheckBox.TabIndex = 2;
-            DayUseCheckBox.Text = "Day Use";
-            DayUseCheckBox.UseVisualStyleBackColor = true;
+            this.DayUseCheckBox.AutoSize = true;
+            this.DayUseCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DayUseCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.DayUseCheckBox.Location = new System.Drawing.Point(4, 93);
+            this.DayUseCheckBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.DayUseCheckBox.Name = "DayUseCheckBox";
+            this.DayUseCheckBox.Size = new System.Drawing.Size(91, 24);
+            this.DayUseCheckBox.TabIndex = 2;
+            this.DayUseCheckBox.Text = "Day Use";
+            this.DayUseCheckBox.UseVisualStyleBackColor = true;
             // 
             // RateCodeTextBox
             // 
-            RateCodeTextBox.Dock = DockStyle.Fill;
-            RateCodeTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeTextBox.Location = new Point(138, 196);
-            RateCodeTextBox.Margin = new Padding(5, 4, 5, 4);
-            RateCodeTextBox.Name = "RateCodeTextBox";
-            RateCodeTextBox.Size = new Size(124, 24);
-            RateCodeTextBox.TabIndex = 3;
+            this.RateCodeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RateCodeTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateCodeTextBox.Location = new System.Drawing.Point(103, 123);
+            this.RateCodeTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.RateCodeTextBox.Name = "RateCodeTextBox";
+            this.RateCodeTextBox.Size = new System.Drawing.Size(92, 21);
+            this.RateCodeTextBox.TabIndex = 3;
             // 
             // RateCodeLabel
             // 
-            RateCodeLabel.AutoSize = true;
-            RateCodeLabel.Dock = DockStyle.Fill;
-            RateCodeLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateCodeLabel.Location = new Point(5, 192);
-            RateCodeLabel.Margin = new Padding(5, 0, 5, 0);
-            RateCodeLabel.Name = "RateCodeLabel";
-            RateCodeLabel.Size = new Size(123, 41);
-            RateCodeLabel.TabIndex = 4;
-            RateCodeLabel.Text = "Rate Code";
-            RateCodeLabel.TextAlign = ContentAlignment.MiddleRight;
+            this.RateCodeLabel.AutoSize = true;
+            this.RateCodeLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RateCodeLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateCodeLabel.Location = new System.Drawing.Point(4, 120);
+            this.RateCodeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RateCodeLabel.Name = "RateCodeLabel";
+            this.RateCodeLabel.Size = new System.Drawing.Size(91, 29);
+            this.RateCodeLabel.TabIndex = 4;
+            this.RateCodeLabel.Text = "Rate Code";
+            this.RateCodeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // BestAvailableCheckBox
             // 
-            BestAvailableCheckBox.AutoSize = true;
-            BestAvailableCheckBox.Dock = DockStyle.Fill;
-            BestAvailableCheckBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BestAvailableCheckBox.Location = new Point(138, 52);
-            BestAvailableCheckBox.Margin = new Padding(5, 4, 5, 4);
-            BestAvailableCheckBox.Name = "BestAvailableCheckBox";
-            BestAvailableCheckBox.Size = new Size(124, 40);
-            BestAvailableCheckBox.TabIndex = 5;
-            BestAvailableCheckBox.Text = "Best Available";
-            BestAvailableCheckBox.UseVisualStyleBackColor = true;
+            this.BestAvailableCheckBox.AutoSize = true;
+            this.BestAvailableCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BestAvailableCheckBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.BestAvailableCheckBox.Location = new System.Drawing.Point(103, 33);
+            this.BestAvailableCheckBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.BestAvailableCheckBox.Name = "BestAvailableCheckBox";
+            this.BestAvailableCheckBox.Size = new System.Drawing.Size(92, 24);
+            this.BestAvailableCheckBox.TabIndex = 5;
+            this.BestAvailableCheckBox.Text = "Best Available";
+            this.BestAvailableCheckBox.UseVisualStyleBackColor = true;
             // 
             // AverageRateRadioButton
             // 
-            AverageRateRadioButton.AutoSize = true;
-            AverageRateRadioButton.Dock = DockStyle.Fill;
-            AverageRateRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AverageRateRadioButton.Location = new Point(5, 4);
-            AverageRateRadioButton.Margin = new Padding(5, 4, 5, 4);
-            AverageRateRadioButton.Name = "AverageRateRadioButton";
-            AverageRateRadioButton.Size = new Size(123, 40);
-            AverageRateRadioButton.TabIndex = 6;
-            AverageRateRadioButton.TabStop = true;
-            AverageRateRadioButton.Text = "Average Rate";
-            AverageRateRadioButton.UseVisualStyleBackColor = true;
+            this.AverageRateRadioButton.AutoSize = true;
+            this.AverageRateRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AverageRateRadioButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AverageRateRadioButton.Location = new System.Drawing.Point(4, 3);
+            this.AverageRateRadioButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.AverageRateRadioButton.Name = "AverageRateRadioButton";
+            this.AverageRateRadioButton.Size = new System.Drawing.Size(91, 24);
+            this.AverageRateRadioButton.TabIndex = 6;
+            this.AverageRateRadioButton.TabStop = true;
+            this.AverageRateRadioButton.Text = "Average Rate";
+            this.AverageRateRadioButton.UseVisualStyleBackColor = true;
             // 
             // TotalRatesRadioButton
             // 
-            TotalRatesRadioButton.AutoSize = true;
-            TotalRatesRadioButton.Dock = DockStyle.Fill;
-            TotalRatesRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            TotalRatesRadioButton.Location = new Point(138, 4);
-            TotalRatesRadioButton.Margin = new Padding(5, 4, 5, 4);
-            TotalRatesRadioButton.Name = "TotalRatesRadioButton";
-            TotalRatesRadioButton.Size = new Size(124, 40);
-            TotalRatesRadioButton.TabIndex = 7;
-            TotalRatesRadioButton.TabStop = true;
-            TotalRatesRadioButton.Text = "Total Rates";
-            TotalRatesRadioButton.UseVisualStyleBackColor = true;
+            this.TotalRatesRadioButton.AutoSize = true;
+            this.TotalRatesRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TotalRatesRadioButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.TotalRatesRadioButton.Location = new System.Drawing.Point(103, 3);
+            this.TotalRatesRadioButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TotalRatesRadioButton.Name = "TotalRatesRadioButton";
+            this.TotalRatesRadioButton.Size = new System.Drawing.Size(92, 24);
+            this.TotalRatesRadioButton.TabIndex = 7;
+            this.TotalRatesRadioButton.TabStop = true;
+            this.TotalRatesRadioButton.Text = "Total Rates";
+            this.TotalRatesRadioButton.UseVisualStyleBackColor = true;
             // 
             // FirstNightRadioButton
             // 
-            FirstNightRadioButton.AutoSize = true;
-            FirstNightRadioButton.Dock = DockStyle.Fill;
-            FirstNightRadioButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            FirstNightRadioButton.Location = new Point(272, 4);
-            FirstNightRadioButton.Margin = new Padding(5, 4, 5, 4);
-            FirstNightRadioButton.Name = "FirstNightRadioButton";
-            FirstNightRadioButton.Size = new Size(125, 40);
-            FirstNightRadioButton.TabIndex = 8;
-            FirstNightRadioButton.TabStop = true;
-            FirstNightRadioButton.Text = "First Night";
-            FirstNightRadioButton.UseVisualStyleBackColor = true;
+            this.FirstNightRadioButton.AutoSize = true;
+            this.FirstNightRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FirstNightRadioButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.FirstNightRadioButton.Location = new System.Drawing.Point(203, 3);
+            this.FirstNightRadioButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.FirstNightRadioButton.Name = "FirstNightRadioButton";
+            this.FirstNightRadioButton.Size = new System.Drawing.Size(93, 24);
+            this.FirstNightRadioButton.TabIndex = 8;
+            this.FirstNightRadioButton.TabStop = true;
+            this.FirstNightRadioButton.Text = "First Night";
+            this.FirstNightRadioButton.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(tableLayoutPanel6);
-            groupBox3.Dock = DockStyle.Fill;
-            groupBox3.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox3.Location = new Point(427, 4);
-            groupBox3.Margin = new Padding(5, 4, 5, 4);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new Padding(5, 4, 5, 4);
-            groupBox3.Size = new Size(624, 244);
-            groupBox3.TabIndex = 1;
-            groupBox3.TabStop = false;
+            this.groupBox3.Controls.Add(this.tableLayoutPanel6);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox3.Location = new System.Drawing.Point(320, 3);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox3.Size = new System.Drawing.Size(468, 157);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
             // 
             // tableLayoutPanel6
             // 
-            tableLayoutPanel6.ColumnCount = 2;
-            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel6.Controls.Add(InfoLabel, 0, 0);
-            tableLayoutPanel6.Controls.Add(SellMsgLabel, 0, 1);
-            tableLayoutPanel6.Controls.Add(EventsLabel, 0, 2);
-            tableLayoutPanel6.Controls.Add(InfoRichTextBox, 1, 0);
-            tableLayoutPanel6.Controls.Add(SellMsgRichTextBox, 1, 1);
-            tableLayoutPanel6.Controls.Add(panel1, 1, 2);
-            tableLayoutPanel6.Dock = DockStyle.Fill;
-            tableLayoutPanel6.Location = new Point(5, 7);
-            tableLayoutPanel6.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel6.Name = "tableLayoutPanel6";
-            tableLayoutPanel6.RowCount = 3;
-            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 41F));
-            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 41F));
-            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 18F));
-            tableLayoutPanel6.Size = new Size(614, 233);
-            tableLayoutPanel6.TabIndex = 0;
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Controls.Add(this.InfoLabel, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.SellMsgLabel, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.EventsLabel, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.InfoRichTextBox, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.SellMsgRichTextBox, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.panel1, 1, 2);
+            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 3;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(460, 149);
+            this.tableLayoutPanel6.TabIndex = 0;
             // 
             // InfoLabel
             // 
-            InfoLabel.AutoSize = true;
-            InfoLabel.Dock = DockStyle.Fill;
-            InfoLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            InfoLabel.Location = new Point(5, 0);
-            InfoLabel.Margin = new Padding(5, 0, 5, 0);
-            InfoLabel.Name = "InfoLabel";
-            InfoLabel.Size = new Size(297, 95);
-            InfoLabel.TabIndex = 0;
-            InfoLabel.Text = "Info";
-            InfoLabel.TextAlign = ContentAlignment.TopRight;
+            this.InfoLabel.AutoSize = true;
+            this.InfoLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InfoLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.InfoLabel.Location = new System.Drawing.Point(4, 0);
+            this.InfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.InfoLabel.Name = "InfoLabel";
+            this.InfoLabel.Size = new System.Drawing.Size(222, 61);
+            this.InfoLabel.TabIndex = 0;
+            this.InfoLabel.Text = "Info";
+            this.InfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // SellMsgLabel
             // 
-            SellMsgLabel.AutoSize = true;
-            SellMsgLabel.Dock = DockStyle.Fill;
-            SellMsgLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SellMsgLabel.Location = new Point(5, 95);
-            SellMsgLabel.Margin = new Padding(5, 0, 5, 0);
-            SellMsgLabel.Name = "SellMsgLabel";
-            SellMsgLabel.Size = new Size(297, 95);
-            SellMsgLabel.TabIndex = 1;
-            SellMsgLabel.Text = "Sell Msg";
-            SellMsgLabel.TextAlign = ContentAlignment.TopRight;
+            this.SellMsgLabel.AutoSize = true;
+            this.SellMsgLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SellMsgLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SellMsgLabel.Location = new System.Drawing.Point(4, 61);
+            this.SellMsgLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SellMsgLabel.Name = "SellMsgLabel";
+            this.SellMsgLabel.Size = new System.Drawing.Size(222, 61);
+            this.SellMsgLabel.TabIndex = 1;
+            this.SellMsgLabel.Text = "Sell Msg";
+            this.SellMsgLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // EventsLabel
             // 
-            EventsLabel.AutoSize = true;
-            EventsLabel.Dock = DockStyle.Fill;
-            EventsLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            EventsLabel.Location = new Point(5, 190);
-            EventsLabel.Margin = new Padding(5, 0, 5, 0);
-            EventsLabel.Name = "EventsLabel";
-            EventsLabel.Size = new Size(297, 43);
-            EventsLabel.TabIndex = 2;
-            EventsLabel.Text = "Events";
-            EventsLabel.TextAlign = ContentAlignment.MiddleRight;
+            this.EventsLabel.AutoSize = true;
+            this.EventsLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EventsLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.EventsLabel.Location = new System.Drawing.Point(4, 122);
+            this.EventsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.EventsLabel.Name = "EventsLabel";
+            this.EventsLabel.Size = new System.Drawing.Size(222, 27);
+            this.EventsLabel.TabIndex = 2;
+            this.EventsLabel.Text = "Events";
+            this.EventsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // InfoRichTextBox
             // 
-            InfoRichTextBox.Dock = DockStyle.Fill;
-            InfoRichTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            InfoRichTextBox.Location = new Point(312, 4);
-            InfoRichTextBox.Margin = new Padding(5, 4, 5, 4);
-            InfoRichTextBox.Name = "InfoRichTextBox";
-            InfoRichTextBox.Size = new Size(297, 87);
-            InfoRichTextBox.TabIndex = 3;
-            InfoRichTextBox.Text = "";
+            this.InfoRichTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InfoRichTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.InfoRichTextBox.Location = new System.Drawing.Point(234, 3);
+            this.InfoRichTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.InfoRichTextBox.Name = "InfoRichTextBox";
+            this.InfoRichTextBox.Size = new System.Drawing.Size(222, 55);
+            this.InfoRichTextBox.TabIndex = 3;
+            this.InfoRichTextBox.Text = "";
             // 
             // SellMsgRichTextBox
             // 
-            SellMsgRichTextBox.Dock = DockStyle.Fill;
-            SellMsgRichTextBox.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SellMsgRichTextBox.Location = new Point(312, 99);
-            SellMsgRichTextBox.Margin = new Padding(5, 4, 5, 4);
-            SellMsgRichTextBox.Name = "SellMsgRichTextBox";
-            SellMsgRichTextBox.Size = new Size(297, 87);
-            SellMsgRichTextBox.TabIndex = 4;
-            SellMsgRichTextBox.Text = "";
+            this.SellMsgRichTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SellMsgRichTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.SellMsgRichTextBox.Location = new System.Drawing.Point(234, 64);
+            this.SellMsgRichTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.SellMsgRichTextBox.Name = "SellMsgRichTextBox";
+            this.SellMsgRichTextBox.Size = new System.Drawing.Size(222, 55);
+            this.SellMsgRichTextBox.TabIndex = 4;
+            this.SellMsgRichTextBox.Text = "";
             // 
             // panel1
             // 
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(button11);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(312, 194);
-            panel1.Margin = new Padding(5, 4, 5, 4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(297, 35);
-            panel1.TabIndex = 5;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.button11);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(234, 125);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(222, 21);
+            this.panel1.TabIndex = 5;
             // 
             // textBox1
             // 
-            textBox1.Dock = DockStyle.Left;
-            textBox1.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(0, 0);
-            textBox1.Margin = new Padding(5, 4, 5, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(253, 24);
-            textBox1.TabIndex = 1;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(191, 21);
+            this.textBox1.TabIndex = 1;
             // 
             // button11
             // 
-            button11.Dock = DockStyle.Right;
-            button11.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(257, 0);
-            button11.Margin = new Padding(5, 4, 5, 4);
-            button11.Name = "button11";
-            button11.Size = new Size(40, 35);
-            button11.TabIndex = 0;
-            button11.Text = "...";
-            button11.UseVisualStyleBackColor = true;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button11.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.button11.Location = new System.Drawing.Point(192, 0);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(30, 21);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "...";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // RateQueryLabel
             // 
-            RateQueryLabel.AutoSize = true;
-            RateQueryLabel.Dock = DockStyle.Fill;
-            RateQueryLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateQueryLabel.ForeColor = Color.Red;
-            RateQueryLabel.Location = new Point(5, 0);
-            RateQueryLabel.Margin = new Padding(5, 0, 5, 0);
-            RateQueryLabel.Name = "RateQueryLabel";
-            RateQueryLabel.Size = new Size(1056, 86);
-            RateQueryLabel.TabIndex = 0;
-            RateQueryLabel.Text = "RateQueryLabel";
+            this.RateQueryLabel.AutoSize = true;
+            this.RateQueryLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RateQueryLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateQueryLabel.ForeColor = System.Drawing.Color.Red;
+            this.RateQueryLabel.Location = new System.Drawing.Point(4, 0);
+            this.RateQueryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RateQueryLabel.Name = "RateQueryLabel";
+            this.RateQueryLabel.Size = new System.Drawing.Size(792, 56);
+            this.RateQueryLabel.TabIndex = 0;
+            this.RateQueryLabel.Text = "RateQueryLabel";
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 87F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 13F));
-            tableLayoutPanel2.Controls.Add(groupBox1, 1, 0);
-            tableLayoutPanel2.Controls.Add(dataGridView1, 0, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(5, 90);
-            tableLayoutPanel2.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1056, 453);
-            tableLayoutPanel2.TabIndex = 1;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 87F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13F));
+            this.tableLayoutPanel2.Controls.Add(this.groupBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.dataGridView1, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 59);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(792, 294);
+            this.tableLayoutPanel2.TabIndex = 1;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(panel2);
-            groupBox1.Controls.Add(OKButton);
-            groupBox1.Controls.Add(CloseButton);
-            groupBox1.Dock = DockStyle.Fill;
-            groupBox1.Font = new Font("Tahoma", 1F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(923, 4);
-            groupBox1.Margin = new Padding(5, 4, 5, 4);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(5, 4, 5, 4);
-            groupBox1.Size = new Size(128, 445);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
+            this.groupBox1.Controls.Add(this.panel2);
+            this.groupBox1.Controls.Add(this.OKButton);
+            this.groupBox1.Controls.Add(this.CloseButton);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 1F);
+            this.groupBox1.Location = new System.Drawing.Point(693, 3);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(95, 288);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
             // 
             // panel2
             // 
-            panel2.Controls.Add(RateInfoButton);
-            panel2.Controls.Add(ScopeButton);
-            panel2.Controls.Add(AnalyzeButton);
-            panel2.Controls.Add(LongInfoButton);
-            panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(5, 7);
-            panel2.Margin = new Padding(0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(118, 361);
-            panel2.TabIndex = 6;
+            this.panel2.Controls.Add(this.RateInfoButton);
+            this.panel2.Controls.Add(this.ScopeButton);
+            this.panel2.Controls.Add(this.AnalyzeButton);
+            this.panel2.Controls.Add(this.LongInfoButton);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(4, 5);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(87, 235);
+            this.panel2.TabIndex = 6;
             // 
             // RateInfoButton
             // 
-            RateInfoButton.Dock = DockStyle.Bottom;
-            RateInfoButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            RateInfoButton.Location = new Point(0, 217);
-            RateInfoButton.Margin = new Padding(5, 4, 5, 4);
-            RateInfoButton.Name = "RateInfoButton";
-            RateInfoButton.Size = new Size(118, 36);
-            RateInfoButton.TabIndex = 5;
-            RateInfoButton.Text = "Rate Info";
-            RateInfoButton.UseVisualStyleBackColor = true;
+            this.RateInfoButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.RateInfoButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RateInfoButton.Location = new System.Drawing.Point(0, 143);
+            this.RateInfoButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.RateInfoButton.Name = "RateInfoButton";
+            this.RateInfoButton.Size = new System.Drawing.Size(87, 23);
+            this.RateInfoButton.TabIndex = 5;
+            this.RateInfoButton.Text = "Rate Info";
+            this.RateInfoButton.UseVisualStyleBackColor = true;
             // 
             // ScopeButton
             // 
-            ScopeButton.Dock = DockStyle.Bottom;
-            ScopeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ScopeButton.Location = new Point(0, 253);
-            ScopeButton.Margin = new Padding(5, 4, 5, 9);
-            ScopeButton.Name = "ScopeButton";
-            ScopeButton.Size = new Size(118, 36);
-            ScopeButton.TabIndex = 2;
-            ScopeButton.Text = "Scope";
-            ScopeButton.UseVisualStyleBackColor = true;
+            this.ScopeButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ScopeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ScopeButton.Location = new System.Drawing.Point(0, 166);
+            this.ScopeButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 6);
+            this.ScopeButton.Name = "ScopeButton";
+            this.ScopeButton.Size = new System.Drawing.Size(87, 23);
+            this.ScopeButton.TabIndex = 2;
+            this.ScopeButton.Text = "Scope";
+            this.ScopeButton.UseVisualStyleBackColor = true;
             // 
             // AnalyzeButton
             // 
-            AnalyzeButton.Dock = DockStyle.Bottom;
-            AnalyzeButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AnalyzeButton.Location = new Point(0, 289);
-            AnalyzeButton.Margin = new Padding(5, 4, 5, 4);
-            AnalyzeButton.Name = "AnalyzeButton";
-            AnalyzeButton.Size = new Size(118, 36);
-            AnalyzeButton.TabIndex = 4;
-            AnalyzeButton.Text = "Analyze";
-            AnalyzeButton.UseVisualStyleBackColor = true;
+            this.AnalyzeButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AnalyzeButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AnalyzeButton.Location = new System.Drawing.Point(0, 189);
+            this.AnalyzeButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.AnalyzeButton.Name = "AnalyzeButton";
+            this.AnalyzeButton.Size = new System.Drawing.Size(87, 23);
+            this.AnalyzeButton.TabIndex = 4;
+            this.AnalyzeButton.Text = "Analyze";
+            this.AnalyzeButton.UseVisualStyleBackColor = true;
             // 
             // LongInfoButton
             // 
-            LongInfoButton.Dock = DockStyle.Bottom;
-            LongInfoButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            LongInfoButton.Location = new Point(0, 325);
-            LongInfoButton.Margin = new Padding(5, 4, 5, 4);
-            LongInfoButton.Name = "LongInfoButton";
-            LongInfoButton.Size = new Size(118, 36);
-            LongInfoButton.TabIndex = 3;
-            LongInfoButton.Text = "Long Info";
-            LongInfoButton.UseVisualStyleBackColor = true;
+            this.LongInfoButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.LongInfoButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.LongInfoButton.Location = new System.Drawing.Point(0, 212);
+            this.LongInfoButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.LongInfoButton.Name = "LongInfoButton";
+            this.LongInfoButton.Size = new System.Drawing.Size(87, 23);
+            this.LongInfoButton.TabIndex = 3;
+            this.LongInfoButton.Text = "Long Info";
+            this.LongInfoButton.UseVisualStyleBackColor = true;
             // 
             // OKButton
             // 
-            OKButton.Dock = DockStyle.Bottom;
-            OKButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            OKButton.Location = new Point(5, 369);
-            OKButton.Margin = new Padding(5, 9, 5, 4);
-            OKButton.Name = "OKButton";
-            OKButton.Size = new Size(118, 36);
-            OKButton.TabIndex = 1;
-            OKButton.Text = "OK";
-            OKButton.UseVisualStyleBackColor = true;
-            OKButton.Click += OKButton_Click;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OKButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.OKButton.Location = new System.Drawing.Point(4, 239);
+            this.OKButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 3);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(87, 23);
+            this.OKButton.TabIndex = 1;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
-            CloseButton.Dock = DockStyle.Bottom;
-            CloseButton.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            CloseButton.Location = new Point(5, 405);
-            CloseButton.Margin = new Padding(5, 4, 5, 4);
-            CloseButton.Name = "CloseButton";
-            CloseButton.Size = new Size(118, 36);
-            CloseButton.TabIndex = 0;
-            CloseButton.Text = "Close";
-            CloseButton.UseVisualStyleBackColor = true;
-            CloseButton.Click += CloseButton_Click;
+            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CloseButton.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.CloseButton.Location = new System.Drawing.Point(4, 262);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(87, 23);
+            this.CloseButton.TabIndex = 0;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(5, 4);
-            dataGridView1.Margin = new Padding(5, 4, 5, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 23;
-            dataGridView1.Size = new Size(908, 445);
-            dataGridView1.TabIndex = 1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(4, 3);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(681, 288);
+            this.dataGridView1.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
-            tableLayoutPanel3.ColumnCount = 7;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 52.4F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.6F));
-            tableLayoutPanel3.Controls.Add(FirstElementButton, 1, 0);
-            tableLayoutPanel3.Controls.Add(PreviousButton, 2, 0);
-            tableLayoutPanel3.Controls.Add(NextElementButton, 4, 0);
-            tableLayoutPanel3.Controls.Add(LastElementButton, 5, 0);
-            tableLayoutPanel3.Controls.Add(AmountLabel, 0, 0);
-            tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(5, 551);
-            tableLayoutPanel3.Margin = new Padding(5, 4, 5, 4);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 1;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Size = new Size(1056, 48);
-            tableLayoutPanel3.TabIndex = 2;
+            this.tableLayoutPanel3.ColumnCount = 7;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.4F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.6F));
+            this.tableLayoutPanel3.Controls.Add(this.FirstElementButton, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.PreviousButton, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.NextElementButton, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.LastElementButton, 5, 0);
+            this.tableLayoutPanel3.Controls.Add(this.AmountLabel, 0, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 359);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(792, 30);
+            this.tableLayoutPanel3.TabIndex = 2;
             // 
             // FirstElementButton
             // 
-            FirstElementButton.Dock = DockStyle.Fill;
-            FirstElementButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            FirstElementButton.Location = new Point(163, 4);
-            FirstElementButton.Margin = new Padding(5, 4, 5, 4);
-            FirstElementButton.Name = "FirstElementButton";
-            FirstElementButton.Size = new Size(42, 40);
-            FirstElementButton.TabIndex = 0;
-            FirstElementButton.Text = "<<";
-            FirstElementButton.UseVisualStyleBackColor = true;
+            this.FirstElementButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FirstElementButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.FirstElementButton.Location = new System.Drawing.Point(122, 3);
+            this.FirstElementButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.FirstElementButton.Name = "FirstElementButton";
+            this.FirstElementButton.Size = new System.Drawing.Size(31, 24);
+            this.FirstElementButton.TabIndex = 0;
+            this.FirstElementButton.Text = "<<";
+            this.FirstElementButton.UseVisualStyleBackColor = true;
             // 
             // PreviousButton
             // 
-            PreviousButton.Dock = DockStyle.Fill;
-            PreviousButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            PreviousButton.Location = new Point(215, 4);
-            PreviousButton.Margin = new Padding(5, 4, 5, 4);
-            PreviousButton.Name = "PreviousButton";
-            PreviousButton.Size = new Size(42, 40);
-            PreviousButton.TabIndex = 1;
-            PreviousButton.Text = "<";
-            PreviousButton.UseVisualStyleBackColor = true;
+            this.PreviousButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PreviousButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.PreviousButton.Location = new System.Drawing.Point(161, 3);
+            this.PreviousButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.PreviousButton.Name = "PreviousButton";
+            this.PreviousButton.Size = new System.Drawing.Size(31, 24);
+            this.PreviousButton.TabIndex = 1;
+            this.PreviousButton.Text = "<";
+            this.PreviousButton.UseVisualStyleBackColor = true;
             // 
             // NextElementButton
             // 
-            NextElementButton.Dock = DockStyle.Fill;
-            NextElementButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            NextElementButton.Location = new Point(820, 4);
-            NextElementButton.Margin = new Padding(5, 4, 5, 4);
-            NextElementButton.Name = "NextElementButton";
-            NextElementButton.Size = new Size(42, 40);
-            NextElementButton.TabIndex = 2;
-            NextElementButton.Text = ">";
-            NextElementButton.UseVisualStyleBackColor = true;
+            this.NextElementButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NextElementButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.NextElementButton.Location = new System.Drawing.Point(615, 3);
+            this.NextElementButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.NextElementButton.Name = "NextElementButton";
+            this.NextElementButton.Size = new System.Drawing.Size(31, 24);
+            this.NextElementButton.TabIndex = 2;
+            this.NextElementButton.Text = ">";
+            this.NextElementButton.UseVisualStyleBackColor = true;
             // 
             // LastElementButton
             // 
-            LastElementButton.Dock = DockStyle.Fill;
-            LastElementButton.Font = new Font("Tahoma", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            LastElementButton.Location = new Point(872, 4);
-            LastElementButton.Margin = new Padding(5, 4, 5, 4);
-            LastElementButton.Name = "LastElementButton";
-            LastElementButton.Size = new Size(42, 40);
-            LastElementButton.TabIndex = 3;
-            LastElementButton.Text = ">>";
-            LastElementButton.UseVisualStyleBackColor = true;
+            this.LastElementButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LastElementButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.LastElementButton.Location = new System.Drawing.Point(654, 3);
+            this.LastElementButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.LastElementButton.Name = "LastElementButton";
+            this.LastElementButton.Size = new System.Drawing.Size(31, 24);
+            this.LastElementButton.TabIndex = 3;
+            this.LastElementButton.Text = ">>";
+            this.LastElementButton.UseVisualStyleBackColor = true;
             // 
             // AmountLabel
             // 
-            AmountLabel.AutoSize = true;
-            AmountLabel.Dock = DockStyle.Fill;
-            AmountLabel.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            AmountLabel.ForeColor = Color.Red;
-            AmountLabel.Location = new Point(5, 0);
-            AmountLabel.Margin = new Padding(5, 0, 5, 0);
-            AmountLabel.Name = "AmountLabel";
-            AmountLabel.Size = new Size(148, 48);
-            AmountLabel.TabIndex = 4;
-            AmountLabel.Text = "000,000,00";
-            AmountLabel.TextAlign = ContentAlignment.MiddleRight;
+            this.AmountLabel.AutoSize = true;
+            this.AmountLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AmountLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.AmountLabel.ForeColor = System.Drawing.Color.Red;
+            this.AmountLabel.Location = new System.Drawing.Point(4, 0);
+            this.AmountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AmountLabel.Name = "AmountLabel";
+            this.AmountLabel.Size = new System.Drawing.Size(110, 30);
+            this.AmountLabel.TabIndex = 4;
+            this.AmountLabel.Text = "000,000,00";
+            this.AmountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // RateQueryDetailsForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1066, 863);
-            Controls.Add(tableLayoutPanel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(5, 4, 5, 4);
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "RateQueryDetailsForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Rate Query Details";
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
-            tableLayoutPanel4.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            tableLayoutPanel5.ResumeLayout(false);
-            tableLayoutPanel5.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            tableLayoutPanel6.ResumeLayout(false);
-            tableLayoutPanel6.PerformLayout();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            tableLayoutPanel2.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            tableLayoutPanel3.ResumeLayout(false);
-            tableLayoutPanel3.PerformLayout();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 561);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "RateQueryDetailsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Rate Query Details";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion

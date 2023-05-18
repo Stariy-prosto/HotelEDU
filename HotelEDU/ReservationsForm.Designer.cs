@@ -69,15 +69,15 @@
             this.NoTextBox = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.SearchButton = new System.Windows.Forms.Button();
-            this.ClearButton = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.Button();
-            this.EditButton = new System.Windows.Forms.Button();
-            this.Profile = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.CancelButton = new System.Windows.Forms.Button();
-            this.CheckInButton = new System.Windows.Forms.Button();
             this.NewButton = new System.Windows.Forms.Button();
+            this.CheckInButton = new System.Windows.Forms.Button();
+            this.CancelButton = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Profile = new System.Windows.Forms.Button();
+            this.EditButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.ClearButton = new System.Windows.Forms.Button();
+            this.SearchButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -411,73 +411,15 @@
             this.panel1.Size = new System.Drawing.Size(85, 423);
             this.panel1.TabIndex = 41;
             // 
-            // SearchButton
+            // NewButton
             // 
-            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SearchButton.Location = new System.Drawing.Point(0, 0);
-            this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(85, 23);
-            this.SearchButton.TabIndex = 0;
-            this.SearchButton.Text = "Search";
-            this.SearchButton.UseVisualStyleBackColor = true;
-            // 
-            // ClearButton
-            // 
-            this.ClearButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ClearButton.Location = new System.Drawing.Point(0, 23);
-            this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(85, 23);
-            this.ClearButton.TabIndex = 1;
-            this.ClearButton.Text = "Clear";
-            this.ClearButton.UseVisualStyleBackColor = true;
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CloseButton.Location = new System.Drawing.Point(0, 400);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(85, 23);
-            this.CloseButton.TabIndex = 2;
-            this.CloseButton.Text = "Close";
-            this.CloseButton.UseVisualStyleBackColor = true;
-            // 
-            // EditButton
-            // 
-            this.EditButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.EditButton.Location = new System.Drawing.Point(0, 377);
-            this.EditButton.Name = "EditButton";
-            this.EditButton.Size = new System.Drawing.Size(85, 23);
-            this.EditButton.TabIndex = 3;
-            this.EditButton.Text = "Edit";
-            this.EditButton.UseVisualStyleBackColor = true;
-            // 
-            // Profile
-            // 
-            this.Profile.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Profile.Location = new System.Drawing.Point(0, 354);
-            this.Profile.Name = "Profile";
-            this.Profile.Size = new System.Drawing.Size(85, 23);
-            this.Profile.TabIndex = 4;
-            this.Profile.Text = "ProfileButton";
-            this.Profile.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 317);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(85, 37);
-            this.panel2.TabIndex = 5;
-            // 
-            // CancelButton
-            // 
-            this.CancelButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CancelButton.Location = new System.Drawing.Point(0, 294);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(85, 23);
-            this.CancelButton.TabIndex = 6;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = true;
+            this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.NewButton.Location = new System.Drawing.Point(0, 248);
+            this.NewButton.Name = "NewButton";
+            this.NewButton.Size = new System.Drawing.Size(85, 23);
+            this.NewButton.TabIndex = 8;
+            this.NewButton.Text = "New";
+            this.NewButton.UseVisualStyleBackColor = true;
             // 
             // CheckInButton
             // 
@@ -489,15 +431,73 @@
             this.CheckInButton.Text = "Check In";
             this.CheckInButton.UseVisualStyleBackColor = true;
             // 
-            // NewButton
+            // CancelButton
             // 
-            this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.NewButton.Location = new System.Drawing.Point(0, 248);
-            this.NewButton.Name = "NewButton";
-            this.NewButton.Size = new System.Drawing.Size(85, 23);
-            this.NewButton.TabIndex = 8;
-            this.NewButton.Text = "New";
-            this.NewButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CancelButton.Location = new System.Drawing.Point(0, 294);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(85, 23);
+            this.CancelButton.TabIndex = 6;
+            this.CancelButton.Text = "Cancel";
+            this.CancelButton.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 317);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(85, 37);
+            this.panel2.TabIndex = 5;
+            // 
+            // Profile
+            // 
+            this.Profile.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Profile.Location = new System.Drawing.Point(0, 354);
+            this.Profile.Name = "Profile";
+            this.Profile.Size = new System.Drawing.Size(85, 23);
+            this.Profile.TabIndex = 4;
+            this.Profile.Text = "ProfileButton";
+            this.Profile.UseVisualStyleBackColor = true;
+            // 
+            // EditButton
+            // 
+            this.EditButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.EditButton.Location = new System.Drawing.Point(0, 377);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(85, 23);
+            this.EditButton.TabIndex = 3;
+            this.EditButton.Text = "Edit";
+            this.EditButton.UseVisualStyleBackColor = true;
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CloseButton.Location = new System.Drawing.Point(0, 400);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(85, 23);
+            this.CloseButton.TabIndex = 2;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            // 
+            // ClearButton
+            // 
+            this.ClearButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ClearButton.Location = new System.Drawing.Point(0, 23);
+            this.ClearButton.Name = "ClearButton";
+            this.ClearButton.Size = new System.Drawing.Size(85, 23);
+            this.ClearButton.TabIndex = 1;
+            this.ClearButton.Text = "Clear";
+            this.ClearButton.UseVisualStyleBackColor = true;
+            // 
+            // SearchButton
+            // 
+            this.SearchButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SearchButton.Location = new System.Drawing.Point(0, 0);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(85, 23);
+            this.SearchButton.TabIndex = 0;
+            this.SearchButton.Text = "Search";
+            this.SearchButton.UseVisualStyleBackColor = true;
             // 
             // ReservationsForm
             // 

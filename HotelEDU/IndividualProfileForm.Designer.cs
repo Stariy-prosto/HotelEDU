@@ -83,11 +83,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SearchButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.OptionsButton = new System.Windows.Forms.Button();
-            this.OKButton = new System.Windows.Forms.Button();
-            this.SaveButton = new System.Windows.Forms.Button();
-            this.NewButton = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.NewButton = new System.Windows.Forms.Button();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.OKButton = new System.Windows.Forms.Button();
+            this.OptionsButton = new System.Windows.Forms.Button();
             this.AddressInfoGroupBox.SuspendLayout();
             this.InternalInfoGroupBox.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -588,32 +588,14 @@
             this.panel1.Size = new System.Drawing.Size(81, 323);
             this.panel1.TabIndex = 115;
             // 
-            // OptionsButton
+            // CloseButton
             // 
-            this.OptionsButton.Location = new System.Drawing.Point(3, 181);
-            this.OptionsButton.Name = "OptionsButton";
-            this.OptionsButton.Size = new System.Drawing.Size(75, 23);
-            this.OptionsButton.TabIndex = 116;
-            this.OptionsButton.Text = "Options";
-            this.OptionsButton.UseVisualStyleBackColor = true;
-            // 
-            // OKButton
-            // 
-            this.OKButton.Location = new System.Drawing.Point(3, 210);
-            this.OKButton.Name = "OKButton";
-            this.OKButton.Size = new System.Drawing.Size(75, 23);
-            this.OKButton.TabIndex = 117;
-            this.OKButton.Text = "OK";
-            this.OKButton.UseVisualStyleBackColor = true;
-            // 
-            // SaveButton
-            // 
-            this.SaveButton.Location = new System.Drawing.Point(3, 239);
-            this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(75, 23);
-            this.SaveButton.TabIndex = 118;
-            this.SaveButton.Text = "Save";
-            this.SaveButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Location = new System.Drawing.Point(3, 297);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(75, 23);
+            this.CloseButton.TabIndex = 120;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
             // 
             // NewButton
             // 
@@ -624,14 +606,32 @@
             this.NewButton.Text = "New";
             this.NewButton.UseVisualStyleBackColor = true;
             // 
-            // CloseButton
+            // SaveButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(3, 297);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(75, 23);
-            this.CloseButton.TabIndex = 120;
-            this.CloseButton.Text = "Close";
-            this.CloseButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Location = new System.Drawing.Point(3, 239);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(75, 23);
+            this.SaveButton.TabIndex = 118;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            // 
+            // OKButton
+            // 
+            this.OKButton.Location = new System.Drawing.Point(3, 210);
+            this.OKButton.Name = "OKButton";
+            this.OKButton.Size = new System.Drawing.Size(75, 23);
+            this.OKButton.TabIndex = 117;
+            this.OKButton.Text = "OK";
+            this.OKButton.UseVisualStyleBackColor = true;
+            // 
+            // OptionsButton
+            // 
+            this.OptionsButton.Location = new System.Drawing.Point(3, 181);
+            this.OptionsButton.Name = "OptionsButton";
+            this.OptionsButton.Size = new System.Drawing.Size(75, 23);
+            this.OptionsButton.TabIndex = 116;
+            this.OptionsButton.Text = "Options";
+            this.OptionsButton.UseVisualStyleBackColor = true;
             // 
             // IndividualProfileForm
             // 

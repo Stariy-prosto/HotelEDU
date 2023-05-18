@@ -31,27 +31,27 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewMessageForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MessageForGroupBox = new System.Windows.Forms.GroupBox();
-            this.ForNameLabel = new System.Windows.Forms.Label();
+            this.LanguageButton = new System.Windows.Forms.Button();
             this.ForNameTextBox = new System.Windows.Forms.TextBox();
             this.LanguageTextBox = new System.Windows.Forms.TextBox();
+            this.ForNameLabel = new System.Windows.Forms.Label();
             this.LanguageLabel = new System.Windows.Forms.Label();
-            this.LanguageButton = new System.Windows.Forms.Button();
             this.MessageFromGroupBox = new System.Windows.Forms.GroupBox();
+            this.FromPhoneNoTextBox = new System.Windows.Forms.TextBox();
+            this.FromPhoneNoLabel = new System.Windows.Forms.Label();
+            this.FromTitleButton = new System.Windows.Forms.Button();
+            this.FromTitleTextBox = new System.Windows.Forms.TextBox();
+            this.FromTitleLabel = new System.Windows.Forms.Label();
+            this.FromFirstTextBox = new System.Windows.Forms.TextBox();
+            this.FromFirstLabel = new System.Windows.Forms.Label();
             this.FromNameTextBox = new System.Windows.Forms.TextBox();
             this.FromCompanyTextBox = new System.Windows.Forms.TextBox();
             this.FromNameLabel = new System.Windows.Forms.Label();
             this.FromCompanyLabel = new System.Windows.Forms.Label();
-            this.FromFirstTextBox = new System.Windows.Forms.TextBox();
-            this.FromFirstLabel = new System.Windows.Forms.Label();
-            this.FromTitleTextBox = new System.Windows.Forms.TextBox();
-            this.FromTitleLabel = new System.Windows.Forms.Label();
-            this.FromTitleButton = new System.Windows.Forms.Button();
-            this.FromPhoneNoTextBox = new System.Windows.Forms.TextBox();
-            this.FromPhoneNoLabel = new System.Windows.Forms.Label();
             this.MessageTextBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.OKButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.MessageForGroupBox.SuspendLayout();
             this.MessageFromGroupBox.SuspendLayout();
@@ -80,14 +80,14 @@
             this.MessageForGroupBox.TabStop = false;
             this.MessageForGroupBox.Text = "Message For";
             // 
-            // ForNameLabel
+            // LanguageButton
             // 
-            this.ForNameLabel.AutoSize = true;
-            this.ForNameLabel.Location = new System.Drawing.Point(5, 22);
-            this.ForNameLabel.Name = "ForNameLabel";
-            this.ForNameLabel.Size = new System.Drawing.Size(35, 13);
-            this.ForNameLabel.TabIndex = 2;
-            this.ForNameLabel.Text = "Name";
+            this.LanguageButton.Location = new System.Drawing.Point(438, 17);
+            this.LanguageButton.Name = "LanguageButton";
+            this.LanguageButton.Size = new System.Drawing.Size(35, 23);
+            this.LanguageButton.TabIndex = 6;
+            this.LanguageButton.Text = "button1";
+            this.LanguageButton.UseVisualStyleBackColor = true;
             // 
             // ForNameTextBox
             // 
@@ -103,6 +103,15 @@
             this.LanguageTextBox.Size = new System.Drawing.Size(109, 20);
             this.LanguageTextBox.TabIndex = 5;
             // 
+            // ForNameLabel
+            // 
+            this.ForNameLabel.AutoSize = true;
+            this.ForNameLabel.Location = new System.Drawing.Point(5, 22);
+            this.ForNameLabel.Name = "ForNameLabel";
+            this.ForNameLabel.Size = new System.Drawing.Size(35, 13);
+            this.ForNameLabel.TabIndex = 2;
+            this.ForNameLabel.Text = "Name";
+            // 
             // LanguageLabel
             // 
             this.LanguageLabel.AutoSize = true;
@@ -111,15 +120,6 @@
             this.LanguageLabel.Size = new System.Drawing.Size(55, 13);
             this.LanguageLabel.TabIndex = 4;
             this.LanguageLabel.Text = "Language";
-            // 
-            // LanguageButton
-            // 
-            this.LanguageButton.Location = new System.Drawing.Point(438, 17);
-            this.LanguageButton.Name = "LanguageButton";
-            this.LanguageButton.Size = new System.Drawing.Size(35, 23);
-            this.LanguageButton.TabIndex = 6;
-            this.LanguageButton.Text = "button1";
-            this.LanguageButton.UseVisualStyleBackColor = true;
             // 
             // MessageFromGroupBox
             // 
@@ -140,6 +140,63 @@
             this.MessageFromGroupBox.TabIndex = 7;
             this.MessageFromGroupBox.TabStop = false;
             this.MessageFromGroupBox.Text = "Message From";
+            // 
+            // FromPhoneNoTextBox
+            // 
+            this.FromPhoneNoTextBox.Location = new System.Drawing.Point(323, 45);
+            this.FromPhoneNoTextBox.Name = "FromPhoneNoTextBox";
+            this.FromPhoneNoTextBox.Size = new System.Drawing.Size(150, 20);
+            this.FromPhoneNoTextBox.TabIndex = 13;
+            // 
+            // FromPhoneNoLabel
+            // 
+            this.FromPhoneNoLabel.AutoSize = true;
+            this.FromPhoneNoLabel.Location = new System.Drawing.Point(262, 48);
+            this.FromPhoneNoLabel.Name = "FromPhoneNoLabel";
+            this.FromPhoneNoLabel.Size = new System.Drawing.Size(58, 13);
+            this.FromPhoneNoLabel.TabIndex = 12;
+            this.FromPhoneNoLabel.Text = "Phone No.";
+            // 
+            // FromTitleButton
+            // 
+            this.FromTitleButton.Location = new System.Drawing.Point(161, 69);
+            this.FromTitleButton.Name = "FromTitleButton";
+            this.FromTitleButton.Size = new System.Drawing.Size(35, 23);
+            this.FromTitleButton.TabIndex = 11;
+            this.FromTitleButton.Text = "button2";
+            this.FromTitleButton.UseVisualStyleBackColor = true;
+            // 
+            // FromTitleTextBox
+            // 
+            this.FromTitleTextBox.Location = new System.Drawing.Point(46, 71);
+            this.FromTitleTextBox.Name = "FromTitleTextBox";
+            this.FromTitleTextBox.Size = new System.Drawing.Size(109, 20);
+            this.FromTitleTextBox.TabIndex = 10;
+            // 
+            // FromTitleLabel
+            // 
+            this.FromTitleLabel.AutoSize = true;
+            this.FromTitleLabel.Location = new System.Drawing.Point(14, 74);
+            this.FromTitleLabel.Name = "FromTitleLabel";
+            this.FromTitleLabel.Size = new System.Drawing.Size(27, 13);
+            this.FromTitleLabel.TabIndex = 9;
+            this.FromTitleLabel.Text = "Title";
+            // 
+            // FromFirstTextBox
+            // 
+            this.FromFirstTextBox.Location = new System.Drawing.Point(46, 45);
+            this.FromFirstTextBox.Name = "FromFirstTextBox";
+            this.FromFirstTextBox.Size = new System.Drawing.Size(150, 20);
+            this.FromFirstTextBox.TabIndex = 8;
+            // 
+            // FromFirstLabel
+            // 
+            this.FromFirstLabel.AutoSize = true;
+            this.FromFirstLabel.Location = new System.Drawing.Point(14, 48);
+            this.FromFirstLabel.Name = "FromFirstLabel";
+            this.FromFirstLabel.Size = new System.Drawing.Size(26, 13);
+            this.FromFirstLabel.TabIndex = 7;
+            this.FromFirstLabel.Text = "First";
             // 
             // FromNameTextBox
             // 
@@ -173,63 +230,6 @@
             this.FromCompanyLabel.TabIndex = 4;
             this.FromCompanyLabel.Text = "Company";
             // 
-            // FromFirstTextBox
-            // 
-            this.FromFirstTextBox.Location = new System.Drawing.Point(46, 45);
-            this.FromFirstTextBox.Name = "FromFirstTextBox";
-            this.FromFirstTextBox.Size = new System.Drawing.Size(150, 20);
-            this.FromFirstTextBox.TabIndex = 8;
-            // 
-            // FromFirstLabel
-            // 
-            this.FromFirstLabel.AutoSize = true;
-            this.FromFirstLabel.Location = new System.Drawing.Point(14, 48);
-            this.FromFirstLabel.Name = "FromFirstLabel";
-            this.FromFirstLabel.Size = new System.Drawing.Size(26, 13);
-            this.FromFirstLabel.TabIndex = 7;
-            this.FromFirstLabel.Text = "First";
-            // 
-            // FromTitleTextBox
-            // 
-            this.FromTitleTextBox.Location = new System.Drawing.Point(46, 71);
-            this.FromTitleTextBox.Name = "FromTitleTextBox";
-            this.FromTitleTextBox.Size = new System.Drawing.Size(109, 20);
-            this.FromTitleTextBox.TabIndex = 10;
-            // 
-            // FromTitleLabel
-            // 
-            this.FromTitleLabel.AutoSize = true;
-            this.FromTitleLabel.Location = new System.Drawing.Point(14, 74);
-            this.FromTitleLabel.Name = "FromTitleLabel";
-            this.FromTitleLabel.Size = new System.Drawing.Size(27, 13);
-            this.FromTitleLabel.TabIndex = 9;
-            this.FromTitleLabel.Text = "Title";
-            // 
-            // FromTitleButton
-            // 
-            this.FromTitleButton.Location = new System.Drawing.Point(161, 69);
-            this.FromTitleButton.Name = "FromTitleButton";
-            this.FromTitleButton.Size = new System.Drawing.Size(35, 23);
-            this.FromTitleButton.TabIndex = 11;
-            this.FromTitleButton.Text = "button2";
-            this.FromTitleButton.UseVisualStyleBackColor = true;
-            // 
-            // FromPhoneNoTextBox
-            // 
-            this.FromPhoneNoTextBox.Location = new System.Drawing.Point(323, 45);
-            this.FromPhoneNoTextBox.Name = "FromPhoneNoTextBox";
-            this.FromPhoneNoTextBox.Size = new System.Drawing.Size(150, 20);
-            this.FromPhoneNoTextBox.TabIndex = 13;
-            // 
-            // FromPhoneNoLabel
-            // 
-            this.FromPhoneNoLabel.AutoSize = true;
-            this.FromPhoneNoLabel.Location = new System.Drawing.Point(262, 48);
-            this.FromPhoneNoLabel.Name = "FromPhoneNoLabel";
-            this.FromPhoneNoLabel.Size = new System.Drawing.Size(58, 13);
-            this.FromPhoneNoLabel.TabIndex = 12;
-            this.FromPhoneNoLabel.Text = "Phone No.";
-            // 
             // MessageTextBox
             // 
             this.MessageTextBox.Location = new System.Drawing.Point(12, 332);
@@ -247,16 +247,6 @@
             this.panel1.Size = new System.Drawing.Size(85, 440);
             this.panel1.TabIndex = 9;
             // 
-            // CloseButton
-            // 
-            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CloseButton.Location = new System.Drawing.Point(0, 417);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(85, 23);
-            this.CloseButton.TabIndex = 0;
-            this.CloseButton.Text = "Close";
-            this.CloseButton.UseVisualStyleBackColor = true;
-            // 
             // OKButton
             // 
             this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -266,6 +256,16 @@
             this.OKButton.TabIndex = 1;
             this.OKButton.Text = "OK";
             this.OKButton.UseVisualStyleBackColor = true;
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CloseButton.Location = new System.Drawing.Point(0, 417);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(85, 23);
+            this.CloseButton.TabIndex = 0;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
             // 
             // NewMessageForm
             // 

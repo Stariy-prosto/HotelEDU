@@ -32,12 +32,12 @@
             this.ProfilesDataGridView = new System.Windows.Forms.DataGridView();
             this.MessageTextBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.AllButton = new System.Windows.Forms.Button();
-            this.NoneButton = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.Button();
-            this.DeleteButton = new System.Windows.Forms.Button();
-            this.EditButton = new System.Windows.Forms.Button();
             this.NewButton = new System.Windows.Forms.Button();
+            this.EditButton = new System.Windows.Forms.Button();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.NoneButton = new System.Windows.Forms.Button();
+            this.AllButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilesDataGridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -71,45 +71,15 @@
             this.panel1.Size = new System.Drawing.Size(85, 299);
             this.panel1.TabIndex = 2;
             // 
-            // AllButton
+            // NewButton
             // 
-            this.AllButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.AllButton.Location = new System.Drawing.Point(0, 0);
-            this.AllButton.Name = "AllButton";
-            this.AllButton.Size = new System.Drawing.Size(85, 23);
-            this.AllButton.TabIndex = 0;
-            this.AllButton.Text = "All";
-            this.AllButton.UseVisualStyleBackColor = true;
-            // 
-            // NoneButton
-            // 
-            this.NoneButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.NoneButton.Location = new System.Drawing.Point(0, 23);
-            this.NoneButton.Name = "NoneButton";
-            this.NoneButton.Size = new System.Drawing.Size(85, 23);
-            this.NoneButton.TabIndex = 1;
-            this.NoneButton.Text = "None";
-            this.NoneButton.UseVisualStyleBackColor = true;
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CloseButton.Location = new System.Drawing.Point(0, 276);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(85, 23);
-            this.CloseButton.TabIndex = 2;
-            this.CloseButton.Text = "Close";
-            this.CloseButton.UseVisualStyleBackColor = true;
-            // 
-            // DeleteButton
-            // 
-            this.DeleteButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.DeleteButton.Location = new System.Drawing.Point(0, 253);
-            this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(85, 23);
-            this.DeleteButton.TabIndex = 3;
-            this.DeleteButton.Text = "Delete";
-            this.DeleteButton.UseVisualStyleBackColor = true;
+            this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.NewButton.Location = new System.Drawing.Point(0, 207);
+            this.NewButton.Name = "NewButton";
+            this.NewButton.Size = new System.Drawing.Size(85, 23);
+            this.NewButton.TabIndex = 5;
+            this.NewButton.Text = "New";
+            this.NewButton.UseVisualStyleBackColor = true;
             // 
             // EditButton
             // 
@@ -121,15 +91,45 @@
             this.EditButton.Text = "Edit";
             this.EditButton.UseVisualStyleBackColor = true;
             // 
-            // NewButton
+            // DeleteButton
             // 
-            this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.NewButton.Location = new System.Drawing.Point(0, 207);
-            this.NewButton.Name = "NewButton";
-            this.NewButton.Size = new System.Drawing.Size(85, 23);
-            this.NewButton.TabIndex = 5;
-            this.NewButton.Text = "New";
-            this.NewButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.DeleteButton.Location = new System.Drawing.Point(0, 253);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(85, 23);
+            this.DeleteButton.TabIndex = 3;
+            this.DeleteButton.Text = "Delete";
+            this.DeleteButton.UseVisualStyleBackColor = true;
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CloseButton.Location = new System.Drawing.Point(0, 276);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(85, 23);
+            this.CloseButton.TabIndex = 2;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            // 
+            // NoneButton
+            // 
+            this.NoneButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.NoneButton.Location = new System.Drawing.Point(0, 23);
+            this.NoneButton.Name = "NoneButton";
+            this.NoneButton.Size = new System.Drawing.Size(85, 23);
+            this.NoneButton.TabIndex = 1;
+            this.NoneButton.Text = "None";
+            this.NoneButton.UseVisualStyleBackColor = true;
+            // 
+            // AllButton
+            // 
+            this.AllButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AllButton.Location = new System.Drawing.Point(0, 0);
+            this.AllButton.Name = "AllButton";
+            this.AllButton.Size = new System.Drawing.Size(85, 23);
+            this.AllButton.TabIndex = 0;
+            this.AllButton.Text = "All";
+            this.AllButton.UseVisualStyleBackColor = true;
             // 
             // MessagesForm
             // 

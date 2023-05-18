@@ -52,6 +52,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.DateOfBitrhTextBox = new System.Windows.Forms.TextBox();
             this.InternalInfoGroupBox = new System.Windows.Forms.GroupBox();
+            this.TypeTextBox = new System.Windows.Forms.TextBox();
+            this.TypeLabel = new System.Windows.Forms.Label();
+            this.TypeButton = new System.Windows.Forms.Button();
             this.CommunicationsType2TextBox = new System.Windows.Forms.TextBox();
             this.DateOfBirthLabel = new System.Windows.Forms.Label();
             this.Communications1TextBox = new System.Windows.Forms.TextBox();
@@ -78,9 +81,6 @@
             this.AddressTextBox = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.HomeAddresslabel = new System.Windows.Forms.Label();
-            this.TypeTextBox = new System.Windows.Forms.TextBox();
-            this.TypeLabel = new System.Windows.Forms.Label();
-            this.TypeButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.InternalInfoGroupBox.SuspendLayout();
             this.AddressInfoGroupBox.SuspendLayout();
@@ -311,6 +311,31 @@
             this.InternalInfoGroupBox.TabStop = false;
             this.InternalInfoGroupBox.Text = "Internal Information";
             // 
+            // TypeTextBox
+            // 
+            this.TypeTextBox.Location = new System.Drawing.Point(77, 19);
+            this.TypeTextBox.Name = "TypeTextBox";
+            this.TypeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TypeTextBox.TabIndex = 45;
+            // 
+            // TypeLabel
+            // 
+            this.TypeLabel.AutoSize = true;
+            this.TypeLabel.Location = new System.Drawing.Point(40, 23);
+            this.TypeLabel.Name = "TypeLabel";
+            this.TypeLabel.Size = new System.Drawing.Size(31, 13);
+            this.TypeLabel.TabIndex = 46;
+            this.TypeLabel.Text = "Type";
+            // 
+            // TypeButton
+            // 
+            this.TypeButton.Location = new System.Drawing.Point(183, 17);
+            this.TypeButton.Name = "TypeButton";
+            this.TypeButton.Size = new System.Drawing.Size(30, 23);
+            this.TypeButton.TabIndex = 47;
+            this.TypeButton.Text = "button3";
+            this.TypeButton.UseVisualStyleBackColor = true;
+            // 
             // CommunicationsType2TextBox
             // 
             this.CommunicationsType2TextBox.Location = new System.Drawing.Point(253, 66);
@@ -538,31 +563,6 @@
             this.HomeAddresslabel.Size = new System.Drawing.Size(76, 13);
             this.HomeAddresslabel.TabIndex = 11;
             this.HomeAddresslabel.Text = "Home Address";
-            // 
-            // TypeTextBox
-            // 
-            this.TypeTextBox.Location = new System.Drawing.Point(77, 19);
-            this.TypeTextBox.Name = "TypeTextBox";
-            this.TypeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TypeTextBox.TabIndex = 45;
-            // 
-            // TypeLabel
-            // 
-            this.TypeLabel.AutoSize = true;
-            this.TypeLabel.Location = new System.Drawing.Point(40, 23);
-            this.TypeLabel.Name = "TypeLabel";
-            this.TypeLabel.Size = new System.Drawing.Size(31, 13);
-            this.TypeLabel.TabIndex = 46;
-            this.TypeLabel.Text = "Type";
-            // 
-            // TypeButton
-            // 
-            this.TypeButton.Location = new System.Drawing.Point(183, 17);
-            this.TypeButton.Name = "TypeButton";
-            this.TypeButton.Size = new System.Drawing.Size(30, 23);
-            this.TypeButton.TabIndex = 47;
-            this.TypeButton.Text = "button3";
-            this.TypeButton.UseVisualStyleBackColor = true;
             // 
             // OtherProfileForm
             // 
