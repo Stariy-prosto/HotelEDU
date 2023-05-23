@@ -42,7 +42,7 @@
             this.CommunicationsType3TextBox = new System.Windows.Forms.TextBox();
             this.Communications2TextBox = new System.Windows.Forms.TextBox();
             this.Communications2Button = new System.Windows.Forms.Button();
-            this.DateOfBitrhTextBox = new System.Windows.Forms.TextBox();
+            this.OwnerTextBox = new System.Windows.Forms.TextBox();
             this.InternalInfoGroupBox = new System.Windows.Forms.GroupBox();
             this.TypeTextBox = new System.Windows.Forms.TextBox();
             this.TypeLabel = new System.Windows.Forms.Label();
@@ -73,6 +73,7 @@
             this.ARAAddressTextBox = new System.Windows.Forms.TextBox();
             this.ARAAddresslabel = new System.Windows.Forms.Label();
             this.ProfileOtherSqlCommand = new System.Data.SqlClient.SqlCommand();
+            this.CommunicationSqlCommand = new System.Data.SqlClient.SqlCommand();
             this.panel1.SuspendLayout();
             this.InternalInfoGroupBox.SuspendLayout();
             this.AddressInfoGroupBox.SuspendLayout();
@@ -105,6 +106,7 @@
             this.CurrencyButton.TabIndex = 14;
             this.CurrencyButton.Text = " ";
             this.CurrencyButton.UseVisualStyleBackColor = true;
+            this.CurrencyButton.Click += new System.EventHandler(this.CurrencyButton_Click);
             // 
             // panel1
             // 
@@ -125,6 +127,7 @@
             this.CloseButton.TabIndex = 27;
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // NewButton
             // 
@@ -134,6 +137,7 @@
             this.NewButton.TabIndex = 26;
             this.NewButton.Text = "New";
             this.NewButton.UseVisualStyleBackColor = true;
+            this.NewButton.Click += new System.EventHandler(this.NewButton_Click);
             // 
             // SaveButton
             // 
@@ -143,6 +147,7 @@
             this.SaveButton.TabIndex = 25;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // OKButton
             // 
@@ -152,6 +157,7 @@
             this.OKButton.TabIndex = 24;
             this.OKButton.Text = "OK";
             this.OKButton.UseVisualStyleBackColor = true;
+            this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
             // 
             // Communications3TextBox
             // 
@@ -171,6 +177,7 @@
             this.Communications3Button.TabIndex = 22;
             this.Communications3Button.Text = " ";
             this.Communications3Button.UseVisualStyleBackColor = true;
+            this.Communications3Button.Click += new System.EventHandler(this.Communications3Button_Click);
             // 
             // CommunicationsType3TextBox
             // 
@@ -197,13 +204,14 @@
             this.Communications2Button.TabIndex = 19;
             this.Communications2Button.Text = " ";
             this.Communications2Button.UseVisualStyleBackColor = true;
+            this.Communications2Button.Click += new System.EventHandler(this.Communications2Button_Click);
             // 
-            // DateOfBitrhTextBox
+            // OwnerTextBox
             // 
-            this.DateOfBitrhTextBox.Location = new System.Drawing.Point(77, 45);
-            this.DateOfBitrhTextBox.Name = "DateOfBitrhTextBox";
-            this.DateOfBitrhTextBox.Size = new System.Drawing.Size(108, 20);
-            this.DateOfBitrhTextBox.TabIndex = 10;
+            this.OwnerTextBox.Location = new System.Drawing.Point(77, 45);
+            this.OwnerTextBox.Name = "OwnerTextBox";
+            this.OwnerTextBox.Size = new System.Drawing.Size(108, 20);
+            this.OwnerTextBox.TabIndex = 10;
             // 
             // InternalInfoGroupBox
             // 
@@ -218,7 +226,7 @@
             this.InternalInfoGroupBox.Controls.Add(this.Communications2TextBox);
             this.InternalInfoGroupBox.Controls.Add(this.CurrencyButton);
             this.InternalInfoGroupBox.Controls.Add(this.Communications2Button);
-            this.InternalInfoGroupBox.Controls.Add(this.DateOfBitrhTextBox);
+            this.InternalInfoGroupBox.Controls.Add(this.OwnerTextBox);
             this.InternalInfoGroupBox.Controls.Add(this.CommunicationsType2TextBox);
             this.InternalInfoGroupBox.Controls.Add(this.OwnerLabel);
             this.InternalInfoGroupBox.Controls.Add(this.Communications1TextBox);
@@ -262,6 +270,7 @@
             this.TypeButton.TabIndex = 9;
             this.TypeButton.Text = " ";
             this.TypeButton.UseVisualStyleBackColor = true;
+            this.TypeButton.Click += new System.EventHandler(this.TypeButton_Click);
             // 
             // CommunicationsType2TextBox
             // 
@@ -297,6 +306,7 @@
             this.OwnerButton.TabIndex = 11;
             this.OwnerButton.Text = " ";
             this.OwnerButton.UseVisualStyleBackColor = true;
+            this.OwnerButton.Click += new System.EventHandler(this.OwnerButton_Click);
             // 
             // Communications1Button
             // 
@@ -309,6 +319,7 @@
             this.Communications1Button.TabIndex = 16;
             this.Communications1Button.Text = " ";
             this.Communications1Button.UseVisualStyleBackColor = true;
+            this.Communications1Button.Click += new System.EventHandler(this.Communications1Button_Click);
             // 
             // CommunicationsType1TextBox
             // 
@@ -417,6 +428,7 @@
             this.CountryButton.TabIndex = 6;
             this.CountryButton.Text = " ";
             this.CountryButton.UseVisualStyleBackColor = true;
+            this.CountryButton.Click += new System.EventHandler(this.CountryButton_Click);
             // 
             // CountryStateLabel
             // 
@@ -493,11 +505,11 @@
             // 
             // ProfileOtherSqlCommand
             // 
-            this.ProfileOtherSqlCommand.CommandText = "PilesOtherInsertUpdateDelete";
+            this.ProfileOtherSqlCommand.CommandText = "ProfileOtherInsertUpdateDelete";
             this.ProfileOtherSqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
             this.ProfileOtherSqlCommand.Parameters.AddRange(new System.Data.SqlClient.SqlParameter[] {
             new System.Data.SqlClient.SqlParameter("@mode", System.Data.SqlDbType.NVarChar, 10),
-            new System.Data.SqlClient.SqlParameter("@profileid", System.Data.SqlDbType.Int),
+            new System.Data.SqlClient.SqlParameter("@profileid", System.Data.SqlDbType.Int, 1, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "", System.Data.DataRowVersion.Current, "0"),
             new System.Data.SqlClient.SqlParameter("@account", System.Data.SqlDbType.NVarChar, 30),
             new System.Data.SqlClient.SqlParameter("@address", System.Data.SqlDbType.NVarChar, 30),
             new System.Data.SqlClient.SqlParameter("@araaddress", System.Data.SqlDbType.NVarChar, 30),
@@ -506,8 +518,18 @@
             new System.Data.SqlClient.SqlParameter("@city", System.Data.SqlDbType.NVarChar, 20),
             new System.Data.SqlClient.SqlParameter("@postalcode", System.Data.SqlDbType.NVarChar, 6),
             new System.Data.SqlClient.SqlParameter("@owner", System.Data.SqlDbType.NVarChar, 5),
-            new System.Data.SqlClient.SqlParameter("@type", System.Data.SqlDbType.Int),
+            new System.Data.SqlClient.SqlParameter("@type", System.Data.SqlDbType.NVarChar, 2),
             new System.Data.SqlClient.SqlParameter("@currency", System.Data.SqlDbType.NVarChar, 3)});
+            // 
+            // CommunicationSqlCommand
+            // 
+            this.CommunicationSqlCommand.CommandText = "Communication_ProfilesOtherInsertUpdateDelete";
+            this.CommunicationSqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+            this.CommunicationSqlCommand.Parameters.AddRange(new System.Data.SqlClient.SqlParameter[] {
+            new System.Data.SqlClient.SqlParameter("@mode", System.Data.SqlDbType.NVarChar, 10),
+            new System.Data.SqlClient.SqlParameter("@communication", System.Data.SqlDbType.NVarChar, 10),
+            new System.Data.SqlClient.SqlParameter("@profile", System.Data.SqlDbType.Int),
+            new System.Data.SqlClient.SqlParameter("@info", System.Data.SqlDbType.NVarChar, 30)});
             // 
             // OtherProfileForm
             // 
@@ -549,7 +571,7 @@
         private System.Windows.Forms.TextBox CommunicationsType3TextBox;
         private System.Windows.Forms.TextBox Communications2TextBox;
         private System.Windows.Forms.Button Communications2Button;
-        private System.Windows.Forms.TextBox DateOfBitrhTextBox;
+        private System.Windows.Forms.TextBox OwnerTextBox;
         private System.Windows.Forms.GroupBox InternalInfoGroupBox;
         private System.Windows.Forms.TextBox TypeTextBox;
         private System.Windows.Forms.Label TypeLabel;
@@ -580,5 +602,6 @@
         private System.Windows.Forms.TextBox ARAAddressTextBox;
         private System.Windows.Forms.Label ARAAddresslabel;
         private System.Data.SqlClient.SqlCommand ProfileOtherSqlCommand;
+        private System.Data.SqlClient.SqlCommand CommunicationSqlCommand;
     }
 }
