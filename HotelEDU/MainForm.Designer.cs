@@ -628,6 +628,7 @@ namespace HotelEDU
             this.MessagesButton.Text = "Messages";
             this.MessagesButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.MessagesButton.UseVisualStyleBackColor = true;
+            this.MessagesButton.Click += new System.EventHandler(this.MessagesButton_Click);
             // 
             // TracesButton
             // 
@@ -663,6 +664,7 @@ namespace HotelEDU
             this.ArrivalsButton.Text = "Arrivals";
             this.ArrivalsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ArrivalsButton.UseVisualStyleBackColor = true;
+            this.ArrivalsButton.Click += new System.EventHandler(this.ArrivalsButton_Click);
             // 
             // InHouseGuestsButton
             // 
@@ -680,6 +682,7 @@ namespace HotelEDU
             this.InHouseGuestsButton.Text = "In House Guests";
             this.InHouseGuestsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.InHouseGuestsButton.UseVisualStyleBackColor = true;
+            this.InHouseGuestsButton.Click += new System.EventHandler(this.InHouseGuestsButton_Click);
             // 
             // AccountsButton
             // 
@@ -845,6 +848,7 @@ namespace HotelEDU
             this.UpdateReservationButton.Text = "Update Reservation";
             this.UpdateReservationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.UpdateReservationButton.UseVisualStyleBackColor = true;
+            this.UpdateReservationButton.Click += new System.EventHandler(this.UpdateReservationButton_Click);
             // 
             // NewReservationButton
             // 

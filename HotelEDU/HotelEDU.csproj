@@ -102,6 +102,11 @@
     <Compile Include="ChildrenForm.Designer.cs">
       <DependentUpon>ChildrenForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database\HotelEDUdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelEDUdbDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="IndividualProfileForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -313,6 +318,17 @@
     <EmbeddedResource Include="TypesProfilesForm.resx">
       <DependentUpon>TypesProfilesForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Database\HotelEDUdbDataSet.xsc">
+      <DependentUpon>HotelEDUdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database\HotelEDUdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HotelEDUdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database\HotelEDUdbDataSet.xss">
+      <DependentUpon>HotelEDUdbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -393,6 +409,13 @@
     <None Include="Resources\Indefinite-32.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Database\HotelEDUdb.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database\HotelEDUdb_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>HotelEDUdb.mdf</DependentUpon>
+    </Content>
     <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

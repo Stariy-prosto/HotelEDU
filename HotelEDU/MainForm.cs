@@ -55,7 +55,7 @@ namespace HotelEDU
                 else
                 {
                     System.Threading.Thread.Sleep(3000);
-                    //Команды, выполняемые перед запуском программы
+                    InitializeUserSettings userSettings = new InitializeUserSettings();
                 }
             }
         }
@@ -83,6 +83,40 @@ namespace HotelEDU
             rateQuery.Show();
         }
 
+        private void ProfilesButton_Click(object sender, EventArgs e)
+        {
+            ProfileSearchForm profileSearch = new ProfileSearchForm();
+            profileSearch.MdiParent = this;
+            profileSearch.Show();
+        }
+
+        private void UpdateReservationButton_Click(object sender, EventArgs e)
+        {
+            ReservationsForm reservations = new ReservationsForm();
+            reservations.MdiParent = this;
+            reservations.Show();
+        }
+
+        private void ArrivalsButton_Click(object sender, EventArgs e)
+        {
+            ArrivalsForm arrivals = new ArrivalsForm();
+            arrivals.MdiParent = this;
+            arrivals.Show();
+        }
+
+        private void InHouseGuestsButton_Click(object sender, EventArgs e)
+        {
+            InHouseGuestsForm inHouseGuests = new InHouseGuestsForm();
+            inHouseGuests.MdiParent = this;
+            inHouseGuests.Show();
+        }
+
+        private void MessagesButton_Click(object sender, EventArgs e)
+        {
+            MessagesForm messages = new MessagesForm();
+            messages.MdiParent = this;
+            messages.Show();
+        }
 
         private void AboutProgramButton_Click(object sender, EventArgs e)
         {
@@ -96,13 +130,6 @@ namespace HotelEDU
         {
             //Завершение работы без сохранения
             Application.Exit();
-        }
-
-        private void ProfilesButton_Click(object sender, EventArgs e)
-        {
-            ProfileSearchForm profileSearch = new ProfileSearchForm();
-            profileSearch.MdiParent = this;
-            profileSearch.Show();
         }
     }
 }
