@@ -22,5 +22,12 @@ namespace HotelEDU
             //Закрытие формы ReservationForm
             this.Close();
         }
+
+        private void NameSelectButton_Click(object sender, EventArgs e)
+        {
+            ProfileSearchForm profileSearchForm = new ProfileSearchForm();
+            profileSearchForm.MdiParent = (MainForm)this.MdiParent;
+            profileSearchForm.Show();
+        }
     }
 }

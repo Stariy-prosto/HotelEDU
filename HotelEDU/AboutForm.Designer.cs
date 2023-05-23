@@ -76,7 +76,7 @@ namespace HotelEDU
             this.textBoxDescription.Size = new System.Drawing.Size(408, 126);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Описание";
+            this.textBoxDescription.Text = "Иконки - https://flaticons.net/";
             // 
             // labelProductName
             // 

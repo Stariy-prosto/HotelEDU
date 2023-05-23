@@ -106,8 +106,10 @@
             // 
             this.Age1TextBox.Location = new System.Drawing.Point(46, 13);
             this.Age1TextBox.Name = "Age1TextBox";
+            this.Age1TextBox.ReadOnly = true;
             this.Age1TextBox.Size = new System.Drawing.Size(30, 20);
             this.Age1TextBox.TabIndex = 5;
+            this.Age1TextBox.Text = "0";
             // 
             // Age2Label
             // 
@@ -122,8 +124,10 @@
             // 
             this.Age2TextBox.Location = new System.Drawing.Point(46, 39);
             this.Age2TextBox.Name = "Age2TextBox";
+            this.Age2TextBox.ReadOnly = true;
             this.Age2TextBox.Size = new System.Drawing.Size(30, 20);
             this.Age2TextBox.TabIndex = 7;
+            this.Age2TextBox.Text = "0";
             // 
             // Age3Label
             // 
@@ -138,8 +142,10 @@
             // 
             this.Age3TextBox.Location = new System.Drawing.Point(46, 65);
             this.Age3TextBox.Name = "Age3TextBox";
+            this.Age3TextBox.ReadOnly = true;
             this.Age3TextBox.Size = new System.Drawing.Size(30, 20);
             this.Age3TextBox.TabIndex = 9;
+            this.Age3TextBox.Text = "0";
             // 
             // AgeLabel
             // 
@@ -165,6 +171,7 @@
             this.Children1TextBox.Name = "Children1TextBox";
             this.Children1TextBox.Size = new System.Drawing.Size(50, 20);
             this.Children1TextBox.TabIndex = 12;
+            this.Children1TextBox.TextChanged += new System.EventHandler(this.Children1TextBox_TextChanged);
             // 
             // Children2TextBox
             // 
@@ -172,6 +179,7 @@
             this.Children2TextBox.Name = "Children2TextBox";
             this.Children2TextBox.Size = new System.Drawing.Size(50, 20);
             this.Children2TextBox.TabIndex = 14;
+            this.Children2TextBox.TextChanged += new System.EventHandler(this.Children2TextBox_TextChanged);
             // 
             // Children2Label
             // 

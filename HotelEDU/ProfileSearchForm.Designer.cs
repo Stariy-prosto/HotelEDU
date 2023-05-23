@@ -65,6 +65,8 @@ namespace HotelEDU
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.HotelEDUConnectionString = new System.Data.SqlClient.SqlConnection();
+            this.sqlCommand1 = new System.Data.SqlClient.SqlCommand();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilesDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FutureDataGridView)).BeginInit();
             this.FutureGroupBox.SuspendLayout();
@@ -76,14 +78,17 @@ namespace HotelEDU
             // 
             // ProfilesDataGridView
             // 
+            this.ProfilesDataGridView.AllowUserToAddRows = false;
+            this.ProfilesDataGridView.AllowUserToDeleteRows = false;
             this.ProfilesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ProfilesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ProfilesDataGridView.Location = new System.Drawing.Point(2, 124);
+            this.ProfilesDataGridView.Location = new System.Drawing.Point(2, 117);
             this.ProfilesDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilesDataGridView.Name = "ProfilesDataGridView";
+            this.ProfilesDataGridView.ReadOnly = true;
             this.ProfilesDataGridView.RowHeadersWidth = 51;
             this.ProfilesDataGridView.RowTemplate.Height = 29;
-            this.ProfilesDataGridView.Size = new System.Drawing.Size(600, 118);
+            this.ProfilesDataGridView.Size = new System.Drawing.Size(600, 111);
             this.ProfilesDataGridView.TabIndex = 27;
             // 
             // ProfileDetailLabel
@@ -91,10 +96,10 @@ namespace HotelEDU
             this.ProfileDetailLabel.AutoSize = true;
             this.ProfileDetailLabel.Cursor = System.Windows.Forms.Cursors.No;
             this.ProfileDetailLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ProfileDetailLabel.Location = new System.Drawing.Point(2, 244);
+            this.ProfileDetailLabel.Location = new System.Drawing.Point(2, 230);
             this.ProfileDetailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProfileDetailLabel.Name = "ProfileDetailLabel";
-            this.ProfileDetailLabel.Size = new System.Drawing.Size(600, 41);
+            this.ProfileDetailLabel.Size = new System.Drawing.Size(600, 38);
             this.ProfileDetailLabel.TabIndex = 28;
             this.ProfileDetailLabel.Text = "ProfileDetail";
             // 
@@ -107,18 +112,18 @@ namespace HotelEDU
             this.FutureDataGridView.Name = "FutureDataGridView";
             this.FutureDataGridView.RowHeadersWidth = 51;
             this.FutureDataGridView.RowTemplate.Height = 29;
-            this.FutureDataGridView.Size = new System.Drawing.Size(596, 103);
+            this.FutureDataGridView.Size = new System.Drawing.Size(596, 96);
             this.FutureDataGridView.TabIndex = 29;
             // 
             // FutureGroupBox
             // 
             this.FutureGroupBox.Controls.Add(this.FutureDataGridView);
             this.FutureGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FutureGroupBox.Location = new System.Drawing.Point(2, 287);
+            this.FutureGroupBox.Location = new System.Drawing.Point(2, 270);
             this.FutureGroupBox.Margin = new System.Windows.Forms.Padding(2);
             this.FutureGroupBox.Name = "FutureGroupBox";
             this.FutureGroupBox.Padding = new System.Windows.Forms.Padding(2);
-            this.FutureGroupBox.Size = new System.Drawing.Size(600, 120);
+            this.FutureGroupBox.Size = new System.Drawing.Size(600, 113);
             this.FutureGroupBox.TabIndex = 36;
             this.FutureGroupBox.TabStop = false;
             this.FutureGroupBox.Text = "Future";
@@ -136,13 +141,13 @@ namespace HotelEDU
             this.panel1.Location = new System.Drawing.Point(604, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 2, 0, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(100, 403);
+            this.panel1.Size = new System.Drawing.Size(100, 379);
             this.panel1.TabIndex = 39;
             // 
             // ReservationButton
             // 
             this.ReservationButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ReservationButton.Location = new System.Drawing.Point(0, 288);
+            this.ReservationButton.Location = new System.Drawing.Point(0, 264);
             this.ReservationButton.Name = "ReservationButton";
             this.ReservationButton.Size = new System.Drawing.Size(100, 23);
             this.ReservationButton.TabIndex = 6;
@@ -152,37 +157,40 @@ namespace HotelEDU
             // OKButton
             // 
             this.OKButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.OKButton.Location = new System.Drawing.Point(0, 311);
+            this.OKButton.Location = new System.Drawing.Point(0, 287);
             this.OKButton.Name = "OKButton";
             this.OKButton.Size = new System.Drawing.Size(100, 23);
             this.OKButton.TabIndex = 5;
             this.OKButton.Text = "OK";
             this.OKButton.UseVisualStyleBackColor = true;
+            this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
             // 
             // NewButton
             // 
             this.NewButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.NewButton.Location = new System.Drawing.Point(0, 334);
+            this.NewButton.Location = new System.Drawing.Point(0, 310);
             this.NewButton.Name = "NewButton";
             this.NewButton.Size = new System.Drawing.Size(100, 23);
             this.NewButton.TabIndex = 4;
             this.NewButton.Text = "New";
             this.NewButton.UseVisualStyleBackColor = true;
+            this.NewButton.Click += new System.EventHandler(this.NewButton_Click);
             // 
             // EditButton
             // 
             this.EditButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.EditButton.Location = new System.Drawing.Point(0, 357);
+            this.EditButton.Location = new System.Drawing.Point(0, 333);
             this.EditButton.Name = "EditButton";
             this.EditButton.Size = new System.Drawing.Size(100, 23);
             this.EditButton.TabIndex = 3;
             this.EditButton.Text = "Edit";
             this.EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
             // 
             // CloseButton
             // 
             this.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CloseButton.Location = new System.Drawing.Point(0, 380);
+            this.CloseButton.Location = new System.Drawing.Point(0, 356);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(100, 23);
             this.CloseButton.TabIndex = 2;
@@ -199,6 +207,7 @@ namespace HotelEDU
             this.ClearButton.TabIndex = 1;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // SearchButton
             // 
@@ -214,10 +223,10 @@ namespace HotelEDU
             // 
             this.NegRatesCheckBox.AutoSize = true;
             this.NegRatesCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NegRatesCheckBox.Location = new System.Drawing.Point(143, 94);
+            this.NegRatesCheckBox.Location = new System.Drawing.Point(143, 90);
             this.NegRatesCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.NegRatesCheckBox.Name = "NegRatesCheckBox";
-            this.NegRatesCheckBox.Size = new System.Drawing.Size(137, 22);
+            this.NegRatesCheckBox.Size = new System.Drawing.Size(137, 19);
             this.NegRatesCheckBox.TabIndex = 24;
             this.NegRatesCheckBox.Text = "Neg. Rates";
             this.NegRatesCheckBox.UseVisualStyleBackColor = true;
@@ -226,10 +235,10 @@ namespace HotelEDU
             // 
             this.ShowInavtiveCheckBox.AutoSize = true;
             this.ShowInavtiveCheckBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ShowInavtiveCheckBox.Location = new System.Drawing.Point(143, 71);
+            this.ShowInavtiveCheckBox.Location = new System.Drawing.Point(143, 68);
             this.ShowInavtiveCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.ShowInavtiveCheckBox.Name = "ShowInavtiveCheckBox";
-            this.ShowInavtiveCheckBox.Size = new System.Drawing.Size(137, 19);
+            this.ShowInavtiveCheckBox.Size = new System.Drawing.Size(137, 18);
             this.ShowInavtiveCheckBox.TabIndex = 25;
             this.ShowInavtiveCheckBox.Text = "Show Inavtive";
             this.ShowInavtiveCheckBox.UseVisualStyleBackColor = true;
@@ -241,7 +250,7 @@ namespace HotelEDU
             this.NameLabel.Location = new System.Drawing.Point(2, 0);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(137, 23);
+            this.NameLabel.Size = new System.Drawing.Size(137, 22);
             this.NameLabel.TabIndex = 0;
             this.NameLabel.Text = "Name";
             this.NameLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -250,10 +259,10 @@ namespace HotelEDU
             // 
             this.MemTypeLabel.AutoSize = true;
             this.MemTypeLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MemTypeLabel.Location = new System.Drawing.Point(284, 23);
+            this.MemTypeLabel.Location = new System.Drawing.Point(284, 22);
             this.MemTypeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MemTypeLabel.Name = "MemTypeLabel";
-            this.MemTypeLabel.Size = new System.Drawing.Size(137, 23);
+            this.MemTypeLabel.Size = new System.Drawing.Size(137, 22);
             this.MemTypeLabel.TabIndex = 3;
             this.MemTypeLabel.Text = "Mem. Type";
             this.MemTypeLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -262,10 +271,10 @@ namespace HotelEDU
             // 
             this.PassportLabel.AutoSize = true;
             this.PassportLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PassportLabel.Location = new System.Drawing.Point(284, 92);
+            this.PassportLabel.Location = new System.Drawing.Point(284, 88);
             this.PassportLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PassportLabel.Name = "PassportLabel";
-            this.PassportLabel.Size = new System.Drawing.Size(137, 26);
+            this.PassportLabel.Size = new System.Drawing.Size(137, 23);
             this.PassportLabel.TabIndex = 7;
             this.PassportLabel.Text = "Passport";
             this.PassportLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -277,7 +286,7 @@ namespace HotelEDU
             this.CityLabel.Location = new System.Drawing.Point(284, 0);
             this.CityLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CityLabel.Name = "CityLabel";
-            this.CityLabel.Size = new System.Drawing.Size(137, 23);
+            this.CityLabel.Size = new System.Drawing.Size(137, 22);
             this.CityLabel.TabIndex = 5;
             this.CityLabel.Text = "City";
             this.CityLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -286,10 +295,10 @@ namespace HotelEDU
             // 
             this.CommunicationLabel.AutoSize = true;
             this.CommunicationLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CommunicationLabel.Location = new System.Drawing.Point(284, 69);
+            this.CommunicationLabel.Location = new System.Drawing.Point(284, 66);
             this.CommunicationLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CommunicationLabel.Name = "CommunicationLabel";
-            this.CommunicationLabel.Size = new System.Drawing.Size(137, 23);
+            this.CommunicationLabel.Size = new System.Drawing.Size(137, 22);
             this.CommunicationLabel.TabIndex = 9;
             this.CommunicationLabel.Text = "Communication";
             this.CommunicationLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -297,10 +306,10 @@ namespace HotelEDU
             // MemTypeButton
             // 
             this.MemTypeButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MemTypeButton.Location = new System.Drawing.Point(566, 25);
+            this.MemTypeButton.Location = new System.Drawing.Point(566, 24);
             this.MemTypeButton.Margin = new System.Windows.Forms.Padding(2);
             this.MemTypeButton.Name = "MemTypeButton";
-            this.MemTypeButton.Size = new System.Drawing.Size(32, 19);
+            this.MemTypeButton.Size = new System.Drawing.Size(32, 18);
             this.MemTypeButton.TabIndex = 21;
             this.MemTypeButton.Text = " ";
             this.MemTypeButton.UseVisualStyleBackColor = true;
@@ -308,7 +317,7 @@ namespace HotelEDU
             // PassportTextBox
             // 
             this.PassportTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PassportTextBox.Location = new System.Drawing.Point(425, 94);
+            this.PassportTextBox.Location = new System.Drawing.Point(425, 90);
             this.PassportTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PassportTextBox.Name = "PassportTextBox";
             this.PassportTextBox.Size = new System.Drawing.Size(137, 20);
@@ -329,7 +338,7 @@ namespace HotelEDU
             this.CityButton.Location = new System.Drawing.Point(566, 2);
             this.CityButton.Margin = new System.Windows.Forms.Padding(2);
             this.CityButton.Name = "CityButton";
-            this.CityButton.Size = new System.Drawing.Size(32, 19);
+            this.CityButton.Size = new System.Drawing.Size(32, 18);
             this.CityButton.TabIndex = 22;
             this.CityButton.Text = " ";
             this.CityButton.UseVisualStyleBackColor = true;
@@ -337,7 +346,7 @@ namespace HotelEDU
             // MemTypeTextBox
             // 
             this.MemTypeTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MemTypeTextBox.Location = new System.Drawing.Point(425, 25);
+            this.MemTypeTextBox.Location = new System.Drawing.Point(425, 24);
             this.MemTypeTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.MemTypeTextBox.Name = "MemTypeTextBox";
             this.MemTypeTextBox.Size = new System.Drawing.Size(137, 20);
@@ -347,16 +356,17 @@ namespace HotelEDU
             // 
             this.ViewByComboBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.ViewByComboBox.FormattingEnabled = true;
-            this.ViewByComboBox.Location = new System.Drawing.Point(143, 48);
+            this.ViewByComboBox.Location = new System.Drawing.Point(143, 46);
             this.ViewByComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.ViewByComboBox.Name = "ViewByComboBox";
             this.ViewByComboBox.Size = new System.Drawing.Size(137, 21);
             this.ViewByComboBox.TabIndex = 23;
+            this.ViewByComboBox.SelectedIndexChanged += new System.EventHandler(this.ViewByComboBox_SelectedIndexChanged);
             // 
             // FirstNameTextBox
             // 
             this.FirstNameTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.FirstNameTextBox.Location = new System.Drawing.Point(143, 25);
+            this.FirstNameTextBox.Location = new System.Drawing.Point(143, 24);
             this.FirstNameTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.FirstNameTextBox.Name = "FirstNameTextBox";
             this.FirstNameTextBox.Size = new System.Drawing.Size(137, 20);
@@ -366,10 +376,10 @@ namespace HotelEDU
             // 
             this.FirstNameLabel.AutoSize = true;
             this.FirstNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FirstNameLabel.Location = new System.Drawing.Point(2, 23);
+            this.FirstNameLabel.Location = new System.Drawing.Point(2, 22);
             this.FirstNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FirstNameLabel.Name = "FirstNameLabel";
-            this.FirstNameLabel.Size = new System.Drawing.Size(137, 23);
+            this.FirstNameLabel.Size = new System.Drawing.Size(137, 22);
             this.FirstNameLabel.TabIndex = 1;
             this.FirstNameLabel.Text = "First Name";
             this.FirstNameLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -387,10 +397,10 @@ namespace HotelEDU
             // 
             this.ViewByLabel.AutoSize = true;
             this.ViewByLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ViewByLabel.Location = new System.Drawing.Point(2, 46);
+            this.ViewByLabel.Location = new System.Drawing.Point(2, 44);
             this.ViewByLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ViewByLabel.Name = "ViewByLabel";
-            this.ViewByLabel.Size = new System.Drawing.Size(137, 23);
+            this.ViewByLabel.Size = new System.Drawing.Size(137, 22);
             this.ViewByLabel.TabIndex = 2;
             this.ViewByLabel.Text = "View By";
             this.ViewByLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -398,7 +408,7 @@ namespace HotelEDU
             // CommunicationTextBox
             // 
             this.CommunicationTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.CommunicationTextBox.Location = new System.Drawing.Point(425, 71);
+            this.CommunicationTextBox.Location = new System.Drawing.Point(425, 68);
             this.CommunicationTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.CommunicationTextBox.Name = "CommunicationTextBox";
             this.CommunicationTextBox.Size = new System.Drawing.Size(137, 20);
@@ -440,7 +450,7 @@ namespace HotelEDU
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(600, 118);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(600, 111);
             this.tableLayoutPanel1.TabIndex = 26;
             // 
             // tableLayoutPanel3
@@ -460,7 +470,7 @@ namespace HotelEDU
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.98501F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.04498F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.98501F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(604, 409);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(604, 385);
             this.tableLayoutPanel3.TabIndex = 38;
             // 
             // tableLayoutPanel2
@@ -476,14 +486,36 @@ namespace HotelEDU
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(704, 409);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(704, 385);
             this.tableLayoutPanel2.TabIndex = 37;
+            // 
+            // HotelEDUConnectionString
+            // 
+            this.HotelEDUConnectionString.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\danil\\OneDrive\\Дипло" +
+    "м\\HotelEDU\\HotelEDU\\Database\\HotelEDUdb.mdf;Integrated Security=True";
+            this.HotelEDUConnectionString.FireInfoMessageEventOnUserErrors = false;
+            // 
+            // sqlCommand1
+            // 
+            this.sqlCommand1.CommandText = "ProfileSearch";
+            this.sqlCommand1.CommandType = System.Data.CommandType.StoredProcedure;
+            this.sqlCommand1.Connection = this.HotelEDUConnectionString;
+            this.sqlCommand1.Parameters.AddRange(new System.Data.SqlClient.SqlParameter[] {
+            new System.Data.SqlClient.SqlParameter("@profileID", System.Data.SqlDbType.Int),
+            new System.Data.SqlClient.SqlParameter("@name", System.Data.SqlDbType.NVarChar, 30),
+            new System.Data.SqlClient.SqlParameter("@country", System.Data.SqlDbType.NVarChar, 2),
+            new System.Data.SqlClient.SqlParameter("@city", System.Data.SqlDbType.NVarChar, 20),
+            new System.Data.SqlClient.SqlParameter("@postalcode", System.Data.SqlDbType.NVarChar, 6),
+            new System.Data.SqlClient.SqlParameter("@currency", System.Data.SqlDbType.NVarChar, 3),
+            new System.Data.SqlClient.SqlParameter("@owner", System.Data.SqlDbType.NVarChar, 5),
+            new System.Data.SqlClient.SqlParameter("@type", System.Data.SqlDbType.Int),
+            new System.Data.SqlClient.SqlParameter("@passport", System.Data.SqlDbType.NVarChar, 11)});
             // 
             // ProfileSearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 409);
+            this.ClientSize = new System.Drawing.Size(704, 385);
             this.Controls.Add(this.tableLayoutPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -540,5 +572,7 @@ namespace HotelEDU
         private Button EditButton;
         private Button ReservationButton;
         private Button OKButton;
+        private System.Data.SqlClient.SqlConnection HotelEDUConnectionString;
+        private System.Data.SqlClient.SqlCommand sqlCommand1;
     }
 }

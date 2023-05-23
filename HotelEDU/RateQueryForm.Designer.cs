@@ -59,12 +59,11 @@ namespace HotelEDU
             this.Age2Label = new System.Windows.Forms.Label();
             this.Age1Label = new System.Windows.Forms.Label();
             this.AdultsTextBox = new System.Windows.Forms.TextBox();
-            this.CildrenTextBox = new System.Windows.Forms.TextBox();
+            this.ChildrenTextBox = new System.Windows.Forms.TextBox();
             this.Age1TextBox = new System.Windows.Forms.TextBox();
             this.Age2TextBox = new System.Windows.Forms.TextBox();
             this.Age3TextBox = new System.Windows.Forms.TextBox();
-            this.CildrenButton = new System.Windows.Forms.Button();
-            this.CildrenLabel = new System.Windows.Forms.Label();
+            this.ChildrenLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.NoOfRoomsTextBox = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -359,12 +358,16 @@ namespace HotelEDU
             // ArrivalCalendarButton
             // 
             this.ArrivalCalendarButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ArrivalCalendarButton.FlatAppearance.BorderSize = 0;
+            this.ArrivalCalendarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ArrivalCalendarButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.ArrivalCalendarButton.Image = ((System.Drawing.Image)(resources.GetObject("ArrivalCalendarButton.Image")));
             this.ArrivalCalendarButton.Location = new System.Drawing.Point(106, 3);
             this.ArrivalCalendarButton.Name = "ArrivalCalendarButton";
             this.ArrivalCalendarButton.Size = new System.Drawing.Size(28, 21);
             this.ArrivalCalendarButton.TabIndex = 0;
             this.ArrivalCalendarButton.UseVisualStyleBackColor = true;
+            this.ArrivalCalendarButton.Click += new System.EventHandler(this.ArrivalCalendarButton_Click);
             // 
             // ArrivalTextBox
             // 
@@ -372,8 +375,10 @@ namespace HotelEDU
             this.ArrivalTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.ArrivalTextBox.Location = new System.Drawing.Point(3, 3);
             this.ArrivalTextBox.Name = "ArrivalTextBox";
+            this.ArrivalTextBox.ReadOnly = true;
             this.ArrivalTextBox.Size = new System.Drawing.Size(97, 21);
             this.ArrivalTextBox.TabIndex = 1;
+            this.ArrivalTextBox.TextChanged += new System.EventHandler(this.ArrivalTextBox_TextChanged);
             // 
             // tableLayoutPanel6
             // 
@@ -396,12 +401,16 @@ namespace HotelEDU
             // DepartureCalendarButton
             // 
             this.DepartureCalendarButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DepartureCalendarButton.FlatAppearance.BorderSize = 0;
+            this.DepartureCalendarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DepartureCalendarButton.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.DepartureCalendarButton.Image = ((System.Drawing.Image)(resources.GetObject("DepartureCalendarButton.Image")));
             this.DepartureCalendarButton.Location = new System.Drawing.Point(106, 3);
             this.DepartureCalendarButton.Name = "DepartureCalendarButton";
             this.DepartureCalendarButton.Size = new System.Drawing.Size(28, 21);
             this.DepartureCalendarButton.TabIndex = 0;
             this.DepartureCalendarButton.UseVisualStyleBackColor = true;
+            this.DepartureCalendarButton.Click += new System.EventHandler(this.DepartureCalendarButton_Click);
             // 
             // DepartureTextBox
             // 
@@ -409,8 +418,10 @@ namespace HotelEDU
             this.DepartureTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.DepartureTextBox.Location = new System.Drawing.Point(3, 3);
             this.DepartureTextBox.Name = "DepartureTextBox";
+            this.DepartureTextBox.ReadOnly = true;
             this.DepartureTextBox.Size = new System.Drawing.Size(97, 21);
             this.DepartureTextBox.TabIndex = 1;
+            this.DepartureTextBox.TextChanged += new System.EventHandler(this.DepartureTextBox_TextChanged);
             // 
             // tableLayoutPanel8
             // 
@@ -434,6 +445,7 @@ namespace HotelEDU
             this.NightsTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.NightsTextBox.Location = new System.Drawing.Point(3, 3);
             this.NightsTextBox.Name = "NightsTextBox";
+            this.NightsTextBox.ReadOnly = true;
             this.NightsTextBox.Size = new System.Drawing.Size(45, 21);
             this.NightsTextBox.TabIndex = 1;
             // 
@@ -454,12 +466,11 @@ namespace HotelEDU
             this.tableLayoutPanel9.Controls.Add(this.Age2Label, 6, 0);
             this.tableLayoutPanel9.Controls.Add(this.Age1Label, 4, 0);
             this.tableLayoutPanel9.Controls.Add(this.AdultsTextBox, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.CildrenTextBox, 2, 0);
+            this.tableLayoutPanel9.Controls.Add(this.ChildrenTextBox, 2, 0);
             this.tableLayoutPanel9.Controls.Add(this.Age1TextBox, 5, 0);
             this.tableLayoutPanel9.Controls.Add(this.Age2TextBox, 7, 0);
             this.tableLayoutPanel9.Controls.Add(this.Age3TextBox, 9, 0);
-            this.tableLayoutPanel9.Controls.Add(this.CildrenButton, 3, 0);
-            this.tableLayoutPanel9.Controls.Add(this.CildrenLabel, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.ChildrenLabel, 1, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(121, 81);
             this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(0);
@@ -513,15 +524,19 @@ namespace HotelEDU
             this.AdultsTextBox.Name = "AdultsTextBox";
             this.AdultsTextBox.Size = new System.Drawing.Size(45, 21);
             this.AdultsTextBox.TabIndex = 1;
+            this.AdultsTextBox.Text = "0";
+            this.AdultsTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AdultsTextBox_KeyPress);
             // 
-            // CildrenTextBox
+            // ChildrenTextBox
             // 
-            this.CildrenTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CildrenTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.CildrenTextBox.Location = new System.Drawing.Point(153, 3);
-            this.CildrenTextBox.Name = "CildrenTextBox";
-            this.CildrenTextBox.Size = new System.Drawing.Size(45, 21);
-            this.CildrenTextBox.TabIndex = 2;
+            this.ChildrenTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ChildrenTextBox.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ChildrenTextBox.Location = new System.Drawing.Point(153, 3);
+            this.ChildrenTextBox.Name = "ChildrenTextBox";
+            this.ChildrenTextBox.ReadOnly = true;
+            this.ChildrenTextBox.Size = new System.Drawing.Size(45, 21);
+            this.ChildrenTextBox.TabIndex = 2;
+            this.ChildrenTextBox.Text = "0";
             // 
             // Age1TextBox
             // 
@@ -531,6 +546,9 @@ namespace HotelEDU
             this.Age1TextBox.Name = "Age1TextBox";
             this.Age1TextBox.Size = new System.Drawing.Size(45, 21);
             this.Age1TextBox.TabIndex = 3;
+            this.Age1TextBox.Text = "0";
+            this.Age1TextBox.TextChanged += new System.EventHandler(this.Age1TextBox_TextChanged);
+            this.Age1TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Age1TextBox_KeyPress);
             // 
             // Age2TextBox
             // 
@@ -540,6 +558,9 @@ namespace HotelEDU
             this.Age2TextBox.Name = "Age2TextBox";
             this.Age2TextBox.Size = new System.Drawing.Size(45, 21);
             this.Age2TextBox.TabIndex = 4;
+            this.Age2TextBox.Text = "0";
+            this.Age2TextBox.TextChanged += new System.EventHandler(this.Age2TextBox_TextChanged);
+            this.Age2TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Age2TextBox_KeyPress);
             // 
             // Age3TextBox
             // 
@@ -549,29 +570,21 @@ namespace HotelEDU
             this.Age3TextBox.Name = "Age3TextBox";
             this.Age3TextBox.Size = new System.Drawing.Size(51, 21);
             this.Age3TextBox.TabIndex = 5;
+            this.Age3TextBox.Text = "0";
+            this.Age3TextBox.TextChanged += new System.EventHandler(this.Age3TextBox_TextChanged);
+            this.Age3TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Age3TextBox_KeyPress);
             // 
-            // CildrenButton
+            // ChildrenLabel
             // 
-            this.CildrenButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CildrenButton.Font = new System.Drawing.Font("Tahoma", 7F);
-            this.CildrenButton.Location = new System.Drawing.Point(204, 3);
-            this.CildrenButton.Name = "CildrenButton";
-            this.CildrenButton.Size = new System.Drawing.Size(28, 21);
-            this.CildrenButton.TabIndex = 6;
-            this.CildrenButton.Text = "...";
-            this.CildrenButton.UseVisualStyleBackColor = true;
-            // 
-            // CildrenLabel
-            // 
-            this.CildrenLabel.AutoSize = true;
-            this.CildrenLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CildrenLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.CildrenLabel.Location = new System.Drawing.Point(54, 0);
-            this.CildrenLabel.Name = "CildrenLabel";
-            this.CildrenLabel.Size = new System.Drawing.Size(93, 27);
-            this.CildrenLabel.TabIndex = 7;
-            this.CildrenLabel.Text = "Children";
-            this.CildrenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ChildrenLabel.AutoSize = true;
+            this.ChildrenLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ChildrenLabel.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.ChildrenLabel.Location = new System.Drawing.Point(54, 0);
+            this.ChildrenLabel.Name = "ChildrenLabel";
+            this.ChildrenLabel.Size = new System.Drawing.Size(93, 27);
+            this.ChildrenLabel.TabIndex = 7;
+            this.ChildrenLabel.Text = "Children";
+            this.ChildrenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // tableLayoutPanel10
             // 
@@ -597,6 +610,8 @@ namespace HotelEDU
             this.NoOfRoomsTextBox.Name = "NoOfRoomsTextBox";
             this.NoOfRoomsTextBox.Size = new System.Drawing.Size(45, 21);
             this.NoOfRoomsTextBox.TabIndex = 1;
+            this.NoOfRoomsTextBox.Text = "0";
+            this.NoOfRoomsTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoOfRoomsTextBox_KeyPress);
             // 
             // groupBox4
             // 
@@ -1406,12 +1421,11 @@ namespace HotelEDU
         private Label Age2Label;
         private Label Age1Label;
         private TextBox AdultsTextBox;
-        private TextBox CildrenTextBox;
+        private TextBox ChildrenTextBox;
         private TextBox Age1TextBox;
         private TextBox Age2TextBox;
         private TextBox Age3TextBox;
-        private Button CildrenButton;
-        private Label CildrenLabel;
+        private Label ChildrenLabel;
         private TableLayoutPanel tableLayoutPanel10;
         private TextBox NoOfRoomsTextBox;
         private TableLayoutPanel tableLayoutPanel11;

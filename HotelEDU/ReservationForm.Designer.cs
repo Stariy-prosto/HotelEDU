@@ -209,6 +209,7 @@ namespace HotelEDU
             this.NameSelectButton.TabIndex = 1;
             this.NameSelectButton.Text = "...";
             this.NameSelectButton.UseVisualStyleBackColor = true;
+            this.NameSelectButton.Click += new System.EventHandler(this.NameSelectButton_Click);
             // 
             // NameTextBox
             // 

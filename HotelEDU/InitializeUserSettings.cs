@@ -87,6 +87,7 @@ namespace HotelEDU
             Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             config.ConnectionStrings.ConnectionStrings.Remove("HotelEDU.Properties.Settings.HotelEDUdbConnectionString");
             config.ConnectionStrings.ConnectionStrings.Add(new ConnectionStringSettings("HotelEDU.Properties.Settings.HotelEDUdbConnectionString", ConnectionString, "System.Data.SqlClient"));
+            config.AppSettings.Settings.Remove("UserPath");
             config.AppSettings.Settings.Add("UserPath", UserPath);
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("connectionStrings");

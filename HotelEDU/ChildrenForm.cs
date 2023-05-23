@@ -16,5 +16,21 @@ namespace HotelEDU
         {
             InitializeComponent();
         }
+
+        private void Children1TextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(Children1TextBox.Text) >= 0 && Convert.ToInt32(Children1TextBox.Text) <= 3)
+            {
+                Age1TextBox.Text = (Convert.ToInt32(Age1TextBox.Text) + 1).ToString();
+            }
+        }
+
+        private void Children2TextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(Children2TextBox.Text) >= 0 && Convert.ToInt32(Children2TextBox.Text) <= 3)
+            {
+                Age1TextBox.Text = (Convert.ToInt32(Age1TextBox.Text) + 1).ToString();
+            }
+        }
     }
 }

@@ -12,9 +12,13 @@ namespace HotelEDU
 {
     public partial class OtherProfileForm : Form
     {
-        public OtherProfileForm()
+        private string EditMode { get; set; }
+
+        public OtherProfileForm(string ProfileType, string EditMode)
         {
             InitializeComponent();
+            TypeTextBox.Text = ProfileType;
+            this.EditMode = EditMode;
         }
     }
 }

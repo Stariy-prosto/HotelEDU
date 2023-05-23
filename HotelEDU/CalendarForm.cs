@@ -12,10 +12,19 @@ namespace HotelEDU
 {
     public partial class CalendarForm : Form
     {
+        public string SelectedDate 
+        {
+            get { return monthCalendar1.SelectionRange.Start.ToShortDateString(); }
+        }
+
         public CalendarForm()
         {
             InitializeComponent();
         }
 
+        private void OKButton_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+        }
     }
 }
