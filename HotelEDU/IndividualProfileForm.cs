@@ -151,21 +151,13 @@ namespace HotelEDU
             
         }
 
-        private void NewButton_Click(object sender, EventArgs e)
-        {
-            IndividualProfileForm profileForm = new IndividualProfileForm("Insert");
-            profileForm.MdiParent = (MainForm)this.MdiParent;
-            profileForm.Show();
-            this.Close();
-        }
-
         private void SaveButton_Click(object sender, EventArgs e)
         {
             try
             {
                 HotelEDUsqlConnection = new SqlConnection();
                 HotelEDUsqlConnection.ConnectionString = ConfigurationManager.ConnectionStrings[1].ToString();
-                HotelEDUsqlConnection.Open();   
+                HotelEDUsqlConnection.Open();
                 switch (EditMode)
                 {
                     case "Insert":
@@ -181,8 +173,8 @@ namespace HotelEDU
                         break;
                     case "Update":
                         WriteIndividualInformation();
-                        if(CommunicationsType1TextBox.Text != null && Communications1TextBox.Text != null ||
-                            CommunicationsType2TextBox.Text != null && Communications2TextBox.Text != null||
+                        if (CommunicationsType1TextBox.Text != null && Communications1TextBox.Text != null ||
+                            CommunicationsType2TextBox.Text != null && Communications2TextBox.Text != null ||
                             CommunicationsType3TextBox.Text != null && Communications3TextBox.Text != null)
                             WriteCommunicationInformation();
                         Load_Data();
@@ -198,6 +190,14 @@ namespace HotelEDU
             {
                 HotelEDUsqlConnection.Close();
             }
+        }
+
+        private void NewButton_Click(object sender, EventArgs e)
+        {
+            IndividualProfileForm profileForm = new IndividualProfileForm("Insert");
+            profileForm.MdiParent = (MainForm)this.MdiParent;
+            profileForm.Show();
+            this.Close();
         }
 
         private void CloseButton_Click(object sender, EventArgs e)

@@ -150,8 +150,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.RadioButton IndividualRadioButton;
         private System.Windows.Forms.RadioButton CompanyRadioButton;
         private System.Windows.Forms.RadioButton TravelAgentRadioButton;
         private System.Windows.Forms.RadioButton SourceRadioButton;
@@ -159,5 +157,6 @@
         private System.Windows.Forms.RadioButton ContactRadioButton;
         private System.Windows.Forms.Button OKButton;
         private System.Windows.Forms.Button CloseButton;
+        public System.Windows.Forms.RadioButton IndividualRadioButton;
     }
 }

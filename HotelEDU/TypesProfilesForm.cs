@@ -29,31 +29,31 @@ namespace HotelEDU
             {
                 if (CompanyRadioButton.Checked == true)
                 {
-                    OtherProfileForm otherProfile = new OtherProfileForm("Company", "Insert");
+                    OtherProfileForm otherProfile = new OtherProfileForm("CO", "Insert");
                     otherProfile.MdiParent = (MainForm)this.MdiParent;
                     otherProfile.Show();
                 }
                 else if (TravelAgentRadioButton.Checked == true)
                 {
-                    OtherProfileForm otherProfile = new OtherProfileForm("Travel Agent", "Insert");
+                    OtherProfileForm otherProfile = new OtherProfileForm("TA", "Insert");
                     otherProfile.MdiParent = (MainForm)this.MdiParent;
                     otherProfile.Show();
                 }
                 else if (SourceRadioButton.Checked == true)
                 {
-                    OtherProfileForm otherProfile = new OtherProfileForm("Source", "Insert");
+                    OtherProfileForm otherProfile = new OtherProfileForm("SO", "Insert");
                     otherProfile.MdiParent = (MainForm)this.MdiParent;
                     otherProfile.Show();
                 }
                 else if (GroupRadioButton.Checked == true)
                 {
-                    OtherProfileForm otherProfile = new OtherProfileForm("Group", "Insert");
+                    OtherProfileForm otherProfile = new OtherProfileForm("GP", "Insert");
                     otherProfile.MdiParent = (MainForm)this.MdiParent;
                     otherProfile.Show();
                 }
                 else if (ContactRadioButton.Checked == true)
                 {
-                    OtherProfileForm otherProfile = new OtherProfileForm("Contact", "Insert");
+                    OtherProfileForm otherProfile = new OtherProfileForm("CT", "Insert");
                     otherProfile.MdiParent = (MainForm)this.MdiParent;
                     otherProfile.Show();
                 }   
